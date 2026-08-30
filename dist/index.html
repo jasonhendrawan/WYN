@@ -200,12 +200,29 @@
   <!-- Fullscreen Lightbox Modal -->
   <div id="lightboxModal" class="lightbox-modal-backdrop">
     <div class="lightbox-card">
-      <div style="display: flex; justify-content: flex-end; width: 100%; margin-bottom: 1rem;">
+      <div class="lightbox-top-bar">
+        <div class="lightbox-zoom-toolbar">
+          <button id="lightboxZoomInBtn" class="lightbox-tool-btn" title="Zoom In (+)">
+            <i data-lucide="zoom-in" style="width: 17px; height: 17px;"></i>
+          </button>
+          <button id="lightboxZoomOutBtn" class="lightbox-tool-btn" title="Zoom Out (-)">
+            <i data-lucide="zoom-out" style="width: 17px; height: 17px;"></i>
+          </button>
+          <span id="lightboxZoomBadge" class="lightbox-zoom-badge">100%</span>
+          <button id="lightboxResetBtn" class="lightbox-tool-btn" title="Reset Zoom">
+            <i data-lucide="rotate-ccw" style="width: 15px; height: 15px;"></i>
+          </button>
+          <button id="lightboxRotateBtn" class="lightbox-tool-btn" title="Rotate 90°">
+            <i data-lucide="rotate-cw" style="width: 15px; height: 15px;"></i>
+          </button>
+        </div>
         <button id="closeLightboxModal" class="modal-close-btn" aria-label="Close">
           <i data-lucide="x" style="width: 20px; height: 20px;"></i>
         </button>
       </div>
-      <div class="lightbox-media-center" id="lightboxMediaBox"></div>
+      <div class="lightbox-media-viewport" id="lightboxViewport">
+        <div class="lightbox-media-center" id="lightboxMediaBox"></div>
+      </div>
     </div>
   </div>
 
