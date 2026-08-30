@@ -1,5 +1,5 @@
 window.WYN_DATA = {
-  "last_sync": "2026-08-30 21:04:57",
+  "last_sync": "2026-08-30 22:08:39",
   "past_dates": [
     {
       "id": "1rZ0wRjoBRD5HeY6KTOvSe6nQiHxUVLce",
@@ -12384,6 +12384,91 @@ window.WYN_DATA = {
         [
           -6.567988,
           106.804276
+        ]
+      ]
+    },
+    {
+      "id": "1Wq2CdB22XcaPKaL_yJlUj8xG50Z8Zh9z",
+      "date": "2026-08-29",
+      "title": "AYCE + Insidious date",
+      "description": "Memories captured from AYCE + Insidious date! \u2728",
+      "image_path": "gdrive_cache/15USxzXdsqs1SySRLe0xu8vuHpQr5oH0o_thumb.jpg",
+      "images": [
+        {
+          "url": "gdrive_cache/1Q0vl_K6kyV_FGuDqrnafhXl3HyHWeQZS.mp4",
+          "thumb_url": "gdrive_cache/1Q0vl_K6kyV_FGuDqrnafhXl3HyHWeQZS.mp4",
+          "type": "video",
+          "date_taken": "2026-08-30 15:02:19",
+          "coords": null
+        },
+        {
+          "url": "gdrive_cache/1q0P8ujtT_nhgPkECUmUn3UijvArmVVoB.jpg",
+          "thumb_url": "gdrive_cache/1q0P8ujtT_nhgPkECUmUn3UijvArmVVoB_thumb.jpg",
+          "type": "image",
+          "date_taken": "2026-08-30 15:02:19",
+          "coords": null
+        },
+        {
+          "url": "gdrive_cache/1NFJ2xnvUh6ZJn2_OnJ0EiHsHjhKjRLfx.jpg",
+          "thumb_url": "gdrive_cache/1NFJ2xnvUh6ZJn2_OnJ0EiHsHjhKjRLfx_thumb.jpg",
+          "type": "image",
+          "date_taken": "2026-08-30 15:02:19",
+          "coords": null
+        },
+        {
+          "url": "gdrive_cache/1VqiCBQLfV98fyVYWyadD0FfPr5XN2Var.jpg",
+          "thumb_url": "gdrive_cache/1VqiCBQLfV98fyVYWyadD0FfPr5XN2Var_thumb.jpg",
+          "type": "image",
+          "date_taken": "2026-08-30 15:02:20",
+          "coords": null
+        },
+        {
+          "url": "gdrive_cache/15USxzXdsqs1SySRLe0xu8vuHpQr5oH0o.jpg",
+          "thumb_url": "gdrive_cache/15USxzXdsqs1SySRLe0xu8vuHpQr5oH0o_thumb.jpg",
+          "type": "image",
+          "date_taken": "2026-08-30 15:02:20",
+          "coords": null
+        },
+        {
+          "url": "gdrive_cache/1sEX3VRggoc74EOLOBitalwCHCp88LYu1.jpg",
+          "thumb_url": "gdrive_cache/1sEX3VRggoc74EOLOBitalwCHCp88LYu1_thumb.jpg",
+          "type": "image",
+          "date_taken": "2026-08-30 15:02:20",
+          "coords": null
+        },
+        {
+          "url": "gdrive_cache/1xvbHeXpsFloiMGbran8iB4mruHYnL62t.jpg",
+          "thumb_url": "gdrive_cache/1xvbHeXpsFloiMGbran8iB4mruHYnL62t_thumb.jpg",
+          "type": "image",
+          "date_taken": "2026-08-30 15:02:20",
+          "coords": null
+        },
+        {
+          "url": "gdrive_cache/1VI9lUrHC5YSJfklnsBqrRwllkrP3W59B.jpg",
+          "thumb_url": "gdrive_cache/1VI9lUrHC5YSJfklnsBqrRwllkrP3W59B_thumb.jpg",
+          "type": "image",
+          "date_taken": "2026:08:29 22:00:41",
+          "coords": null
+        }
+      ],
+      "location": [
+        -6.2088,
+        106.8456
+      ],
+      "timeline_stops": [
+        {
+          "name": "AYCE + Insidious date",
+          "time": "12:00",
+          "coords": [
+            -6.2088,
+            106.8456
+          ]
+        }
+      ],
+      "timeline_path": [
+        [
+          -6.2088,
+          106.8456
         ]
       ]
     }
