@@ -5,7 +5,7 @@ import ssl
 import time
 import urllib.request
 from datetime import datetime
-from PIL import Image, ExifTags
+from PIL import Image, ExifTags, ImageOps
 
 try:
     import pillow_heif
@@ -196,6 +196,7 @@ for folder in subfolders:
                     fh.seek(0)
                     img = Image.open(fh)
                     dt_str, coords = parse_gps_and_date(img)
+                    img = ImageOps.exif_transpose(img)
                     
                     if img.mode in ("RGBA", "P"):
                         img = img.convert("RGB")
