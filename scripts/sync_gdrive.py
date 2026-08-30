@@ -188,9 +188,11 @@ for folder in subfolders:
             content = fh.getvalue()
             
             if is_video:
-                for d in ['dist/gdrive_cache', 'assets/gdrive_cache']:
-                    with open(os.path.join(d, target_name), 'wb') as vf:
+                if len(content) < 24 * 1024 * 1024:
+                    with open(os.path.join('dist/gdrive_cache', target_name), 'wb') as vf:
                         vf.write(content)
+                with open(os.path.join('assets/gdrive_cache', target_name), 'wb') as vf:
+                    vf.write(content)
             else:
                 try:
                     fh.seek(0)
