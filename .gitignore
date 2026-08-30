@@ -1,0 +1,30 @@
+.web
+__pycache__/
+*.py[cod]
+*.db
+assets/external/
+.states
+.venv
+.venv/
+venv/
+uploaded_files/
+uploaded_files
+
+# credentials
+gdrive_credentials.json
+*.json.key
+
+# Large media & caches
+assets/Timeline.json
+assets/gdrive_cache/
+*.mp4
+*.MOV
+*.mov
+*.zip
+
+# wrangler files
+.wrangler
+.dev.vars*
+!.dev.vars.example
+.env*
+!.env.example

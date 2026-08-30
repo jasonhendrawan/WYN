@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Our Adventure Book</title>
+  
+  <!-- Favicon Heart Icon -->
+  <link rel="icon" type="image/png" href="favicon.png">
+  <link rel="shortcut icon" href="favicon.ico">
+  <link rel="apple-touch-icon" href="apple-touch-icon.png">
+  
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&family=Caveat:wght@600;700&family=Patrick+Hand&family=Outfit:wght@300;400;600;700;800&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  
+  <!-- Lucide Icons -->
+  <script src="https://unpkg.com/lucide@latest"></script>
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Floating Theme Switcher Button -->
+  <div class="theme-switcher-box">
+    <button id="themeToggle" class="theme-switcher-btn" aria-label="Toggle Theme">
+      <i data-lucide="sun" id="themeIcon" style="width: 18px; height: 18px;"></i>
+    </button>
+  </div>
+
+  <!-- Central Layout Container -->
+  <main class="main-container">
+    <!-- Hero Section -->
+    <header class="hero-section">
+      <h1 class="hero-heading">Our Adventure Book</h1>
+      
+      <!-- Days Together Love Counter Badge -->
+      <div class="days-counter-badge">
+        <i data-lucide="heart" style="width: 15px; height: 15px; color: #ec4899; fill: #ec4899;"></i>
+        <span>
+          <strong class="days-counter-number" id="daysCount">16</strong> Days Together
+        </span>
+      </div>
+    </header>
+
+    <!-- Stats Bar (4 Tabs) -->
+    <section class="stats-grid" id="statsGrid">
+      <!-- 1. Timeline -->
+      <div class="stat-card active-timeline" data-tab="timeline">
+        <i data-lucide="plane" style="width: 22px; height: 22px; color: var(--accent);"></i>
+        <div class="stat-heading" id="statTimelineCount">10</div>
+        <div class="stat-label">Timeline</div>
+      </div>
+
+      <!-- 2. Highlights -->
+      <div class="stat-card" data-tab="highlights">
+        <i data-lucide="heart" style="width: 22px; height: 22px; color: #f43f5e;"></i>
+        <div class="stat-heading" id="statHighlightsCount">0</div>
+        <div class="stat-label" style="color: #fda4af;">Highlights</div>
+      </div>
+
+      <!-- 3. Memory Map -->
+      <div class="stat-card" data-tab="map">
+        <i data-lucide="map-pin" style="width: 22px; height: 22px; color: #10b981;"></i>
+        <div class="stat-heading" id="statMapCount">10</div>
+        <div class="stat-label" style="color: #6ee7b7;">Memory Map</div>
+      </div>
+
+      <!-- 4. Plans Checklist -->
+      <div class="stat-card" data-tab="plans">
+        <i data-lucide="clipboard-list" style="width: 22px; height: 22px; color: #38bdf8;"></i>
+        <div class="stat-heading" id="statPlansCount">15</div>
+        <div class="stat-label" style="color: rgba(56, 189, 248, 0.8);">Plans</div>
+      </div>
+    </section>
+
+    <!-- Countdown Banner -->
+    <div id="countdownBanner" class="countdown-banner-box" style="display: none;">
+      <i data-lucide="sparkles" style="width: 18px; height: 18px; color: #a855f7;"></i>
+      <div style="display: flex; flex-direction: column; align-items: center; text-align: center;">
+        <div style="font-size: 0.95rem;">
+          <span style="font-weight: 400; color: var(--text-soft);">Next Trip: </span>
+          <span id="countdownTitle" style="font-weight: 600; color: var(--text-main);"></span>
+        </div>
+        <div style="font-size: 0.9rem;">
+          <span id="countdownDays" style="font-weight: 800; color: var(--accent); font-size: 1.1rem;"></span>
+          <span style="font-weight: 600; color: var(--accent-light);"> days left! </span>
+          <span id="countdownDate" style="font-size: 0.8rem; color: var(--text-muted);"></span>
+        </div>
+      </div>
+      <i data-lucide="calendar" style="width: 18px; height: 18px; color: #a855f7;"></i>
+    </div>
+
+    <!-- Views Container -->
+    <div class="view-content-wrapper">
+      <!-- 1. TIMELINE VIEW -->
+      <section id="timelineView" class="view-section active">
+        <h2 class="section-title">Trips</h2>
+        <div class="timeline-scroll-container">
+          <div class="timeline-row" id="timelineRow">
+            <!-- Alternating Top/Bottom Cards generated dynamically -->
+          </div>
+        </div>
+      </section>
+
+      <!-- 2. HIGHLIGHTS VIEW (REVAMPED ROMANTIC MEMORY WALL) -->
+      <section id="highlightsView" class="view-section">
+        <div style="text-align: center; margin-bottom: 1.5rem;">
+          <h2 class="section-title" style="font-size: 2rem; margin-bottom: 0.35rem; background: linear-gradient(135deg, #fda4af, #ec4899, #c084fc); -webkit-background-clip: text; -webkit-text-fill-color: transparent;">Highlights & Favorites</h2>
+          <div id="highlightsCountBadge" class="highlights-pill-badge">
+            <i data-lucide="heart" style="width: 14px; height: 14px; fill: #ec4899; color: #ec4899;"></i>
+            <span id="highlightsTotalText">0 Favorite Memories</span>
+          </div>
+        </div>
+
+        <!-- Filter Pills -->
+        <div class="highlights-filter-bar">
+          <button class="hl-filter-btn active" data-filter="all">All Moments</button>
+          <button class="hl-filter-btn" data-filter="photo">📸 Photos</button>
+          <button class="hl-filter-btn" data-filter="video">🎬 Videos</button>
+        </div>
+
+        <div class="highlights-masonry-grid" id="highlightsGrid">
+          <!-- Dynamic aesthetic photo cards -->
+        </div>
+      </section>
+
+      <!-- 3. MEMORY MAP VIEW -->
+      <section id="mapView" class="view-section">
+        <div style="text-align: center; margin-bottom: 1.5rem;">
+          <h2 class="section-title" style="font-size: 1.8rem; margin-bottom: 0.25rem;">Interactive Memory Map</h2>
+          <p style="color: var(--text-muted); font-size: 0.95rem;">Our adventure map</p>
+        </div>
+        <div style="width: 100%; max-width: 1000px; margin: 0 auto;">
+          <iframe id="mapIframe" style="width: 100%; height: 550px; border: 1px solid rgba(168, 85, 247, 0.3); border-radius: 20px; box-shadow: 0 15px 45px rgba(0,0,0,0.5);"></iframe>
+        </div>
+      </section>
+
+      <!-- 4. PLANS VIEW (GOOGLE KEEP STYLE CHECKLIST) -->
+      <section id="plansView" class="view-section">
+        <div style="text-align: center; margin-bottom: 1.5rem;">
+          <h2 class="section-title" style="font-size: 1.8rem; margin-bottom: 0.25rem;">Our Adventure Plans</h2>
+          <p style="color: var(--text-muted); font-size: 0.95rem;" id="plansProgressSummary">Things we want to do together ✨</p>
+        </div>
+
+        <div class="keep-checklist-card">
+          <!-- Active Uncompleted Items -->
+          <div id="keepActiveList" style="display: flex; flex-direction: column; gap: 0.25rem;"></div>
+
+          <!-- + List Item Inline Adder -->
+          <div class="keep-add-row">
+            <span class="keep-add-icon">+</span>
+            <input type="text" id="keepAddInput" class="keep-add-input" placeholder="List item" />
+          </div>
+
+          <!-- Collapsible Completed Items -->
+          <div id="keepCompletedToggle" class="keep-completed-toggle-row" style="display: none;">
+            <i data-lucide="chevron-down" id="keepChevronIcon" style="width: 16px; height: 16px; transition: transform 0.2s;"></i>
+            <span id="keepCompletedCountLabel">0 Completed items</span>
+          </div>
+          <div id="keepCompletedList" class="keep-completed-list" style="display: none;"></div>
+        </div>
+      </section>
+    </div>
+  </main>
+
+  <!-- Gallery Modal Dialog -->
+  <div id="galleryModal" class="custom-modal-backdrop">
+    <div class="custom-modal-card">
+      <div class="modal-header-row">
+        <div>
+          <div style="display: flex; align-items: center; gap: 8px;">
+            <span id="galleryModalDate" class="trip-badge-date"></span>
+            <button id="editGalleryDateBtn" class="edit-date-btn" title="Edit date">
+              <i data-lucide="pencil" style="width: 12px; height: 12px;"></i>
+            </button>
+            <div id="galleryDateEditContainer" style="display: none; align-items: center; gap: 5px;">
+              <input type="date" id="galleryDateEditInput" class="date-inline-picker" />
+              <button id="saveGalleryDateBtn" class="date-inline-save-btn" title="Save date">
+                <i data-lucide="check" style="width: 12px; height: 12px;"></i>
+              </button>
+              <button id="cancelGalleryDateBtn" class="date-inline-cancel-btn" title="Cancel">
+                <i data-lucide="x" style="width: 12px; height: 12px;"></i>
+              </button>
+            </div>
+          </div>
+          <h2 id="galleryModalTitle" style="font-family: var(--font-heading); font-size: 1.4rem; color: var(--text-main); margin-top: 6px;"></h2>
+        </div>
+        <button id="closeGalleryModal" class="modal-close-btn" aria-label="Close">
+          <i data-lucide="x" style="width: 18px; height: 18px;"></i>
+        </button>
+      </div>
+      
+      <p id="galleryModalDesc" style="font-size: 0.95rem; color: var(--text-soft); margin-bottom: 1.5rem; line-height: 1.6;"></p>
+      
+      <div class="modal-media-grid" id="galleryModalGrid"></div>
+    </div>
+  </div>
+
+  <!-- Fullscreen Lightbox Modal -->
+  <div id="lightboxModal" class="lightbox-modal-backdrop">
+    <div class="lightbox-card">
+      <div style="display: flex; justify-content: flex-end; width: 100%; margin-bottom: 1rem;">
+        <button id="closeLightboxModal" class="modal-close-btn" aria-label="Close">
+          <i data-lucide="x" style="width: 20px; height: 20px;"></i>
+        </button>
+      </div>
+      <div class="lightbox-media-center" id="lightboxMediaBox"></div>
+    </div>
+  </div>
+
+  <!-- Add / Edit Plan Modal -->
+  <div id="planModal" class="custom-modal-backdrop">
+    <div class="custom-modal-card" style="max-width: 450px;">
+      <div class="modal-header-row">
+        <h3 id="planModalHeading" style="font-family: var(--font-heading); font-size: 1.25rem; color: var(--text-main);">Add New Plan</h3>
+        <button id="closePlanModal" class="modal-close-btn"><i data-lucide="x" style="width: 18px; height: 18px;"></i></button>
+      </div>
+      <div style="display: flex; flex-direction: column; gap: 1rem;">
+        <div>
+          <label style="font-size: 0.85rem; color: var(--text-muted); font-weight: 600; display: block; margin-bottom: 4px;">What's the plan?</label>
+          <input type="text" id="planIdeaInput" placeholder="e.g. Couples Cooking Class" style="width: 100%; background: var(--input-bg); border: 1px solid var(--border); color: var(--text-main); border-radius: 8px; padding: 0.5rem;" />
+        </div>
+        <div>
+          <label style="font-size: 0.85rem; color: var(--text-muted); font-weight: 600; display: block; margin-bottom: 4px;">Category</label>
+          <input type="text" id="planCategoryInput" placeholder="e.g. Adventure, Food, Chill" style="width: 100%; background: var(--input-bg); border: 1px solid var(--border); color: var(--text-main); border-radius: 8px; padding: 0.5rem;" />
+        </div>
+        <div>
+          <label style="font-size: 0.85rem; color: var(--text-muted); font-weight: 600; display: block; margin-bottom: 4px;">Target Date (Optional)</label>
+          <input type="date" id="planDateInput" style="width: 100%; background: var(--input-bg); border: 1px solid var(--border); color: var(--text-main); border-radius: 8px; padding: 0.5rem;" />
+        </div>
+        <div>
+          <label style="font-size: 0.85rem; color: var(--text-muted); font-weight: 600; display: block; margin-bottom: 4px;">Notes / Description</label>
+          <textarea id="planNotesInput" placeholder="Add some details about this plan..." style="width: 100%; height: 80px; background: var(--input-bg); border: 1px solid var(--border); color: var(--text-main); border-radius: 8px; padding: 0.5rem;"></textarea>
+        </div>
+        <div style="display: flex; align-items: center; gap: 8px;">
+          <input type="checkbox" id="planCompletedInput" style="width: 16px; height: 16px;" />
+          <label for="planCompletedInput" style="font-size: 0.9rem; color: var(--text-main);">Mark as completed</label>
+        </div>
+        <div style="display: flex; justify-content: flex-end; gap: 8px; margin-top: 0.5rem;">
+          <button id="deletePlanBtn" style="background: rgba(239, 68, 68, 0.2); color: #f87171; border: none; border-radius: 8px; padding: 0.4rem 0.85rem; cursor: pointer; display: none;">Delete</button>
+          <button id="cancelPlanBtn" style="background: transparent; color: #8e9196; border: none; border-radius: 8px; padding: 0.4rem 0.85rem; cursor: pointer;">Cancel</button>
+          <button id="savePlanBtn" style="background: var(--accent); color: #fff; border: none; border-radius: 8px; padding: 0.4rem 0.85rem; font-weight: 600; cursor: pointer;">Save</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Embedded Data & Client Application -->
+  <script src="data.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

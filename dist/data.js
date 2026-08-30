@@ -1,0 +1,12513 @@
+window.WYN_DATA = {
+  "last_sync": "2026-08-30 21:04:57",
+  "past_dates": [
+    {
+      "id": "1rZ0wRjoBRD5HeY6KTOvSe6nQiHxUVLce",
+      "date": "2026-05-30",
+      "title": "Upfinity Thamrin Nine (FIRST DATE)",
+      "description": "",
+      "image_path": "gdrive_cache/1rL-ffI_eQZoSCptLZxJIWOt8VK7EB8Ly_thumb.jpg",
+      "images": [
+        {
+          "url": "gdrive_cache/1uFvSzTEdfPe2JIpzl5XBUXfOK1opRUlz.jpg",
+          "thumb_url": "gdrive_cache/1uFvSzTEdfPe2JIpzl5XBUXfOK1opRUlz_thumb.jpg",
+          "type": "image",
+          "date_taken": "2026-05-30 17:45:38"
+        },
+        {
+          "url": "gdrive_cache/1dkugHFYV3uypBZqgGwXYUSlPX1xvPH3f.jpg",
+          "thumb_url": "gdrive_cache/1dkugHFYV3uypBZqgGwXYUSlPX1xvPH3f_thumb.jpg",
+          "type": "image",
+          "date_taken": "2026-05-30 18:35:56"
+        },
+        {
+          "url": "gdrive_cache/1zvVRXndbhyyJU5OtrkacHA0gK9jlr0uY.jpg",
+          "thumb_url": "gdrive_cache/1zvVRXndbhyyJU5OtrkacHA0gK9jlr0uY_thumb.jpg",
+          "type": "image",
+          "date_taken": "2026-05-30 18:43:01"
+        },
+        {
+          "url": "gdrive_cache/1tGBYSPjKP0SZMMkuFYAhzSuhUk9t2neO.jpg",
+          "thumb_url": "gdrive_cache/1tGBYSPjKP0SZMMkuFYAhzSuhUk9t2neO_thumb.jpg",
+          "type": "image",
+          "date_taken": "2026-05-30 18:43:06"
+        },
+        {
+          "url": "gdrive_cache/1BsoY_qXiwMyN5xd5jq0JoXw4EsYuOnnR.jpg",
+          "thumb_url": "gdrive_cache/1BsoY_qXiwMyN5xd5jq0JoXw4EsYuOnnR_thumb.jpg",
+          "type": "image",
+          "date_taken": "2026-06-20 15:03:13"
+        },
+        {
+          "url": "gdrive_cache/1cjMZcuVbiJNduZ3SYKu-UT48pZlU71ym.jpg",
+          "thumb_url": "gdrive_cache/1cjMZcuVbiJNduZ3SYKu-UT48pZlU71ym_thumb.jpg",
+          "type": "image",
+          "date_taken": "2026-06-20 15:03:17"
+        },
+        {
+          "url": "gdrive_cache/1tdHyUmNA__z25eNa4FSv_HnTyQVicLhr.jpg",
+          "thumb_url": "gdrive_cache/1tdHyUmNA__z25eNa4FSv_HnTyQVicLhr_thumb.jpg",
+          "type": "image",
+          "date_taken": "2026-06-20 15:03:48"
+        },
+        {
+          "url": "gdrive_cache/1rL-ffI_eQZoSCptLZxJIWOt8VK7EB8Ly.jpg",
+          "thumb_url": "gdrive_cache/1rL-ffI_eQZoSCptLZxJIWOt8VK7EB8Ly_thumb.jpg",
+          "type": "image",
+          "date_taken": "2026-06-20 15:03:52"
+        },
+        {
+          "url": "gdrive_cache/1VR-YCbRs2fjZNfgGIEY_vP74Tiyt4oiA.jpg",
+          "thumb_url": "gdrive_cache/1VR-YCbRs2fjZNfgGIEY_vP74Tiyt4oiA_thumb.jpg",
+          "type": "image",
+          "date_taken": "2026-06-20 15:03:56"
+        },
+        {
+          "url": "gdrive_cache/1dgsqJ6OsSNha8F163C2SPClV3emxsT-B.jpg",
+          "thumb_url": "gdrive_cache/1dgsqJ6OsSNha8F163C2SPClV3emxsT-B_thumb.jpg",
+          "type": "image",
+          "date_taken": "2026-06-20 15:04:00"
+        },
+        {
+          "url": "gdrive_cache/1_2U0yLEZSXpJftqSCYOhJ3SaeWBijox3.jpg",
+          "thumb_url": "gdrive_cache/1_2U0yLEZSXpJftqSCYOhJ3SaeWBijox3_thumb.jpg",
+          "type": "image",
+          "date_taken": "2026-06-20 15:04:05"
+        },
+        {
+          "url": "gdrive_cache/13LDmQ_RYYPSxNlOIpUgWigPGGNa_dHr2.jpg",
+          "thumb_url": "gdrive_cache/13LDmQ_RYYPSxNlOIpUgWigPGGNa_dHr2_thumb.jpg",
+          "type": "image",
+          "date_taken": "2026-06-20 15:04:08"
+        },
+        {
+          "url": "gdrive_cache/1TIDN3P9bOI-vmbXwv0T1-rHxMEuNQsYJ.jpg",
+          "thumb_url": "gdrive_cache/1TIDN3P9bOI-vmbXwv0T1-rHxMEuNQsYJ_thumb.jpg",
+          "type": "image",
+          "date_taken": "2026-06-20 15:04:11"
+        }
+      ],
+      "location": [
+        -6.1953,
+        106.8231
+      ],
+      "timeline_stops": [
+        {
+          "coords": [
+            -6.191877,
+            106.828332
+          ],
+          "time": "12:52 - 13:59",
+          "type": "UNKNOWN",
+          "name": "Plataran Menteng / Jl. Yusuf Adiwinata"
+        },
+        {
+          "coords": [
+            -6.200033,
+            106.824465
+          ],
+          "time": "14:05 - 16:13",
+          "type": "UNKNOWN",
+          "name": "Dukuh Atas / Blora Culinary Area"
+        },
+        {
+          "coords": [
+            -6.198765,
+            106.822127
+          ],
+          "time": "16:13 - 19:54",
+          "type": "UNKNOWN",
+          "name": "Upfinity Jakarta (Thamrin Nine)"
+        },
+        {
+          "coords": [
+            -6.199058,
+            106.820886
+          ],
+          "time": "16:14 - 16:44",
+          "type": "UNKNOWN",
+          "name": "Thamrin Nine Skydeck Observation"
+        },
+        {
+          "coords": [
+            -6.198999,
+            106.821615
+          ],
+          "time": "16:45 - 17:42",
+          "type": "UNKNOWN",
+          "name": "UOB Plaza Thamrin Nine"
+        },
+        {
+          "coords": [
+            -6.199058,
+            106.820886
+          ],
+          "time": "17:44 - 19:04",
+          "type": "UNKNOWN",
+          "name": "Thamrin Nine Complex"
+        },
+        {
+          "coords": [
+            -6.198999,
+            106.821615
+          ],
+          "time": "19:05 - 19:54",
+          "type": "UNKNOWN",
+          "name": "Grand Indonesia Shopping Town"
+        },
+        {
+          "coords": [
+            -6.293768,
+            106.913919
+          ],
+          "time": "22:18 - 22:23",
+          "type": "UNKNOWN",
+          "name": "Pondok Melati"
+        },
+        {
+          "coords": [
+            -6.056362,
+            106.679337
+          ],
+          "time": "23:21 - 08:03",
+          "type": "HOME",
+          "name": "Home / Kosambi"
+        }
+      ],
+      "timeline_path": [
+        [
+          -6.055967,
+          106.680433
+        ],
+        [
+          -6.056985,
+          106.682481
+        ],
+        [
+          -6.0576,
+          106.686663
+        ],
+        [
+          -6.053002,
+          106.689251
+        ],
+        [
+          -6.049664,
+          106.695404
+        ],
+        [
+          -6.049765,
+          106.701317
+        ],
+        [
+          -6.055363,
+          106.70742
+        ],
+        [
+          -6.068903,
+          106.711273
+        ],
+        [
+          -6.081714,
+          106.721096
+        ],
+        [
+          -6.086241,
+          106.728669
+        ],
+        [
+          -6.086521,
+          106.733029
+        ],
+        [
+          -6.085021,
+          106.736376
+        ],
+        [
+          -6.091048,
+          106.745074
+        ],
+        [
+          -6.098113,
+          106.741658
+        ],
+        [
+          -6.108401,
+          106.739767
+        ],
+        [
+          -6.117004,
+          106.735541
+        ],
+        [
+          -6.12187,
+          106.744314
+        ],
+        [
+          -6.121468,
+          106.772331
+        ],
+        [
+          -6.123424,
+          106.776112
+        ],
+        [
+          -6.127486,
+          106.778781
+        ],
+        [
+          -6.130482,
+          106.782904
+        ],
+        [
+          -6.156251,
+          106.793197
+        ],
+        [
+          -6.164218,
+          106.78951
+        ],
+        [
+          -6.172762,
+          106.789733
+        ],
+        [
+          -6.178064,
+          106.795216
+        ],
+        [
+          -6.20127,
+          106.799517
+        ],
+        [
+          -6.234893,
+          106.824427
+        ],
+        [
+          -6.243436,
+          106.846272
+        ],
+        [
+          -6.247427,
+          106.88371
+        ],
+        [
+          -6.243854,
+          106.891345
+        ],
+        [
+          -6.246358,
+          106.898086
+        ],
+        [
+          -6.252927,
+          106.902742
+        ],
+        [
+          -6.255529,
+          106.907764
+        ],
+        [
+          -6.255611,
+          106.910101
+        ],
+        [
+          -6.268973,
+          106.911746
+        ],
+        [
+          -6.281966,
+          106.913761
+        ],
+        [
+          -6.284614,
+          106.913708
+        ],
+        [
+          -6.29215,
+          106.917854
+        ],
+        [
+          -6.29313,
+          106.915751
+        ],
+        [
+          -6.293124,
+          106.912432
+        ],
+        [
+          -6.293116,
+          106.915726
+        ],
+        [
+          -6.291897,
+          106.91783
+        ],
+        [
+          -6.285439,
+          106.912728
+        ],
+        [
+          -6.284603,
+          106.91024
+        ],
+        [
+          -6.282536,
+          106.913755
+        ],
+        [
+          -6.26932,
+          106.911732
+        ],
+        [
+          -6.252938,
+          106.90934
+        ],
+        [
+          -6.248469,
+          106.90804
+        ],
+        [
+          -6.240136,
+          106.893934
+        ],
+        [
+          -6.237818,
+          106.877652
+        ],
+        [
+          -6.225552,
+          106.874707
+        ],
+        [
+          -6.22472,
+          106.872116
+        ],
+        [
+          -6.224753,
+          106.853542
+        ],
+        [
+          -6.223901,
+          106.845623
+        ],
+        [
+          -6.225991,
+          106.83338
+        ],
+        [
+          -6.231688,
+          106.83275
+        ],
+        [
+          -6.198238,
+          106.828418
+        ],
+        [
+          -6.191666,
+          106.82859
+        ],
+        [
+          -6.194542,
+          106.827875
+        ],
+        [
+          -6.19168,
+          106.8287
+        ],
+        [
+          -6.191788,
+          106.828187
+        ],
+        [
+          -6.19404,
+          106.825657
+        ],
+        [
+          -6.196155,
+          106.824954
+        ],
+        [
+          -6.19902,
+          106.824016
+        ],
+        [
+          -6.199844,
+          106.824739
+        ],
+        [
+          -6.199516,
+          106.824512
+        ],
+        [
+          -6.204312,
+          106.822563
+        ],
+        [
+          -6.204516,
+          106.818713
+        ],
+        [
+          -6.203371,
+          106.823644
+        ],
+        [
+          -6.201328,
+          106.822933
+        ],
+        [
+          -6.199592,
+          106.822012
+        ],
+        [
+          -6.197847,
+          106.821318
+        ],
+        [
+          -6.19949,
+          106.819091
+        ],
+        [
+          -6.199121,
+          106.821186
+        ],
+        [
+          -6.220916,
+          106.81459
+        ],
+        [
+          -6.198468,
+          106.820982
+        ],
+        [
+          -6.199295,
+          106.822816
+        ],
+        [
+          -6.197907,
+          106.821384
+        ],
+        [
+          -6.195826,
+          106.820966
+        ],
+        [
+          -6.19762,
+          106.822872
+        ],
+        [
+          -6.194628,
+          106.822703
+        ],
+        [
+          -6.211528,
+          106.820681
+        ],
+        [
+          -6.218745,
+          106.814187
+        ],
+        [
+          -6.22051,
+          106.813701
+        ],
+        [
+          -6.23509,
+          106.824808
+        ],
+        [
+          -6.243213,
+          106.843041
+        ],
+        [
+          -6.244088,
+          106.867513
+        ],
+        [
+          -6.247345,
+          106.884447
+        ],
+        [
+          -6.244511,
+          106.889548
+        ],
+        [
+          -6.244306,
+          106.895108
+        ],
+        [
+          -6.254703,
+          106.905417
+        ],
+        [
+          -6.255738,
+          106.910458
+        ],
+        [
+          -6.268693,
+          106.911729
+        ],
+        [
+          -6.283382,
+          106.913964
+        ],
+        [
+          -6.285052,
+          106.913098
+        ],
+        [
+          -6.291865,
+          106.917859
+        ],
+        [
+          -6.293194,
+          106.915548
+        ],
+        [
+          -6.293497,
+          106.912296
+        ],
+        [
+          -6.293141,
+          106.912543
+        ],
+        [
+          -6.293225,
+          106.914866
+        ],
+        [
+          -6.292567,
+          106.917447
+        ],
+        [
+          -6.29845,
+          106.923459
+        ],
+        [
+          -6.310354,
+          106.924441
+        ],
+        [
+          -6.311615,
+          106.904271
+        ],
+        [
+          -6.306373,
+          106.891485
+        ],
+        [
+          -6.307513,
+          106.867108
+        ],
+        [
+          -6.300975,
+          106.835274
+        ],
+        [
+          -6.292297,
+          106.814919
+        ],
+        [
+          -6.291569,
+          106.783818
+        ],
+        [
+          -6.288753,
+          106.778302
+        ],
+        [
+          -6.278051,
+          106.769258
+        ],
+        [
+          -6.230291,
+          106.752884
+        ],
+        [
+          -6.180365,
+          106.728895
+        ],
+        [
+          -6.121467,
+          106.731547
+        ],
+        [
+          -6.107098,
+          106.739924
+        ],
+        [
+          -6.097103,
+          106.74139
+        ],
+        [
+          -6.092961,
+          106.74375
+        ],
+        [
+          -6.089862,
+          106.742146
+        ],
+        [
+          -6.085988,
+          106.737123
+        ],
+        [
+          -6.087343,
+          106.730781
+        ],
+        [
+          -6.082224,
+          106.721304
+        ],
+        [
+          -6.068238,
+          106.710329
+        ],
+        [
+          -6.067916,
+          106.697098
+        ],
+        [
+          -6.06494,
+          106.691369
+        ],
+        [
+          -6.06047,
+          106.687332
+        ],
+        [
+          -6.060726,
+          106.68192
+        ],
+        [
+          -6.057861,
+          106.680227
+        ],
+        [
+          -6.056146,
+          106.680355
+        ],
+        [
+          -6.056467,
+          106.679273
+        ],
+        [
+          -6.056366,
+          106.679298
+        ]
+      ]
+    },
+    {
+      "id": "1TInFyNdXwsTUPvruJ6z0hd1HU43-mx1C",
+      "date": "2026-06-13",
+      "title": "Jakarta Aquarium",
+      "description": "",
+      "image_path": "gdrive_cache/1gCaOZDul0-Uf5omVfTO1tIYE1B_QozPS_thumb.jpg",
+      "images": [
+        {
+          "url": "gdrive_cache/1Pgw_GkKpUoFYDOLUSY8L9NVxsyEZUB7Q.jpg",
+          "thumb_url": "gdrive_cache/1Pgw_GkKpUoFYDOLUSY8L9NVxsyEZUB7Q_thumb.jpg",
+          "type": "image",
+          "date_taken": "2026-06-13 13:23:31"
+        },
+        {
+          "url": "gdrive_cache/1l2Los--B6omRSnsGJumn3QhzgoOWog3-.jpg",
+          "thumb_url": "gdrive_cache/1l2Los--B6omRSnsGJumn3QhzgoOWog3-_thumb.jpg",
+          "type": "image",
+          "date_taken": "2026-06-13 14:49:09"
+        },
+        {
+          "url": "gdrive_cache/1jpr5Am-wpqMVoBVsmey6GH3lp0IylMqc.jpg",
+          "thumb_url": "gdrive_cache/1jpr5Am-wpqMVoBVsmey6GH3lp0IylMqc_thumb.jpg",
+          "type": "image",
+          "date_taken": "2026-06-13 14:58:35"
+        },
+        {
+          "url": "gdrive_cache/11EJQ_bdnqoOjX0DttPzA4HpPnx-Sk7Am.jpg",
+          "thumb_url": "gdrive_cache/11EJQ_bdnqoOjX0DttPzA4HpPnx-Sk7Am_thumb.jpg",
+          "type": "image",
+          "date_taken": "2026-06-13 15:10:18"
+        },
+        {
+          "url": "gdrive_cache/1sZfdMEwuG7jXm8x_lu7JngDI8FMNtNQp.jpg",
+          "thumb_url": "gdrive_cache/1sZfdMEwuG7jXm8x_lu7JngDI8FMNtNQp_thumb.jpg",
+          "type": "image",
+          "date_taken": "2026-06-13 18:18:19"
+        },
+        {
+          "url": "gdrive_cache/1tBk2zgABtixm2PzYtyYjR1ljQc6541ws.jpg",
+          "thumb_url": "gdrive_cache/1tBk2zgABtixm2PzYtyYjR1ljQc6541ws_thumb.jpg",
+          "type": "image",
+          "date_taken": "2026-06-13 19:46:37"
+        },
+        {
+          "url": "gdrive_cache/1gCaOZDul0-Uf5omVfTO1tIYE1B_QozPS.jpg",
+          "thumb_url": "gdrive_cache/1gCaOZDul0-Uf5omVfTO1tIYE1B_QozPS_thumb.jpg",
+          "type": "image",
+          "date_taken": "2026-06-20 15:05:51"
+        },
+        {
+          "url": "gdrive_cache/1p_rmMzyyB0YOYo1gCmB0JcVee7U7p4uS.jpg",
+          "thumb_url": "gdrive_cache/1p_rmMzyyB0YOYo1gCmB0JcVee7U7p4uS_thumb.jpg",
+          "type": "image",
+          "date_taken": "2026-06-20 15:07:22"
+        },
+        {
+          "url": "gdrive_cache/1zuzTWT2w6yD_Gl_ddwZaSZKPnqsd8rmk.jpg",
+          "thumb_url": "gdrive_cache/1zuzTWT2w6yD_Gl_ddwZaSZKPnqsd8rmk_thumb.jpg",
+          "type": "image",
+          "date_taken": "2026-06-20 15:07:39"
+        },
+        {
+          "url": "gdrive_cache/1gXfd5B_3Jis9SchHOcOcZuCqcNTo0VmN.mp4",
+          "thumb_url": "gdrive_cache/1gXfd5B_3Jis9SchHOcOcZuCqcNTo0VmN.mp4",
+          "type": "video",
+          "date_taken": "2026-06-20 15:44:05"
+        }
+      ],
+      "location": [
+        -6.1754,
+        106.79
+      ],
+      "timeline_stops": [
+        {
+          "coords": [
+            -6.293996,
+            106.912202
+          ],
+          "time": "11:33 - 11:43",
+          "type": "ALIASED_LOCATION",
+          "name": "Pondok Melati"
+        },
+        {
+          "coords": [
+            -6.177251,
+            106.79047
+          ],
+          "time": "12:42 - 14:20",
+          "type": "UNKNOWN",
+          "name": "Tanjung Duren Culinary Street"
+        },
+        {
+          "coords": [
+            -6.174881,
+            106.789952
+          ],
+          "time": "14:26 - 17:33",
+          "type": "UNKNOWN",
+          "name": "Jakarta Aquarium & Safari (Neo Soho)"
+        },
+        {
+          "coords": [
+            -6.176165,
+            106.791929
+          ],
+          "time": "17:37 - 21:21",
+          "type": "UNKNOWN",
+          "name": "Central Park Mall"
+        },
+        {
+          "coords": [
+            -6.177456,
+            106.791411
+          ],
+          "time": "17:42 - 17:46",
+          "type": "UNKNOWN",
+          "name": "Neo Soho Mall"
+        },
+        {
+          "coords": [
+            -6.17695,
+            106.791048
+          ],
+          "time": "17:48 - 18:12",
+          "type": "UNKNOWN",
+          "name": "Tribeca Park (Central Park)"
+        },
+        {
+          "coords": [
+            -6.177456,
+            106.791411
+          ],
+          "time": "18:25 - 18:37",
+          "type": "UNKNOWN",
+          "name": "Central Park Dining District"
+        },
+        {
+          "coords": [
+            -6.17695,
+            106.791048
+          ],
+          "time": "18:42 - 18:54",
+          "type": "UNKNOWN",
+          "name": "Central Park Promenade"
+        },
+        {
+          "coords": [
+            -6.177251,
+            106.79047
+          ],
+          "time": "19:00 - 19:36",
+          "type": "UNKNOWN",
+          "name": "Tanjung Duren Barat"
+        },
+        {
+          "coords": [
+            -6.176281,
+            106.790958
+          ],
+          "time": "19:37 - 19:42",
+          "type": "UNKNOWN",
+          "name": "Eco Skywalk Neo Soho Bridge"
+        },
+        {
+          "coords": [
+            -6.177251,
+            106.79047
+          ],
+          "time": "20:10 - 20:16",
+          "type": "UNKNOWN",
+          "name": "Tanjung Duren"
+        },
+        {
+          "coords": [
+            -6.177395,
+            106.791375
+          ],
+          "time": "20:30 - 20:44",
+          "type": "UNKNOWN",
+          "name": "Central Park Mall"
+        },
+        {
+          "coords": [
+            -6.178713,
+            106.790831
+          ],
+          "time": "21:16 - 21:21",
+          "type": "UNKNOWN",
+          "name": "Central Park Exit"
+        },
+        {
+          "coords": [
+            -6.293996,
+            106.912202
+          ],
+          "time": "22:25 - 23:35",
+          "type": "ALIASED_LOCATION",
+          "name": "Pondok Melati"
+        }
+      ],
+      "timeline_path": [
+        [
+          -6.056463,
+          106.679309
+        ],
+        [
+          -6.05723,
+          106.682927
+        ],
+        [
+          -6.05684,
+          106.687434
+        ],
+        [
+          -6.050581,
+          106.692807
+        ],
+        [
+          -6.04949,
+          106.699548
+        ],
+        [
+          -6.054984,
+          106.707279
+        ],
+        [
+          -6.081756,
+          106.721204
+        ],
+        [
+          -6.087695,
+          106.731553
+        ],
+        [
+          -6.084011,
+          106.735564
+        ],
+        [
+          -6.090733,
+          106.744362
+        ],
+        [
+          -6.097186,
+          106.741893
+        ],
+        [
+          -6.110156,
+          106.738787
+        ],
+        [
+          -6.121595,
+          106.731578
+        ],
+        [
+          -6.186774,
+          106.730556
+        ],
+        [
+          -6.234451,
+          106.755678
+        ],
+        [
+          -6.266949,
+          106.767976
+        ],
+        [
+          -6.273149,
+          106.767837
+        ],
+        [
+          -6.278688,
+          106.769855
+        ],
+        [
+          -6.288237,
+          106.777911
+        ],
+        [
+          -6.291286,
+          106.783315
+        ],
+        [
+          -6.293004,
+          106.820313
+        ],
+        [
+          -6.30412,
+          106.847814
+        ],
+        [
+          -6.308331,
+          106.872487
+        ],
+        [
+          -6.305771,
+          106.888469
+        ],
+        [
+          -6.311991,
+          106.913759
+        ],
+        [
+          -6.310534,
+          106.924049
+        ],
+        [
+          -6.30092,
+          106.923886
+        ],
+        [
+          -6.292397,
+          106.918233
+        ],
+        [
+          -6.293179,
+          106.9155
+        ],
+        [
+          -6.29316,
+          106.912175
+        ],
+        [
+          -6.293101,
+          106.912551
+        ],
+        [
+          -6.293157,
+          106.915507
+        ],
+        [
+          -6.292414,
+          106.917627
+        ],
+        [
+          -6.286302,
+          106.913443
+        ],
+        [
+          -6.284722,
+          106.910351
+        ],
+        [
+          -6.282678,
+          106.911668
+        ],
+        [
+          -6.282602,
+          106.913477
+        ],
+        [
+          -6.26642,
+          106.91139
+        ],
+        [
+          -6.258347,
+          106.91012
+        ],
+        [
+          -6.256352,
+          106.908234
+        ],
+        [
+          -6.254895,
+          106.905059
+        ],
+        [
+          -6.244405,
+          106.894936
+        ],
+        [
+          -6.244889,
+          106.88962
+        ],
+        [
+          -6.247593,
+          106.882877
+        ],
+        [
+          -6.244879,
+          106.869321
+        ],
+        [
+          -6.241435,
+          106.836765
+        ],
+        [
+          -6.233463,
+          106.822255
+        ],
+        [
+          -6.194532,
+          106.797198
+        ],
+        [
+          -6.178901,
+          106.795525
+        ],
+        [
+          -6.175276,
+          106.791715
+        ],
+        [
+          -6.178258,
+          106.791642
+        ],
+        [
+          -6.18023,
+          106.790904
+        ],
+        [
+          -6.178016,
+          106.790001
+        ],
+        [
+          -6.177539,
+          106.790497
+        ],
+        [
+          -6.174993,
+          106.790353
+        ],
+        [
+          -6.175338,
+          106.790361
+        ],
+        [
+          -6.177037,
+          106.791337
+        ],
+        [
+          -6.178783,
+          106.790739
+        ],
+        [
+          -6.178046,
+          106.788744
+        ],
+        [
+          -6.174883,
+          106.791174
+        ],
+        [
+          -6.171707,
+          106.78834
+        ],
+        [
+          -6.168094,
+          106.787669
+        ],
+        [
+          -6.170387,
+          106.788703
+        ],
+        [
+          -6.172786,
+          106.789835
+        ],
+        [
+          -6.179718,
+          106.796321
+        ],
+        [
+          -6.201474,
+          106.799641
+        ],
+        [
+          -6.234668,
+          106.824011
+        ],
+        [
+          -6.243312,
+          106.843458
+        ],
+        [
+          -6.244528,
+          106.868564
+        ],
+        [
+          -6.247517,
+          106.882482
+        ],
+        [
+          -6.243822,
+          106.891841
+        ],
+        [
+          -6.246146,
+          106.897819
+        ],
+        [
+          -6.25157,
+          106.901491
+        ],
+        [
+          -6.255929,
+          106.9086
+        ],
+        [
+          -6.26886,
+          106.911741
+        ],
+        [
+          -6.283441,
+          106.913941
+        ],
+        [
+          -6.285917,
+          106.913107
+        ],
+        [
+          -6.291375,
+          106.91747
+        ],
+        [
+          -6.293155,
+          106.915745
+        ],
+        [
+          -6.293169,
+          106.912323
+        ],
+        [
+          -6.293466,
+          106.912161
+        ],
+        [
+          -6.293057,
+          106.914095
+        ],
+        [
+          -6.292214,
+          106.918125
+        ],
+        [
+          -6.300022,
+          106.924063
+        ],
+        [
+          -6.310926,
+          106.924418
+        ],
+        [
+          -6.311875,
+          106.907111
+        ],
+        [
+          -6.306026,
+          106.882624
+        ],
+        [
+          -6.308241,
+          106.873237
+        ],
+        [
+          -6.302063,
+          106.837048
+        ],
+        [
+          -6.292675,
+          106.81907
+        ],
+        [
+          -6.292092,
+          106.785591
+        ],
+        [
+          -6.288303,
+          106.777828
+        ],
+        [
+          -6.27453,
+          106.76773
+        ],
+        [
+          -6.263233,
+          106.767476
+        ],
+        [
+          -6.222549,
+          106.747682
+        ],
+        [
+          -6.179812,
+          106.728741
+        ],
+        [
+          -6.120434,
+          106.732164
+        ],
+        [
+          -6.105009,
+          106.740391
+        ],
+        [
+          -6.091184,
+          106.743773
+        ],
+        [
+          -6.087094,
+          106.738361
+        ],
+        [
+          -6.086144,
+          106.733611
+        ],
+        [
+          -6.087003,
+          106.730287
+        ],
+        [
+          -6.084376,
+          106.723619
+        ],
+        [
+          -6.070312,
+          106.712551
+        ],
+        [
+          -6.067918,
+          106.707501
+        ],
+        [
+          -6.068694,
+          106.702928
+        ],
+        [
+          -6.06675,
+          106.694107
+        ],
+        [
+          -6.061123,
+          106.688
+        ],
+        [
+          -6.061158,
+          106.682856
+        ],
+        [
+          -6.058823,
+          106.680841
+        ],
+        [
+          -6.056258,
+          106.681049
+        ],
+        [
+          -6.056409,
+          106.679267
+        ],
+        [
+          -6.053895,
+          106.662106
+        ]
+      ]
+    },
+    {
+      "id": "1AmgrnFrap1pvnM5pJ3UNa0L07oxeEbix",
+      "date": "2026-06-27",
+      "title": "BLOK M - ASHTA - GUKBAP",
+      "description": "",
+      "image_path": "gdrive_cache/1y5P9cQ1FOSYwmwlAXW3TXTwOZbpb00Hu.mp4",
+      "images": [
+        {
+          "url": "gdrive_cache/1gjylJ4t2suAMsWkr7NxbsgJpSXOC4S1i.jpg",
+          "thumb_url": "gdrive_cache/1gjylJ4t2suAMsWkr7NxbsgJpSXOC4S1i_thumb.jpg",
+          "type": "image",
+          "date_taken": "2026-06-27 13:34:13"
+        },
+        {
+          "url": "gdrive_cache/1W4NKC8PS_XwkWh93eILb9DnrSf89q3JI.jpg",
+          "thumb_url": "gdrive_cache/1W4NKC8PS_XwkWh93eILb9DnrSf89q3JI_thumb.jpg",
+          "type": "image",
+          "date_taken": "2026-06-27 13:39:23"
+        },
+        {
+          "url": "gdrive_cache/1tUOjFYsJGbpRo65Wf0iKJAoy5z3Cs1pF.jpg",
+          "thumb_url": "gdrive_cache/1tUOjFYsJGbpRo65Wf0iKJAoy5z3Cs1pF_thumb.jpg",
+          "type": "image",
+          "date_taken": "2026-06-27 15:09:19"
+        },
+        {
+          "url": "gdrive_cache/1MeQwV0ArTMPEdIdkHQrzw92imGKSsaKe.jpg",
+          "thumb_url": "gdrive_cache/1MeQwV0ArTMPEdIdkHQrzw92imGKSsaKe_thumb.jpg",
+          "type": "image",
+          "date_taken": "2026-06-27 15:10:34"
+        },
+        {
+          "url": "gdrive_cache/1db0ky8ocagoIhmfGwPBJ7JiKRnl4IsDQ.jpg",
+          "thumb_url": "gdrive_cache/1db0ky8ocagoIhmfGwPBJ7JiKRnl4IsDQ_thumb.jpg",
+          "type": "image",
+          "date_taken": "2026-06-27 15:11:09"
+        },
+        {
+          "url": "gdrive_cache/1-useCTHy3BjT-98P1AP7xruCshdoD-xg.jpg",
+          "thumb_url": "gdrive_cache/1-useCTHy3BjT-98P1AP7xruCshdoD-xg_thumb.jpg",
+          "type": "image",
+          "date_taken": "2026-06-27 15:11:50"
+        },
+        {
+          "url": "gdrive_cache/1crTLaaDwlyhv0fgluA8vfTeLkJjjoVuO.jpg",
+          "thumb_url": "gdrive_cache/1crTLaaDwlyhv0fgluA8vfTeLkJjjoVuO_thumb.jpg",
+          "type": "image",
+          "date_taken": "2026-06-27 15:12:06"
+        },
+        {
+          "url": "gdrive_cache/1nJeY_V6XBJGG7TcwIiRGEDASy7pPRegi.jpg",
+          "thumb_url": "gdrive_cache/1nJeY_V6XBJGG7TcwIiRGEDASy7pPRegi_thumb.jpg",
+          "type": "image",
+          "date_taken": "2026-06-27 15:12:32"
+        },
+        {
+          "url": "gdrive_cache/1FvF8eBMfTI8eUB1mjj07YloQet9v8HGk.jpg",
+          "thumb_url": "gdrive_cache/1FvF8eBMfTI8eUB1mjj07YloQet9v8HGk_thumb.jpg",
+          "type": "image",
+          "date_taken": "2026-06-27 15:12:58"
+        },
+        {
+          "url": "gdrive_cache/1VT99n7IOrX7QHpckJN3JvjyzYyUTFV-r.jpg",
+          "thumb_url": "gdrive_cache/1VT99n7IOrX7QHpckJN3JvjyzYyUTFV-r_thumb.jpg",
+          "type": "image",
+          "date_taken": "2026-06-27 17:46:15"
+        },
+        {
+          "url": "gdrive_cache/1ZYdZjwDmeLvlNzq7jg2MKZL9cGZmkkGy.jpg",
+          "thumb_url": "gdrive_cache/1ZYdZjwDmeLvlNzq7jg2MKZL9cGZmkkGy_thumb.jpg",
+          "type": "image",
+          "date_taken": "2026-06-27 17:46:15"
+        },
+        {
+          "url": "gdrive_cache/1w7-AeKZ6E723T4YA89QaIJiEYOMOuAfv.jpg",
+          "thumb_url": "gdrive_cache/1w7-AeKZ6E723T4YA89QaIJiEYOMOuAfv_thumb.jpg",
+          "type": "image",
+          "date_taken": "2026-06-27 19:04:24"
+        },
+        {
+          "url": "gdrive_cache/17NseuSTICxKPTfr2mvEZ3Ux8ezLWMjjv.jpg",
+          "thumb_url": "gdrive_cache/17NseuSTICxKPTfr2mvEZ3Ux8ezLWMjjv_thumb.jpg",
+          "type": "image",
+          "date_taken": "2026-06-27 19:04:37"
+        },
+        {
+          "url": "gdrive_cache/1XbcUQUwZgI7Ci5nQ7mJSTwPr4ypt0f60.jpg",
+          "thumb_url": "gdrive_cache/1XbcUQUwZgI7Ci5nQ7mJSTwPr4ypt0f60_thumb.jpg",
+          "type": "image",
+          "date_taken": "2026-06-27 19:08:55"
+        },
+        {
+          "url": "gdrive_cache/185S8AJ6Y6YrSbgfX87CBYlbRmtZQIzA-.jpg",
+          "thumb_url": "gdrive_cache/185S8AJ6Y6YrSbgfX87CBYlbRmtZQIzA-_thumb.jpg",
+          "type": "image",
+          "date_taken": "2026-06-27 19:09:06"
+        },
+        {
+          "url": "gdrive_cache/1xc6BU-zVZzINGLXD4MA_jiVwbISMvz4y.png",
+          "thumb_url": "gdrive_cache/1xc6BU-zVZzINGLXD4MA_jiVwbISMvz4y_thumb.png",
+          "type": "image",
+          "date_taken": "2026-06-28 13:15:18"
+        },
+        {
+          "url": "gdrive_cache/1MNbVbIw0dJ_VbytBTEJagTd7HKGZoeSg.png",
+          "thumb_url": "gdrive_cache/1MNbVbIw0dJ_VbytBTEJagTd7HKGZoeSg_thumb.png",
+          "type": "image",
+          "date_taken": "2026-06-28 13:15:18"
+        },
+        {
+          "url": "gdrive_cache/14x0CR_-zeL-mFSZQvNZjGwLNZuryE72i.jpg",
+          "thumb_url": "gdrive_cache/14x0CR_-zeL-mFSZQvNZjGwLNZuryE72i_thumb.jpg",
+          "type": "image",
+          "date_taken": "2026-06-28 13:15:18"
+        },
+        {
+          "url": "gdrive_cache/1B1NoVLbfe9GaNI2gc7cfPe3eSusICZ8N.jpg",
+          "thumb_url": "gdrive_cache/1B1NoVLbfe9GaNI2gc7cfPe3eSusICZ8N_thumb.jpg",
+          "type": "image",
+          "date_taken": "2026-06-28 13:15:19"
+        },
+        {
+          "url": "gdrive_cache/1POwp7VzRZ4hgA7yO_xSjIxOg4lmoXA_a.jpg",
+          "thumb_url": "gdrive_cache/1POwp7VzRZ4hgA7yO_xSjIxOg4lmoXA_a_thumb.jpg",
+          "type": "image",
+          "date_taken": "2026-06-28 13:15:19"
+        },
+        {
+          "url": "gdrive_cache/1KYRodMM-hcrOLP2WiHygPe27VwwdOicz.jpg",
+          "thumb_url": "gdrive_cache/1KYRodMM-hcrOLP2WiHygPe27VwwdOicz_thumb.jpg",
+          "type": "image",
+          "date_taken": "2026-06-28 13:15:19"
+        },
+        {
+          "url": "gdrive_cache/1f_bzT9dC8dt-Zgj3m7J1yrERGPt2U8cH.jpg",
+          "thumb_url": "gdrive_cache/1f_bzT9dC8dt-Zgj3m7J1yrERGPt2U8cH_thumb.jpg",
+          "type": "image",
+          "date_taken": "2026-06-28 13:15:19"
+        },
+        {
+          "url": "gdrive_cache/1DODgJ5UQ-DasyJE4if4lMCd8F7fFyXB1.jpg",
+          "thumb_url": "gdrive_cache/1DODgJ5UQ-DasyJE4if4lMCd8F7fFyXB1_thumb.jpg",
+          "type": "image",
+          "date_taken": "2026-06-28 13:15:19"
+        },
+        {
+          "url": "gdrive_cache/1XjRz7lLbR_HZFD-jzB2qmBYODxVa9GJY.jpg",
+          "thumb_url": "gdrive_cache/1XjRz7lLbR_HZFD-jzB2qmBYODxVa9GJY_thumb.jpg",
+          "type": "image",
+          "date_taken": "2026-06-28 13:15:19"
+        },
+        {
+          "url": "gdrive_cache/1MMAG5g97yX68L6pSN0nMJF2dJA0ZZqHS.jpg",
+          "thumb_url": "gdrive_cache/1MMAG5g97yX68L6pSN0nMJF2dJA0ZZqHS_thumb.jpg",
+          "type": "image",
+          "date_taken": "2026-06-28 13:15:19"
+        },
+        {
+          "url": "gdrive_cache/1NUyEnXT3A899qU2sJkbbY_TBcCosGa_C.jpg",
+          "thumb_url": "gdrive_cache/1NUyEnXT3A899qU2sJkbbY_TBcCosGa_C_thumb.jpg",
+          "type": "image",
+          "date_taken": "2026-06-28 13:15:19"
+        },
+        {
+          "url": "gdrive_cache/1HLzB0LKzEVIm-AOYzzGyDd_Dsfx-Xlp0.jpg",
+          "thumb_url": "gdrive_cache/1HLzB0LKzEVIm-AOYzzGyDd_Dsfx-Xlp0_thumb.jpg",
+          "type": "image",
+          "date_taken": "2026-06-28 13:15:19"
+        },
+        {
+          "url": "gdrive_cache/1ir25yjyiicSGU39MzcFT2lYci4vVN4sk.jpg",
+          "thumb_url": "gdrive_cache/1ir25yjyiicSGU39MzcFT2lYci4vVN4sk_thumb.jpg",
+          "type": "image",
+          "date_taken": "2026-06-28 13:15:19"
+        },
+        {
+          "url": "gdrive_cache/1JIJKINLyZ6Ays6BHNCNlEyJalB9dH5l_.jpg",
+          "thumb_url": "gdrive_cache/1JIJKINLyZ6Ays6BHNCNlEyJalB9dH5l__thumb.jpg",
+          "type": "image",
+          "date_taken": "2026-06-28 13:15:19"
+        },
+        {
+          "url": "gdrive_cache/1z1A-VUywBJeHZDW2H0DQ8gkfuoLSdZkQ.jpg",
+          "thumb_url": "gdrive_cache/1z1A-VUywBJeHZDW2H0DQ8gkfuoLSdZkQ_thumb.jpg",
+          "type": "image",
+          "date_taken": "2026-06-28 13:15:20"
+        },
+        {
+          "url": "gdrive_cache/1H1LLDXlZtcq-jErTQkN9_ikUARuvvbVl.jpg",
+          "thumb_url": "gdrive_cache/1H1LLDXlZtcq-jErTQkN9_ikUARuvvbVl_thumb.jpg",
+          "type": "image",
+          "date_taken": "2026-06-28 13:15:20"
+        },
+        {
+          "url": "gdrive_cache/1eqau5PXgMsNsSAOzLW9EyZ5l-ucJUrxV.jpg",
+          "thumb_url": "gdrive_cache/1eqau5PXgMsNsSAOzLW9EyZ5l-ucJUrxV_thumb.jpg",
+          "type": "image",
+          "date_taken": "2026-06-28 13:15:20"
+        },
+        {
+          "url": "gdrive_cache/1N-WTEvBNpcxNxgZZnhg-kwNvKIWgdXOs.jpg",
+          "thumb_url": "gdrive_cache/1N-WTEvBNpcxNxgZZnhg-kwNvKIWgdXOs_thumb.jpg",
+          "type": "image",
+          "date_taken": "2026-06-28 13:15:20"
+        },
+        {
+          "url": "gdrive_cache/1wid-lRupdWThnff_NMVFfNp_3uoc_GL0.jpg",
+          "thumb_url": "gdrive_cache/1wid-lRupdWThnff_NMVFfNp_3uoc_GL0_thumb.jpg",
+          "type": "image",
+          "date_taken": "2026-06-28 13:15:20"
+        },
+        {
+          "url": "gdrive_cache/1HqK8Trc10BtVUx9fcmmxiVB0qzQHN7kK.jpg",
+          "thumb_url": "gdrive_cache/1HqK8Trc10BtVUx9fcmmxiVB0qzQHN7kK_thumb.jpg",
+          "type": "image",
+          "date_taken": "2026-06-28 13:15:20"
+        },
+        {
+          "url": "gdrive_cache/1b80W0xgtA8-lZBc1JCaIe8ZXdUM0nC-j.jpg",
+          "thumb_url": "gdrive_cache/1b80W0xgtA8-lZBc1JCaIe8ZXdUM0nC-j_thumb.jpg",
+          "type": "image",
+          "date_taken": "2026-06-28 13:15:20"
+        },
+        {
+          "url": "gdrive_cache/1ci0IgIUQgi6Sjn6uxRKiIw-T8IR4kONQ.jpg",
+          "thumb_url": "gdrive_cache/1ci0IgIUQgi6Sjn6uxRKiIw-T8IR4kONQ_thumb.jpg",
+          "type": "image",
+          "date_taken": "2026-06-28 13:15:20"
+        },
+        {
+          "url": "gdrive_cache/1hOnPOfCBM2_oBHu4HtLJY--vqXDbPbnj.jpg",
+          "thumb_url": "gdrive_cache/1hOnPOfCBM2_oBHu4HtLJY--vqXDbPbnj_thumb.jpg",
+          "type": "image",
+          "date_taken": "2026-06-28 13:15:20"
+        },
+        {
+          "url": "gdrive_cache/1MNEW7W7BoD4F0BQn8UzMAB9WEd0M6vLe.jpg",
+          "thumb_url": "gdrive_cache/1MNEW7W7BoD4F0BQn8UzMAB9WEd0M6vLe_thumb.jpg",
+          "type": "image",
+          "date_taken": "2026-06-28 13:15:20"
+        },
+        {
+          "url": "gdrive_cache/1xIdy221roUUgGMt-sldpY1kjyWJNEWKs.jpg",
+          "thumb_url": "gdrive_cache/1xIdy221roUUgGMt-sldpY1kjyWJNEWKs_thumb.jpg",
+          "type": "image",
+          "date_taken": "2026-06-28 13:15:21"
+        },
+        {
+          "url": "gdrive_cache/1hfzueZDAydwo-Lw4jZQZCMcD5dFiwupu.jpg",
+          "thumb_url": "gdrive_cache/1hfzueZDAydwo-Lw4jZQZCMcD5dFiwupu_thumb.jpg",
+          "type": "image",
+          "date_taken": "2026-06-28 13:15:23"
+        },
+        {
+          "url": "gdrive_cache/1qCj54IP-TKem-CPG6G-_fjVer6GugVoy.mp4",
+          "thumb_url": "gdrive_cache/1qCj54IP-TKem-CPG6G-_fjVer6GugVoy.mp4",
+          "type": "video",
+          "date_taken": "2026-06-28 13:21:31"
+        },
+        {
+          "url": "gdrive_cache/1y5P9cQ1FOSYwmwlAXW3TXTwOZbpb00Hu.mp4",
+          "thumb_url": "gdrive_cache/1y5P9cQ1FOSYwmwlAXW3TXTwOZbpb00Hu.mp4",
+          "type": "video",
+          "date_taken": "2026-06-28 13:21:31"
+        },
+        {
+          "url": "gdrive_cache/14CHXLQB9UEu18PzoMm-PtnyThNZy_a3-.mp4",
+          "thumb_url": "gdrive_cache/14CHXLQB9UEu18PzoMm-PtnyThNZy_a3-.mp4",
+          "type": "video",
+          "date_taken": "2026-06-28 13:21:32"
+        }
+      ],
+      "location": [
+        -6.2443,
+        106.7981
+      ],
+      "timeline_stops": [
+        {
+          "coords": [
+            -6.293996,
+            106.912202
+          ],
+          "time": "11:38 - 11:51",
+          "type": "ALIASED_LOCATION",
+          "name": "Pondok Melati"
+        },
+        {
+          "coords": [
+            -6.244593,
+            106.800649
+          ],
+          "time": "13:01 - 15:25",
+          "type": "UNKNOWN",
+          "name": "Blok M Square (Little Tokyo)"
+        },
+        {
+          "coords": [
+            -6.244207,
+            106.800865
+          ],
+          "time": "13:33 - 13:55",
+          "type": "UNKNOWN",
+          "name": "Gukbap Korean Restaurant Melawai"
+        },
+        {
+          "coords": [
+            -6.244109,
+            106.801946
+          ],
+          "time": "13:57 - 14:20",
+          "type": "UNKNOWN",
+          "name": "M Bloc Space (Titik Temu)"
+        },
+        {
+          "coords": [
+            -6.244867,
+            106.801048
+          ],
+          "time": "15:02 - 15:09",
+          "type": "UNKNOWN",
+          "name": "Melawai Culinary Street"
+        },
+        {
+          "coords": [
+            -6.244686,
+            106.800142
+          ],
+          "time": "15:17 - 15:23",
+          "type": "UNKNOWN",
+          "name": "Blok M Plaza / MRT Station"
+        },
+        {
+          "coords": [
+            -6.244862,
+            106.799551
+          ],
+          "time": "15:40 - 16:14",
+          "type": "UNKNOWN",
+          "name": "Jalan Palatehan Blok M"
+        },
+        {
+          "coords": [
+            -6.244593,
+            106.800649
+          ],
+          "time": "16:17 - 16:33",
+          "type": "UNKNOWN",
+          "name": "Blok M Square"
+        },
+        {
+          "coords": [
+            -6.244977,
+            106.801187
+          ],
+          "time": "16:25 - 16:31",
+          "type": "UNKNOWN",
+          "name": "Melawai Food Area"
+        },
+        {
+          "coords": [
+            -6.254448,
+            106.801103
+          ],
+          "time": "16:48 - 17:13",
+          "type": "UNKNOWN",
+          "name": "Jalan Panglima Polim / Dharmawangsa"
+        },
+        {
+          "coords": [
+            -6.230129,
+            106.806848
+          ],
+          "time": "17:31 - 18:24",
+          "type": "UNKNOWN",
+          "name": "Ashta District 8 (SCBD)"
+        },
+        {
+          "coords": [
+            -6.229875,
+            106.807254
+          ],
+          "time": "17:31 - 18:24",
+          "type": "UNKNOWN",
+          "name": "District 8 SCBD Lounge"
+        },
+        {
+          "coords": [
+            -6.238943,
+            106.813828
+          ],
+          "time": "18:43 - 19:58",
+          "type": "UNKNOWN",
+          "name": "Senopati / Gunawarman Culinary"
+        },
+        {
+          "coords": [
+            -6.260561,
+            106.910701
+          ],
+          "time": "20:39 - 20:44",
+          "type": "UNKNOWN",
+          "name": "Pondok Gede"
+        },
+        {
+          "coords": [
+            -6.293996,
+            106.912202
+          ],
+          "time": "21:02 - 22:12",
+          "type": "ALIASED_LOCATION",
+          "name": "Pondok Melati"
+        },
+        {
+          "coords": [
+            -6.056362,
+            106.679337
+          ],
+          "time": "23:30 - 17:31",
+          "type": "HOME",
+          "name": "Home / Kosambi"
+        }
+      ],
+      "timeline_path": [
+        [
+          -6.056374,
+          106.679318
+        ],
+        [
+          -6.057402,
+          106.683302
+        ],
+        [
+          -6.055889,
+          106.687702
+        ],
+        [
+          -6.05061,
+          106.692811
+        ],
+        [
+          -6.049465,
+          106.697187
+        ],
+        [
+          -6.051719,
+          106.704958
+        ],
+        [
+          -6.081905,
+          106.721324
+        ],
+        [
+          -6.086316,
+          106.728912
+        ],
+        [
+          -6.085267,
+          106.736615
+        ],
+        [
+          -6.090912,
+          106.744934
+        ],
+        [
+          -6.107688,
+          106.7402
+        ],
+        [
+          -6.125652,
+          106.730099
+        ],
+        [
+          -6.19429,
+          106.732782
+        ],
+        [
+          -6.244386,
+          106.759231
+        ],
+        [
+          -6.247826,
+          106.760515
+        ],
+        [
+          -6.252555,
+          106.76412
+        ],
+        [
+          -6.270926,
+          106.76829
+        ],
+        [
+          -6.274887,
+          106.7679
+        ],
+        [
+          -6.289835,
+          106.77963
+        ],
+        [
+          -6.292413,
+          106.818048
+        ],
+        [
+          -6.3046,
+          106.853308
+        ],
+        [
+          -6.308488,
+          106.871857
+        ],
+        [
+          -6.306216,
+          106.891307
+        ],
+        [
+          -6.312012,
+          106.911004
+        ],
+        [
+          -6.310567,
+          106.924144
+        ],
+        [
+          -6.306495,
+          106.92381
+        ],
+        [
+          -6.299511,
+          106.923932
+        ],
+        [
+          -6.295752,
+          106.920529
+        ],
+        [
+          -6.293093,
+          106.918804
+        ],
+        [
+          -6.292619,
+          106.915954
+        ],
+        [
+          -6.293175,
+          106.912693
+        ],
+        [
+          -6.293158,
+          106.912465
+        ],
+        [
+          -6.293221,
+          106.915013
+        ],
+        [
+          -6.292624,
+          106.917369
+        ],
+        [
+          -6.285876,
+          106.91305
+        ],
+        [
+          -6.284825,
+          106.910458
+        ],
+        [
+          -6.282693,
+          106.911677
+        ],
+        [
+          -6.282125,
+          106.913785
+        ],
+        [
+          -6.264522,
+          106.911125
+        ],
+        [
+          -6.260332,
+          106.910454
+        ],
+        [
+          -6.258078,
+          106.910096
+        ],
+        [
+          -6.245457,
+          106.896689
+        ],
+        [
+          -6.244036,
+          106.892659
+        ],
+        [
+          -6.247759,
+          106.883844
+        ],
+        [
+          -6.248188,
+          106.880227
+        ],
+        [
+          -6.248672,
+          106.876649
+        ],
+        [
+          -6.243442,
+          106.864527
+        ],
+        [
+          -6.241309,
+          106.836019
+        ],
+        [
+          -6.232983,
+          106.821675
+        ],
+        [
+          -6.221057,
+          106.812773
+        ],
+        [
+          -6.227406,
+          106.801918
+        ],
+        [
+          -6.229027,
+          106.801074
+        ],
+        [
+          -6.243756,
+          106.802609
+        ],
+        [
+          -6.245211,
+          106.800575
+        ],
+        [
+          -6.242757,
+          106.802167
+        ],
+        [
+          -6.244725,
+          106.802098
+        ],
+        [
+          -6.244438,
+          106.799679
+        ],
+        [
+          -6.244993,
+          106.799365
+        ],
+        [
+          -6.244456,
+          106.799389
+        ],
+        [
+          -6.244536,
+          106.800473
+        ],
+        [
+          -6.245915,
+          106.801648
+        ],
+        [
+          -6.245499,
+          106.80418
+        ],
+        [
+          -6.24729,
+          106.806054
+        ],
+        [
+          -6.249611,
+          106.808313
+        ],
+        [
+          -6.254593,
+          106.805152
+        ],
+        [
+          -6.254679,
+          106.801568
+        ],
+        [
+          -6.252739,
+          106.799844
+        ],
+        [
+          -6.254067,
+          106.800907
+        ],
+        [
+          -6.25408,
+          106.801384
+        ],
+        [
+          -6.250461,
+          106.803761
+        ],
+        [
+          -6.247743,
+          106.805864
+        ],
+        [
+          -6.245722,
+          106.804667
+        ],
+        [
+          -6.24207,
+          106.807048
+        ],
+        [
+          -6.230598,
+          106.807539
+        ],
+        [
+          -6.229005,
+          106.806689
+        ],
+        [
+          -6.227281,
+          106.806592
+        ],
+        [
+          -6.229007,
+          106.807338
+        ],
+        [
+          -6.227644,
+          106.807186
+        ],
+        [
+          -6.225731,
+          106.805746
+        ],
+        [
+          -6.227839,
+          106.801358
+        ],
+        [
+          -6.236151,
+          106.801779
+        ],
+        [
+          -6.238139,
+          106.802873
+        ],
+        [
+          -6.24216,
+          106.804605
+        ],
+        [
+          -6.243339,
+          106.807371
+        ],
+        [
+          -6.244715,
+          106.809148
+        ],
+        [
+          -6.241193,
+          106.814013
+        ],
+        [
+          -6.239403,
+          106.814911
+        ],
+        [
+          -6.238845,
+          106.813574
+        ],
+        [
+          -6.23888,
+          106.813325
+        ],
+        [
+          -6.238338,
+          106.811176
+        ],
+        [
+          -6.237057,
+          106.814271
+        ],
+        [
+          -6.238703,
+          106.815029
+        ],
+        [
+          -6.238759,
+          106.817035
+        ],
+        [
+          -6.240411,
+          106.820099
+        ],
+        [
+          -6.242278,
+          106.841497
+        ],
+        [
+          -6.243009,
+          106.864403
+        ],
+        [
+          -6.246108,
+          106.872685
+        ],
+        [
+          -6.245877,
+          106.875319
+        ],
+        [
+          -6.239931,
+          106.877806
+        ],
+        [
+          -6.239661,
+          106.893928
+        ],
+        [
+          -6.248137,
+          106.913806
+        ],
+        [
+          -6.247283,
+          106.907922
+        ],
+        [
+          -6.262061,
+          106.910782
+        ],
+        [
+          -6.26194,
+          106.910723
+        ],
+        [
+          -6.260804,
+          106.910539
+        ],
+        [
+          -6.27212,
+          106.912225
+        ],
+        [
+          -6.28268,
+          106.913887
+        ],
+        [
+          -6.28592,
+          106.913129
+        ],
+        [
+          -6.291282,
+          106.91742
+        ],
+        [
+          -6.293237,
+          106.914615
+        ],
+        [
+          -6.29328,
+          106.912274
+        ],
+        [
+          -6.293893,
+          106.911822
+        ],
+        [
+          -6.293162,
+          106.918844
+        ],
+        [
+          -6.299396,
+          106.923907
+        ],
+        [
+          -6.310187,
+          106.924402
+        ],
+        [
+          -6.311498,
+          106.903269
+        ],
+        [
+          -6.307272,
+          106.895153
+        ],
+        [
+          -6.308651,
+          106.869927
+        ],
+        [
+          -6.305906,
+          106.863665
+        ],
+        [
+          -6.302869,
+          106.839209
+        ],
+        [
+          -6.292222,
+          106.813228
+        ],
+        [
+          -6.290989,
+          106.782132
+        ],
+        [
+          -6.278848,
+          106.769734
+        ],
+        [
+          -6.275077,
+          106.767736
+        ],
+        [
+          -6.271725,
+          106.767933
+        ],
+        [
+          -6.266974,
+          106.767788
+        ],
+        [
+          -6.248065,
+          106.760585
+        ],
+        [
+          -6.179063,
+          106.728631
+        ],
+        [
+          -6.120001,
+          106.73249
+        ],
+        [
+          -6.105599,
+          106.740341
+        ],
+        [
+          -6.096021,
+          106.741776
+        ],
+        [
+          -6.09246,
+          106.743945
+        ],
+        [
+          -6.08503,
+          106.736077
+        ],
+        [
+          -6.087835,
+          106.731556
+        ],
+        [
+          -6.082131,
+          106.721163
+        ],
+        [
+          -6.069209,
+          106.711098
+        ],
+        [
+          -6.067801,
+          106.696777
+        ],
+        [
+          -6.065617,
+          106.692276
+        ],
+        [
+          -6.060423,
+          106.687434
+        ],
+        [
+          -6.060867,
+          106.68196
+        ],
+        [
+          -6.055976,
+          106.680412
+        ],
+        [
+          -6.05641,
+          106.679266
+        ]
+      ]
+    },
+    {
+      "id": "15CDCsQ88OX1gtImiZtaGUNf50QH8Vcd4",
+      "date": "2026-07-12",
+      "title": "AKAMSUN DATE",
+      "description": "",
+      "image_path": "gdrive_cache/17iRlnixaSfEIwOZRkgPjiX_KeyBRz5mg_thumb.jpg",
+      "images": [
+        {
+          "url": "gdrive_cache/1_JYdNmF12wqIdLyiRii1i6aeQcZUckEO.jpg",
+          "thumb_url": "gdrive_cache/1_JYdNmF12wqIdLyiRii1i6aeQcZUckEO_thumb.jpg",
+          "type": "image",
+          "date_taken": "2026-07-12 15:21:51"
+        },
+        {
+          "url": "gdrive_cache/1AfKdL0SBmeJaT9inj01WWsp7Dn7WnSWB.jpg",
+          "thumb_url": "gdrive_cache/1AfKdL0SBmeJaT9inj01WWsp7Dn7WnSWB_thumb.jpg",
+          "type": "image",
+          "date_taken": "2026-07-12 15:21:51"
+        },
+        {
+          "url": "gdrive_cache/1U6sYo1_ef3U2opI5Idfm9Pjfnxnkl4dk.jpg",
+          "thumb_url": "gdrive_cache/1U6sYo1_ef3U2opI5Idfm9Pjfnxnkl4dk_thumb.jpg",
+          "type": "image",
+          "date_taken": "2026-07-12 15:21:51"
+        },
+        {
+          "url": "gdrive_cache/1eUp0j4uqX4uCiyZWJKivH0NrfJF06ZZ7.jpg",
+          "thumb_url": "gdrive_cache/1eUp0j4uqX4uCiyZWJKivH0NrfJF06ZZ7_thumb.jpg",
+          "type": "image",
+          "date_taken": "2026-07-12 15:21:51"
+        },
+        {
+          "url": "gdrive_cache/1eiolNdAspPEaLUeQy4uFVj9hw9BKDkxF.jpg",
+          "thumb_url": "gdrive_cache/1eiolNdAspPEaLUeQy4uFVj9hw9BKDkxF_thumb.jpg",
+          "type": "image",
+          "date_taken": "2026-07-12 15:21:51"
+        },
+        {
+          "url": "gdrive_cache/16AJCNdYht7U0aENEYxhR2UUfN1l3QD5I.jpg",
+          "thumb_url": "gdrive_cache/16AJCNdYht7U0aENEYxhR2UUfN1l3QD5I_thumb.jpg",
+          "type": "image",
+          "date_taken": "2026-07-12 15:21:51"
+        },
+        {
+          "url": "gdrive_cache/1VL8e0zvbq5MD21W2DVDxQ9D_j9p-giBj.jpg",
+          "thumb_url": "gdrive_cache/1VL8e0zvbq5MD21W2DVDxQ9D_j9p-giBj_thumb.jpg",
+          "type": "image",
+          "date_taken": "2026-07-12 15:21:51"
+        },
+        {
+          "url": "gdrive_cache/1fAHafrZm9LvHUHjEY_-MbcLOu4LtzM4Y.jpg",
+          "thumb_url": "gdrive_cache/1fAHafrZm9LvHUHjEY_-MbcLOu4LtzM4Y_thumb.jpg",
+          "type": "image",
+          "date_taken": "2026-07-12 15:21:52"
+        },
+        {
+          "url": "gdrive_cache/1LVGYrfHnf-KnobIviA9D6N1QIFXnKDVM.jpg",
+          "thumb_url": "gdrive_cache/1LVGYrfHnf-KnobIviA9D6N1QIFXnKDVM_thumb.jpg",
+          "type": "image",
+          "date_taken": "2026-07-12 15:21:52"
+        },
+        {
+          "url": "gdrive_cache/1__dWPyYvnty5Pt-DEskawTijRYO4ZXS9.jpg",
+          "thumb_url": "gdrive_cache/1__dWPyYvnty5Pt-DEskawTijRYO4ZXS9_thumb.jpg",
+          "type": "image",
+          "date_taken": "2026-07-12 15:21:52"
+        },
+        {
+          "url": "gdrive_cache/1XCFzt427a2aeHDe8eiI7Psn-2tqtV7Bl.jpg",
+          "thumb_url": "gdrive_cache/1XCFzt427a2aeHDe8eiI7Psn-2tqtV7Bl_thumb.jpg",
+          "type": "image",
+          "date_taken": "2026-07-12 15:21:52"
+        },
+        {
+          "url": "gdrive_cache/1f4gOLF7owvk4z9IXv0_HgtKZaePAmj2A.jpg",
+          "thumb_url": "gdrive_cache/1f4gOLF7owvk4z9IXv0_HgtKZaePAmj2A_thumb.jpg",
+          "type": "image",
+          "date_taken": "2026-07-12 15:21:52"
+        },
+        {
+          "url": "gdrive_cache/1ztjK9gTldq1NOW4VMH1qUf6W5dhX5F4D.jpg",
+          "thumb_url": "gdrive_cache/1ztjK9gTldq1NOW4VMH1qUf6W5dhX5F4D_thumb.jpg",
+          "type": "image",
+          "date_taken": "2026-07-12 15:21:52"
+        },
+        {
+          "url": "gdrive_cache/1lw3z7bZ2a7IPbUqjzjeO5Gn9I9luAqrX.jpg",
+          "thumb_url": "gdrive_cache/1lw3z7bZ2a7IPbUqjzjeO5Gn9I9luAqrX_thumb.jpg",
+          "type": "image",
+          "date_taken": "2026-07-12 15:21:52"
+        },
+        {
+          "url": "gdrive_cache/17iRlnixaSfEIwOZRkgPjiX_KeyBRz5mg.jpg",
+          "thumb_url": "gdrive_cache/17iRlnixaSfEIwOZRkgPjiX_KeyBRz5mg_thumb.jpg",
+          "type": "image",
+          "date_taken": "2026-07-12 15:28:30"
+        },
+        {
+          "url": "gdrive_cache/1n9uUv-qxVZ9OD4HBUMmsovvBOzqhM5b5.jpg",
+          "thumb_url": "gdrive_cache/1n9uUv-qxVZ9OD4HBUMmsovvBOzqhM5b5_thumb.jpg",
+          "type": "image",
+          "date_taken": "2026-07-12 15:28:30"
+        }
+      ],
+      "location": [
+        -6.1384,
+        106.8633
+      ],
+      "timeline_stops": [
+        {
+          "coords": [
+            -6.226738,
+            106.805864
+          ],
+          "time": "08:08 - 08:26",
+          "type": "UNKNOWN",
+          "name": "Tanah Abang / SCBD Access"
+        },
+        {
+          "coords": [
+            -6.227205,
+            106.809112
+          ],
+          "time": "08:29 - 10:02",
+          "type": "UNKNOWN",
+          "name": "Ashta District 8 (SCBD)"
+        },
+        {
+          "coords": [
+            -6.22705,
+            106.81017
+          ],
+          "time": "08:34 - 08:40",
+          "type": "UNKNOWN",
+          "name": "District 8 SCBD Plaza"
+        },
+        {
+          "coords": [
+            -6.227269,
+            106.80924
+          ],
+          "time": "09:43 - 10:02",
+          "type": "UNKNOWN",
+          "name": "Senopati Morning Walk"
+        },
+        {
+          "coords": [
+            -6.056362,
+            106.679337
+          ],
+          "time": "10:56 - 08:08",
+          "type": "HOME",
+          "name": "Home / Kosambi"
+        }
+      ],
+      "timeline_path": [
+        [
+          -6.056424,
+          106.679268
+        ],
+        [
+          -6.057054,
+          106.684913
+        ],
+        [
+          -6.057611,
+          106.686696
+        ],
+        [
+          -6.053466,
+          106.68894
+        ],
+        [
+          -6.049634,
+          106.695649
+        ],
+        [
+          -6.049774,
+          106.701342
+        ],
+        [
+          -6.055527,
+          106.707555
+        ],
+        [
+          -6.079421,
+          106.718861
+        ],
+        [
+          -6.085162,
+          106.725806
+        ],
+        [
+          -6.087223,
+          106.732219
+        ],
+        [
+          -6.08418,
+          106.73579
+        ],
+        [
+          -6.091216,
+          106.745281
+        ],
+        [
+          -6.095619,
+          106.742289
+        ],
+        [
+          -6.11563,
+          106.735491
+        ],
+        [
+          -6.120317,
+          106.740509
+        ],
+        [
+          -6.122271,
+          106.77511
+        ],
+        [
+          -6.128766,
+          106.780086
+        ],
+        [
+          -6.130595,
+          106.783186
+        ],
+        [
+          -6.154502,
+          106.793888
+        ],
+        [
+          -6.164691,
+          106.789291
+        ],
+        [
+          -6.173337,
+          106.79026
+        ],
+        [
+          -6.18026,
+          106.796541
+        ],
+        [
+          -6.203786,
+          106.800879
+        ],
+        [
+          -6.202419,
+          106.798508
+        ],
+        [
+          -6.205438,
+          106.796648
+        ],
+        [
+          -6.202884,
+          106.797948
+        ],
+        [
+          -6.201718,
+          106.799452
+        ],
+        [
+          -6.21237,
+          106.807091
+        ],
+        [
+          -6.213788,
+          106.802698
+        ],
+        [
+          -6.2156,
+          106.804198
+        ],
+        [
+          -6.215938,
+          106.806903
+        ],
+        [
+          -6.217691,
+          106.806267
+        ],
+        [
+          -6.218703,
+          106.807956
+        ],
+        [
+          -6.221218,
+          106.808288
+        ],
+        [
+          -6.221233,
+          106.81031
+        ],
+        [
+          -6.219723,
+          106.811939
+        ],
+        [
+          -6.217846,
+          106.812555
+        ],
+        [
+          -6.220428,
+          106.814046
+        ],
+        [
+          -6.217786,
+          106.813146
+        ],
+        [
+          -6.219597,
+          106.812194
+        ],
+        [
+          -6.221598,
+          106.81201
+        ],
+        [
+          -6.22165,
+          106.810176
+        ],
+        [
+          -6.223584,
+          106.809825
+        ],
+        [
+          -6.223311,
+          106.807391
+        ],
+        [
+          -6.225451,
+          106.804088
+        ],
+        [
+          -6.228551,
+          106.802521
+        ],
+        [
+          -6.228576,
+          106.800601
+        ],
+        [
+          -6.226264,
+          106.803398
+        ],
+        [
+          -6.224227,
+          106.806465
+        ],
+        [
+          -6.222576,
+          106.808152
+        ],
+        [
+          -6.220757,
+          106.808184
+        ],
+        [
+          -6.218153,
+          106.808336
+        ],
+        [
+          -6.216905,
+          106.809921
+        ],
+        [
+          -6.21802,
+          106.806592
+        ],
+        [
+          -6.219209,
+          106.80871
+        ],
+        [
+          -6.222067,
+          106.809708
+        ],
+        [
+          -6.218327,
+          106.806961
+        ],
+        [
+          -6.219297,
+          106.808713
+        ],
+        [
+          -6.216561,
+          106.806153
+        ],
+        [
+          -6.218574,
+          106.808839
+        ],
+        [
+          -6.216613,
+          106.805691
+        ],
+        [
+          -6.215656,
+          106.802637
+        ],
+        [
+          -6.213573,
+          106.802385
+        ],
+        [
+          -6.214222,
+          106.799427
+        ],
+        [
+          -6.212702,
+          106.805622
+        ],
+        [
+          -6.213857,
+          106.808854
+        ],
+        [
+          -6.234066,
+          106.823498
+        ],
+        [
+          -6.23608,
+          106.826525
+        ],
+        [
+          -6.233416,
+          106.821821
+        ],
+        [
+          -6.225053,
+          106.815937
+        ],
+        [
+          -6.224416,
+          106.813669
+        ],
+        [
+          -6.226301,
+          106.812625
+        ],
+        [
+          -6.227724,
+          106.805826
+        ],
+        [
+          -6.225567,
+          106.80576
+        ],
+        [
+          -6.226502,
+          106.806446
+        ],
+        [
+          -6.225774,
+          106.810245
+        ],
+        [
+          -6.227002,
+          106.811643
+        ],
+        [
+          -6.228643,
+          106.810478
+        ],
+        [
+          -6.227956,
+          106.809102
+        ],
+        [
+          -6.226606,
+          106.809374
+        ],
+        [
+          -6.228671,
+          106.810403
+        ],
+        [
+          -6.225959,
+          106.80747
+        ],
+        [
+          -6.225912,
+          106.811831
+        ],
+        [
+          -6.193488,
+          106.797725
+        ],
+        [
+          -6.178048,
+          106.795078
+        ],
+        [
+          -6.17041,
+          106.788293
+        ],
+        [
+          -6.153088,
+          106.793805
+        ],
+        [
+          -6.131491,
+          106.783764
+        ],
+        [
+          -6.123253,
+          106.773849
+        ],
+        [
+          -6.124505,
+          106.753172
+        ],
+        [
+          -6.114039,
+          106.751461
+        ],
+        [
+          -6.112654,
+          106.744381
+        ],
+        [
+          -6.109719,
+          106.738591
+        ],
+        [
+          -6.09235,
+          106.744016
+        ],
+        [
+          -6.085163,
+          106.736229
+        ],
+        [
+          -6.087487,
+          106.732164
+        ],
+        [
+          -6.084051,
+          106.723175
+        ],
+        [
+          -6.069755,
+          106.71179
+        ],
+        [
+          -6.068317,
+          106.705864
+        ],
+        [
+          -6.067674,
+          106.696356
+        ],
+        [
+          -6.05872,
+          106.680694
+        ],
+        [
+          -6.055956,
+          106.680631
+        ],
+        [
+          -6.056345,
+          106.679323
+        ],
+        [
+          -6.055043,
+          106.666159
+        ],
+        [
+          -6.045235,
+          106.663948
+        ],
+        [
+          -6.056381,
+          106.679361
+        ],
+        [
+          -6.061641,
+          106.648841
+        ],
+        [
+          -6.056364,
+          106.679334
+        ],
+        [
+          -6.055043,
+          106.666159
+        ],
+        [
+          -6.056368,
+          106.679318
+        ]
+      ]
+    },
+    {
+      "id": "1cMT3ZzlUEB2e_NAe_7IVRjiVWps9NR5V",
+      "date": "2026-07-19",
+      "title": "CURUG TRIPLE DATE",
+      "description": "",
+      "image_path": "gdrive_cache/1zfuqvtxkCRIvZralW43F9xyH_oXc-uFb_thumb.jpg",
+      "images": [
+        {
+          "url": "gdrive_cache/1wYk6516iQvtDo1MwvyiWG0Lec_5e4qvj.jpg",
+          "thumb_url": "gdrive_cache/1wYk6516iQvtDo1MwvyiWG0Lec_5e4qvj_thumb.jpg",
+          "type": "image",
+          "date_taken": "2026-07-19 17:30:24"
+        },
+        {
+          "url": "gdrive_cache/1rs0tM73MwuzwD8WP1N47qm9wD5Bknl-3.jpg",
+          "thumb_url": "gdrive_cache/1rs0tM73MwuzwD8WP1N47qm9wD5Bknl-3_thumb.jpg",
+          "type": "image",
+          "date_taken": "2026-07-19 17:30:24"
+        },
+        {
+          "url": "gdrive_cache/1nG-1XSWCh0yTngfUgN3N_r2BTScbRDVy.mp4",
+          "thumb_url": "gdrive_cache/1nG-1XSWCh0yTngfUgN3N_r2BTScbRDVy.mp4",
+          "type": "video",
+          "date_taken": "2026-07-19 17:30:24"
+        },
+        {
+          "url": "gdrive_cache/1AXFygj9ZgdbUqUTk1o-ACKpNCdp5Qudl.jpg",
+          "thumb_url": "gdrive_cache/1AXFygj9ZgdbUqUTk1o-ACKpNCdp5Qudl_thumb.jpg",
+          "type": "image",
+          "date_taken": "2026-07-19 17:30:24"
+        },
+        {
+          "url": "gdrive_cache/1-Tuwpi8ls5jgc5JyT68sQyAh_GMnNVyc.jpg",
+          "thumb_url": "gdrive_cache/1-Tuwpi8ls5jgc5JyT68sQyAh_GMnNVyc_thumb.jpg",
+          "type": "image",
+          "date_taken": "2026-07-19 17:30:24"
+        },
+        {
+          "url": "gdrive_cache/1gZvui0pbsfjMuzbyARH7ypYCZM5awEVs.jpg",
+          "thumb_url": "gdrive_cache/1gZvui0pbsfjMuzbyARH7ypYCZM5awEVs_thumb.jpg",
+          "type": "image",
+          "date_taken": "2026-07-19 17:30:25"
+        },
+        {
+          "url": "gdrive_cache/1iUnuAbW1JlszGpcSGZKtcxhJWABMFFvH.jpg",
+          "thumb_url": "gdrive_cache/1iUnuAbW1JlszGpcSGZKtcxhJWABMFFvH_thumb.jpg",
+          "type": "image",
+          "date_taken": "2026-07-19 17:30:25"
+        },
+        {
+          "url": "gdrive_cache/1x-Xn3on7FKUqwcl-3xLdjEjv55Dqa412.jpg",
+          "thumb_url": "gdrive_cache/1x-Xn3on7FKUqwcl-3xLdjEjv55Dqa412_thumb.jpg",
+          "type": "image",
+          "date_taken": "2026-07-19 17:30:25"
+        },
+        {
+          "url": "gdrive_cache/1dUYycPG09yfhiTBmVYyPOHafQy--D6FE.jpg",
+          "thumb_url": "gdrive_cache/1dUYycPG09yfhiTBmVYyPOHafQy--D6FE_thumb.jpg",
+          "type": "image",
+          "date_taken": "2026-07-19 17:30:25"
+        },
+        {
+          "url": "gdrive_cache/1oWgFtk5EgRT0JGbsVwbbDZqOd6cgknEa.jpg",
+          "thumb_url": "gdrive_cache/1oWgFtk5EgRT0JGbsVwbbDZqOd6cgknEa_thumb.jpg",
+          "type": "image",
+          "date_taken": "2026-07-19 17:30:25"
+        },
+        {
+          "url": "gdrive_cache/1WhBEDroQa1fskXaarF4r-FggvCifsaW3.jpg",
+          "thumb_url": "gdrive_cache/1WhBEDroQa1fskXaarF4r-FggvCifsaW3_thumb.jpg",
+          "type": "image",
+          "date_taken": "2026-07-19 17:30:25"
+        },
+        {
+          "url": "gdrive_cache/1d27FAl4hZKoBAz0dmHKWaWWzVJ25gLDn.jpg",
+          "thumb_url": "gdrive_cache/1d27FAl4hZKoBAz0dmHKWaWWzVJ25gLDn_thumb.jpg",
+          "type": "image",
+          "date_taken": "2026-07-19 17:30:25"
+        },
+        {
+          "url": "gdrive_cache/1zfuqvtxkCRIvZralW43F9xyH_oXc-uFb.jpg",
+          "thumb_url": "gdrive_cache/1zfuqvtxkCRIvZralW43F9xyH_oXc-uFb_thumb.jpg",
+          "type": "image",
+          "date_taken": "2026-07-19 17:30:26"
+        },
+        {
+          "url": "gdrive_cache/1rpJycv_pk7KKpsRMH5wDYlddWHJUwwZi.jpg",
+          "thumb_url": "gdrive_cache/1rpJycv_pk7KKpsRMH5wDYlddWHJUwwZi_thumb.jpg",
+          "type": "image",
+          "date_taken": "2026-07-19 17:30:26"
+        },
+        {
+          "url": "gdrive_cache/1vz8ZflX_cjbKnBzFoFwK_Afo43iXSkQ2.jpg",
+          "thumb_url": "gdrive_cache/1vz8ZflX_cjbKnBzFoFwK_Afo43iXSkQ2_thumb.jpg",
+          "type": "image",
+          "date_taken": "2026-07-19 17:30:26"
+        },
+        {
+          "url": "gdrive_cache/1tqIp0SXT11AV0azDXvoV8H6k6mGEvmmD.jpg",
+          "thumb_url": "gdrive_cache/1tqIp0SXT11AV0azDXvoV8H6k6mGEvmmD_thumb.jpg",
+          "type": "image",
+          "date_taken": "2026-07-19 17:30:26"
+        },
+        {
+          "url": "gdrive_cache/19j-cITK4NnyiqFLw571ieVsj4IxNZgTV.jpg",
+          "thumb_url": "gdrive_cache/19j-cITK4NnyiqFLw571ieVsj4IxNZgTV_thumb.jpg",
+          "type": "image",
+          "date_taken": "2026-07-19 17:30:26"
+        },
+        {
+          "url": "gdrive_cache/1O2IJtabzPiKjjUoYL-p_wG2C4QI_r7ub.jpg",
+          "thumb_url": "gdrive_cache/1O2IJtabzPiKjjUoYL-p_wG2C4QI_r7ub_thumb.jpg",
+          "type": "image",
+          "date_taken": "2026-07-19 17:30:26"
+        },
+        {
+          "url": "gdrive_cache/1qgzDISGctQYO38qPJi0seDHF0_o7CtyK.jpg",
+          "thumb_url": "gdrive_cache/1qgzDISGctQYO38qPJi0seDHF0_o7CtyK_thumb.jpg",
+          "type": "image",
+          "date_taken": "2026-07-19 17:30:26"
+        },
+        {
+          "url": "gdrive_cache/15quzph2RONx8_3h1qOgOuUfenEBmAxWu.jpg",
+          "thumb_url": "gdrive_cache/15quzph2RONx8_3h1qOgOuUfenEBmAxWu_thumb.jpg",
+          "type": "image",
+          "date_taken": "2026-07-19 17:30:26"
+        },
+        {
+          "url": "gdrive_cache/1S2ukyCIvswBXGsKbSdTZRzLRu5sv5tfv.jpg",
+          "thumb_url": "gdrive_cache/1S2ukyCIvswBXGsKbSdTZRzLRu5sv5tfv_thumb.jpg",
+          "type": "image",
+          "date_taken": "2026-07-19 17:30:26"
+        }
+      ],
+      "location": [
+        -6.5866,
+        106.9404
+      ],
+      "timeline_stops": [
+        {
+          "coords": [
+            -6.145774,
+            106.891919
+          ],
+          "time": "10:09 - 13:36",
+          "type": "UNKNOWN",
+          "name": "Boulevard Raya Kelapa Gading"
+        },
+        {
+          "coords": [
+            -6.146444,
+            106.892251
+          ],
+          "time": "10:25 - 10:56",
+          "type": "UNKNOWN",
+          "name": "Kelapa Gading Culinary District"
+        },
+        {
+          "coords": [
+            -6.145635,
+            106.892166
+          ],
+          "time": "11:01 - 12:35",
+          "type": "UNKNOWN",
+          "name": "Kelapa Gading Food Area"
+        },
+        {
+          "coords": [
+            -6.157444,
+            106.90846
+          ],
+          "time": "13:51 - 18:35",
+          "type": "UNKNOWN",
+          "name": "Mall Kelapa Gading (MKG 3)"
+        },
+        {
+          "coords": [
+            -6.15746,
+            106.907429
+          ],
+          "time": "15:33 - 15:45",
+          "type": "UNKNOWN",
+          "name": "MKG La Piazza"
+        },
+        {
+          "coords": [
+            -6.157548,
+            106.908375
+          ],
+          "time": "15:58 - 18:02",
+          "type": "UNKNOWN",
+          "name": "Mall Kelapa Gading Promenade"
+        },
+        {
+          "coords": [
+            -6.157266,
+            106.91037
+          ],
+          "time": "18:08 - 18:31",
+          "type": "UNKNOWN",
+          "name": "Gading Walk MKG"
+        },
+        {
+          "coords": [
+            -6.147169,
+            106.896618
+          ],
+          "time": "18:35 - 18:48",
+          "type": "UNKNOWN",
+          "name": "Kelapa Gading Boulevard"
+        },
+        {
+          "coords": [
+            -6.056362,
+            106.679337
+          ],
+          "time": "19:39 - 08:05",
+          "type": "HOME",
+          "name": "Home / Kosambi"
+        }
+      ],
+      "timeline_path": [
+        [
+          -6.056694,
+          106.67996
+        ],
+        [
+          -6.057582,
+          106.685772
+        ],
+        [
+          -6.053777,
+          106.688692
+        ],
+        [
+          -6.049613,
+          106.69568
+        ],
+        [
+          -6.049849,
+          106.701572
+        ],
+        [
+          -6.055228,
+          106.70739
+        ],
+        [
+          -6.084388,
+          106.723786
+        ],
+        [
+          -6.086997,
+          106.730468
+        ],
+        [
+          -6.08506,
+          106.734564
+        ],
+        [
+          -6.091937,
+          106.745295
+        ],
+        [
+          -6.095319,
+          106.742502
+        ],
+        [
+          -6.116035,
+          106.735367
+        ],
+        [
+          -6.119912,
+          106.739491
+        ],
+        [
+          -6.122231,
+          106.745595
+        ],
+        [
+          -6.121518,
+          106.772227
+        ],
+        [
+          -6.134696,
+          106.785542
+        ],
+        [
+          -6.152104,
+          106.793641
+        ],
+        [
+          -6.169451,
+          106.788214
+        ],
+        [
+          -6.182356,
+          106.796904
+        ],
+        [
+          -6.188738,
+          106.797268
+        ],
+        [
+          -6.189379,
+          106.799459
+        ],
+        [
+          -6.188174,
+          106.806875
+        ],
+        [
+          -6.181536,
+          106.815337
+        ],
+        [
+          -6.180015,
+          106.817847
+        ],
+        [
+          -6.180659,
+          106.821611
+        ],
+        [
+          -6.180205,
+          106.830225
+        ],
+        [
+          -6.178242,
+          106.83139
+        ],
+        [
+          -6.17521,
+          106.83041
+        ],
+        [
+          -6.172006,
+          106.831728
+        ],
+        [
+          -6.172177,
+          106.834036
+        ],
+        [
+          -6.17575,
+          106.832628
+        ],
+        [
+          -6.182627,
+          106.834003
+        ],
+        [
+          -6.175191,
+          106.845293
+        ],
+        [
+          -6.166243,
+          106.877983
+        ],
+        [
+          -6.147328,
+          106.889648
+        ],
+        [
+          -6.141979,
+          106.891059
+        ],
+        [
+          -6.144058,
+          106.89065
+        ],
+        [
+          -6.144742,
+          106.892208
+        ],
+        [
+          -6.146416,
+          106.891359
+        ],
+        [
+          -6.145777,
+          106.891275
+        ],
+        [
+          -6.151226,
+          106.889652
+        ],
+        [
+          -6.158116,
+          106.901533
+        ],
+        [
+          -6.160122,
+          106.905178
+        ],
+        [
+          -6.160336,
+          106.907376
+        ],
+        [
+          -6.157269,
+          106.908747
+        ],
+        [
+          -6.157221,
+          106.910222
+        ],
+        [
+          -6.157768,
+          106.908328
+        ],
+        [
+          -6.156512,
+          106.910947
+        ],
+        [
+          -6.155152,
+          106.90882
+        ],
+        [
+          -6.157998,
+          106.907052
+        ],
+        [
+          -6.154984,
+          106.908585
+        ],
+        [
+          -6.14725,
+          106.89752
+        ],
+        [
+          -6.14626,
+          106.896132
+        ],
+        [
+          -6.143697,
+          106.890934
+        ],
+        [
+          -6.149853,
+          106.889038
+        ],
+        [
+          -6.133312,
+          106.891924
+        ],
+        [
+          -6.131689,
+          106.891133
+        ],
+        [
+          -6.126257,
+          106.881467
+        ],
+        [
+          -6.122338,
+          106.859944
+        ],
+        [
+          -6.131469,
+          106.822934
+        ],
+        [
+          -6.129943,
+          106.815653
+        ],
+        [
+          -6.131366,
+          106.784154
+        ],
+        [
+          -6.123275,
+          106.774768
+        ],
+        [
+          -6.124353,
+          106.752361
+        ],
+        [
+          -6.113289,
+          106.75141
+        ],
+        [
+          -6.112581,
+          106.743501
+        ],
+        [
+          -6.110758,
+          106.741013
+        ],
+        [
+          -6.110184,
+          106.7389
+        ],
+        [
+          -6.114284,
+          106.736328
+        ],
+        [
+          -6.092927,
+          106.743808
+        ],
+        [
+          -6.084794,
+          106.735647
+        ],
+        [
+          -6.087674,
+          106.731962
+        ],
+        [
+          -6.083783,
+          106.722855
+        ],
+        [
+          -6.069022,
+          106.710999
+        ],
+        [
+          -6.06827,
+          106.705967
+        ],
+        [
+          -6.068684,
+          106.702191
+        ],
+        [
+          -6.066969,
+          106.694657
+        ],
+        [
+          -6.062058,
+          106.688616
+        ],
+        [
+          -6.061098,
+          106.683246
+        ],
+        [
+          -6.058889,
+          106.680969
+        ],
+        [
+          -6.056201,
+          106.681008
+        ],
+        [
+          -6.056576,
+          106.680118
+        ],
+        [
+          -6.056465,
+          106.679302
+        ],
+        [
+          -6.056345,
+          106.679325
+        ]
+      ]
+    },
+    {
+      "id": "1bSVYM6rBxkVIU1U55-lvK_1v_ms_hAqI",
+      "date": "2026-08-04",
+      "title": "Day 1",
+      "description": "",
+      "image_path": "gdrive_cache/1LnIpM4eqfoaK7PrtUVCLVXDt54Po-U0B_thumb.jpg",
+      "images": [
+        {
+          "url": "gdrive_cache/1LQl0fgnFa6uEcj_vzgFO2XhA1lglxkX-.mp4",
+          "thumb_url": "gdrive_cache/1LQl0fgnFa6uEcj_vzgFO2XhA1lglxkX-.mp4",
+          "type": "video",
+          "date_taken": "2026-08-04 15:10:30"
+        },
+        {
+          "url": "gdrive_cache/1xAS9VcrmTbLsUfyTZ0KNFMeAjoe9tOFj.jpg",
+          "thumb_url": "gdrive_cache/1xAS9VcrmTbLsUfyTZ0KNFMeAjoe9tOFj_thumb.jpg",
+          "type": "image",
+          "date_taken": "2026-08-04 15:10:30"
+        },
+        {
+          "url": "gdrive_cache/1NudPZH8O2Q1M098bd-5GqfxLSGl9KinJ.jpg",
+          "thumb_url": "gdrive_cache/1NudPZH8O2Q1M098bd-5GqfxLSGl9KinJ_thumb.jpg",
+          "type": "image",
+          "date_taken": "2026-08-04 15:10:30"
+        },
+        {
+          "url": "gdrive_cache/1AzfJIuzf-7onFLQkaWedrKtHihJ4ncMA.jpg",
+          "thumb_url": "gdrive_cache/1AzfJIuzf-7onFLQkaWedrKtHihJ4ncMA_thumb.jpg",
+          "type": "image",
+          "date_taken": "2026-08-04 15:10:30"
+        },
+        {
+          "url": "gdrive_cache/16F24dm73W8gPGOHVjkuINcRa1GKQXGEI.jpg",
+          "thumb_url": "gdrive_cache/16F24dm73W8gPGOHVjkuINcRa1GKQXGEI_thumb.jpg",
+          "type": "image",
+          "date_taken": "2026-08-04 15:10:31"
+        },
+        {
+          "url": "gdrive_cache/1vq1c5qOCylNMFV_-YdMaJZ0gNBevdkzs.jpg",
+          "thumb_url": "gdrive_cache/1vq1c5qOCylNMFV_-YdMaJZ0gNBevdkzs_thumb.jpg",
+          "type": "image",
+          "date_taken": "2026-08-04 15:10:31"
+        },
+        {
+          "url": "gdrive_cache/1-A3NeFugVNUP8dwRqrRuxQjh69jACcZF.jpg",
+          "thumb_url": "gdrive_cache/1-A3NeFugVNUP8dwRqrRuxQjh69jACcZF_thumb.jpg",
+          "type": "image",
+          "date_taken": "2026-08-04 15:10:31"
+        },
+        {
+          "url": "gdrive_cache/1EDf-sdN0cPI73fjcH7MGVlJts7YbAcRL.jpg",
+          "thumb_url": "gdrive_cache/1EDf-sdN0cPI73fjcH7MGVlJts7YbAcRL_thumb.jpg",
+          "type": "image",
+          "date_taken": "2026-08-04 15:10:31"
+        },
+        {
+          "url": "gdrive_cache/1xd2OxaPzBS_ctHRA-UOOCwds1LCHcETw.jpg",
+          "thumb_url": "gdrive_cache/1xd2OxaPzBS_ctHRA-UOOCwds1LCHcETw_thumb.jpg",
+          "type": "image",
+          "date_taken": "2026-08-04 15:10:31"
+        },
+        {
+          "url": "gdrive_cache/15dXS4HNJaZxGDBVtxBIrQGDtxGbkxvUM.jpg",
+          "thumb_url": "gdrive_cache/15dXS4HNJaZxGDBVtxBIrQGDtxGbkxvUM_thumb.jpg",
+          "type": "image",
+          "date_taken": "2026-08-04 15:10:31"
+        },
+        {
+          "url": "gdrive_cache/1ZJsdj_eUV3dH-uWvefnz78sH2Lt4OebA.jpg",
+          "thumb_url": "gdrive_cache/1ZJsdj_eUV3dH-uWvefnz78sH2Lt4OebA_thumb.jpg",
+          "type": "image",
+          "date_taken": "2026-08-04 15:10:31"
+        },
+        {
+          "url": "gdrive_cache/1DqQaoF9gHxXuSl9iIvFtyW0dgmCOPEzf.jpg",
+          "thumb_url": "gdrive_cache/1DqQaoF9gHxXuSl9iIvFtyW0dgmCOPEzf_thumb.jpg",
+          "type": "image",
+          "date_taken": "2026-08-04 15:10:31"
+        },
+        {
+          "url": "gdrive_cache/15fB_TTJEWMpenvErW7LJhiS8LZ6grs5q.jpg",
+          "thumb_url": "gdrive_cache/15fB_TTJEWMpenvErW7LJhiS8LZ6grs5q_thumb.jpg",
+          "type": "image",
+          "date_taken": "2026-08-04 15:10:31"
+        },
+        {
+          "url": "gdrive_cache/1Ow-FtPAThH35LhuTa-zCVJ3IkvVXN4ey.jpg",
+          "thumb_url": "gdrive_cache/1Ow-FtPAThH35LhuTa-zCVJ3IkvVXN4ey_thumb.jpg",
+          "type": "image",
+          "date_taken": "2026-08-04 15:10:31"
+        },
+        {
+          "url": "gdrive_cache/1zoIZr-RKEj6YbfXOOa40HhQ2JK2sxSHC.jpg",
+          "thumb_url": "gdrive_cache/1zoIZr-RKEj6YbfXOOa40HhQ2JK2sxSHC_thumb.jpg",
+          "type": "image",
+          "date_taken": "2026-08-04 15:10:31"
+        },
+        {
+          "url": "gdrive_cache/1RC9bsY_z2LQQH4znr13YCdV8-0mkVHu6.jpg",
+          "thumb_url": "gdrive_cache/1RC9bsY_z2LQQH4znr13YCdV8-0mkVHu6_thumb.jpg",
+          "type": "image",
+          "date_taken": "2026-08-04 15:10:31"
+        },
+        {
+          "url": "gdrive_cache/1Yq2g8mndxbd2KX5TOBJpkj7SVm3DhXKN.jpg",
+          "thumb_url": "gdrive_cache/1Yq2g8mndxbd2KX5TOBJpkj7SVm3DhXKN_thumb.jpg",
+          "type": "image",
+          "date_taken": "2026-08-04 15:10:32"
+        },
+        {
+          "url": "gdrive_cache/1EhwBbo7OZ67AkBEN-80fSpA2REDbXXCr.jpg",
+          "thumb_url": "gdrive_cache/1EhwBbo7OZ67AkBEN-80fSpA2REDbXXCr_thumb.jpg",
+          "type": "image",
+          "date_taken": "2026-08-04 15:10:32"
+        },
+        {
+          "url": "gdrive_cache/1eii_Oyk-EIeCaY6Q1_LUe8F_JbWTbwaS.jpg",
+          "thumb_url": "gdrive_cache/1eii_Oyk-EIeCaY6Q1_LUe8F_JbWTbwaS_thumb.jpg",
+          "type": "image",
+          "date_taken": "2026-08-04 15:10:32"
+        },
+        {
+          "url": "gdrive_cache/1a9iEgpE0x8Evq39bhQ7dHlqDfURhuT0o.jpg",
+          "thumb_url": "gdrive_cache/1a9iEgpE0x8Evq39bhQ7dHlqDfURhuT0o_thumb.jpg",
+          "type": "image",
+          "date_taken": "2026-08-04 15:10:32"
+        },
+        {
+          "url": "gdrive_cache/1aInRLfmWGzKot33oc6pTZZeWR1hcl6K7.jpg",
+          "thumb_url": "gdrive_cache/1aInRLfmWGzKot33oc6pTZZeWR1hcl6K7_thumb.jpg",
+          "type": "image",
+          "date_taken": "2026-08-04 15:10:32"
+        },
+        {
+          "url": "gdrive_cache/1O7qZ9j0x9dOElSEm2VHKffLeUgSrGG2o.jpg",
+          "thumb_url": "gdrive_cache/1O7qZ9j0x9dOElSEm2VHKffLeUgSrGG2o_thumb.jpg",
+          "type": "image",
+          "date_taken": "2026-08-04 15:10:32"
+        },
+        {
+          "url": "gdrive_cache/1lmXjxHQDXudCsCUieaS8_pbo93kdH36X.jpg",
+          "thumb_url": "gdrive_cache/1lmXjxHQDXudCsCUieaS8_pbo93kdH36X_thumb.jpg",
+          "type": "image",
+          "date_taken": "2026-08-04 15:10:32"
+        },
+        {
+          "url": "gdrive_cache/1ih1z-4we8CIdjJCWx7SygQucjrOFxvYV.mp4",
+          "thumb_url": "gdrive_cache/1ih1z-4we8CIdjJCWx7SygQucjrOFxvYV.mp4",
+          "type": "video",
+          "date_taken": "2026-08-04 15:10:32"
+        },
+        {
+          "url": "gdrive_cache/1LnIpM4eqfoaK7PrtUVCLVXDt54Po-U0B.jpg",
+          "thumb_url": "gdrive_cache/1LnIpM4eqfoaK7PrtUVCLVXDt54Po-U0B_thumb.jpg",
+          "type": "image",
+          "date_taken": "2026-08-04 15:35:48"
+        }
+      ],
+      "location": [
+        -6.0827,
+        106.7118
+      ],
+      "timeline_stops": [
+        {
+          "coords": [
+            -6.30445,
+            106.847905
+          ],
+          "time": "09:05 - 12:00",
+          "type": "WORK",
+          "name": "Jagakarsa Area"
+        },
+        {
+          "coords": [
+            -6.293608,
+            106.855597
+          ],
+          "time": "12:08 - 12:24",
+          "type": "UNKNOWN",
+          "name": "Kramat Jati"
+        },
+        {
+          "coords": [
+            -6.30445,
+            106.847905
+          ],
+          "time": "12:33 - 18:59",
+          "type": "WORK",
+          "name": "Jagakarsa"
+        },
+        {
+          "coords": [
+            -6.056362,
+            106.679337
+          ],
+          "time": "19:54 - 08:17",
+          "type": "HOME",
+          "name": "Home / Kosambi"
+        }
+      ],
+      "timeline_path": [
+        [
+          -6.052018,
+          106.661
+        ],
+        [
+          -6.056624,
+          106.679761
+        ],
+        [
+          -6.049693,
+          106.69585
+        ],
+        [
+          -6.048569,
+          106.698449
+        ],
+        [
+          -6.081156,
+          106.720516
+        ],
+        [
+          -6.087682,
+          106.731669
+        ],
+        [
+          -6.084237,
+          106.735184
+        ],
+        [
+          -6.090819,
+          106.744784
+        ],
+        [
+          -6.116608,
+          106.734674
+        ],
+        [
+          -6.125042,
+          106.730153
+        ],
+        [
+          -6.192396,
+          106.732073
+        ],
+        [
+          -6.243507,
+          106.759064
+        ],
+        [
+          -6.247231,
+          106.760188
+        ],
+        [
+          -6.252935,
+          106.76433
+        ],
+        [
+          -6.275166,
+          106.767995
+        ],
+        [
+          -6.289034,
+          106.778751
+        ],
+        [
+          -6.294912,
+          106.825016
+        ],
+        [
+          -6.304409,
+          106.850501
+        ],
+        [
+          -6.304458,
+          106.848162
+        ],
+        [
+          -6.304645,
+          106.847914
+        ],
+        [
+          -6.303364,
+          106.840769
+        ],
+        [
+          -6.304077,
+          106.850179
+        ],
+        [
+          -6.30166,
+          106.85623
+        ],
+        [
+          -6.294133,
+          106.855822
+        ],
+        [
+          -6.294419,
+          106.855873
+        ],
+        [
+          -6.301786,
+          106.856296
+        ],
+        [
+          -6.304507,
+          106.849305
+        ],
+        [
+          -6.304638,
+          106.84818
+        ],
+        [
+          -6.304655,
+          106.848391
+        ],
+        [
+          -6.304525,
+          106.847876
+        ],
+        [
+          -6.302316,
+          106.837162
+        ],
+        [
+          -6.294057,
+          106.822664
+        ],
+        [
+          -6.291857,
+          106.784589
+        ],
+        [
+          -6.290283,
+          106.780142
+        ],
+        [
+          -6.276393,
+          106.768225
+        ],
+        [
+          -6.262271,
+          106.767207
+        ],
+        [
+          -6.228806,
+          106.751857
+        ],
+        [
+          -6.188853,
+          106.731029
+        ],
+        [
+          -6.122453,
+          106.731002
+        ],
+        [
+          -6.104946,
+          106.740425
+        ],
+        [
+          -6.096649,
+          106.741516
+        ],
+        [
+          -6.093932,
+          106.743184
+        ],
+        [
+          -6.090432,
+          106.742972
+        ],
+        [
+          -6.086044,
+          106.737172
+        ],
+        [
+          -6.087313,
+          106.73241
+        ],
+        [
+          -6.08487,
+          106.724677
+        ],
+        [
+          -6.069524,
+          106.711471
+        ],
+        [
+          -6.068211,
+          106.706308
+        ],
+        [
+          -6.067736,
+          106.696428
+        ],
+        [
+          -6.059295,
+          106.681457
+        ],
+        [
+          -6.056473,
+          106.680931
+        ],
+        [
+          -6.056731,
+          106.679918
+        ],
+        [
+          -6.056337,
+          106.679326
+        ]
+      ]
+    },
+    {
+      "id": "1-IG5z8J03oGWenHxg9kqsh6dYAjbG1CI",
+      "date": "2026-08-08",
+      "title": "BEKASI DATEEE",
+      "description": "",
+      "image_path": "gdrive_cache/1zBQzNoUwbNOFOLrW2YhTkKGj22h7bmwB_thumb.jpg",
+      "images": [
+        {
+          "url": "gdrive_cache/13w_b223hgTH2w14u77GCCSy9HcY1om-k.jpg",
+          "thumb_url": "gdrive_cache/13w_b223hgTH2w14u77GCCSy9HcY1om-k_thumb.jpg",
+          "type": "image",
+          "date_taken": "2026-08-08 14:02:26"
+        },
+        {
+          "url": "gdrive_cache/1oFbDxHNcB8obAF4JAoj3PPOrDQYFcdyp.jpg",
+          "thumb_url": "gdrive_cache/1oFbDxHNcB8obAF4JAoj3PPOrDQYFcdyp_thumb.jpg",
+          "type": "image",
+          "date_taken": "2026-08-08 14:42:07"
+        },
+        {
+          "url": "gdrive_cache/1GCq8VOqRAPZPgJ0RmySRE02lY45UqVsG.jpg",
+          "thumb_url": "gdrive_cache/1GCq8VOqRAPZPgJ0RmySRE02lY45UqVsG_thumb.jpg",
+          "type": "image",
+          "date_taken": "2026-08-08 17:11:35"
+        },
+        {
+          "url": "gdrive_cache/1H8q7rNLah4KokJ5mExDx-LqipUTicnuf.jpg",
+          "thumb_url": "gdrive_cache/1H8q7rNLah4KokJ5mExDx-LqipUTicnuf_thumb.jpg",
+          "type": "image",
+          "date_taken": "2026-08-09 15:03:45"
+        },
+        {
+          "url": "gdrive_cache/16EUh_ZWjMkiHhF03GeMThi6Qk9d23u9U.jpg",
+          "thumb_url": "gdrive_cache/16EUh_ZWjMkiHhF03GeMThi6Qk9d23u9U_thumb.jpg",
+          "type": "image",
+          "date_taken": "2026-08-09 15:03:45"
+        },
+        {
+          "url": "gdrive_cache/1zBQzNoUwbNOFOLrW2YhTkKGj22h7bmwB.jpg",
+          "thumb_url": "gdrive_cache/1zBQzNoUwbNOFOLrW2YhTkKGj22h7bmwB_thumb.jpg",
+          "type": "image",
+          "date_taken": "2026-08-09 15:03:45"
+        },
+        {
+          "url": "gdrive_cache/1OX1L76qoOJN3vkDOmxWLOGQYdllIP8zv.jpg",
+          "thumb_url": "gdrive_cache/1OX1L76qoOJN3vkDOmxWLOGQYdllIP8zv_thumb.jpg",
+          "type": "image",
+          "date_taken": "2026-08-09 15:03:46"
+        },
+        {
+          "url": "gdrive_cache/1PSaK7-zFUDXbXnKOfCtXSORO3CqFmoGL.jpg",
+          "thumb_url": "gdrive_cache/1PSaK7-zFUDXbXnKOfCtXSORO3CqFmoGL_thumb.jpg",
+          "type": "image",
+          "date_taken": "2026-08-09 15:03:46"
+        },
+        {
+          "url": "gdrive_cache/17EYlLeSn5kSI2BIVcH4gcpcgr050lk-q.jpg",
+          "thumb_url": "gdrive_cache/17EYlLeSn5kSI2BIVcH4gcpcgr050lk-q_thumb.jpg",
+          "type": "image",
+          "date_taken": "2026-08-09 15:03:46"
+        },
+        {
+          "url": "gdrive_cache/1MJd3HZ1E0cqUutidic9hmgLX6G_R4XMK.jpg",
+          "thumb_url": "gdrive_cache/1MJd3HZ1E0cqUutidic9hmgLX6G_R4XMK_thumb.jpg",
+          "type": "image",
+          "date_taken": "2026-08-09 15:03:47"
+        },
+        {
+          "url": "gdrive_cache/1Fbx_uJDo4y84IcpIWJOGJZ--J2VX7BX9.jpg",
+          "thumb_url": "gdrive_cache/1Fbx_uJDo4y84IcpIWJOGJZ--J2VX7BX9_thumb.jpg",
+          "type": "image",
+          "date_taken": "2026-08-09 15:03:47"
+        },
+        {
+          "url": "gdrive_cache/14ci6xGOamG2-oFOXyCZfMUSM8LUTFlPa.jpg",
+          "thumb_url": "gdrive_cache/14ci6xGOamG2-oFOXyCZfMUSM8LUTFlPa_thumb.jpg",
+          "type": "image",
+          "date_taken": "2026-08-09 15:03:47"
+        },
+        {
+          "url": "https://lh3.googleusercontent.com/d/1Vbtpajj_MmhJne8uHzQJqx0wlsCvdVCf",
+          "thumb_url": "https://drive.google.com/thumbnail?id=1Vbtpajj_MmhJne8uHzQJqx0wlsCvdVCf&sz=w800",
+          "type": "video",
+          "date_taken": "2026-08-15 04:37:26"
+        }
+      ],
+      "location": [
+        -6.2259,
+        106.9998
+      ],
+      "timeline_stops": [
+        {
+          "coords": [
+            -6.293996,
+            106.912202
+          ],
+          "time": "11:57 - 12:09",
+          "type": "ALIASED_LOCATION",
+          "name": "Pondok Melati"
+        },
+        {
+          "coords": [
+            -6.26409,
+            106.971092
+          ],
+          "time": "12:55 - 13:03",
+          "type": "UNKNOWN",
+          "name": "Bekasi Barat Highway"
+        },
+        {
+          "coords": [
+            -6.253804,
+            106.968827
+          ],
+          "time": "13:16 - 14:19",
+          "type": "UNKNOWN",
+          "name": "Grand Metropolitan Mall Bekasi"
+        },
+        {
+          "coords": [
+            -6.27401,
+            106.973472
+          ],
+          "time": "14:31 - 14:55",
+          "type": "UNKNOWN",
+          "name": "Jalan Ahmad Yani Bekasi"
+        },
+        {
+          "coords": [
+            -6.225964,
+            107.000705
+          ],
+          "time": "15:25 - 17:00",
+          "type": "UNKNOWN",
+          "name": "Summarecon Mall Bekasi (SMB)"
+        },
+        {
+          "coords": [
+            -6.225872,
+            106.998502
+          ],
+          "time": "15:25 - 15:41",
+          "type": "UNKNOWN",
+          "name": "The Downtown Walk (Summarecon Mall)"
+        },
+        {
+          "coords": [
+            -6.224936,
+            107.001759
+          ],
+          "time": "15:48 - 16:28",
+          "type": "UNKNOWN",
+          "name": "Summarecon Bekasi Promenade"
+        },
+        {
+          "coords": [
+            -6.226536,
+            107.001225
+          ],
+          "time": "16:30 - 16:34",
+          "type": "UNKNOWN",
+          "name": "SMB Lake Promenade"
+        },
+        {
+          "coords": [
+            -6.225872,
+            106.998502
+          ],
+          "time": "16:36 - 17:00",
+          "type": "UNKNOWN",
+          "name": "Summarecon Mall Bekasi"
+        },
+        {
+          "coords": [
+            -6.256004,
+            106.989422
+          ],
+          "time": "17:26 - 19:00",
+          "type": "UNKNOWN",
+          "name": "Bekasi Cyber Park Area"
+        },
+        {
+          "coords": [
+            -6.255983,
+            106.990355
+          ],
+          "time": "18:53 - 19:00",
+          "type": "UNKNOWN",
+          "name": "Mega Bekasi Area"
+        },
+        {
+          "coords": [
+            -6.278242,
+            106.973855
+          ],
+          "time": "19:15 - 19:33",
+          "type": "UNKNOWN",
+          "name": "Pekayon Jaya Bekasi"
+        },
+        {
+          "coords": [
+            -6.266704,
+            106.970586
+          ],
+          "time": "19:39 - 20:15",
+          "type": "UNKNOWN",
+          "name": "Grand Galaxy Park Culinary"
+        },
+        {
+          "coords": [
+            -6.26467,
+            106.971174
+          ],
+          "time": "20:15 - 20:37",
+          "type": "UNKNOWN",
+          "name": "Bekasi Selatan"
+        },
+        {
+          "coords": [
+            -6.293996,
+            106.912202
+          ],
+          "time": "21:37 - 22:40",
+          "type": "ALIASED_LOCATION",
+          "name": "Pondok Melati"
+        }
+      ],
+      "timeline_path": [
+        [
+          -6.056394,
+          106.679393
+        ],
+        [
+          -6.057575,
+          106.683826
+        ],
+        [
+          -6.050018,
+          106.694259
+        ],
+        [
+          -6.049397,
+          106.69729
+        ],
+        [
+          -6.051409,
+          106.704487
+        ],
+        [
+          -6.058241,
+          106.708364
+        ],
+        [
+          -6.065927,
+          106.709885
+        ],
+        [
+          -6.084714,
+          106.724545
+        ],
+        [
+          -6.087396,
+          106.731053
+        ],
+        [
+          -6.084975,
+          106.734708
+        ],
+        [
+          -6.091894,
+          106.745341
+        ],
+        [
+          -6.09522,
+          106.742474
+        ],
+        [
+          -6.128372,
+          106.729957
+        ],
+        [
+          -6.166756,
+          106.727542
+        ],
+        [
+          -6.183898,
+          106.730059
+        ],
+        [
+          -6.185518,
+          106.730959
+        ],
+        [
+          -6.184752,
+          106.739564
+        ],
+        [
+          -6.186667,
+          106.741781
+        ],
+        [
+          -6.186074,
+          106.75033
+        ],
+        [
+          -6.185073,
+          106.753016
+        ],
+        [
+          -6.186439,
+          106.75514
+        ],
+        [
+          -6.193023,
+          106.755615
+        ],
+        [
+          -6.19122,
+          106.753826
+        ],
+        [
+          -6.191726,
+          106.746088
+        ],
+        [
+          -6.193346,
+          106.743571
+        ],
+        [
+          -6.196955,
+          106.744254
+        ],
+        [
+          -6.195151,
+          106.742171
+        ],
+        [
+          -6.195021,
+          106.740304
+        ],
+        [
+          -6.199467,
+          106.739604
+        ],
+        [
+          -6.201639,
+          106.737747
+        ],
+        [
+          -6.204864,
+          106.738211
+        ],
+        [
+          -6.245573,
+          106.75942
+        ],
+        [
+          -6.252392,
+          106.764103
+        ],
+        [
+          -6.270811,
+          106.768294
+        ],
+        [
+          -6.274814,
+          106.767859
+        ],
+        [
+          -6.28794,
+          106.777658
+        ],
+        [
+          -6.292091,
+          106.786226
+        ],
+        [
+          -6.293396,
+          106.821491
+        ],
+        [
+          -6.303669,
+          106.843895
+        ],
+        [
+          -6.308325,
+          106.87218
+        ],
+        [
+          -6.306576,
+          106.892703
+        ],
+        [
+          -6.311484,
+          106.904045
+        ],
+        [
+          -6.311284,
+          106.913841
+        ],
+        [
+          -6.304962,
+          106.916755
+        ],
+        [
+          -6.303991,
+          106.919513
+        ],
+        [
+          -6.30523,
+          106.921577
+        ],
+        [
+          -6.30566,
+          106.923469
+        ],
+        [
+          -6.299702,
+          106.923997
+        ],
+        [
+          -6.292361,
+          106.917816
+        ],
+        [
+          -6.293204,
+          106.915244
+        ],
+        [
+          -6.293517,
+          106.912289
+        ],
+        [
+          -6.293161,
+          106.912296
+        ],
+        [
+          -6.293198,
+          106.914864
+        ],
+        [
+          -6.292462,
+          106.917612
+        ],
+        [
+          -6.290127,
+          106.916552
+        ],
+        [
+          -6.289778,
+          106.918434
+        ],
+        [
+          -6.28669,
+          106.919996
+        ],
+        [
+          -6.284223,
+          106.9252
+        ],
+        [
+          -6.283213,
+          106.929175
+        ],
+        [
+          -6.288096,
+          106.940649
+        ],
+        [
+          -6.28631,
+          106.94799
+        ],
+        [
+          -6.288095,
+          106.954193
+        ],
+        [
+          -6.290471,
+          106.954297
+        ],
+        [
+          -6.294678,
+          106.964919
+        ],
+        [
+          -6.281802,
+          106.96986
+        ],
+        [
+          -6.278964,
+          106.973671
+        ],
+        [
+          -6.275817,
+          106.974555
+        ],
+        [
+          -6.273517,
+          106.973908
+        ],
+        [
+          -6.272432,
+          106.97199
+        ],
+        [
+          -6.266916,
+          106.971925
+        ],
+        [
+          -6.264769,
+          106.971063
+        ],
+        [
+          -6.265375,
+          106.971041
+        ],
+        [
+          -6.259613,
+          106.970969
+        ],
+        [
+          -6.259315,
+          106.968545
+        ],
+        [
+          -6.253989,
+          106.968646
+        ],
+        [
+          -6.253999,
+          106.968761
+        ],
+        [
+          -6.256366,
+          106.969796
+        ],
+        [
+          -6.256551,
+          106.973053
+        ],
+        [
+          -6.269458,
+          106.971816
+        ],
+        [
+          -6.271448,
+          106.971667
+        ],
+        [
+          -6.273479,
+          106.973955
+        ],
+        [
+          -6.273221,
+          106.973824
+        ],
+        [
+          -6.270377,
+          106.974304
+        ],
+        [
+          -6.267277,
+          106.974743
+        ],
+        [
+          -6.269709,
+          106.981178
+        ],
+        [
+          -6.262965,
+          106.987022
+        ],
+        [
+          -6.260047,
+          106.987745
+        ],
+        [
+          -6.258075,
+          106.9873
+        ],
+        [
+          -6.256151,
+          106.990665
+        ],
+        [
+          -6.236933,
+          106.993271
+        ],
+        [
+          -6.233051,
+          106.993404
+        ],
+        [
+          -6.226889,
+          106.995999
+        ],
+        [
+          -6.225271,
+          106.998089
+        ],
+        [
+          -6.224949,
+          107.000172
+        ],
+        [
+          -6.226555,
+          106.99816
+        ],
+        [
+          -6.226865,
+          107.000055
+        ],
+        [
+          -6.225622,
+          107.001577
+        ],
+        [
+          -6.225909,
+          106.998054
+        ],
+        [
+          -6.227837,
+          106.999223
+        ],
+        [
+          -6.225931,
+          106.997822
+        ],
+        [
+          -6.227421,
+          106.995845
+        ],
+        [
+          -6.233508,
+          106.993386
+        ],
+        [
+          -6.252077,
+          106.991501
+        ],
+        [
+          -6.255927,
+          106.990819
+        ],
+        [
+          -6.259274,
+          106.994878
+        ],
+        [
+          -6.256618,
+          106.989992
+        ],
+        [
+          -6.256199,
+          106.988491
+        ],
+        [
+          -6.255735,
+          106.990282
+        ],
+        [
+          -6.256309,
+          106.988418
+        ],
+        [
+          -6.258232,
+          106.98746
+        ],
+        [
+          -6.260374,
+          106.987764
+        ],
+        [
+          -6.264162,
+          106.986631
+        ],
+        [
+          -6.276227,
+          106.976109
+        ],
+        [
+          -6.278382,
+          106.975194
+        ],
+        [
+          -6.278147,
+          106.973998
+        ],
+        [
+          -6.276294,
+          106.974541
+        ],
+        [
+          -6.273377,
+          106.973863
+        ],
+        [
+          -6.271719,
+          106.971631
+        ],
+        [
+          -6.266849,
+          106.971354
+        ],
+        [
+          -6.266113,
+          106.970963
+        ],
+        [
+          -6.264799,
+          106.971068
+        ],
+        [
+          -6.263994,
+          106.971111
+        ],
+        [
+          -6.259645,
+          106.970952
+        ],
+        [
+          -6.259571,
+          106.968585
+        ],
+        [
+          -6.252869,
+          106.968347
+        ],
+        [
+          -6.257391,
+          106.959996
+        ],
+        [
+          -6.258917,
+          106.958931
+        ],
+        [
+          -6.263335,
+          106.961477
+        ],
+        [
+          -6.270823,
+          106.961148
+        ],
+        [
+          -6.273506,
+          106.962195
+        ],
+        [
+          -6.287213,
+          106.959885
+        ],
+        [
+          -6.291877,
+          106.958259
+        ],
+        [
+          -6.292881,
+          106.959778
+        ],
+        [
+          -6.290842,
+          106.954432
+        ],
+        [
+          -6.288468,
+          106.954238
+        ],
+        [
+          -6.286901,
+          106.95129
+        ],
+        [
+          -6.286476,
+          106.948329
+        ],
+        [
+          -6.28818,
+          106.941165
+        ],
+        [
+          -6.283363,
+          106.929473
+        ],
+        [
+          -6.286571,
+          106.920029
+        ],
+        [
+          -6.285358,
+          106.918138
+        ],
+        [
+          -6.284677,
+          106.913722
+        ],
+        [
+          -6.291109,
+          106.917267
+        ],
+        [
+          -6.292497,
+          106.916087
+        ],
+        [
+          -6.293357,
+          106.91229
+        ],
+        [
+          -6.293473,
+          106.911802
+        ],
+        [
+          -6.293179,
+          106.915391
+        ],
+        [
+          -6.292556,
+          106.917421
+        ],
+        [
+          -6.286058,
+          106.913173
+        ],
+        [
+          -6.28389,
+          106.910395
+        ],
+        [
+          -6.281966,
+          106.913751
+        ],
+        [
+          -6.262616,
+          106.910819
+        ],
+        [
+          -6.257406,
+          106.909877
+        ],
+        [
+          -6.253565,
+          106.903113
+        ],
+        [
+          -6.244171,
+          106.894142
+        ],
+        [
+          -6.245338,
+          106.889129
+        ],
+        [
+          -6.24766,
+          106.882701
+        ],
+        [
+          -6.247589,
+          106.87693
+        ],
+        [
+          -6.186092,
+          106.87547
+        ],
+        [
+          -6.16843,
+          106.877971
+        ],
+        [
+          -6.137739,
+          106.891807
+        ],
+        [
+          -6.131718,
+          106.891506
+        ],
+        [
+          -6.127521,
+          106.885419
+        ],
+        [
+          -6.124909,
+          106.872523
+        ],
+        [
+          -6.127401,
+          106.873326
+        ],
+        [
+          -6.128869,
+          106.87199
+        ],
+        [
+          -6.130858,
+          106.872404
+        ],
+        [
+          -6.134394,
+          106.872133
+        ],
+        [
+          -6.13117,
+          106.871515
+        ],
+        [
+          -6.127715,
+          106.873165
+        ],
+        [
+          -6.125602,
+          106.872513
+        ],
+        [
+          -6.124367,
+          106.871009
+        ],
+        [
+          -6.122505,
+          106.863038
+        ],
+        [
+          -6.13192,
+          106.820719
+        ],
+        [
+          -6.129628,
+          106.813424
+        ],
+        [
+          -6.13166,
+          106.78553
+        ],
+        [
+          -6.128155,
+          106.779142
+        ],
+        [
+          -6.12331,
+          106.774844
+        ],
+        [
+          -6.12458,
+          106.753625
+        ],
+        [
+          -6.12312,
+          106.752291
+        ],
+        [
+          -6.114789,
+          106.751563
+        ],
+        [
+          -6.113072,
+          106.749808
+        ],
+        [
+          -6.11141,
+          106.74174
+        ],
+        [
+          -6.109873,
+          106.739056
+        ],
+        [
+          -6.091871,
+          106.743985
+        ],
+        [
+          -6.08551,
+          106.734302
+        ],
+        [
+          -6.087275,
+          106.730713
+        ],
+        [
+          -6.080895,
+          106.719924
+        ],
+        [
+          -6.067597,
+          106.709511
+        ],
+        [
+          -6.068666,
+          106.703104
+        ],
+        [
+          -6.066614,
+          106.6939
+        ],
+        [
+          -6.061833,
+          106.688414
+        ],
+        [
+          -6.061108,
+          106.683142
+        ],
+        [
+          -6.058757,
+          106.680738
+        ],
+        [
+          -6.056484,
+          106.679492
+        ],
+        [
+          -6.056413,
+          106.679338
+        ],
+        [
+          -6.056567,
+          106.679279
+        ],
+        [
+          -6.056352,
+          106.679307
+        ]
+      ]
+    },
+    {
+      "id": "1W8R8nsQO5oUFDAwk8VBBhNMdMyix-nrI",
+      "date": "2026-08-09",
+      "title": "Spider-Man BND",
+      "description": "",
+      "image_path": "gdrive_cache/18oNHhzvSGZYIMzk_rlpj3i1ow8Q_nWdz_thumb.jpg",
+      "images": [
+        {
+          "url": "gdrive_cache/1_8Arl6rZp9hKP-rrfDRfNx47JnzZeSf6.mp4",
+          "thumb_url": "gdrive_cache/1_8Arl6rZp9hKP-rrfDRfNx47JnzZeSf6.mp4",
+          "type": "video",
+          "date_taken": "2026-08-09 15:05:48"
+        },
+        {
+          "url": "gdrive_cache/1iUNjtaGk7apCs3e0ZmQNkuzWKvd4yVbF.jpg",
+          "thumb_url": "gdrive_cache/1iUNjtaGk7apCs3e0ZmQNkuzWKvd4yVbF_thumb.jpg",
+          "type": "image",
+          "date_taken": "2026-08-09 15:05:49"
+        },
+        {
+          "url": "gdrive_cache/1HWuw2dUfUydVvX--AP1V_U2ZfRAZxScp.jpg",
+          "thumb_url": "gdrive_cache/1HWuw2dUfUydVvX--AP1V_U2ZfRAZxScp_thumb.jpg",
+          "type": "image",
+          "date_taken": "2026-08-09 15:05:50"
+        },
+        {
+          "url": "gdrive_cache/1Xc9d4OqVZzAZn7Hagp2NjENP4PWKLZwM.jpg",
+          "thumb_url": "gdrive_cache/1Xc9d4OqVZzAZn7Hagp2NjENP4PWKLZwM_thumb.jpg",
+          "type": "image",
+          "date_taken": "2026-08-09 15:05:50"
+        },
+        {
+          "url": "gdrive_cache/1qC6fVmGy1yw019_J112Dzo-4_qV0x1hi.jpg",
+          "thumb_url": "gdrive_cache/1qC6fVmGy1yw019_J112Dzo-4_qV0x1hi_thumb.jpg",
+          "type": "image",
+          "date_taken": "2026-08-09 15:05:54"
+        },
+        {
+          "url": "gdrive_cache/18oNHhzvSGZYIMzk_rlpj3i1ow8Q_nWdz.jpg",
+          "thumb_url": "gdrive_cache/18oNHhzvSGZYIMzk_rlpj3i1ow8Q_nWdz_thumb.jpg",
+          "type": "image",
+          "date_taken": "2026-08-09 15:05:55"
+        },
+        {
+          "url": "gdrive_cache/1ykh3EFDIG6QZWYdKPtOYrtay5rTWieL2.jpg",
+          "thumb_url": "gdrive_cache/1ykh3EFDIG6QZWYdKPtOYrtay5rTWieL2_thumb.jpg",
+          "type": "image",
+          "date_taken": "2026-08-09 15:05:55"
+        },
+        {
+          "url": "gdrive_cache/1zRRgr65qVtEiG4svcZ01Cr-Em5tHQgsU.jpg",
+          "thumb_url": "gdrive_cache/1zRRgr65qVtEiG4svcZ01Cr-Em5tHQgsU_thumb.jpg",
+          "type": "image",
+          "date_taken": "2026-08-09 15:05:56"
+        },
+        {
+          "url": "gdrive_cache/1eBuxlkSkRtlwvnFiawRaIG297yS3nWDP.jpg",
+          "thumb_url": "gdrive_cache/1eBuxlkSkRtlwvnFiawRaIG297yS3nWDP_thumb.jpg",
+          "type": "image",
+          "date_taken": "2026-08-09 15:05:58"
+        },
+        {
+          "url": "gdrive_cache/1drs1Y3E737xD_929aYUTbN9ZCxrrxlBu.jpg",
+          "thumb_url": "gdrive_cache/1drs1Y3E737xD_929aYUTbN9ZCxrrxlBu_thumb.jpg",
+          "type": "image",
+          "date_taken": "2026-08-09 15:06:13"
+        },
+        {
+          "url": "gdrive_cache/1_eyamWBNjCeFi6yFEwqWod-jGqGOiN1A.jpg",
+          "thumb_url": "gdrive_cache/1_eyamWBNjCeFi6yFEwqWod-jGqGOiN1A_thumb.jpg",
+          "type": "image",
+          "date_taken": "2026-08-09 15:06:13"
+        },
+        {
+          "url": "gdrive_cache/1FhZjQYIPyUITWlYANqYPjluoTpGHyOBe.jpg",
+          "thumb_url": "gdrive_cache/1FhZjQYIPyUITWlYANqYPjluoTpGHyOBe_thumb.jpg",
+          "type": "image",
+          "date_taken": "2026-08-09 15:06:14"
+        },
+        {
+          "url": "gdrive_cache/1VSt9xIDaQwpRTBfNzjNHiC0Qht_hVQpM.jpg",
+          "thumb_url": "gdrive_cache/1VSt9xIDaQwpRTBfNzjNHiC0Qht_hVQpM_thumb.jpg",
+          "type": "image",
+          "date_taken": "2026-08-09 15:06:15"
+        },
+        {
+          "url": "gdrive_cache/1uW1VnKWoXmCyA1x9gGZqJ7CmZ62e46Gk.jpg",
+          "thumb_url": "gdrive_cache/1uW1VnKWoXmCyA1x9gGZqJ7CmZ62e46Gk_thumb.jpg",
+          "type": "image",
+          "date_taken": "2026-08-09 15:06:16"
+        },
+        {
+          "url": "gdrive_cache/1JAmFz7Usc1m1jp_HcdOIZZkRycRNsMEH.jpg",
+          "thumb_url": "gdrive_cache/1JAmFz7Usc1m1jp_HcdOIZZkRycRNsMEH_thumb.jpg",
+          "type": "image",
+          "date_taken": "2026-08-09 15:06:16"
+        }
+      ],
+      "location": [
+        -6.3045,
+        106.8407
+      ],
+      "timeline_stops": [
+        {
+          "coords": [
+            -6.056362,
+            106.679337
+          ],
+          "time": "00:00 - 11:52",
+          "type": "HOME",
+          "name": "Home / Kosambi"
+        },
+        {
+          "coords": [
+            -6.214653,
+            106.807499
+          ],
+          "time": "12:50 - 14:28",
+          "type": "UNKNOWN",
+          "name": "Senayan City Mall (XXI)"
+        },
+        {
+          "coords": [
+            -6.227195,
+            106.797012
+          ],
+          "time": "14:45 - 16:20",
+          "type": "UNKNOWN",
+          "name": "Senayan Park (SPARK Mall)"
+        },
+        {
+          "coords": [
+            -6.227509,
+            106.797465
+          ],
+          "time": "14:47 - 16:20",
+          "type": "UNKNOWN",
+          "name": "SPARK Skywalk Observation Deck"
+        },
+        {
+          "coords": [
+            -6.225382,
+            106.799076
+          ],
+          "time": "16:22 - 18:17",
+          "type": "UNKNOWN",
+          "name": "GBK Senayan Complex"
+        },
+        {
+          "coords": [
+            -6.225328,
+            106.800061
+          ],
+          "time": "16:28 - 16:41",
+          "type": "UNKNOWN",
+          "name": "Stadion Utama Gelora Bung Karno"
+        },
+        {
+          "coords": [
+            -6.224563,
+            106.798995
+          ],
+          "time": "16:43 - 16:54",
+          "type": "UNKNOWN",
+          "name": "Senayan Park Promenade"
+        },
+        {
+          "coords": [
+            -6.225328,
+            106.800061
+          ],
+          "time": "18:10 - 18:17",
+          "type": "UNKNOWN",
+          "name": "SPARK Lake & Fountain"
+        },
+        {
+          "coords": [
+            -6.227195,
+            106.797012
+          ],
+          "time": "18:22 - 18:38",
+          "type": "UNKNOWN",
+          "name": "Cin\u00e9polis Senayan Park"
+        },
+        {
+          "coords": [
+            -6.227509,
+            106.797465
+          ],
+          "time": "18:22 - 18:31",
+          "type": "UNKNOWN",
+          "name": "Senayan Area"
+        },
+        {
+          "coords": [
+            -6.056362,
+            106.679337
+          ],
+          "time": "19:43 - 08:12",
+          "type": "HOME",
+          "name": "Home / Kosambi"
+        }
+      ],
+      "timeline_path": [
+        [
+          -6.056397,
+          106.680227
+        ],
+        [
+          -6.057618,
+          106.68576
+        ],
+        [
+          -6.052756,
+          106.68962
+        ],
+        [
+          -6.049653,
+          106.695562
+        ],
+        [
+          -6.049637,
+          106.700681
+        ],
+        [
+          -6.055473,
+          106.707479
+        ],
+        [
+          -6.065078,
+          106.709772
+        ],
+        [
+          -6.084862,
+          106.724879
+        ],
+        [
+          -6.087296,
+          106.730929
+        ],
+        [
+          -6.084902,
+          106.734766
+        ],
+        [
+          -6.090394,
+          106.743388
+        ],
+        [
+          -6.092445,
+          106.744426
+        ],
+        [
+          -6.096193,
+          106.742098
+        ],
+        [
+          -6.11664,
+          106.73541
+        ],
+        [
+          -6.119923,
+          106.739515
+        ],
+        [
+          -6.124048,
+          106.776439
+        ],
+        [
+          -6.133809,
+          106.785282
+        ],
+        [
+          -6.149583,
+          106.792374
+        ],
+        [
+          -6.158895,
+          106.792047
+        ],
+        [
+          -6.16786,
+          106.788276
+        ],
+        [
+          -6.181266,
+          106.796802
+        ],
+        [
+          -6.198871,
+          106.798618
+        ],
+        [
+          -6.203506,
+          106.800937
+        ],
+        [
+          -6.203434,
+          106.797619
+        ],
+        [
+          -6.20564,
+          106.795597
+        ],
+        [
+          -6.203107,
+          106.797796
+        ],
+        [
+          -6.201851,
+          106.799401
+        ],
+        [
+          -6.211791,
+          106.806912
+        ],
+        [
+          -6.213365,
+          106.803383
+        ],
+        [
+          -6.215441,
+          106.802711
+        ],
+        [
+          -6.21565,
+          106.805862
+        ],
+        [
+          -6.215552,
+          106.806941
+        ],
+        [
+          -6.215429,
+          106.8072
+        ],
+        [
+          -6.216874,
+          106.806029
+        ],
+        [
+          -6.217993,
+          106.805258
+        ],
+        [
+          -6.215977,
+          106.805194
+        ],
+        [
+          -6.215001,
+          106.802612
+        ],
+        [
+          -6.214879,
+          106.798118
+        ],
+        [
+          -6.228099,
+          106.798212
+        ],
+        [
+          -6.228521,
+          106.796097
+        ],
+        [
+          -6.22725,
+          106.797743
+        ],
+        [
+          -6.226859,
+          106.797892
+        ],
+        [
+          -6.226328,
+          106.798772
+        ],
+        [
+          -6.224504,
+          106.798901
+        ],
+        [
+          -6.225677,
+          106.79951
+        ],
+        [
+          -6.226845,
+          106.798248
+        ],
+        [
+          -6.228103,
+          106.796372
+        ],
+        [
+          -6.216101,
+          106.798146
+        ],
+        [
+          -6.212751,
+          106.805201
+        ],
+        [
+          -6.210546,
+          106.805554
+        ],
+        [
+          -6.19893,
+          106.798282
+        ],
+        [
+          -6.189503,
+          106.79704
+        ],
+        [
+          -6.177936,
+          106.794978
+        ],
+        [
+          -6.172537,
+          106.789378
+        ],
+        [
+          -6.165637,
+          106.78881
+        ],
+        [
+          -6.152141,
+          106.793581
+        ],
+        [
+          -6.1328,
+          106.784724
+        ],
+        [
+          -6.123373,
+          106.772894
+        ],
+        [
+          -6.124474,
+          106.752669
+        ],
+        [
+          -6.115252,
+          106.751599
+        ],
+        [
+          -6.112949,
+          106.750376
+        ],
+        [
+          -6.112614,
+          106.743614
+        ],
+        [
+          -6.109925,
+          106.739082
+        ],
+        [
+          -6.115291,
+          106.735675
+        ],
+        [
+          -6.091749,
+          106.744017
+        ],
+        [
+          -6.086489,
+          106.737721
+        ],
+        [
+          -6.085494,
+          106.734386
+        ],
+        [
+          -6.087758,
+          106.731354
+        ],
+        [
+          -6.083662,
+          106.722714
+        ],
+        [
+          -6.067674,
+          106.709767
+        ],
+        [
+          -6.068205,
+          106.698151
+        ],
+        [
+          -6.067103,
+          106.694825
+        ],
+        [
+          -6.061647,
+          106.688287
+        ],
+        [
+          -6.061056,
+          106.683559
+        ],
+        [
+          -6.058876,
+          106.680945
+        ],
+        [
+          -6.055923,
+          106.680982
+        ],
+        [
+          -6.056719,
+          106.680028
+        ],
+        [
+          -6.056302,
+          106.679324
+        ],
+        [
+          -6.056414,
+          106.679359
+        ]
+      ]
+    },
+    {
+      "id": "1tEg1G8ptxdl2Er9QDql7FHyb1VVGryDk",
+      "date": "2026-08-15",
+      "title": "Padel triple date",
+      "description": "",
+      "image_path": "gdrive_cache/1v8uin5-6rdgnHgSmomJD7GFSzABDqCYP_thumb.jpg",
+      "images": [
+        {
+          "url": "gdrive_cache/1qhQ_x4mQxqyBeU4PdpGHg9dbjCtEcJbt.jpg",
+          "thumb_url": "gdrive_cache/1qhQ_x4mQxqyBeU4PdpGHg9dbjCtEcJbt_thumb.jpg",
+          "type": "image",
+          "date_taken": "2026-08-15 11:52:50"
+        },
+        {
+          "url": "gdrive_cache/1BQ8qtmSx9U6KL86g30K9oLcJnYAvT0h0.jpg",
+          "thumb_url": "gdrive_cache/1BQ8qtmSx9U6KL86g30K9oLcJnYAvT0h0_thumb.jpg",
+          "type": "image",
+          "date_taken": "2026-08-16 17:16:24"
+        },
+        {
+          "url": "gdrive_cache/1L192COBHir-L2uN3R2AuC0E54DL8UGKz.jpg",
+          "thumb_url": "gdrive_cache/1L192COBHir-L2uN3R2AuC0E54DL8UGKz_thumb.jpg",
+          "type": "image",
+          "date_taken": "2026-08-16 17:16:24"
+        },
+        {
+          "url": "gdrive_cache/1aUVPtUfqya-8dmn5l45cNnStIOb_IuWe.jpg",
+          "thumb_url": "gdrive_cache/1aUVPtUfqya-8dmn5l45cNnStIOb_IuWe_thumb.jpg",
+          "type": "image",
+          "date_taken": "2026-08-16 17:16:24"
+        },
+        {
+          "url": "gdrive_cache/1ODVxRZka_9YcX1KlX5IWPpbZ6w8ZM4co.jpg",
+          "thumb_url": "gdrive_cache/1ODVxRZka_9YcX1KlX5IWPpbZ6w8ZM4co_thumb.jpg",
+          "type": "image",
+          "date_taken": "2026-08-16 17:16:25"
+        },
+        {
+          "url": "gdrive_cache/1szOA3Y_T8oErQxJws3Mys584ZGNP6cA5.jpg",
+          "thumb_url": "gdrive_cache/1szOA3Y_T8oErQxJws3Mys584ZGNP6cA5_thumb.jpg",
+          "type": "image",
+          "date_taken": "2026-08-16 17:16:25"
+        },
+        {
+          "url": "gdrive_cache/1oH7XB4h13czBzkwbxrvjWUGAF2CjqTN5.jpg",
+          "thumb_url": "gdrive_cache/1oH7XB4h13czBzkwbxrvjWUGAF2CjqTN5_thumb.jpg",
+          "type": "image",
+          "date_taken": "2026-08-16 17:16:25"
+        },
+        {
+          "url": "gdrive_cache/1l9FCn3ui0NUfQ1bUiqEi41QAODswnXCt.jpg",
+          "thumb_url": "gdrive_cache/1l9FCn3ui0NUfQ1bUiqEi41QAODswnXCt_thumb.jpg",
+          "type": "image",
+          "date_taken": "2026-08-16 17:16:25"
+        },
+        {
+          "url": "gdrive_cache/1r7fqGFml5iqcWzxOGI5WqtgUV7tXl5V5.jpg",
+          "thumb_url": "gdrive_cache/1r7fqGFml5iqcWzxOGI5WqtgUV7tXl5V5_thumb.jpg",
+          "type": "image",
+          "date_taken": "2026-08-16 17:16:25"
+        },
+        {
+          "url": "gdrive_cache/1_JkHbsB3_U_nn5kvTl6f0ooEgKtT0gmz.jpg",
+          "thumb_url": "gdrive_cache/1_JkHbsB3_U_nn5kvTl6f0ooEgKtT0gmz_thumb.jpg",
+          "type": "image",
+          "date_taken": "2026-08-16 17:16:25"
+        },
+        {
+          "url": "gdrive_cache/18WmXfDovJ_azYUmNIO7SRITY4wpQ7NO5.jpg",
+          "thumb_url": "gdrive_cache/18WmXfDovJ_azYUmNIO7SRITY4wpQ7NO5_thumb.jpg",
+          "type": "image",
+          "date_taken": "2026-08-16 17:16:25"
+        },
+        {
+          "url": "gdrive_cache/1m83eTgKMue-GDMQTbp6MYTC_V2GWPRCa.jpg",
+          "thumb_url": "gdrive_cache/1m83eTgKMue-GDMQTbp6MYTC_V2GWPRCa_thumb.jpg",
+          "type": "image",
+          "date_taken": "2026-08-16 17:16:25"
+        },
+        {
+          "url": "gdrive_cache/1Am0hxMiLWVd5FKfkjTVTpEg_In9YvkGL.jpg",
+          "thumb_url": "gdrive_cache/1Am0hxMiLWVd5FKfkjTVTpEg_In9YvkGL_thumb.jpg",
+          "type": "image",
+          "date_taken": "2026-08-16 17:16:25"
+        },
+        {
+          "url": "gdrive_cache/1zb5xqqVNIrWShiJYGBBk45xuygF9zv5m.jpg",
+          "thumb_url": "gdrive_cache/1zb5xqqVNIrWShiJYGBBk45xuygF9zv5m_thumb.jpg",
+          "type": "image",
+          "date_taken": "2026-08-16 17:16:25"
+        },
+        {
+          "url": "gdrive_cache/1igOIuAWzxW7pA2LUFNJRSINu2aaF5hQ4.jpg",
+          "thumb_url": "gdrive_cache/1igOIuAWzxW7pA2LUFNJRSINu2aaF5hQ4_thumb.jpg",
+          "type": "image",
+          "date_taken": "2026-08-16 17:16:26"
+        },
+        {
+          "url": "gdrive_cache/1XXcFJteUrTs5qWhNF8H6e8O6NrevSD6O.jpg",
+          "thumb_url": "gdrive_cache/1XXcFJteUrTs5qWhNF8H6e8O6NrevSD6O_thumb.jpg",
+          "type": "image",
+          "date_taken": "2026-08-16 17:16:26"
+        },
+        {
+          "url": "gdrive_cache/1Wn1fDUSjTbNTqdx78zd-EM_8A6yOr88m.jpg",
+          "thumb_url": "gdrive_cache/1Wn1fDUSjTbNTqdx78zd-EM_8A6yOr88m_thumb.jpg",
+          "type": "image",
+          "date_taken": "2026-08-16 17:16:26"
+        },
+        {
+          "url": "gdrive_cache/1L-BiDJ-mL7Xo9UD6OymXrs1VEpABWQB3.jpg",
+          "thumb_url": "gdrive_cache/1L-BiDJ-mL7Xo9UD6OymXrs1VEpABWQB3_thumb.jpg",
+          "type": "image",
+          "date_taken": "2026-08-16 17:16:26"
+        },
+        {
+          "url": "gdrive_cache/13SLmn1D7M4lnQT_WaRM6_0KX3OhYWEoI.jpg",
+          "thumb_url": "gdrive_cache/13SLmn1D7M4lnQT_WaRM6_0KX3OhYWEoI_thumb.jpg",
+          "type": "image",
+          "date_taken": "2026-08-16 17:16:26"
+        },
+        {
+          "url": "gdrive_cache/1J5vN9tv8a-QTxvBYJpuiMCfV5c9K9mzI.jpg",
+          "thumb_url": "gdrive_cache/1J5vN9tv8a-QTxvBYJpuiMCfV5c9K9mzI_thumb.jpg",
+          "type": "image",
+          "date_taken": "2026-08-16 17:16:26"
+        },
+        {
+          "url": "gdrive_cache/1XPbCKD57d8i1nm0LsdaLe7epQtW-NIwA.jpg",
+          "thumb_url": "gdrive_cache/1XPbCKD57d8i1nm0LsdaLe7epQtW-NIwA_thumb.jpg",
+          "type": "image",
+          "date_taken": "2026-08-16 17:16:26"
+        },
+        {
+          "url": "gdrive_cache/1Ji3kksl8d2fLuriMjYxJVwVRio4wLHO5.jpg",
+          "thumb_url": "gdrive_cache/1Ji3kksl8d2fLuriMjYxJVwVRio4wLHO5_thumb.jpg",
+          "type": "image",
+          "date_taken": "2026-08-16 17:16:26"
+        },
+        {
+          "url": "gdrive_cache/1xIHMUEKuTaeD3Sl3qWrVB57mYf6o4aGm.jpg",
+          "thumb_url": "gdrive_cache/1xIHMUEKuTaeD3Sl3qWrVB57mYf6o4aGm_thumb.jpg",
+          "type": "image",
+          "date_taken": "2026-08-16 17:16:26"
+        },
+        {
+          "url": "gdrive_cache/1yhmLxlhU5uAOhTkI-1xl0LyRz_BA1Hu-.jpg",
+          "thumb_url": "gdrive_cache/1yhmLxlhU5uAOhTkI-1xl0LyRz_BA1Hu-_thumb.jpg",
+          "type": "image",
+          "date_taken": "2026-08-16 17:16:26"
+        },
+        {
+          "url": "gdrive_cache/1JRKFO8iDjJGO4xnKZWOmsI0Eyc_qgeZZ.jpg",
+          "thumb_url": "gdrive_cache/1JRKFO8iDjJGO4xnKZWOmsI0Eyc_qgeZZ_thumb.jpg",
+          "type": "image",
+          "date_taken": "2026-08-16 17:16:26"
+        },
+        {
+          "url": "gdrive_cache/1eZ4UHw3RGtHyLYVzIXe4Jm5ZJtgmdHKs.jpg",
+          "thumb_url": "gdrive_cache/1eZ4UHw3RGtHyLYVzIXe4Jm5ZJtgmdHKs_thumb.jpg",
+          "type": "image",
+          "date_taken": "2026-08-16 17:16:27"
+        },
+        {
+          "url": "gdrive_cache/1DlVdewGGw0LGtu-bW4rZ8HRG04_pRIla.jpg",
+          "thumb_url": "gdrive_cache/1DlVdewGGw0LGtu-bW4rZ8HRG04_pRIla.jpg",
+          "type": "image",
+          "date_taken": "2026-08-16 17:16:27"
+        },
+        {
+          "url": "gdrive_cache/1v8uin5-6rdgnHgSmomJD7GFSzABDqCYP.jpg",
+          "thumb_url": "gdrive_cache/1v8uin5-6rdgnHgSmomJD7GFSzABDqCYP_thumb.jpg",
+          "type": "image",
+          "date_taken": "2026-08-16 17:28:50"
+        }
+      ],
+      "location": [
+        -6.2625,
+        106.8145
+      ],
+      "timeline_stops": [
+        {
+          "coords": [
+            -6.056362,
+            106.679337
+          ],
+          "time": "08:15 - 08:55",
+          "type": "HOME",
+          "name": "Home / Kosambi"
+        },
+        {
+          "coords": [
+            -6.293996,
+            106.912202
+          ],
+          "time": "09:59 - 10:03",
+          "type": "ALIASED_LOCATION",
+          "name": "Pondok Melati"
+        },
+        {
+          "coords": [
+            -6.260386,
+            106.824218
+          ],
+          "time": "11:14 - 12:15",
+          "type": "UNKNOWN",
+          "name": "Pejaten / Kemang Village Area"
+        },
+        {
+          "coords": [
+            -6.254184,
+            106.801236
+          ],
+          "time": "12:37 - 14:05",
+          "type": "UNKNOWN",
+          "name": "Padel Court / Brawijaya Dharmawangsa"
+        },
+        {
+          "coords": [
+            -6.303705,
+            106.841172
+          ],
+          "time": "14:46 - 17:52",
+          "type": "UNKNOWN",
+          "name": "Kementerian Pertanian / TB Simatupang"
+        },
+        {
+          "coords": [
+            -6.256357,
+            106.802958
+          ],
+          "time": "18:27 - 20:31",
+          "type": "UNKNOWN",
+          "name": "Plataran Dharmawangsa Area"
+        },
+        {
+          "coords": [
+            -6.293211,
+            106.914454
+          ],
+          "time": "21:42 - 21:50",
+          "type": "UNKNOWN",
+          "name": "Pondok Melati"
+        },
+        {
+          "coords": [
+            -6.293996,
+            106.912202
+          ],
+          "time": "21:51 - 22:37",
+          "type": "ALIASED_LOCATION",
+          "name": "Pondok Melati"
+        },
+        {
+          "coords": [
+            -6.056362,
+            106.679337
+          ],
+          "time": "23:31 - 11:37",
+          "type": "HOME",
+          "name": "Home / Kosambi"
+        }
+      ],
+      "timeline_path": [
+        [
+          -6.056353,
+          106.679381
+        ],
+        [
+          -6.057324,
+          106.683063
+        ],
+        [
+          -6.055588,
+          106.68779
+        ],
+        [
+          -6.049942,
+          106.694506
+        ],
+        [
+          -6.050354,
+          106.702853
+        ],
+        [
+          -6.058036,
+          106.708347
+        ],
+        [
+          -6.067243,
+          106.710428
+        ],
+        [
+          -6.084668,
+          106.724355
+        ],
+        [
+          -6.087605,
+          106.731351
+        ],
+        [
+          -6.08418,
+          106.735188
+        ],
+        [
+          -6.091064,
+          106.745199
+        ],
+        [
+          -6.117269,
+          106.734295
+        ],
+        [
+          -6.124504,
+          106.730254
+        ],
+        [
+          -6.196731,
+          106.733865
+        ],
+        [
+          -6.250911,
+          106.76298
+        ],
+        [
+          -6.269659,
+          106.76849
+        ],
+        [
+          -6.275175,
+          106.767924
+        ],
+        [
+          -6.290714,
+          106.781511
+        ],
+        [
+          -6.293759,
+          106.822209
+        ],
+        [
+          -6.308316,
+          106.872606
+        ],
+        [
+          -6.305807,
+          106.888424
+        ],
+        [
+          -6.311901,
+          106.915765
+        ],
+        [
+          -6.310487,
+          106.924267
+        ],
+        [
+          -6.304999,
+          106.923625
+        ],
+        [
+          -6.299313,
+          106.923845
+        ],
+        [
+          -6.292791,
+          106.918575
+        ],
+        [
+          -6.292424,
+          106.916257
+        ],
+        [
+          -6.293135,
+          106.91309
+        ],
+        [
+          -6.293899,
+          106.912142
+        ],
+        [
+          -6.293446,
+          106.912284
+        ],
+        [
+          -6.293216,
+          106.914785
+        ],
+        [
+          -6.292648,
+          106.917302
+        ],
+        [
+          -6.285365,
+          106.912691
+        ],
+        [
+          -6.284339,
+          106.909291
+        ],
+        [
+          -6.285296,
+          106.900804
+        ],
+        [
+          -6.288918,
+          106.897129
+        ],
+        [
+          -6.29108,
+          106.885392
+        ],
+        [
+          -6.290235,
+          106.881231
+        ],
+        [
+          -6.292432,
+          106.88098
+        ],
+        [
+          -6.302517,
+          106.884338
+        ],
+        [
+          -6.305924,
+          106.889413
+        ],
+        [
+          -6.307944,
+          106.884483
+        ],
+        [
+          -6.30649,
+          106.881236
+        ],
+        [
+          -6.308817,
+          106.869455
+        ],
+        [
+          -6.307277,
+          106.866097
+        ],
+        [
+          -6.30241,
+          106.858886
+        ],
+        [
+          -6.303659,
+          106.851676
+        ],
+        [
+          -6.303058,
+          106.840969
+        ],
+        [
+          -6.30405,
+          106.850547
+        ],
+        [
+          -6.302066,
+          106.836722
+        ],
+        [
+          -6.29422,
+          106.822621
+        ],
+        [
+          -6.283187,
+          106.827012
+        ],
+        [
+          -6.281161,
+          106.828
+        ],
+        [
+          -6.278732,
+          106.828278
+        ],
+        [
+          -6.275949,
+          106.821122
+        ],
+        [
+          -6.27256,
+          106.821495
+        ],
+        [
+          -6.270134,
+          106.823909
+        ],
+        [
+          -6.260565,
+          106.823406
+        ],
+        [
+          -6.265572,
+          106.823819
+        ],
+        [
+          -6.266506,
+          106.821818
+        ],
+        [
+          -6.265416,
+          106.819743
+        ],
+        [
+          -6.264789,
+          106.81616
+        ],
+        [
+          -6.267217,
+          106.815843
+        ],
+        [
+          -6.266737,
+          106.810382
+        ],
+        [
+          -6.257341,
+          106.807658
+        ],
+        [
+          -6.257392,
+          106.80524
+        ],
+        [
+          -6.255015,
+          106.805093
+        ],
+        [
+          -6.25477,
+          106.801766
+        ],
+        [
+          -6.252783,
+          106.8011
+        ],
+        [
+          -6.254601,
+          106.803552
+        ],
+        [
+          -6.253785,
+          106.805393
+        ],
+        [
+          -6.249391,
+          106.808137
+        ],
+        [
+          -6.250405,
+          106.80973
+        ],
+        [
+          -6.254056,
+          106.808085
+        ],
+        [
+          -6.264266,
+          106.808398
+        ],
+        [
+          -6.272571,
+          106.808732
+        ],
+        [
+          -6.274323,
+          106.820998
+        ],
+        [
+          -6.277527,
+          106.826669
+        ],
+        [
+          -6.279078,
+          106.828699
+        ],
+        [
+          -6.285684,
+          106.826277
+        ],
+        [
+          -6.286072,
+          106.828924
+        ],
+        [
+          -6.292639,
+          106.828712
+        ],
+        [
+          -6.294963,
+          106.827538
+        ],
+        [
+          -6.29675,
+          106.828852
+        ],
+        [
+          -6.304057,
+          106.849182
+        ],
+        [
+          -6.303716,
+          106.841518
+        ],
+        [
+          -6.303958,
+          106.840674
+        ],
+        [
+          -6.304179,
+          106.845078
+        ],
+        [
+          -6.302203,
+          106.836912
+        ],
+        [
+          -6.294272,
+          106.822812
+        ],
+        [
+          -6.281936,
+          106.827602
+        ],
+        [
+          -6.279089,
+          106.828647
+        ],
+        [
+          -6.277608,
+          106.826863
+        ],
+        [
+          -6.275918,
+          106.821064
+        ],
+        [
+          -6.27282,
+          106.81035
+        ],
+        [
+          -6.271952,
+          106.808705
+        ],
+        [
+          -6.257495,
+          106.80792
+        ],
+        [
+          -6.257375,
+          106.805353
+        ],
+        [
+          -6.256243,
+          106.803383
+        ],
+        [
+          -6.256076,
+          106.803474
+        ],
+        [
+          -6.257213,
+          106.806429
+        ],
+        [
+          -6.267738,
+          106.808616
+        ],
+        [
+          -6.276716,
+          106.808489
+        ],
+        [
+          -6.278993,
+          106.814218
+        ],
+        [
+          -6.280048,
+          106.819829
+        ],
+        [
+          -6.291154,
+          106.817249
+        ],
+        [
+          -6.293406,
+          106.822008
+        ],
+        [
+          -6.303094,
+          106.841709
+        ],
+        [
+          -6.303732,
+          106.85148
+        ],
+        [
+          -6.302688,
+          106.853137
+        ],
+        [
+          -6.302516,
+          106.855809
+        ],
+        [
+          -6.302343,
+          106.858561
+        ],
+        [
+          -6.305983,
+          106.86496
+        ],
+        [
+          -6.307822,
+          106.868621
+        ],
+        [
+          -6.308091,
+          106.872762
+        ],
+        [
+          -6.305851,
+          106.890754
+        ],
+        [
+          -6.308073,
+          106.898333
+        ],
+        [
+          -6.310353,
+          106.90126
+        ],
+        [
+          -6.311165,
+          106.904363
+        ],
+        [
+          -6.310697,
+          106.906817
+        ],
+        [
+          -6.306024,
+          106.909864
+        ],
+        [
+          -6.307081,
+          106.915629
+        ],
+        [
+          -6.303855,
+          106.917852
+        ],
+        [
+          -6.305659,
+          106.923217
+        ],
+        [
+          -6.299374,
+          106.923848
+        ],
+        [
+          -6.29304,
+          106.918758
+        ],
+        [
+          -6.293329,
+          106.914333
+        ],
+        [
+          -6.293197,
+          106.912259
+        ],
+        [
+          -6.293175,
+          106.91251
+        ],
+        [
+          -6.291999,
+          106.9176
+        ],
+        [
+          -6.296861,
+          106.921923
+        ],
+        [
+          -6.310414,
+          106.924388
+        ],
+        [
+          -6.303973,
+          106.843146
+        ],
+        [
+          -6.301637,
+          106.834624
+        ],
+        [
+          -6.291609,
+          106.814038
+        ],
+        [
+          -6.291519,
+          106.782578
+        ],
+        [
+          -6.288139,
+          106.777187
+        ],
+        [
+          -6.27362,
+          106.767018
+        ],
+        [
+          -6.264487,
+          106.768205
+        ],
+        [
+          -6.205044,
+          106.737402
+        ],
+        [
+          -6.197161,
+          106.732756
+        ],
+        [
+          -6.190682,
+          106.737597
+        ],
+        [
+          -6.135474,
+          106.731388
+        ],
+        [
+          -6.095004,
+          106.742259
+        ],
+        [
+          -6.085749,
+          106.736119
+        ],
+        [
+          -6.08747,
+          106.732627
+        ],
+        [
+          -6.081552,
+          106.720185
+        ],
+        [
+          -6.068842,
+          106.708024
+        ],
+        [
+          -6.067736,
+          106.69639
+        ],
+        [
+          -6.056965,
+          106.678896
+        ],
+        [
+          -6.056359,
+          106.679347
+        ]
+      ]
+    },
+    {
+      "id": "1Y2wWMFKfyUTpE33BXLSMaYWlVbGShbvy",
+      "date": "2026-08-16",
+      "title": "Teras winiy + church date",
+      "description": "",
+      "image_path": "gdrive_cache/1aw-rjNfNEdWnDTUsuu2WWnnZ3vM1nlu0_thumb.jpg",
+      "images": [
+        {
+          "url": "gdrive_cache/1R6GptPXssiKHCGCKp3psCQQDDVK7hSvb.jpg",
+          "thumb_url": "gdrive_cache/1R6GptPXssiKHCGCKp3psCQQDDVK7hSvb_thumb.jpg",
+          "type": "image",
+          "date_taken": "2026-08-16 17:18:38"
+        },
+        {
+          "url": "gdrive_cache/1aw-rjNfNEdWnDTUsuu2WWnnZ3vM1nlu0.jpg",
+          "thumb_url": "gdrive_cache/1aw-rjNfNEdWnDTUsuu2WWnnZ3vM1nlu0_thumb.jpg",
+          "type": "image",
+          "date_taken": "2026-08-16 17:18:38"
+        },
+        {
+          "url": "gdrive_cache/1hBbUgsxgnauOBtWxC6qwXnHlv2xmKcfQ.jpg",
+          "thumb_url": "gdrive_cache/1hBbUgsxgnauOBtWxC6qwXnHlv2xmKcfQ_thumb.jpg",
+          "type": "image",
+          "date_taken": "2026-08-16 17:18:39"
+        },
+        {
+          "url": "gdrive_cache/1SJofgiOvX9lffX8Fm8cfq6j3dJ49rxS5.jpg",
+          "thumb_url": "gdrive_cache/1SJofgiOvX9lffX8Fm8cfq6j3dJ49rxS5_thumb.jpg",
+          "type": "image",
+          "date_taken": "2026-08-16 17:18:39"
+        },
+        {
+          "url": "gdrive_cache/1weenQvvBexeF3Qg8d1VZ0yIcwuGQGLJm.jpg",
+          "thumb_url": "gdrive_cache/1weenQvvBexeF3Qg8d1VZ0yIcwuGQGLJm_thumb.jpg",
+          "type": "image",
+          "date_taken": "2026-08-16 17:18:39"
+        },
+        {
+          "url": "gdrive_cache/16iCr2WDaVbLvHbqV2nOgwU2o9NgqpsBf.jpg",
+          "thumb_url": "gdrive_cache/16iCr2WDaVbLvHbqV2nOgwU2o9NgqpsBf_thumb.jpg",
+          "type": "image",
+          "date_taken": "2026-08-16 17:18:39"
+        },
+        {
+          "url": "gdrive_cache/1sWaLMWiqL7rRFaLcaejpyWs-D5B-ejHI.jpg",
+          "thumb_url": "gdrive_cache/1sWaLMWiqL7rRFaLcaejpyWs-D5B-ejHI_thumb.jpg",
+          "type": "image",
+          "date_taken": "2026-08-16 17:18:39"
+        },
+        {
+          "url": "gdrive_cache/1yoXXUOr9fL4FNBvqzDNovrmzpZWH0eP0.mp4",
+          "thumb_url": "gdrive_cache/1yoXXUOr9fL4FNBvqzDNovrmzpZWH0eP0.mp4",
+          "type": "video",
+          "date_taken": "2026-08-16 17:27:21"
+        },
+        {
+          "url": "gdrive_cache/1RPVr--3dafdOV7dEOEwza43vBLvUZxKT.mp4",
+          "thumb_url": "gdrive_cache/1RPVr--3dafdOV7dEOEwza43vBLvUZxKT.mp4",
+          "type": "video",
+          "date_taken": "2026-08-16 17:27:28"
+        },
+        {
+          "url": "gdrive_cache/1rF3xhgg4J9xIacUXUPqEzBb0omxOnBIQ.mp4",
+          "thumb_url": "gdrive_cache/1rF3xhgg4J9xIacUXUPqEzBb0omxOnBIQ.mp4",
+          "type": "video",
+          "date_taken": "2026-08-16 17:27:29"
+        },
+        {
+          "url": "gdrive_cache/1ZvAsmuQBKFyiTyYMpgYjblfFF4L9XO1-.mp4",
+          "thumb_url": "gdrive_cache/1ZvAsmuQBKFyiTyYMpgYjblfFF4L9XO1-.mp4",
+          "type": "video",
+          "date_taken": "2026-08-16 17:27:34"
+        },
+        {
+          "url": "https://lh3.googleusercontent.com/d/1PA3d8_wjg91EK8AG7-wGfLLb4HZA6Vfg",
+          "thumb_url": "https://drive.google.com/thumbnail?id=1PA3d8_wjg91EK8AG7-wGfLLb4HZA6Vfg&sz=w800",
+          "type": "video",
+          "date_taken": "2026-08-16 17:28:04"
+        },
+        {
+          "url": "https://lh3.googleusercontent.com/d/1ZFO4ztR5f2SJtaml8yZKtWxkvqNb-J8d",
+          "thumb_url": "https://drive.google.com/thumbnail?id=1ZFO4ztR5f2SJtaml8yZKtWxkvqNb-J8d&sz=w800",
+          "type": "video",
+          "date_taken": "2026-08-16 17:28:25"
+        },
+        {
+          "url": "https://lh3.googleusercontent.com/d/1zOyXR9t-tYpDSUOt6udcPrI3bVPa3dx7",
+          "thumb_url": "https://drive.google.com/thumbnail?id=1zOyXR9t-tYpDSUOt6udcPrI3bVPa3dx7&sz=w800",
+          "type": "video",
+          "date_taken": "2026-08-16 17:29:46"
+        }
+      ],
+      "location": [
+        -6.2694,
+        106.9142
+      ],
+      "timeline_stops": [
+        {
+          "coords": [
+            -6.293996,
+            106.912202
+          ],
+          "time": "12:34 - 12:46",
+          "type": "ALIASED_LOCATION",
+          "name": "Pondok Melati"
+        },
+        {
+          "coords": [
+            -6.270852,
+            106.912155
+          ],
+          "time": "12:58 - 13:09",
+          "type": "UNKNOWN",
+          "name": "Halim Perdanakusuma Area"
+        },
+        {
+          "coords": [
+            -6.265315,
+            106.911558
+          ],
+          "time": "13:09 - 13:17",
+          "type": "UNKNOWN",
+          "name": "Pondok Gede Raya"
+        },
+        {
+          "coords": [
+            -6.308623,
+            106.923783
+          ],
+          "time": "13:34 - 15:27",
+          "type": "UNKNOWN",
+          "name": "Teras Winiy Cafe & Resto"
+        },
+        {
+          "coords": [
+            -6.293996,
+            106.912202
+          ],
+          "time": "15:39 - 16:02",
+          "type": "ALIASED_LOCATION",
+          "name": "Pondok Melati"
+        },
+        {
+          "coords": [
+            -6.318158,
+            106.907234
+          ],
+          "time": "16:20 - 18:16",
+          "type": "UNKNOWN",
+          "name": "Gereja Santo Yohanes Maria Vianney (Cilangkap)"
+        },
+        {
+          "coords": [
+            -6.293996,
+            106.912202
+          ],
+          "time": "18:35 - 19:51",
+          "type": "ALIASED_LOCATION",
+          "name": "Pondok Melati"
+        },
+        {
+          "coords": [
+            -6.292898,
+            106.91697
+          ],
+          "time": "19:56 - 20:48",
+          "type": "UNKNOWN",
+          "name": "Pondok Melati"
+        },
+        {
+          "coords": [
+            -6.293268,
+            106.914039
+          ],
+          "time": "20:50 - 20:54",
+          "type": "UNKNOWN",
+          "name": "Pondok Melati"
+        },
+        {
+          "coords": [
+            -6.293996,
+            106.912202
+          ],
+          "time": "20:58 - 22:35",
+          "type": "ALIASED_LOCATION",
+          "name": "Pondok Melati"
+        },
+        {
+          "coords": [
+            -6.056362,
+            106.679337
+          ],
+          "time": "23:26 - 02:07",
+          "type": "HOME",
+          "name": "Home / Kosambi"
+        }
+      ],
+      "timeline_path": [
+        [
+          -6.056351,
+          106.679358
+        ],
+        [
+          -6.0426,
+          106.676845
+        ],
+        [
+          -6.056407,
+          106.679369
+        ],
+        [
+          -6.0426,
+          106.676845
+        ],
+        [
+          -6.056379,
+          106.679344
+        ],
+        [
+          -6.055941,
+          106.680459
+        ],
+        [
+          -6.057084,
+          106.682685
+        ],
+        [
+          -6.056874,
+          106.687439
+        ],
+        [
+          -6.050968,
+          106.692112
+        ],
+        [
+          -6.049442,
+          106.698758
+        ],
+        [
+          -6.052188,
+          106.705395
+        ],
+        [
+          -6.082048,
+          106.721415
+        ],
+        [
+          -6.086025,
+          106.728016
+        ],
+        [
+          -6.086748,
+          106.732804
+        ],
+        [
+          -6.084446,
+          106.735905
+        ],
+        [
+          -6.090895,
+          106.744943
+        ],
+        [
+          -6.116341,
+          106.734899
+        ],
+        [
+          -6.119732,
+          106.732764
+        ],
+        [
+          -6.186894,
+          106.730062
+        ],
+        [
+          -6.243869,
+          106.759096
+        ],
+        [
+          -6.263355,
+          106.7677
+        ],
+        [
+          -6.278284,
+          106.769495
+        ],
+        [
+          -6.289617,
+          106.7793
+        ],
+        [
+          -6.292124,
+          106.786321
+        ],
+        [
+          -6.292429,
+          106.81801
+        ],
+        [
+          -6.307128,
+          106.866498
+        ],
+        [
+          -6.306744,
+          106.89337
+        ],
+        [
+          -6.310949,
+          106.901592
+        ],
+        [
+          -6.31019,
+          106.924391
+        ],
+        [
+          -6.299286,
+          106.923843
+        ],
+        [
+          -6.292345,
+          106.918219
+        ],
+        [
+          -6.292465,
+          106.916264
+        ],
+        [
+          -6.293183,
+          106.912521
+        ],
+        [
+          -6.293108,
+          106.912647
+        ],
+        [
+          -6.293233,
+          106.91504
+        ],
+        [
+          -6.292656,
+          106.917295
+        ],
+        [
+          -6.28606,
+          106.913221
+        ],
+        [
+          -6.284703,
+          106.910275
+        ],
+        [
+          -6.282699,
+          106.91284
+        ],
+        [
+          -6.270869,
+          106.911973
+        ],
+        [
+          -6.269137,
+          106.911747
+        ],
+        [
+          -6.266202,
+          106.911381
+        ],
+        [
+          -6.265626,
+          106.911345
+        ],
+        [
+          -6.283313,
+          106.913928
+        ],
+        [
+          -6.285076,
+          106.913009
+        ],
+        [
+          -6.296604,
+          106.921722
+        ],
+        [
+          -6.298338,
+          106.923357
+        ],
+        [
+          -6.300358,
+          106.924044
+        ],
+        [
+          -6.308208,
+          106.924089
+        ],
+        [
+          -6.308588,
+          106.924147
+        ],
+        [
+          -6.299572,
+          106.923934
+        ],
+        [
+          -6.292617,
+          106.918453
+        ],
+        [
+          -6.292449,
+          106.916461
+        ],
+        [
+          -6.293249,
+          106.914797
+        ],
+        [
+          -6.293732,
+          106.912312
+        ],
+        [
+          -6.293076,
+          106.912758
+        ],
+        [
+          -6.293217,
+          106.914872
+        ],
+        [
+          -6.293012,
+          106.918806
+        ],
+        [
+          -6.300217,
+          106.924065
+        ],
+        [
+          -6.305367,
+          106.923702
+        ],
+        [
+          -6.303946,
+          106.918382
+        ],
+        [
+          -6.318682,
+          106.910139
+        ],
+        [
+          -6.31858,
+          106.906858
+        ],
+        [
+          -6.318693,
+          106.907787
+        ],
+        [
+          -6.318075,
+          106.910953
+        ],
+        [
+          -6.31417,
+          106.911792
+        ],
+        [
+          -6.303961,
+          106.917453
+        ],
+        [
+          -6.305625,
+          106.923419
+        ],
+        [
+          -6.298822,
+          106.923646
+        ],
+        [
+          -6.292342,
+          106.918228
+        ],
+        [
+          -6.293206,
+          106.914702
+        ],
+        [
+          -6.293121,
+          106.912921
+        ],
+        [
+          -6.29396,
+          106.912075
+        ],
+        [
+          -6.29276,
+          106.91731
+        ],
+        [
+          -6.292455,
+          106.916477
+        ],
+        [
+          -6.293279,
+          106.914046
+        ],
+        [
+          -6.2938,
+          106.912057
+        ],
+        [
+          -6.293546,
+          106.912172
+        ],
+        [
+          -6.293238,
+          106.915265
+        ],
+        [
+          -6.292234,
+          106.918051
+        ],
+        [
+          -6.298255,
+          106.923305
+        ],
+        [
+          -6.310784,
+          106.92462
+        ],
+        [
+          -6.311281,
+          106.902287
+        ],
+        [
+          -6.307475,
+          106.895894
+        ],
+        [
+          -6.306375,
+          106.880377
+        ],
+        [
+          -6.308299,
+          106.872935
+        ],
+        [
+          -6.302886,
+          106.839267
+        ],
+        [
+          -6.292354,
+          106.815626
+        ],
+        [
+          -6.292258,
+          106.786871
+        ],
+        [
+          -6.289757,
+          106.7794
+        ],
+        [
+          -6.275808,
+          106.768036
+        ],
+        [
+          -6.252473,
+          106.764021
+        ],
+        [
+          -6.186375,
+          106.730386
+        ],
+        [
+          -6.124421,
+          106.730208
+        ],
+        [
+          -6.106706,
+          106.740018
+        ],
+        [
+          -6.091016,
+          106.743686
+        ],
+        [
+          -6.08549,
+          106.734332
+        ],
+        [
+          -6.087395,
+          106.730917
+        ],
+        [
+          -6.082339,
+          106.721492
+        ],
+        [
+          -6.069838,
+          106.711966
+        ],
+        [
+          -6.067926,
+          106.70754
+        ],
+        [
+          -6.068451,
+          106.699464
+        ],
+        [
+          -6.067244,
+          106.695244
+        ],
+        [
+          -6.062398,
+          106.688828
+        ],
+        [
+          -6.061008,
+          106.683978
+        ],
+        [
+          -6.059089,
+          106.681318
+        ],
+        [
+          -6.056422,
+          106.680156
+        ],
+        [
+          -6.056402,
+          106.679247
+        ],
+        [
+          -6.056363,
+          106.679385
+        ]
+      ]
+    },
+    {
+      "id": "1Tsyuql7oq1kd_OA6VxobRCVjR6sW9845",
+      "date": "2026-08-25",
+      "title": "Bogor Triple Date",
+      "description": "Fun triple date adventure in Bogor exploring Q Square Lifestyle, cafe spots, and good food!",
+      "image_path": "gdrive_cache/1CDpaG5Z1WOlzflAKyLB_jHzgo1YyKJ0Z_thumb.jpg",
+      "images": [
+        {
+          "url": "gdrive_cache/1LSTz896ybUQQn9eLo2FOgDrG8r8a5fYN.jpg",
+          "thumb_url": "gdrive_cache/1LSTz896ybUQQn9eLo2FOgDrG8r8a5fYN_thumb.jpg",
+          "type": "image",
+          "date_taken": "2026-08-25 14:30:00"
+        },
+        {
+          "url": "gdrive_cache/1YXctKanKEXvTA92b19xcFsWf9lk9kPzU.jpg",
+          "thumb_url": "gdrive_cache/1YXctKanKEXvTA92b19xcFsWf9lk9kPzU_thumb.jpg",
+          "type": "image",
+          "date_taken": "2026-08-25 14:30:00"
+        },
+        {
+          "url": "gdrive_cache/17EAGwXPUOaXLcOgehHnT_-tkT0Oxjk-_.jpg",
+          "thumb_url": "gdrive_cache/17EAGwXPUOaXLcOgehHnT_-tkT0Oxjk-__thumb.jpg",
+          "type": "image",
+          "date_taken": "2026-08-25 14:30:00"
+        },
+        {
+          "url": "gdrive_cache/12JGKzASvdjpsKP7VpiIQNE0hQ_oZ1NK5.jpg",
+          "thumb_url": "gdrive_cache/12JGKzASvdjpsKP7VpiIQNE0hQ_oZ1NK5_thumb.jpg",
+          "type": "image",
+          "date_taken": "2026-08-25 14:30:00"
+        },
+        {
+          "url": "gdrive_cache/180ql54DK2K4OSOCpVvii61WS266WxAj_.jpg",
+          "thumb_url": "gdrive_cache/180ql54DK2K4OSOCpVvii61WS266WxAj__thumb.jpg",
+          "type": "image",
+          "date_taken": "2026-08-25 14:30:00"
+        },
+        {
+          "url": "gdrive_cache/1VEFZZz9LzhO7-OJBBRbzf9KEEwAZLrpC.jpg",
+          "thumb_url": "gdrive_cache/1VEFZZz9LzhO7-OJBBRbzf9KEEwAZLrpC_thumb.jpg",
+          "type": "image",
+          "date_taken": "2026-08-25 14:30:00"
+        },
+        {
+          "url": "gdrive_cache/1uUSsWeMM7lXn43sdiIMo1rjEZZcjnwiU.jpg",
+          "thumb_url": "gdrive_cache/1uUSsWeMM7lXn43sdiIMo1rjEZZcjnwiU_thumb.jpg",
+          "type": "image",
+          "date_taken": "2026-08-25 14:30:00"
+        },
+        {
+          "url": "gdrive_cache/11b-f8seEuMIzft4iOY_4_ZAQoLNQmH41.jpg",
+          "thumb_url": "gdrive_cache/11b-f8seEuMIzft4iOY_4_ZAQoLNQmH41_thumb.jpg",
+          "type": "image",
+          "date_taken": "2026-08-25 14:30:00"
+        },
+        {
+          "url": "gdrive_cache/18va9fxhmmMHAht_780K639uJh9u3oE5b.jpg",
+          "thumb_url": "gdrive_cache/18va9fxhmmMHAht_780K639uJh9u3oE5b_thumb.jpg",
+          "type": "image",
+          "date_taken": "2026-08-25 14:30:00"
+        },
+        {
+          "url": "gdrive_cache/1TSWgqMTCKEHpCGYFp9NirPYTIuDuSRCN.jpg",
+          "thumb_url": "gdrive_cache/1TSWgqMTCKEHpCGYFp9NirPYTIuDuSRCN_thumb.jpg",
+          "type": "image",
+          "date_taken": "2026-08-25 14:30:00"
+        },
+        {
+          "url": "gdrive_cache/1mCZTRDGk4-4m6tkEcooJlztygINxJ5V5.jpg",
+          "thumb_url": "gdrive_cache/1mCZTRDGk4-4m6tkEcooJlztygINxJ5V5_thumb.jpg",
+          "type": "image",
+          "date_taken": "2026-08-25 14:30:00"
+        },
+        {
+          "url": "gdrive_cache/1e0uQvI3HE5WuTPLeAT2RMap0X28pNPgI.jpg",
+          "thumb_url": "gdrive_cache/1e0uQvI3HE5WuTPLeAT2RMap0X28pNPgI_thumb.jpg",
+          "type": "image",
+          "date_taken": "2026-08-25 14:30:00"
+        },
+        {
+          "url": "gdrive_cache/1yQoHDVq_wAsqz1IRkR9We0oinew0FuBx.jpg",
+          "thumb_url": "gdrive_cache/1yQoHDVq_wAsqz1IRkR9We0oinew0FuBx_thumb.jpg",
+          "type": "image",
+          "date_taken": "2026-08-25 14:30:00"
+        },
+        {
+          "url": "gdrive_cache/1CDpaG5Z1WOlzflAKyLB_jHzgo1YyKJ0Z.jpg",
+          "thumb_url": "gdrive_cache/1CDpaG5Z1WOlzflAKyLB_jHzgo1YyKJ0Z_thumb.jpg",
+          "type": "image",
+          "date_taken": "2026-08-25 14:30:00"
+        },
+        {
+          "url": "gdrive_cache/1ANgdG-xPsJ4rmLWkUehGZse-BcKHVSNh.jpg",
+          "thumb_url": "gdrive_cache/1ANgdG-xPsJ4rmLWkUehGZse-BcKHVSNh_thumb.jpg",
+          "type": "image",
+          "date_taken": "2026-08-25 14:30:00"
+        },
+        {
+          "url": "gdrive_cache/1ZA1xaLZS7XOSjgP3MQusqm0yalg1HD_u.jpg",
+          "thumb_url": "gdrive_cache/1ZA1xaLZS7XOSjgP3MQusqm0yalg1HD_u_thumb.jpg",
+          "type": "image",
+          "date_taken": "2026-08-25 14:30:00"
+        },
+        {
+          "url": "gdrive_cache/12G1Kz4zhsTi6Q92qTPINfnN38Er9U2jz.jpg",
+          "thumb_url": "gdrive_cache/12G1Kz4zhsTi6Q92qTPINfnN38Er9U2jz_thumb.jpg",
+          "type": "image",
+          "date_taken": "2026-08-25 14:30:00"
+        },
+        {
+          "url": "gdrive_cache/1Hi_URxLMbRNVIycFt02lEAB5haS7SMb8.jpg",
+          "thumb_url": "gdrive_cache/1Hi_URxLMbRNVIycFt02lEAB5haS7SMb8_thumb.jpg",
+          "type": "image",
+          "date_taken": "2026-08-25 14:30:00"
+        },
+        {
+          "url": "gdrive_cache/18BlLFrk44qEpotxof-GWY-KMLDi4k9JB.jpg",
+          "thumb_url": "gdrive_cache/18BlLFrk44qEpotxof-GWY-KMLDi4k9JB_thumb.jpg",
+          "type": "image",
+          "date_taken": "2026-08-25 14:30:00"
+        },
+        {
+          "url": "gdrive_cache/1FPi_GZZyLXPG81iotrKHudu3eYTqJaqK.jpg",
+          "thumb_url": "gdrive_cache/1FPi_GZZyLXPG81iotrKHudu3eYTqJaqK_thumb.jpg",
+          "type": "image",
+          "date_taken": "2026-08-25 14:30:00"
+        },
+        {
+          "url": "gdrive_cache/1EObk599TS3O1AhEFuKKfTeRPK6TJkUJr.jpg",
+          "thumb_url": "gdrive_cache/1EObk599TS3O1AhEFuKKfTeRPK6TJkUJr_thumb.jpg",
+          "type": "image",
+          "date_taken": "2026-08-25 14:30:00"
+        },
+        {
+          "url": "gdrive_cache/1eFXaaSJRlq5qNFa3ofug5B-AbyGd_kVM.jpg",
+          "thumb_url": "gdrive_cache/1eFXaaSJRlq5qNFa3ofug5B-AbyGd_kVM_thumb.jpg",
+          "type": "image",
+          "date_taken": "2026-08-25 14:30:00"
+        },
+        {
+          "url": "gdrive_cache/1BZXuxiz9_64SyDoISRflFK1yS1e2PzNP.jpg",
+          "thumb_url": "gdrive_cache/1BZXuxiz9_64SyDoISRflFK1yS1e2PzNP_thumb.jpg",
+          "type": "image",
+          "date_taken": "2026-08-25 14:30:00"
+        },
+        {
+          "url": "gdrive_cache/1yAc_1t5vc8W8hNDE8Rv8bpmVwZoDxVFr.jpg",
+          "thumb_url": "gdrive_cache/1yAc_1t5vc8W8hNDE8Rv8bpmVwZoDxVFr_thumb.jpg",
+          "type": "image",
+          "date_taken": "2026-08-25 14:30:00"
+        },
+        {
+          "url": "gdrive_cache/1u0Pc-GE3_lrH5De9QkEYTIjkisn7MD1W.jpg",
+          "thumb_url": "gdrive_cache/1u0Pc-GE3_lrH5De9QkEYTIjkisn7MD1W_thumb.jpg",
+          "type": "image",
+          "date_taken": "2026-08-25 14:30:00"
+        }
+      ],
+      "location": [
+        -6.526789,
+        106.832686
+      ],
+      "timeline_stops": [
+        {
+          "name": "Tol Jagorawi Departure",
+          "time": "10:51",
+          "coords": [
+            -6.321961,
+            106.887117
+          ],
+          "type": "departure"
+        },
+        {
+          "name": "Jalan Mandalawangi (Bogor Tengah)",
+          "time": "11:55",
+          "coords": [
+            -6.590911,
+            106.804261
+          ],
+          "type": "culinary"
+        },
+        {
+          "name": "Q Square Lifestyle Mall Bogor",
+          "time": "14:37 - 17:17",
+          "coords": [
+            -6.526789,
+            106.832686
+          ],
+          "type": "hangout"
+        },
+        {
+          "name": "Jalan Dadali (Tanah Sareal)",
+          "time": "18:21",
+          "coords": [
+            -6.568069,
+            106.804214
+          ],
+          "type": "dinner"
+        }
+      ],
+      "timeline_path": [
+        [
+          -6.321962,
+          106.88709
+        ],
+        [
+          -6.325371,
+          106.887172
+        ],
+        [
+          -6.329036,
+          106.887241
+        ],
+        [
+          -6.329615,
+          106.887261
+        ],
+        [
+          -6.330254,
+          106.88731
+        ],
+        [
+          -6.330483,
+          106.887331
+        ],
+        [
+          -6.330882,
+          106.887378
+        ],
+        [
+          -6.331336,
+          106.887437
+        ],
+        [
+          -6.331508,
+          106.887464
+        ],
+        [
+          -6.331801,
+          106.887511
+        ],
+        [
+          -6.33223,
+          106.887598
+        ],
+        [
+          -6.332922,
+          106.887726
+        ],
+        [
+          -6.333843,
+          106.887895
+        ],
+        [
+          -6.334874,
+          106.888085
+        ],
+        [
+          -6.33572,
+          106.888237
+        ],
+        [
+          -6.336481,
+          106.888373
+        ],
+        [
+          -6.3371,
+          106.888484
+        ],
+        [
+          -6.339174,
+          106.888883
+        ],
+        [
+          -6.340403,
+          106.889125
+        ],
+        [
+          -6.341844,
+          106.889395
+        ],
+        [
+          -6.34302,
+          106.889619
+        ],
+        [
+          -6.343815,
+          106.889763
+        ],
+        [
+          -6.344978,
+          106.889982
+        ],
+        [
+          -6.345949,
+          106.890192
+        ],
+        [
+          -6.346404,
+          106.890298
+        ],
+        [
+          -6.346953,
+          106.890442
+        ],
+        [
+          -6.347375,
+          106.890551
+        ],
+        [
+          -6.348094,
+          106.890743
+        ],
+        [
+          -6.349051,
+          106.891007
+        ],
+        [
+          -6.351997,
+          106.891867
+        ],
+        [
+          -6.352916,
+          106.892122
+        ],
+        [
+          -6.354864,
+          106.892662
+        ],
+        [
+          -6.355535,
+          106.892841
+        ],
+        [
+          -6.356218,
+          106.893015
+        ],
+        [
+          -6.357012,
+          106.893184
+        ],
+        [
+          -6.359053,
+          106.893556
+        ],
+        [
+          -6.359583,
+          106.893653
+        ],
+        [
+          -6.360284,
+          106.89378
+        ],
+        [
+          -6.360985,
+          106.893908
+        ],
+        [
+          -6.36199,
+          106.894076
+        ],
+        [
+          -6.362339,
+          106.894132
+        ],
+        [
+          -6.365592,
+          106.894728
+        ],
+        [
+          -6.367923,
+          106.895168
+        ],
+        [
+          -6.371599,
+          106.895821
+        ],
+        [
+          -6.373066,
+          106.896102
+        ],
+        [
+          -6.374976,
+          106.896381
+        ],
+        [
+          -6.375715,
+          106.896448
+        ],
+        [
+          -6.376371,
+          106.896485
+        ],
+        [
+          -6.376971,
+          106.896498
+        ],
+        [
+          -6.377446,
+          106.896494
+        ],
+        [
+          -6.377998,
+          106.896451
+        ],
+        [
+          -6.382226,
+          106.896173
+        ],
+        [
+          -6.383667,
+          106.896078
+        ],
+        [
+          -6.385015,
+          106.895986
+        ],
+        [
+          -6.385789,
+          106.895933
+        ],
+        [
+          -6.386885,
+          106.895857
+        ],
+        [
+          -6.387183,
+          106.895837
+        ],
+        [
+          -6.387925,
+          106.895786
+        ],
+        [
+          -6.38862,
+          106.895734
+        ],
+        [
+          -6.389362,
+          106.8957
+        ],
+        [
+          -6.389913,
+          106.895696
+        ],
+        [
+          -6.390403,
+          106.895712
+        ],
+        [
+          -6.390919,
+          106.895735
+        ],
+        [
+          -6.391672,
+          106.895797
+        ],
+        [
+          -6.392252,
+          106.895864
+        ],
+        [
+          -6.392808,
+          106.895961
+        ],
+        [
+          -6.393821,
+          106.896157
+        ],
+        [
+          -6.395055,
+          106.896435
+        ],
+        [
+          -6.3967,
+          106.8968
+        ],
+        [
+          -6.397152,
+          106.896908
+        ],
+        [
+          -6.401717,
+          106.897975
+        ],
+        [
+          -6.402755,
+          106.898218
+        ],
+        [
+          -6.40369,
+          106.898379
+        ],
+        [
+          -6.404447,
+          106.898464
+        ],
+        [
+          -6.406249,
+          106.898569
+        ],
+        [
+          -6.406529,
+          106.898569
+        ],
+        [
+          -6.407366,
+          106.898579
+        ],
+        [
+          -6.407965,
+          106.898561
+        ],
+        [
+          -6.414956,
+          106.897877
+        ],
+        [
+          -6.415564,
+          106.897817
+        ],
+        [
+          -6.415864,
+          106.897788
+        ],
+        [
+          -6.416331,
+          106.897743
+        ],
+        [
+          -6.423563,
+          106.897032
+        ],
+        [
+          -6.424052,
+          106.896985
+        ],
+        [
+          -6.42483,
+          106.896884
+        ],
+        [
+          -6.425483,
+          106.896761
+        ],
+        [
+          -6.426209,
+          106.8966
+        ],
+        [
+          -6.426501,
+          106.896533
+        ],
+        [
+          -6.427204,
+          106.896341
+        ],
+        [
+          -6.42873,
+          106.895849
+        ],
+        [
+          -6.430928,
+          106.895126
+        ],
+        [
+          -6.431905,
+          106.894819
+        ],
+        [
+          -6.432449,
+          106.894669
+        ],
+        [
+          -6.432981,
+          106.894539
+        ],
+        [
+          -6.433672,
+          106.894396
+        ],
+        [
+          -6.437154,
+          106.893794
+        ],
+        [
+          -6.437461,
+          106.893741
+        ],
+        [
+          -6.438568,
+          106.893551
+        ],
+        [
+          -6.440699,
+          106.893187
+        ],
+        [
+          -6.440856,
+          106.89316
+        ],
+        [
+          -6.443117,
+          106.892773
+        ],
+        [
+          -6.443572,
+          106.892695
+        ],
+        [
+          -6.445002,
+          106.892451
+        ],
+        [
+          -6.445316,
+          106.89239
+        ],
+        [
+          -6.445508,
+          106.892354
+        ],
+        [
+          -6.445896,
+          106.892279
+        ],
+        [
+          -6.445899,
+          106.892279
+        ],
+        [
+          -6.446438,
+          106.892145
+        ],
+        [
+          -6.446462,
+          106.892138
+        ],
+        [
+          -6.447019,
+          106.891978
+        ],
+        [
+          -6.447617,
+          106.891775
+        ],
+        [
+          -6.448029,
+          106.891615
+        ],
+        [
+          -6.448465,
+          106.891417
+        ],
+        [
+          -6.449196,
+          106.89105
+        ],
+        [
+          -6.449774,
+          106.89076
+        ],
+        [
+          -6.450894,
+          106.890199
+        ],
+        [
+          -6.451089,
+          106.890099
+        ],
+        [
+          -6.451198,
+          106.890043
+        ],
+        [
+          -6.45173,
+          106.889778
+        ],
+        [
+          -6.452399,
+          106.889443
+        ],
+        [
+          -6.453372,
+          106.888957
+        ],
+        [
+          -6.454457,
+          106.888415
+        ],
+        [
+          -6.454953,
+          106.888182
+        ],
+        [
+          -6.457394,
+          106.886925
+        ],
+        [
+          -6.459374,
+          106.885906
+        ],
+        [
+          -6.462026,
+          106.88455
+        ],
+        [
+          -6.462058,
+          106.884533
+        ],
+        [
+          -6.465925,
+          106.882583
+        ],
+        [
+          -6.468538,
+          106.881266
+        ],
+        [
+          -6.470062,
+          106.88048
+        ],
+        [
+          -6.471439,
+          106.879771
+        ],
+        [
+          -6.473016,
+          106.878979
+        ],
+        [
+          -6.474231,
+          106.878373
+        ],
+        [
+          -6.474238,
+          106.878369
+        ],
+        [
+          -6.475414,
+          106.877783
+        ],
+        [
+          -6.476439,
+          106.877276
+        ],
+        [
+          -6.477108,
+          106.876934
+        ],
+        [
+          -6.477354,
+          106.876809
+        ],
+        [
+          -6.482154,
+          106.874391
+        ],
+        [
+          -6.482349,
+          106.874292
+        ],
+        [
+          -6.482863,
+          106.874028
+        ],
+        [
+          -6.483928,
+          106.87348
+        ],
+        [
+          -6.484918,
+          106.872971
+        ],
+        [
+          -6.485073,
+          106.872897
+        ],
+        [
+          -6.48536,
+          106.872768
+        ],
+        [
+          -6.486891,
+          106.872071
+        ],
+        [
+          -6.487429,
+          106.871853
+        ],
+        [
+          -6.487468,
+          106.871838
+        ],
+        [
+          -6.488838,
+          106.871349
+        ],
+        [
+          -6.489293,
+          106.871187
+        ],
+        [
+          -6.493139,
+          106.869951
+        ],
+        [
+          -6.494181,
+          106.869624
+        ],
+        [
+          -6.494721,
+          106.869455
+        ],
+        [
+          -6.496755,
+          106.868818
+        ],
+        [
+          -6.496865,
+          106.868783
+        ],
+        [
+          -6.497009,
+          106.868738
+        ],
+        [
+          -6.497433,
+          106.868604
+        ],
+        [
+          -6.498037,
+          106.868419
+        ],
+        [
+          -6.498188,
+          106.868373
+        ],
+        [
+          -6.498417,
+          106.868303
+        ],
+        [
+          -6.499468,
+          106.86798
+        ],
+        [
+          -6.499666,
+          106.867919
+        ],
+        [
+          -6.499764,
+          106.86789
+        ],
+        [
+          -6.500196,
+          106.867737
+        ],
+        [
+          -6.500534,
+          106.867618
+        ],
+        [
+          -6.50067,
+          106.86757
+        ],
+        [
+          -6.500737,
+          106.867548
+        ],
+        [
+          -6.501475,
+          106.867297
+        ],
+        [
+          -6.502053,
+          106.867053
+        ],
+        [
+          -6.50296,
+          106.866653
+        ],
+        [
+          -6.50307,
+          106.866605
+        ],
+        [
+          -6.50351,
+          106.866411
+        ],
+        [
+          -6.503806,
+          106.866278
+        ],
+        [
+          -6.503887,
+          106.866242
+        ],
+        [
+          -6.504757,
+          106.865852
+        ],
+        [
+          -6.505445,
+          106.865544
+        ],
+        [
+          -6.505694,
+          106.865432
+        ],
+        [
+          -6.505884,
+          106.865347
+        ],
+        [
+          -6.50601,
+          106.865291
+        ],
+        [
+          -6.506516,
+          106.865066
+        ],
+        [
+          -6.507466,
+          106.864645
+        ],
+        [
+          -6.50846,
+          106.864204
+        ],
+        [
+          -6.508895,
+          106.864011
+        ],
+        [
+          -6.50909,
+          106.863924
+        ],
+        [
+          -6.510819,
+          106.863157
+        ],
+        [
+          -6.510964,
+          106.863093
+        ],
+        [
+          -6.511074,
+          106.863044
+        ],
+        [
+          -6.511488,
+          106.86286
+        ],
+        [
+          -6.511917,
+          106.862677
+        ],
+        [
+          -6.512833,
+          106.862285
+        ],
+        [
+          -6.512884,
+          106.862263
+        ],
+        [
+          -6.513978,
+          106.861795
+        ],
+        [
+          -6.514873,
+          106.861411
+        ],
+        [
+          -6.515376,
+          106.861196
+        ],
+        [
+          -6.515415,
+          106.861179
+        ],
+        [
+          -6.515659,
+          106.861075
+        ],
+        [
+          -6.516366,
+          106.860772
+        ],
+        [
+          -6.516763,
+          106.86058
+        ],
+        [
+          -6.516925,
+          106.860501
+        ],
+        [
+          -6.517671,
+          106.860112
+        ],
+        [
+          -6.517925,
+          106.859973
+        ],
+        [
+          -6.518397,
+          106.859698
+        ],
+        [
+          -6.518813,
+          106.85946
+        ],
+        [
+          -6.519989,
+          106.8587
+        ],
+        [
+          -6.520984,
+          106.858056
+        ],
+        [
+          -6.522302,
+          106.857215
+        ],
+        [
+          -6.522965,
+          106.856789
+        ],
+        [
+          -6.523623,
+          106.856365
+        ],
+        [
+          -6.524401,
+          106.856025
+        ],
+        [
+          -6.525467,
+          106.855372
+        ],
+        [
+          -6.525478,
+          106.855365
+        ],
+        [
+          -6.52576,
+          106.855211
+        ],
+        [
+          -6.526117,
+          106.855042
+        ],
+        [
+          -6.527004,
+          106.854642
+        ],
+        [
+          -6.527581,
+          106.854405
+        ],
+        [
+          -6.528641,
+          106.854047
+        ],
+        [
+          -6.529184,
+          106.853925
+        ],
+        [
+          -6.531336,
+          106.853237
+        ],
+        [
+          -6.532148,
+          106.853108
+        ],
+        [
+          -6.532344,
+          106.853638
+        ],
+        [
+          -6.532741,
+          106.853479
+        ],
+        [
+          -6.532782,
+          106.853463
+        ],
+        [
+          -6.53296,
+          106.853306
+        ],
+        [
+          -6.532982,
+          106.853206
+        ],
+        [
+          -6.532854,
+          106.852936
+        ],
+        [
+          -6.532803,
+          106.852834
+        ],
+        [
+          -6.532465,
+          106.852225
+        ],
+        [
+          -6.532431,
+          106.852175
+        ],
+        [
+          -6.532288,
+          106.852051
+        ],
+        [
+          -6.532155,
+          106.851957
+        ],
+        [
+          -6.532083,
+          106.851915
+        ],
+        [
+          -6.53086,
+          106.851272
+        ],
+        [
+          -6.528966,
+          106.850246
+        ],
+        [
+          -6.528856,
+          106.850189
+        ],
+        [
+          -6.528507,
+          106.850001
+        ],
+        [
+          -6.528334,
+          106.849904
+        ],
+        [
+          -6.528269,
+          106.849845
+        ],
+        [
+          -6.528087,
+          106.849624
+        ],
+        [
+          -6.527585,
+          106.848948
+        ],
+        [
+          -6.527533,
+          106.848873
+        ],
+        [
+          -6.526996,
+          106.8481
+        ],
+        [
+          -6.526895,
+          106.847964
+        ],
+        [
+          -6.526695,
+          106.847724
+        ],
+        [
+          -6.526492,
+          106.847455
+        ],
+        [
+          -6.526331,
+          106.847229
+        ],
+        [
+          -6.525815,
+          106.846504
+        ],
+        [
+          -6.525587,
+          106.846217
+        ],
+        [
+          -6.52529,
+          106.845906
+        ],
+        [
+          -6.525067,
+          106.845714
+        ],
+        [
+          -6.524844,
+          106.845532
+        ],
+        [
+          -6.524549,
+          106.845301
+        ],
+        [
+          -6.524374,
+          106.845175
+        ],
+        [
+          -6.524248,
+          106.845078
+        ],
+        [
+          -6.524181,
+          106.845012
+        ],
+        [
+          -6.523437,
+          106.844286
+        ],
+        [
+          -6.523331,
+          106.844175
+        ],
+        [
+          -6.523288,
+          106.844129
+        ],
+        [
+          -6.523193,
+          106.84403
+        ],
+        [
+          -6.523108,
+          106.843941
+        ],
+        [
+          -6.522965,
+          106.843738
+        ],
+        [
+          -6.522917,
+          106.843658
+        ],
+        [
+          -6.522863,
+          106.843545
+        ],
+        [
+          -6.522794,
+          106.843369
+        ],
+        [
+          -6.522718,
+          106.843174
+        ],
+        [
+          -6.522447,
+          106.842464
+        ],
+        [
+          -6.522396,
+          106.842326
+        ],
+        [
+          -6.52214,
+          106.841669
+        ],
+        [
+          -6.521913,
+          106.841138
+        ],
+        [
+          -6.521862,
+          106.841014
+        ],
+        [
+          -6.521593,
+          106.840408
+        ],
+        [
+          -6.521467,
+          106.840065
+        ],
+        [
+          -6.521365,
+          106.839831
+        ],
+        [
+          -6.521194,
+          106.839528
+        ],
+        [
+          -6.521117,
+          106.839407
+        ],
+        [
+          -6.520823,
+          106.838994
+        ],
+        [
+          -6.520714,
+          106.838862
+        ],
+        [
+          -6.520581,
+          106.838716
+        ],
+        [
+          -6.520417,
+          106.838509
+        ],
+        [
+          -6.52019,
+          106.838204
+        ],
+        [
+          -6.52004,
+          106.838027
+        ],
+        [
+          -6.519916,
+          106.837873
+        ],
+        [
+          -6.519811,
+          106.837745
+        ],
+        [
+          -6.519771,
+          106.837692
+        ],
+        [
+          -6.51941,
+          106.837253
+        ],
+        [
+          -6.518724,
+          106.836396
+        ],
+        [
+          -6.518621,
+          106.836277
+        ],
+        [
+          -6.518479,
+          106.836105
+        ],
+        [
+          -6.518454,
+          106.836075
+        ],
+        [
+          -6.518631,
+          106.835939
+        ],
+        [
+          -6.519473,
+          106.835313
+        ],
+        [
+          -6.519702,
+          106.835132
+        ],
+        [
+          -6.519941,
+          106.834943
+        ],
+        [
+          -6.520049,
+          106.834855
+        ],
+        [
+          -6.52022,
+          106.834735
+        ],
+        [
+          -6.520492,
+          106.834577
+        ],
+        [
+          -6.520684,
+          106.834483
+        ],
+        [
+          -6.521111,
+          106.834324
+        ],
+        [
+          -6.521505,
+          106.834176
+        ],
+        [
+          -6.521543,
+          106.834162
+        ],
+        [
+          -6.522052,
+          106.833972
+        ],
+        [
+          -6.522294,
+          106.833858
+        ],
+        [
+          -6.522592,
+          106.833722
+        ],
+        [
+          -6.522741,
+          106.833669
+        ],
+        [
+          -6.522921,
+          106.833616
+        ],
+        [
+          -6.523091,
+          106.833583
+        ],
+        [
+          -6.523586,
+          106.833464
+        ],
+        [
+          -6.524048,
+          106.833371
+        ],
+        [
+          -6.524268,
+          106.833321
+        ],
+        [
+          -6.524505,
+          106.833245
+        ],
+        [
+          -6.524751,
+          106.833133
+        ],
+        [
+          -6.525009,
+          106.832994
+        ],
+        [
+          -6.525365,
+          106.832741
+        ],
+        [
+          -6.525513,
+          106.832622
+        ],
+        [
+          -6.525647,
+          106.832503
+        ],
+        [
+          -6.525915,
+          106.832238
+        ],
+        [
+          -6.526281,
+          106.831866
+        ],
+        [
+          -6.526322,
+          106.831817
+        ],
+        [
+          -6.526559,
+          106.831603
+        ],
+        [
+          -6.526808,
+          106.831405
+        ],
+        [
+          -6.527177,
+          106.831165
+        ],
+        [
+          -6.527312,
+          106.831084
+        ],
+        [
+          -6.527431,
+          106.831012
+        ],
+        [
+          -6.527566,
+          106.830929
+        ],
+        [
+          -6.527777,
+          106.8308
+        ],
+        [
+          -6.528256,
+          106.83056
+        ],
+        [
+          -6.528634,
+          106.830379
+        ],
+        [
+          -6.529204,
+          106.830128
+        ],
+        [
+          -6.530304,
+          106.829649
+        ],
+        [
+          -6.530691,
+          106.829468
+        ],
+        [
+          -6.530935,
+          106.829363
+        ],
+        [
+          -6.531004,
+          106.829335
+        ],
+        [
+          -6.531128,
+          106.82928
+        ],
+        [
+          -6.531286,
+          106.829219
+        ],
+        [
+          -6.53163,
+          106.829078
+        ],
+        [
+          -6.532524,
+          106.828713
+        ],
+        [
+          -6.532691,
+          106.828655
+        ],
+        [
+          -6.533022,
+          106.828503
+        ],
+        [
+          -6.533166,
+          106.828444
+        ],
+        [
+          -6.533892,
+          106.828172
+        ],
+        [
+          -6.533993,
+          106.828125
+        ],
+        [
+          -6.534033,
+          106.828105
+        ],
+        [
+          -6.53441,
+          106.827959
+        ],
+        [
+          -6.535063,
+          106.827691
+        ],
+        [
+          -6.536131,
+          106.827262
+        ],
+        [
+          -6.536528,
+          106.827117
+        ],
+        [
+          -6.536844,
+          106.826993
+        ],
+        [
+          -6.537003,
+          106.826939
+        ],
+        [
+          -6.537187,
+          106.826878
+        ],
+        [
+          -6.537316,
+          106.826849
+        ],
+        [
+          -6.537468,
+          106.826826
+        ],
+        [
+          -6.537839,
+          106.826778
+        ],
+        [
+          -6.538522,
+          106.826701
+        ],
+        [
+          -6.538638,
+          106.826688
+        ],
+        [
+          -6.539189,
+          106.826632
+        ],
+        [
+          -6.540527,
+          106.826479
+        ],
+        [
+          -6.540604,
+          106.826472
+        ],
+        [
+          -6.541669,
+          106.826364
+        ],
+        [
+          -6.541785,
+          106.826317
+        ],
+        [
+          -6.541823,
+          106.826314
+        ],
+        [
+          -6.542026,
+          106.826296
+        ],
+        [
+          -6.542077,
+          106.82629
+        ],
+        [
+          -6.542748,
+          106.826227
+        ],
+        [
+          -6.54318,
+          106.826189
+        ],
+        [
+          -6.543572,
+          106.826173
+        ],
+        [
+          -6.543701,
+          106.826161
+        ],
+        [
+          -6.543876,
+          106.826129
+        ],
+        [
+          -6.54401,
+          106.826094
+        ],
+        [
+          -6.544182,
+          106.82604
+        ],
+        [
+          -6.544224,
+          106.826022
+        ],
+        [
+          -6.544259,
+          106.826002
+        ],
+        [
+          -6.54432,
+          106.825964
+        ],
+        [
+          -6.54438,
+          106.825922
+        ],
+        [
+          -6.544473,
+          106.825855
+        ],
+        [
+          -6.544621,
+          106.825759
+        ],
+        [
+          -6.544719,
+          106.82569
+        ],
+        [
+          -6.544917,
+          106.825568
+        ],
+        [
+          -6.545204,
+          106.825386
+        ],
+        [
+          -6.54527,
+          106.82535
+        ],
+        [
+          -6.545369,
+          106.825297
+        ],
+        [
+          -6.545633,
+          106.825172
+        ],
+        [
+          -6.545886,
+          106.825043
+        ],
+        [
+          -6.546148,
+          106.824878
+        ],
+        [
+          -6.546339,
+          106.824749
+        ],
+        [
+          -6.54641,
+          106.824685
+        ],
+        [
+          -6.54656,
+          106.824551
+        ],
+        [
+          -6.546772,
+          106.824332
+        ],
+        [
+          -6.54695,
+          106.82417
+        ],
+        [
+          -6.54703,
+          106.824094
+        ],
+        [
+          -6.547125,
+          106.823993
+        ],
+        [
+          -6.547244,
+          106.823873
+        ],
+        [
+          -6.547254,
+          106.823862
+        ],
+        [
+          -6.547307,
+          106.82385
+        ],
+        [
+          -6.547322,
+          106.823836
+        ],
+        [
+          -6.547424,
+          106.82373
+        ],
+        [
+          -6.54748,
+          106.823678
+        ],
+        [
+          -6.547592,
+          106.823575
+        ],
+        [
+          -6.547714,
+          106.823465
+        ],
+        [
+          -6.547802,
+          106.823386
+        ],
+        [
+          -6.548053,
+          106.823154
+        ],
+        [
+          -6.548119,
+          106.823093
+        ],
+        [
+          -6.548281,
+          106.822975
+        ],
+        [
+          -6.548444,
+          106.822849
+        ],
+        [
+          -6.548569,
+          106.822756
+        ],
+        [
+          -6.548716,
+          106.822655
+        ],
+        [
+          -6.54905,
+          106.822481
+        ],
+        [
+          -6.549141,
+          106.822415
+        ],
+        [
+          -6.549222,
+          106.82238
+        ],
+        [
+          -6.549279,
+          106.822358
+        ],
+        [
+          -6.5493,
+          106.822351
+        ],
+        [
+          -6.54936,
+          106.822329
+        ],
+        [
+          -6.549683,
+          106.822205
+        ],
+        [
+          -6.550036,
+          106.822072
+        ],
+        [
+          -6.550434,
+          106.82189
+        ],
+        [
+          -6.550678,
+          106.821784
+        ],
+        [
+          -6.550769,
+          106.821741
+        ],
+        [
+          -6.551005,
+          106.821631
+        ],
+        [
+          -6.551296,
+          106.821476
+        ],
+        [
+          -6.551517,
+          106.821367
+        ],
+        [
+          -6.55168,
+          106.821287
+        ],
+        [
+          -6.551784,
+          106.821235
+        ],
+        [
+          -6.551849,
+          106.821195
+        ],
+        [
+          -6.551915,
+          106.821155
+        ],
+        [
+          -6.552191,
+          106.820999
+        ],
+        [
+          -6.552376,
+          106.820892
+        ],
+        [
+          -6.552546,
+          106.820794
+        ],
+        [
+          -6.552769,
+          106.820661
+        ],
+        [
+          -6.552959,
+          106.820551
+        ],
+        [
+          -6.553006,
+          106.820523
+        ],
+        [
+          -6.553624,
+          106.820133
+        ],
+        [
+          -6.55368,
+          106.820098
+        ],
+        [
+          -6.553857,
+          106.819973
+        ],
+        [
+          -6.553926,
+          106.81992
+        ],
+        [
+          -6.554029,
+          106.819843
+        ],
+        [
+          -6.554158,
+          106.819682
+        ],
+        [
+          -6.554258,
+          106.81954
+        ],
+        [
+          -6.554299,
+          106.819448
+        ],
+        [
+          -6.55437,
+          106.81927
+        ],
+        [
+          -6.554451,
+          106.819073
+        ],
+        [
+          -6.554475,
+          106.819029
+        ],
+        [
+          -6.554571,
+          106.81883
+        ],
+        [
+          -6.554787,
+          106.818368
+        ],
+        [
+          -6.554803,
+          106.818332
+        ],
+        [
+          -6.554923,
+          106.818056
+        ],
+        [
+          -6.55516,
+          106.817595
+        ],
+        [
+          -6.555437,
+          106.81719
+        ],
+        [
+          -6.555514,
+          106.81708
+        ],
+        [
+          -6.555631,
+          106.816903
+        ],
+        [
+          -6.55579,
+          106.816671
+        ],
+        [
+          -6.556099,
+          106.816199
+        ],
+        [
+          -6.556285,
+          106.815951
+        ],
+        [
+          -6.556349,
+          106.815873
+        ],
+        [
+          -6.556457,
+          106.815757
+        ],
+        [
+          -6.556592,
+          106.815631
+        ],
+        [
+          -6.556741,
+          106.815513
+        ],
+        [
+          -6.557145,
+          106.815265
+        ],
+        [
+          -6.557454,
+          106.815109
+        ],
+        [
+          -6.557542,
+          106.815063
+        ],
+        [
+          -6.557783,
+          106.814933
+        ],
+        [
+          -6.55808,
+          106.814786
+        ],
+        [
+          -6.558182,
+          106.814734
+        ],
+        [
+          -6.558267,
+          106.814691
+        ],
+        [
+          -6.558452,
+          106.814587
+        ],
+        [
+          -6.55877,
+          106.814418
+        ],
+        [
+          -6.5591,
+          106.814235
+        ],
+        [
+          -6.559263,
+          106.814142
+        ],
+        [
+          -6.559474,
+          106.81401
+        ],
+        [
+          -6.559692,
+          106.813831
+        ],
+        [
+          -6.559802,
+          106.813732
+        ],
+        [
+          -6.559878,
+          106.813658
+        ],
+        [
+          -6.559955,
+          106.813613
+        ],
+        [
+          -6.560035,
+          106.813514
+        ],
+        [
+          -6.560182,
+          106.813299
+        ],
+        [
+          -6.560284,
+          106.813144
+        ],
+        [
+          -6.560358,
+          106.813034
+        ],
+        [
+          -6.560437,
+          106.812931
+        ],
+        [
+          -6.560655,
+          106.812632
+        ],
+        [
+          -6.560686,
+          106.812578
+        ],
+        [
+          -6.560715,
+          106.812505
+        ],
+        [
+          -6.561211,
+          106.811915
+        ],
+        [
+          -6.561297,
+          106.81182
+        ],
+        [
+          -6.561425,
+          106.811691
+        ],
+        [
+          -6.561528,
+          106.811609
+        ],
+        [
+          -6.561652,
+          106.811525
+        ],
+        [
+          -6.561841,
+          106.811429
+        ],
+        [
+          -6.562172,
+          106.8113
+        ],
+        [
+          -6.56279,
+          106.8111
+        ],
+        [
+          -6.56309,
+          106.811004
+        ],
+        [
+          -6.563315,
+          106.81095
+        ],
+        [
+          -6.563475,
+          106.810897
+        ],
+        [
+          -6.563666,
+          106.81082
+        ],
+        [
+          -6.563716,
+          106.810803
+        ],
+        [
+          -6.563807,
+          106.81077
+        ],
+        [
+          -6.563857,
+          106.810753
+        ],
+        [
+          -6.56422,
+          106.810667
+        ],
+        [
+          -6.56441,
+          106.810619
+        ],
+        [
+          -6.564707,
+          106.810523
+        ],
+        [
+          -6.564763,
+          106.810505
+        ],
+        [
+          -6.564921,
+          106.810454
+        ],
+        [
+          -6.565527,
+          106.810261
+        ],
+        [
+          -6.565795,
+          106.810161
+        ],
+        [
+          -6.565867,
+          106.810136
+        ],
+        [
+          -6.566129,
+          106.810045
+        ],
+        [
+          -6.566285,
+          106.809988
+        ],
+        [
+          -6.566458,
+          106.809922
+        ],
+        [
+          -6.566577,
+          106.809876
+        ],
+        [
+          -6.567206,
+          106.80962
+        ],
+        [
+          -6.567532,
+          106.809489
+        ],
+        [
+          -6.567609,
+          106.809462
+        ],
+        [
+          -6.567893,
+          106.809363
+        ],
+        [
+          -6.568101,
+          106.80932
+        ],
+        [
+          -6.568291,
+          106.809281
+        ],
+        [
+          -6.568819,
+          106.80917
+        ],
+        [
+          -6.568906,
+          106.809157
+        ],
+        [
+          -6.568947,
+          106.80915
+        ],
+        [
+          -6.568958,
+          106.809148
+        ],
+        [
+          -6.569222,
+          106.809101
+        ],
+        [
+          -6.569611,
+          106.809016
+        ],
+        [
+          -6.569873,
+          106.80897
+        ],
+        [
+          -6.570935,
+          106.808711
+        ],
+        [
+          -6.571395,
+          106.808672
+        ],
+        [
+          -6.571665,
+          106.808613
+        ],
+        [
+          -6.571939,
+          106.80857
+        ],
+        [
+          -6.572246,
+          106.808496
+        ],
+        [
+          -6.572688,
+          106.808397
+        ],
+        [
+          -6.572772,
+          106.808385
+        ],
+        [
+          -6.573201,
+          106.8083
+        ],
+        [
+          -6.573315,
+          106.808273
+        ],
+        [
+          -6.573588,
+          106.808217
+        ],
+        [
+          -6.573713,
+          106.808192
+        ],
+        [
+          -6.573995,
+          106.808135
+        ],
+        [
+          -6.574666,
+          106.808002
+        ],
+        [
+          -6.575195,
+          106.807897
+        ],
+        [
+          -6.575625,
+          106.807805
+        ],
+        [
+          -6.575907,
+          106.807747
+        ],
+        [
+          -6.576003,
+          106.807722
+        ],
+        [
+          -6.576255,
+          106.807678
+        ],
+        [
+          -6.576384,
+          106.807657
+        ],
+        [
+          -6.576415,
+          106.80765
+        ],
+        [
+          -6.576555,
+          106.80762
+        ],
+        [
+          -6.577183,
+          106.807489
+        ],
+        [
+          -6.577475,
+          106.807435
+        ],
+        [
+          -6.578158,
+          106.807309
+        ],
+        [
+          -6.578381,
+          106.807268
+        ],
+        [
+          -6.578455,
+          106.807254
+        ],
+        [
+          -6.578528,
+          106.807241
+        ],
+        [
+          -6.57861,
+          106.807226
+        ],
+        [
+          -6.578887,
+          106.807182
+        ],
+        [
+          -6.579139,
+          106.807123
+        ],
+        [
+          -6.579198,
+          106.807111
+        ],
+        [
+          -6.579375,
+          106.807082
+        ],
+        [
+          -6.579571,
+          106.807044
+        ],
+        [
+          -6.579624,
+          106.807034
+        ],
+        [
+          -6.579695,
+          106.807021
+        ],
+        [
+          -6.580069,
+          106.806945
+        ],
+        [
+          -6.580336,
+          106.806892
+        ],
+        [
+          -6.58045,
+          106.806868
+        ],
+        [
+          -6.580708,
+          106.80682
+        ],
+        [
+          -6.580803,
+          106.806803
+        ],
+        [
+          -6.580883,
+          106.806787
+        ],
+        [
+          -6.581252,
+          106.806721
+        ],
+        [
+          -6.581513,
+          106.806678
+        ],
+        [
+          -6.581805,
+          106.806627
+        ],
+        [
+          -6.58191,
+          106.806608
+        ],
+        [
+          -6.58228,
+          106.806535
+        ],
+        [
+          -6.58284,
+          106.806422
+        ],
+        [
+          -6.58305,
+          106.806379
+        ],
+        [
+          -6.583723,
+          106.806235
+        ],
+        [
+          -6.584714,
+          106.806031
+        ],
+        [
+          -6.585088,
+          106.805958
+        ],
+        [
+          -6.58619,
+          106.805744
+        ],
+        [
+          -6.586741,
+          106.805598
+        ],
+        [
+          -6.58693,
+          106.805548
+        ],
+        [
+          -6.587644,
+          106.805351
+        ],
+        [
+          -6.588529,
+          106.8051
+        ],
+        [
+          -6.588566,
+          106.80509
+        ],
+        [
+          -6.588598,
+          106.805081
+        ],
+        [
+          -6.589014,
+          106.804969
+        ],
+        [
+          -6.589084,
+          106.80495
+        ],
+        [
+          -6.589127,
+          106.804939
+        ],
+        [
+          -6.589193,
+          106.804924
+        ],
+        [
+          -6.589448,
+          106.804867
+        ],
+        [
+          -6.589517,
+          106.804852
+        ],
+        [
+          -6.589693,
+          106.804827
+        ],
+        [
+          -6.589782,
+          106.804814
+        ],
+        [
+          -6.589941,
+          106.804804
+        ],
+        [
+          -6.590293,
+          106.804779
+        ],
+        [
+          -6.590455,
+          106.80477
+        ],
+        [
+          -6.590963,
+          106.804765
+        ],
+        [
+          -6.59117,
+          106.804771
+        ],
+        [
+          -6.591365,
+          106.804777
+        ],
+        [
+          -6.591453,
+          106.804775
+        ],
+        [
+          -6.591577,
+          106.804775
+        ],
+        [
+          -6.591982,
+          106.804773
+        ],
+        [
+          -6.592182,
+          106.804767
+        ],
+        [
+          -6.592187,
+          106.804691
+        ],
+        [
+          -6.59169,
+          106.804696
+        ],
+        [
+          -6.591457,
+          106.804695
+        ],
+        [
+          -6.591181,
+          106.804688
+        ],
+        [
+          -6.59108,
+          106.80469
+        ],
+        [
+          -6.591069,
+          106.804565
+        ],
+        [
+          -6.591039,
+          106.804249
+        ],
+        [
+          -6.591028,
+          106.804139
+        ],
+        [
+          -6.590933,
+          106.803153
+        ],
+        [
+          -6.59076,
+          106.80314
+        ],
+        [
+          -6.59027,
+          106.803119
+        ],
+        [
+          -6.590272,
+          106.804141
+        ],
+        [
+          -6.590294,
+          106.804527
+        ],
+        [
+          -6.590294,
+          106.804695
+        ],
+        [
+          -6.590005,
+          106.804709
+        ],
+        [
+          -6.589761,
+          106.80473
+        ],
+        [
+          -6.589501,
+          106.804765
+        ],
+        [
+          -6.589106,
+          106.804851
+        ],
+        [
+          -6.588844,
+          106.804918
+        ],
+        [
+          -6.588572,
+          106.804987
+        ],
+        [
+          -6.588502,
+          106.805006
+        ],
+        [
+          -6.588162,
+          106.805102
+        ],
+        [
+          -6.587984,
+          106.805157
+        ],
+        [
+          -6.587732,
+          106.805224
+        ],
+        [
+          -6.587013,
+          106.805449
+        ],
+        [
+          -6.586821,
+          106.805505
+        ],
+        [
+          -6.586454,
+          106.805607
+        ],
+        [
+          -6.58634,
+          106.805639
+        ],
+        [
+          -6.586175,
+          106.805685
+        ],
+        [
+          -6.58582,
+          106.805743
+        ],
+        [
+          -6.585403,
+          106.80582
+        ],
+        [
+          -6.584591,
+          106.805972
+        ],
+        [
+          -6.584082,
+          106.806073
+        ],
+        [
+          -6.583946,
+          106.806097
+        ],
+        [
+          -6.583891,
+          106.806107
+        ],
+        [
+          -6.583701,
+          106.806141
+        ],
+        [
+          -6.583454,
+          106.806187
+        ],
+        [
+          -6.582261,
+          106.806435
+        ],
+        [
+          -6.581176,
+          106.806637
+        ],
+        [
+          -6.580868,
+          106.8067
+        ],
+        [
+          -6.580789,
+          106.806718
+        ],
+        [
+          -6.580371,
+          106.806797
+        ],
+        [
+          -6.57999,
+          106.806871
+        ],
+        [
+          -6.579876,
+          106.806889
+        ],
+        [
+          -6.579695,
+          106.806924
+        ],
+        [
+          -6.579127,
+          106.807039
+        ],
+        [
+          -6.57899,
+          106.807062
+        ],
+        [
+          -6.578713,
+          106.807106
+        ],
+        [
+          -6.578609,
+          106.807124
+        ],
+        [
+          -6.578433,
+          106.807154
+        ],
+        [
+          -6.578382,
+          106.807164
+        ],
+        [
+          -6.578277,
+          106.807187
+        ],
+        [
+          -6.577717,
+          106.807291
+        ],
+        [
+          -6.577485,
+          106.807338
+        ],
+        [
+          -6.576669,
+          106.807502
+        ],
+        [
+          -6.576542,
+          106.807528
+        ],
+        [
+          -6.57624,
+          106.807591
+        ],
+        [
+          -6.576072,
+          106.80762
+        ],
+        [
+          -6.575826,
+          106.807671
+        ],
+        [
+          -6.575431,
+          106.807762
+        ],
+        [
+          -6.575291,
+          106.807795
+        ],
+        [
+          -6.574757,
+          106.807897
+        ],
+        [
+          -6.57383,
+          106.808075
+        ],
+        [
+          -6.57369,
+          106.808102
+        ],
+        [
+          -6.572568,
+          106.808323
+        ],
+        [
+          -6.57243,
+          106.808345
+        ],
+        [
+          -6.572037,
+          106.808418
+        ],
+        [
+          -6.571733,
+          106.808474
+        ],
+        [
+          -6.571541,
+          106.80851
+        ],
+        [
+          -6.571405,
+          106.808554
+        ],
+        [
+          -6.570935,
+          106.808614
+        ],
+        [
+          -6.570339,
+          106.80872
+        ],
+        [
+          -6.56991,
+          106.808818
+        ],
+        [
+          -6.569793,
+          106.808844
+        ],
+        [
+          -6.56975,
+          106.808854
+        ],
+        [
+          -6.569404,
+          106.808928
+        ],
+        [
+          -6.569103,
+          106.808989
+        ],
+        [
+          -6.568874,
+          106.809035
+        ],
+        [
+          -6.568784,
+          106.809054
+        ],
+        [
+          -6.568632,
+          106.809093
+        ],
+        [
+          -6.568263,
+          106.809172
+        ],
+        [
+          -6.56809,
+          106.809199
+        ],
+        [
+          -6.567921,
+          106.809256
+        ],
+        [
+          -6.567742,
+          106.809332
+        ],
+        [
+          -6.567372,
+          106.809467
+        ],
+        [
+          -6.567198,
+          106.809538
+        ],
+        [
+          -6.566973,
+          106.809629
+        ],
+        [
+          -6.566794,
+          106.8097
+        ],
+        [
+          -6.566284,
+          106.809904
+        ],
+        [
+          -6.565937,
+          106.810024
+        ],
+        [
+          -6.565469,
+          106.810199
+        ],
+        [
+          -6.565462,
+          106.810201
+        ],
+        [
+          -6.565042,
+          106.810319
+        ],
+        [
+          -6.564756,
+          106.8104
+        ],
+        [
+          -6.56454,
+          106.810479
+        ],
+        [
+          -6.564422,
+          106.810524
+        ],
+        [
+          -6.56437,
+          106.81054
+        ],
+        [
+          -6.564274,
+          106.810566
+        ],
+        [
+          -6.564086,
+          106.810412
+        ],
+        [
+          -6.563976,
+          106.81028
+        ],
+        [
+          -6.563843,
+          106.810099
+        ],
+        [
+          -6.563507,
+          106.809608
+        ],
+        [
+          -6.563303,
+          106.809328
+        ],
+        [
+          -6.562987,
+          106.808886
+        ],
+        [
+          -6.562826,
+          106.808664
+        ],
+        [
+          -6.562665,
+          106.808442
+        ],
+        [
+          -6.562539,
+          106.808268
+        ],
+        [
+          -6.562411,
+          106.808092
+        ],
+        [
+          -6.562284,
+          106.807915
+        ],
+        [
+          -6.562234,
+          106.807851
+        ],
+        [
+          -6.562191,
+          106.807795
+        ],
+        [
+          -6.562096,
+          106.807673
+        ],
+        [
+          -6.562011,
+          106.807549
+        ],
+        [
+          -6.56191,
+          106.807412
+        ],
+        [
+          -6.561864,
+          106.807341
+        ],
+        [
+          -6.561815,
+          106.807269
+        ],
+        [
+          -6.561774,
+          106.80721
+        ],
+        [
+          -6.561683,
+          106.80705
+        ],
+        [
+          -6.561586,
+          106.80688
+        ],
+        [
+          -6.561535,
+          106.806787
+        ],
+        [
+          -6.561486,
+          106.806677
+        ],
+        [
+          -6.561445,
+          106.80657
+        ],
+        [
+          -6.561381,
+          106.806324
+        ],
+        [
+          -6.561364,
+          106.80626
+        ],
+        [
+          -6.561317,
+          106.80613
+        ],
+        [
+          -6.561293,
+          106.805957
+        ],
+        [
+          -6.561229,
+          106.805589
+        ],
+        [
+          -6.561229,
+          106.805152
+        ],
+        [
+          -6.561257,
+          106.804675
+        ],
+        [
+          -6.561385,
+          106.804083
+        ],
+        [
+          -6.561481,
+          106.803662
+        ],
+        [
+          -6.561539,
+          106.803432
+        ],
+        [
+          -6.561637,
+          106.80301
+        ],
+        [
+          -6.56161,
+          106.802941
+        ],
+        [
+          -6.561548,
+          106.802911
+        ],
+        [
+          -6.56144,
+          106.8029
+        ],
+        [
+          -6.561404,
+          106.802911
+        ],
+        [
+          -6.561393,
+          106.802927
+        ],
+        [
+          -6.561336,
+          106.803098
+        ],
+        [
+          -6.561174,
+          106.803743
+        ],
+        [
+          -6.561115,
+          106.803998
+        ],
+        [
+          -6.560996,
+          106.804538
+        ],
+        [
+          -6.560933,
+          106.804966
+        ],
+        [
+          -6.560916,
+          106.805151
+        ],
+        [
+          -6.560915,
+          106.805228
+        ],
+        [
+          -6.560921,
+          106.805484
+        ],
+        [
+          -6.56097,
+          106.805781
+        ],
+        [
+          -6.561027,
+          106.805956
+        ],
+        [
+          -6.561078,
+          106.806203
+        ],
+        [
+          -6.56114,
+          106.806414
+        ],
+        [
+          -6.561207,
+          106.8066
+        ],
+        [
+          -6.561287,
+          106.80679
+        ],
+        [
+          -6.561393,
+          106.807017
+        ],
+        [
+          -6.561498,
+          106.807191
+        ],
+        [
+          -6.561639,
+          106.807414
+        ],
+        [
+          -6.56213,
+          106.808115
+        ],
+        [
+          -6.562434,
+          106.808522
+        ],
+        [
+          -6.562615,
+          106.808769
+        ],
+        [
+          -6.563189,
+          106.809568
+        ],
+        [
+          -6.563319,
+          106.809753
+        ],
+        [
+          -6.563385,
+          106.809849
+        ],
+        [
+          -6.563417,
+          106.809896
+        ],
+        [
+          -6.563453,
+          106.809973
+        ],
+        [
+          -6.563516,
+          106.810164
+        ],
+        [
+          -6.563539,
+          106.810302
+        ],
+        [
+          -6.563533,
+          106.810458
+        ],
+        [
+          -6.563503,
+          106.810588
+        ],
+        [
+          -6.563426,
+          106.810738
+        ],
+        [
+          -6.563274,
+          106.810914
+        ],
+        [
+          -6.56309,
+          106.811004
+        ],
+        [
+          -6.56279,
+          106.8111
+        ],
+        [
+          -6.562172,
+          106.8113
+        ],
+        [
+          -6.561841,
+          106.811429
+        ],
+        [
+          -6.561652,
+          106.811525
+        ],
+        [
+          -6.561528,
+          106.811609
+        ],
+        [
+          -6.561425,
+          106.811691
+        ],
+        [
+          -6.561297,
+          106.81182
+        ],
+        [
+          -6.561211,
+          106.811915
+        ],
+        [
+          -6.560715,
+          106.812505
+        ],
+        [
+          -6.560639,
+          106.812548
+        ],
+        [
+          -6.560389,
+          106.8129
+        ],
+        [
+          -6.5603,
+          106.813018
+        ],
+        [
+          -6.560232,
+          106.813122
+        ],
+        [
+          -6.560132,
+          106.813272
+        ],
+        [
+          -6.559988,
+          106.813478
+        ],
+        [
+          -6.559912,
+          106.813576
+        ],
+        [
+          -6.559878,
+          106.813658
+        ],
+        [
+          -6.559802,
+          106.813732
+        ],
+        [
+          -6.559692,
+          106.813831
+        ],
+        [
+          -6.559474,
+          106.81401
+        ],
+        [
+          -6.559263,
+          106.814142
+        ],
+        [
+          -6.5591,
+          106.814235
+        ],
+        [
+          -6.55877,
+          106.814418
+        ],
+        [
+          -6.558452,
+          106.814587
+        ],
+        [
+          -6.558267,
+          106.814691
+        ],
+        [
+          -6.558182,
+          106.814734
+        ],
+        [
+          -6.55808,
+          106.814786
+        ],
+        [
+          -6.557783,
+          106.814933
+        ],
+        [
+          -6.557542,
+          106.815063
+        ],
+        [
+          -6.557454,
+          106.815109
+        ],
+        [
+          -6.557145,
+          106.815265
+        ],
+        [
+          -6.556741,
+          106.815513
+        ],
+        [
+          -6.556592,
+          106.815631
+        ],
+        [
+          -6.556457,
+          106.815757
+        ],
+        [
+          -6.556349,
+          106.815873
+        ],
+        [
+          -6.556285,
+          106.815951
+        ],
+        [
+          -6.556099,
+          106.816199
+        ],
+        [
+          -6.55579,
+          106.816671
+        ],
+        [
+          -6.555631,
+          106.816903
+        ],
+        [
+          -6.555514,
+          106.81708
+        ],
+        [
+          -6.555437,
+          106.81719
+        ],
+        [
+          -6.55516,
+          106.817595
+        ],
+        [
+          -6.554923,
+          106.818056
+        ],
+        [
+          -6.554803,
+          106.818332
+        ],
+        [
+          -6.554787,
+          106.818368
+        ],
+        [
+          -6.554571,
+          106.81883
+        ],
+        [
+          -6.554475,
+          106.819029
+        ],
+        [
+          -6.554451,
+          106.819073
+        ],
+        [
+          -6.55437,
+          106.81927
+        ],
+        [
+          -6.554299,
+          106.819448
+        ],
+        [
+          -6.554258,
+          106.81954
+        ],
+        [
+          -6.554158,
+          106.819682
+        ],
+        [
+          -6.554029,
+          106.819843
+        ],
+        [
+          -6.553926,
+          106.81992
+        ],
+        [
+          -6.553857,
+          106.819973
+        ],
+        [
+          -6.55368,
+          106.820098
+        ],
+        [
+          -6.553624,
+          106.820133
+        ],
+        [
+          -6.553006,
+          106.820523
+        ],
+        [
+          -6.552959,
+          106.820551
+        ],
+        [
+          -6.552769,
+          106.820661
+        ],
+        [
+          -6.552546,
+          106.820794
+        ],
+        [
+          -6.552376,
+          106.820892
+        ],
+        [
+          -6.552191,
+          106.820999
+        ],
+        [
+          -6.551915,
+          106.821155
+        ],
+        [
+          -6.551849,
+          106.821195
+        ],
+        [
+          -6.551784,
+          106.821235
+        ],
+        [
+          -6.55168,
+          106.821287
+        ],
+        [
+          -6.551517,
+          106.821367
+        ],
+        [
+          -6.551296,
+          106.821476
+        ],
+        [
+          -6.551005,
+          106.821631
+        ],
+        [
+          -6.550769,
+          106.821741
+        ],
+        [
+          -6.550678,
+          106.821784
+        ],
+        [
+          -6.550434,
+          106.82189
+        ],
+        [
+          -6.550036,
+          106.822072
+        ],
+        [
+          -6.549683,
+          106.822205
+        ],
+        [
+          -6.54936,
+          106.822329
+        ],
+        [
+          -6.5493,
+          106.822351
+        ],
+        [
+          -6.549279,
+          106.822358
+        ],
+        [
+          -6.549222,
+          106.82238
+        ],
+        [
+          -6.549141,
+          106.822415
+        ],
+        [
+          -6.549025,
+          106.822429
+        ],
+        [
+          -6.548638,
+          106.822623
+        ],
+        [
+          -6.548492,
+          106.82272
+        ],
+        [
+          -6.548331,
+          106.822829
+        ],
+        [
+          -6.548063,
+          106.823064
+        ],
+        [
+          -6.548001,
+          106.823119
+        ],
+        [
+          -6.547759,
+          106.823326
+        ],
+        [
+          -6.547671,
+          106.823407
+        ],
+        [
+          -6.547562,
+          106.823508
+        ],
+        [
+          -6.547363,
+          106.823696
+        ],
+        [
+          -6.547326,
+          106.823738
+        ],
+        [
+          -6.547265,
+          106.823813
+        ],
+        [
+          -6.547254,
+          106.823862
+        ],
+        [
+          -6.547244,
+          106.823873
+        ],
+        [
+          -6.547125,
+          106.823993
+        ],
+        [
+          -6.54703,
+          106.824094
+        ],
+        [
+          -6.54695,
+          106.82417
+        ],
+        [
+          -6.546772,
+          106.824332
+        ],
+        [
+          -6.54656,
+          106.824551
+        ],
+        [
+          -6.54641,
+          106.824685
+        ],
+        [
+          -6.546339,
+          106.824749
+        ],
+        [
+          -6.546148,
+          106.824878
+        ],
+        [
+          -6.545886,
+          106.825043
+        ],
+        [
+          -6.545633,
+          106.825172
+        ],
+        [
+          -6.545369,
+          106.825297
+        ],
+        [
+          -6.54527,
+          106.82535
+        ],
+        [
+          -6.545204,
+          106.825386
+        ],
+        [
+          -6.544917,
+          106.825568
+        ],
+        [
+          -6.544719,
+          106.82569
+        ],
+        [
+          -6.544621,
+          106.825759
+        ],
+        [
+          -6.544473,
+          106.825855
+        ],
+        [
+          -6.54438,
+          106.825922
+        ],
+        [
+          -6.54432,
+          106.825964
+        ],
+        [
+          -6.544259,
+          106.826002
+        ],
+        [
+          -6.544224,
+          106.826022
+        ],
+        [
+          -6.544182,
+          106.82604
+        ],
+        [
+          -6.54401,
+          106.826094
+        ],
+        [
+          -6.543876,
+          106.826129
+        ],
+        [
+          -6.543701,
+          106.826161
+        ],
+        [
+          -6.543572,
+          106.826173
+        ],
+        [
+          -6.54318,
+          106.826189
+        ],
+        [
+          -6.542748,
+          106.826227
+        ],
+        [
+          -6.542077,
+          106.82629
+        ],
+        [
+          -6.542026,
+          106.826296
+        ],
+        [
+          -6.541823,
+          106.826314
+        ],
+        [
+          -6.541785,
+          106.826317
+        ],
+        [
+          -6.541673,
+          106.826288
+        ],
+        [
+          -6.541318,
+          106.826302
+        ],
+        [
+          -6.541082,
+          106.826325
+        ],
+        [
+          -6.540602,
+          106.82637
+        ],
+        [
+          -6.540518,
+          106.826379
+        ],
+        [
+          -6.53937,
+          106.826515
+        ],
+        [
+          -6.538971,
+          106.826557
+        ],
+        [
+          -6.538508,
+          106.826613
+        ],
+        [
+          -6.538018,
+          106.826671
+        ],
+        [
+          -6.537461,
+          106.826736
+        ],
+        [
+          -6.537205,
+          106.826786
+        ],
+        [
+          -6.537028,
+          106.826845
+        ],
+        [
+          -6.536904,
+          106.826888
+        ],
+        [
+          -6.536508,
+          106.827029
+        ],
+        [
+          -6.535742,
+          106.827337
+        ],
+        [
+          -6.535596,
+          106.827395
+        ],
+        [
+          -6.535042,
+          106.827615
+        ],
+        [
+          -6.534922,
+          106.827662
+        ],
+        [
+          -6.534519,
+          106.827823
+        ],
+        [
+          -6.534377,
+          106.82788
+        ],
+        [
+          -6.53415,
+          106.827961
+        ],
+        [
+          -6.533963,
+          106.828039
+        ],
+        [
+          -6.533852,
+          106.828087
+        ],
+        [
+          -6.533356,
+          106.828288
+        ],
+        [
+          -6.532714,
+          106.82855
+        ],
+        [
+          -6.531649,
+          106.828976
+        ],
+        [
+          -6.531184,
+          106.829162
+        ],
+        [
+          -6.531082,
+          106.829193
+        ],
+        [
+          -6.530902,
+          106.829274
+        ],
+        [
+          -6.530706,
+          106.82936
+        ],
+        [
+          -6.530693,
+          106.829366
+        ],
+        [
+          -6.530256,
+          106.829555
+        ],
+        [
+          -6.529359,
+          106.829962
+        ],
+        [
+          -6.529168,
+          106.830054
+        ],
+        [
+          -6.528759,
+          106.830224
+        ],
+        [
+          -6.528545,
+          106.830318
+        ],
+        [
+          -6.528431,
+          106.830367
+        ],
+        [
+          -6.528142,
+          106.830493
+        ],
+        [
+          -6.52772,
+          106.83073
+        ],
+        [
+          -6.52752,
+          106.830847
+        ],
+        [
+          -6.527383,
+          106.830931
+        ],
+        [
+          -6.527222,
+          106.831029
+        ],
+        [
+          -6.526987,
+          106.831171
+        ],
+        [
+          -6.52688,
+          106.831247
+        ],
+        [
+          -6.526755,
+          106.831335
+        ],
+        [
+          -6.526473,
+          106.831568
+        ],
+        [
+          -6.526269,
+          106.831743
+        ],
+        [
+          -6.526215,
+          106.8318
+        ],
+        [
+          -6.526168,
+          106.831851
+        ],
+        [
+          -6.526097,
+          106.831927
+        ],
+        [
+          -6.525861,
+          106.832179
+        ],
+        [
+          -6.525561,
+          106.832467
+        ],
+        [
+          -6.525355,
+          106.832645
+        ],
+        [
+          -6.525009,
+          106.83288
+        ],
+        [
+          -6.524714,
+          106.833048
+        ],
+        [
+          -6.524488,
+          106.833139
+        ],
+        [
+          -6.524242,
+          106.833223
+        ],
+        [
+          -6.523929,
+          106.833301
+        ],
+        [
+          -6.523693,
+          106.833351
+        ],
+        [
+          -6.523443,
+          106.833412
+        ],
+        [
+          -6.523119,
+          106.833492
+        ],
+        [
+          -6.522817,
+          106.833569
+        ],
+        [
+          -6.522721,
+          106.833595
+        ],
+        [
+          -6.522563,
+          106.833648
+        ],
+        [
+          -6.522592,
+          106.833722
+        ],
+        [
+          -6.522609,
+          106.83386
+        ],
+        [
+          -6.522625,
+          106.834001
+        ],
+        [
+          -6.522647,
+          106.834201
+        ],
+        [
+          -6.522681,
+          106.834438
+        ],
+        [
+          -6.522682,
+          106.83445
+        ],
+        [
+          -6.522704,
+          106.83464
+        ],
+        [
+          -6.522739,
+          106.834833
+        ],
+        [
+          -6.522791,
+          106.83502
+        ],
+        [
+          -6.522941,
+          106.835448
+        ],
+        [
+          -6.523355,
+          106.836564
+        ],
+        [
+          -6.523535,
+          106.836511
+        ],
+        [
+          -6.523754,
+          106.836418
+        ],
+        [
+          -6.523968,
+          106.836329
+        ],
+        [
+          -6.524155,
+          106.836253
+        ],
+        [
+          -6.524238,
+          106.836222
+        ],
+        [
+          -6.524328,
+          106.836172
+        ],
+        [
+          -6.524398,
+          106.836123
+        ],
+        [
+          -6.524462,
+          106.836073
+        ],
+        [
+          -6.524506,
+          106.83603
+        ],
+        [
+          -6.524574,
+          106.835958
+        ],
+        [
+          -6.524627,
+          106.835907
+        ],
+        [
+          -6.524653,
+          106.835885
+        ],
+        [
+          -6.52468,
+          106.835868
+        ],
+        [
+          -6.5247,
+          106.835857
+        ],
+        [
+          -6.524827,
+          106.83603
+        ],
+        [
+          -6.524983,
+          106.83597
+        ],
+        [
+          -6.524989,
+          106.835956
+        ],
+        [
+          -6.524969,
+          106.835891
+        ],
+        [
+          -6.524979,
+          106.835877
+        ],
+        [
+          -6.525216,
+          106.835761
+        ],
+        [
+          -6.525452,
+          106.835649
+        ],
+        [
+          -6.525535,
+          106.835686
+        ],
+        [
+          -6.52562,
+          106.835735
+        ],
+        [
+          -6.525703,
+          106.835828
+        ],
+        [
+          -6.525729,
+          106.835836
+        ],
+        [
+          -6.525771,
+          106.835825
+        ],
+        [
+          -6.525828,
+          106.835801
+        ],
+        [
+          -6.525949,
+          106.835759
+        ],
+        [
+          -6.526044,
+          106.835702
+        ],
+        [
+          -6.526082,
+          106.8357
+        ],
+        [
+          -6.526144,
+          106.835739
+        ],
+        [
+          -6.526224,
+          106.835802
+        ],
+        [
+          -6.526294,
+          106.835871
+        ],
+        [
+          -6.526324,
+          106.835871
+        ],
+        [
+          -6.52638,
+          106.835852
+        ],
+        [
+          -6.526406,
+          106.835805
+        ],
+        [
+          -6.526448,
+          106.835733
+        ],
+        [
+          -6.526466,
+          106.835707
+        ],
+        [
+          -6.526506,
+          106.835692
+        ],
+        [
+          -6.526539,
+          106.835696
+        ],
+        [
+          -6.526585,
+          106.835733
+        ],
+        [
+          -6.526638,
+          106.835762
+        ],
+        [
+          -6.526669,
+          106.835758
+        ],
+        [
+          -6.526709,
+          106.83568
+        ],
+        [
+          -6.526783,
+          106.83555
+        ],
+        [
+          -6.526857,
+          106.835513
+        ],
+        [
+          -6.52691,
+          106.835511
+        ],
+        [
+          -6.526937,
+          106.835484
+        ],
+        [
+          -6.526973,
+          106.835334
+        ],
+        [
+          -6.52702,
+          106.835176
+        ],
+        [
+          -6.527058,
+          106.835108
+        ],
+        [
+          -6.527183,
+          106.834983
+        ],
+        [
+          -6.527318,
+          106.834809
+        ],
+        [
+          -6.527588,
+          106.834617
+        ],
+        [
+          -6.527519,
+          106.83446
+        ],
+        [
+          -6.527432,
+          106.834197
+        ],
+        [
+          -6.527345,
+          106.833992
+        ],
+        [
+          -6.527271,
+          106.833866
+        ],
+        [
+          -6.527195,
+          106.833776
+        ],
+        [
+          -6.527093,
+          106.833669
+        ],
+        [
+          -6.527016,
+          106.833577
+        ],
+        [
+          -6.527008,
+          106.833559
+        ],
+        [
+          -6.527006,
+          106.833548
+        ],
+        [
+          -6.527009,
+          106.833536
+        ],
+        [
+          -6.527104,
+          106.833472
+        ],
+        [
+          -6.52714,
+          106.833453
+        ],
+        [
+          -6.527186,
+          106.833423
+        ],
+        [
+          -6.527204,
+          106.833405
+        ],
+        [
+          -6.527211,
+          106.83339
+        ],
+        [
+          -6.527211,
+          106.833382
+        ],
+        [
+          -6.527168,
+          106.833321
+        ],
+        [
+          -6.527155,
+          106.833304
+        ],
+        [
+          -6.527153,
+          106.833282
+        ],
+        [
+          -6.527162,
+          106.833261
+        ],
+        [
+          -6.527178,
+          106.833247
+        ],
+        [
+          -6.527222,
+          106.833207
+        ],
+        [
+          -6.527222,
+          106.833207
+        ],
+        [
+          -6.527326,
+          106.833139
+        ],
+        [
+          -6.527568,
+          106.833001
+        ],
+        [
+          -6.527753,
+          106.832884
+        ],
+        [
+          -6.527809,
+          106.832861
+        ],
+        [
+          -6.527832,
+          106.832857
+        ],
+        [
+          -6.527851,
+          106.832861
+        ],
+        [
+          -6.527875,
+          106.832892
+        ],
+        [
+          -6.527896,
+          106.832905
+        ],
+        [
+          -6.527915,
+          106.8329
+        ],
+        [
+          -6.527926,
+          106.832891
+        ],
+        [
+          -6.527942,
+          106.832878
+        ],
+        [
+          -6.52801,
+          106.832835
+        ],
+        [
+          -6.528029,
+          106.832828
+        ],
+        [
+          -6.528077,
+          106.832819
+        ],
+        [
+          -6.527931,
+          106.83251
+        ],
+        [
+          -6.527737,
+          106.832217
+        ],
+        [
+          -6.527371,
+          106.831627
+        ],
+        [
+          -6.527288,
+          106.831478
+        ],
+        [
+          -6.527257,
+          106.831441
+        ],
+        [
+          -6.526955,
+          106.831674
+        ],
+        [
+          -6.526925,
+          106.831635
+        ],
+        [
+          -6.526843,
+          106.831483
+        ],
+        [
+          -6.526808,
+          106.831405
+        ],
+        [
+          -6.527177,
+          106.831165
+        ],
+        [
+          -6.527312,
+          106.831084
+        ],
+        [
+          -6.527431,
+          106.831012
+        ],
+        [
+          -6.527566,
+          106.830929
+        ],
+        [
+          -6.527777,
+          106.8308
+        ],
+        [
+          -6.528256,
+          106.83056
+        ],
+        [
+          -6.528634,
+          106.830379
+        ],
+        [
+          -6.529204,
+          106.830128
+        ],
+        [
+          -6.530304,
+          106.829649
+        ],
+        [
+          -6.530691,
+          106.829468
+        ],
+        [
+          -6.530935,
+          106.829363
+        ],
+        [
+          -6.531004,
+          106.829335
+        ],
+        [
+          -6.531128,
+          106.82928
+        ],
+        [
+          -6.531286,
+          106.829219
+        ],
+        [
+          -6.53163,
+          106.829078
+        ],
+        [
+          -6.532524,
+          106.828713
+        ],
+        [
+          -6.532691,
+          106.828655
+        ],
+        [
+          -6.533022,
+          106.828503
+        ],
+        [
+          -6.533166,
+          106.828444
+        ],
+        [
+          -6.533892,
+          106.828172
+        ],
+        [
+          -6.533993,
+          106.828125
+        ],
+        [
+          -6.534033,
+          106.828105
+        ],
+        [
+          -6.53441,
+          106.827959
+        ],
+        [
+          -6.535063,
+          106.827691
+        ],
+        [
+          -6.536131,
+          106.827262
+        ],
+        [
+          -6.536528,
+          106.827117
+        ],
+        [
+          -6.536844,
+          106.826993
+        ],
+        [
+          -6.537003,
+          106.826939
+        ],
+        [
+          -6.537187,
+          106.826878
+        ],
+        [
+          -6.537316,
+          106.826849
+        ],
+        [
+          -6.537468,
+          106.826826
+        ],
+        [
+          -6.537839,
+          106.826778
+        ],
+        [
+          -6.538522,
+          106.826701
+        ],
+        [
+          -6.538638,
+          106.826688
+        ],
+        [
+          -6.539189,
+          106.826632
+        ],
+        [
+          -6.540527,
+          106.826479
+        ],
+        [
+          -6.540604,
+          106.826472
+        ],
+        [
+          -6.541669,
+          106.826364
+        ],
+        [
+          -6.541785,
+          106.826317
+        ],
+        [
+          -6.541823,
+          106.826314
+        ],
+        [
+          -6.542026,
+          106.826296
+        ],
+        [
+          -6.542077,
+          106.82629
+        ],
+        [
+          -6.542748,
+          106.826227
+        ],
+        [
+          -6.54318,
+          106.826189
+        ],
+        [
+          -6.543572,
+          106.826173
+        ],
+        [
+          -6.543701,
+          106.826161
+        ],
+        [
+          -6.543876,
+          106.826129
+        ],
+        [
+          -6.54401,
+          106.826094
+        ],
+        [
+          -6.544182,
+          106.82604
+        ],
+        [
+          -6.544224,
+          106.826022
+        ],
+        [
+          -6.544259,
+          106.826002
+        ],
+        [
+          -6.54432,
+          106.825964
+        ],
+        [
+          -6.54438,
+          106.825922
+        ],
+        [
+          -6.544473,
+          106.825855
+        ],
+        [
+          -6.544621,
+          106.825759
+        ],
+        [
+          -6.544719,
+          106.82569
+        ],
+        [
+          -6.544917,
+          106.825568
+        ],
+        [
+          -6.545204,
+          106.825386
+        ],
+        [
+          -6.54527,
+          106.82535
+        ],
+        [
+          -6.545369,
+          106.825297
+        ],
+        [
+          -6.545633,
+          106.825172
+        ],
+        [
+          -6.545886,
+          106.825043
+        ],
+        [
+          -6.546148,
+          106.824878
+        ],
+        [
+          -6.546339,
+          106.824749
+        ],
+        [
+          -6.54641,
+          106.824685
+        ],
+        [
+          -6.54656,
+          106.824551
+        ],
+        [
+          -6.546772,
+          106.824332
+        ],
+        [
+          -6.54695,
+          106.82417
+        ],
+        [
+          -6.54703,
+          106.824094
+        ],
+        [
+          -6.547125,
+          106.823993
+        ],
+        [
+          -6.547244,
+          106.823873
+        ],
+        [
+          -6.547254,
+          106.823862
+        ],
+        [
+          -6.547307,
+          106.82385
+        ],
+        [
+          -6.547322,
+          106.823836
+        ],
+        [
+          -6.547424,
+          106.82373
+        ],
+        [
+          -6.54748,
+          106.823678
+        ],
+        [
+          -6.547592,
+          106.823575
+        ],
+        [
+          -6.547714,
+          106.823465
+        ],
+        [
+          -6.547802,
+          106.823386
+        ],
+        [
+          -6.548053,
+          106.823154
+        ],
+        [
+          -6.548119,
+          106.823093
+        ],
+        [
+          -6.548281,
+          106.822975
+        ],
+        [
+          -6.548444,
+          106.822849
+        ],
+        [
+          -6.548569,
+          106.822756
+        ],
+        [
+          -6.548716,
+          106.822655
+        ],
+        [
+          -6.54905,
+          106.822481
+        ],
+        [
+          -6.549141,
+          106.822415
+        ],
+        [
+          -6.549222,
+          106.82238
+        ],
+        [
+          -6.549279,
+          106.822358
+        ],
+        [
+          -6.5493,
+          106.822351
+        ],
+        [
+          -6.54936,
+          106.822329
+        ],
+        [
+          -6.549683,
+          106.822205
+        ],
+        [
+          -6.550036,
+          106.822072
+        ],
+        [
+          -6.550434,
+          106.82189
+        ],
+        [
+          -6.550678,
+          106.821784
+        ],
+        [
+          -6.550769,
+          106.821741
+        ],
+        [
+          -6.551005,
+          106.821631
+        ],
+        [
+          -6.551296,
+          106.821476
+        ],
+        [
+          -6.551517,
+          106.821367
+        ],
+        [
+          -6.55168,
+          106.821287
+        ],
+        [
+          -6.551784,
+          106.821235
+        ],
+        [
+          -6.551849,
+          106.821195
+        ],
+        [
+          -6.551915,
+          106.821155
+        ],
+        [
+          -6.552191,
+          106.820999
+        ],
+        [
+          -6.552376,
+          106.820892
+        ],
+        [
+          -6.552546,
+          106.820794
+        ],
+        [
+          -6.552769,
+          106.820661
+        ],
+        [
+          -6.552959,
+          106.820551
+        ],
+        [
+          -6.553006,
+          106.820523
+        ],
+        [
+          -6.553624,
+          106.820133
+        ],
+        [
+          -6.55368,
+          106.820098
+        ],
+        [
+          -6.553857,
+          106.819973
+        ],
+        [
+          -6.553926,
+          106.81992
+        ],
+        [
+          -6.554029,
+          106.819843
+        ],
+        [
+          -6.554158,
+          106.819682
+        ],
+        [
+          -6.554258,
+          106.81954
+        ],
+        [
+          -6.554299,
+          106.819448
+        ],
+        [
+          -6.55437,
+          106.81927
+        ],
+        [
+          -6.554451,
+          106.819073
+        ],
+        [
+          -6.554475,
+          106.819029
+        ],
+        [
+          -6.554571,
+          106.81883
+        ],
+        [
+          -6.554787,
+          106.818368
+        ],
+        [
+          -6.554803,
+          106.818332
+        ],
+        [
+          -6.554923,
+          106.818056
+        ],
+        [
+          -6.55516,
+          106.817595
+        ],
+        [
+          -6.555437,
+          106.81719
+        ],
+        [
+          -6.555514,
+          106.81708
+        ],
+        [
+          -6.555631,
+          106.816903
+        ],
+        [
+          -6.55579,
+          106.816671
+        ],
+        [
+          -6.556099,
+          106.816199
+        ],
+        [
+          -6.556285,
+          106.815951
+        ],
+        [
+          -6.556349,
+          106.815873
+        ],
+        [
+          -6.556457,
+          106.815757
+        ],
+        [
+          -6.556592,
+          106.815631
+        ],
+        [
+          -6.556741,
+          106.815513
+        ],
+        [
+          -6.557145,
+          106.815265
+        ],
+        [
+          -6.557454,
+          106.815109
+        ],
+        [
+          -6.557542,
+          106.815063
+        ],
+        [
+          -6.557783,
+          106.814933
+        ],
+        [
+          -6.55808,
+          106.814786
+        ],
+        [
+          -6.558182,
+          106.814734
+        ],
+        [
+          -6.558267,
+          106.814691
+        ],
+        [
+          -6.558452,
+          106.814587
+        ],
+        [
+          -6.55877,
+          106.814418
+        ],
+        [
+          -6.5591,
+          106.814235
+        ],
+        [
+          -6.559263,
+          106.814142
+        ],
+        [
+          -6.559474,
+          106.81401
+        ],
+        [
+          -6.559692,
+          106.813831
+        ],
+        [
+          -6.559802,
+          106.813732
+        ],
+        [
+          -6.559878,
+          106.813658
+        ],
+        [
+          -6.559955,
+          106.813613
+        ],
+        [
+          -6.560035,
+          106.813514
+        ],
+        [
+          -6.560182,
+          106.813299
+        ],
+        [
+          -6.560284,
+          106.813144
+        ],
+        [
+          -6.560358,
+          106.813034
+        ],
+        [
+          -6.560437,
+          106.812931
+        ],
+        [
+          -6.560655,
+          106.812632
+        ],
+        [
+          -6.560686,
+          106.812578
+        ],
+        [
+          -6.560715,
+          106.812505
+        ],
+        [
+          -6.561211,
+          106.811915
+        ],
+        [
+          -6.561297,
+          106.81182
+        ],
+        [
+          -6.561425,
+          106.811691
+        ],
+        [
+          -6.561528,
+          106.811609
+        ],
+        [
+          -6.561652,
+          106.811525
+        ],
+        [
+          -6.561841,
+          106.811429
+        ],
+        [
+          -6.562172,
+          106.8113
+        ],
+        [
+          -6.56279,
+          106.8111
+        ],
+        [
+          -6.56309,
+          106.811004
+        ],
+        [
+          -6.563315,
+          106.81095
+        ],
+        [
+          -6.563475,
+          106.810897
+        ],
+        [
+          -6.563666,
+          106.81082
+        ],
+        [
+          -6.563716,
+          106.810803
+        ],
+        [
+          -6.563807,
+          106.81077
+        ],
+        [
+          -6.563857,
+          106.810753
+        ],
+        [
+          -6.56422,
+          106.810667
+        ],
+        [
+          -6.56441,
+          106.810619
+        ],
+        [
+          -6.564707,
+          106.810523
+        ],
+        [
+          -6.564763,
+          106.810505
+        ],
+        [
+          -6.564921,
+          106.810454
+        ],
+        [
+          -6.565527,
+          106.810261
+        ],
+        [
+          -6.565795,
+          106.810161
+        ],
+        [
+          -6.565867,
+          106.810136
+        ],
+        [
+          -6.566129,
+          106.810045
+        ],
+        [
+          -6.566285,
+          106.809988
+        ],
+        [
+          -6.566458,
+          106.809922
+        ],
+        [
+          -6.566577,
+          106.809876
+        ],
+        [
+          -6.567206,
+          106.80962
+        ],
+        [
+          -6.567532,
+          106.809489
+        ],
+        [
+          -6.567609,
+          106.809462
+        ],
+        [
+          -6.567893,
+          106.809363
+        ],
+        [
+          -6.568101,
+          106.80932
+        ],
+        [
+          -6.568291,
+          106.809281
+        ],
+        [
+          -6.568819,
+          106.80917
+        ],
+        [
+          -6.568906,
+          106.809157
+        ],
+        [
+          -6.568874,
+          106.809035
+        ],
+        [
+          -6.568857,
+          106.80896
+        ],
+        [
+          -6.56882,
+          106.808796
+        ],
+        [
+          -6.568774,
+          106.808499
+        ],
+        [
+          -6.568719,
+          106.808226
+        ],
+        [
+          -6.568666,
+          106.808025
+        ],
+        [
+          -6.568609,
+          106.807832
+        ],
+        [
+          -6.568555,
+          106.807677
+        ],
+        [
+          -6.568521,
+          106.807573
+        ],
+        [
+          -6.568446,
+          106.807335
+        ],
+        [
+          -6.568422,
+          106.807247
+        ],
+        [
+          -6.568417,
+          106.80719
+        ],
+        [
+          -6.568425,
+          106.807121
+        ],
+        [
+          -6.568445,
+          106.807041
+        ],
+        [
+          -6.568503,
+          106.806896
+        ],
+        [
+          -6.568545,
+          106.80681
+        ],
+        [
+          -6.568595,
+          106.806704
+        ],
+        [
+          -6.568658,
+          106.806571
+        ],
+        [
+          -6.568714,
+          106.806456
+        ],
+        [
+          -6.568902,
+          106.806044
+        ],
+        [
+          -6.568948,
+          106.805943
+        ],
+        [
+          -6.568974,
+          106.805871
+        ],
+        [
+          -6.568991,
+          106.80582
+        ],
+        [
+          -6.569029,
+          106.80568
+        ],
+        [
+          -6.569044,
+          106.805629
+        ],
+        [
+          -6.569059,
+          106.805593
+        ],
+        [
+          -6.569076,
+          106.805557
+        ],
+        [
+          -6.569147,
+          106.805439
+        ],
+        [
+          -6.569151,
+          106.805435
+        ],
+        [
+          -6.569202,
+          106.805395
+        ],
+        [
+          -6.569408,
+          106.805229
+        ],
+        [
+          -6.569444,
+          106.805201
+        ],
+        [
+          -6.569452,
+          106.805194
+        ],
+        [
+          -6.569843,
+          106.804881
+        ],
+        [
+          -6.570125,
+          106.804655
+        ],
+        [
+          -6.569985,
+          106.804466
+        ],
+        [
+          -6.569728,
+          106.804119
+        ],
+        [
+          -6.569495,
+          106.803791
+        ],
+        [
+          -6.569258,
+          106.803483
+        ],
+        [
+          -6.569015,
+          106.803144
+        ],
+        [
+          -6.568657,
+          106.80341
+        ],
+        [
+          -6.568389,
+          106.80361
+        ],
+        [
+          -6.56781,
+          106.804041
+        ],
+        [
+          -6.56784,
+          106.804078
+        ],
+        [
+          -6.567988,
+          106.804276
+        ]
+      ]
+    }
+  ],
+  "bucket_list": [
+    {
+      "idea": "Upfinity Thamrin Nine (FIRST DATE)",
+      "category": "Trip",
+      "notes": "Completed trip!",
+      "completed": true,
+      "date": "2026-05-30",
+      "trip_id": "1rZ0wRjoBRD5HeY6KTOvSe6nQiHxUVLce"
+    },
+    {
+      "idea": "Jakarta Aquarium",
+      "category": "Trip",
+      "notes": "Completed trip!",
+      "completed": true,
+      "date": "2026-06-13",
+      "trip_id": "1TInFyNdXwsTUPvruJ6z0hd1HU43-mx1C"
+    },
+    {
+      "idea": "BLOK M - ASHTA - GUKBAP",
+      "category": "Trip",
+      "notes": "Completed trip!",
+      "completed": true,
+      "date": "2026-06-27",
+      "trip_id": "1AmgrnFrap1pvnM5pJ3UNa0L07oxeEbix"
+    },
+    {
+      "idea": "AKAMSUN DATE",
+      "category": "Trip",
+      "notes": "Completed trip!",
+      "completed": true,
+      "date": "2026-07-12",
+      "trip_id": "15CDCsQ88OX1gtImiZtaGUNf50QH8Vcd4"
+    },
+    {
+      "idea": "CURUG TRIPLE DATE",
+      "category": "Trip",
+      "notes": "Completed trip!",
+      "completed": true,
+      "date": "2026-07-19",
+      "trip_id": "1cMT3ZzlUEB2e_NAe_7IVRjiVWps9NR5V"
+    },
+    {
+      "idea": "Day 1",
+      "category": "Trip",
+      "notes": "Completed trip!",
+      "completed": true,
+      "date": "2026-08-04",
+      "trip_id": "1bSVYM6rBxkVIU1U55-lvK_1v_ms_hAqI"
+    },
+    {
+      "idea": "BEKASI DATEEE",
+      "category": "Trip",
+      "notes": "Completed trip!",
+      "completed": true,
+      "date": "2026-08-08",
+      "trip_id": "1-IG5z8J03oGWenHxg9kqsh6dYAjbG1CI"
+    },
+    {
+      "idea": "Spider-Man BND",
+      "category": "Trip",
+      "notes": "Completed trip!",
+      "completed": true,
+      "date": "2026-08-09",
+      "trip_id": "1W8R8nsQO5oUFDAwk8VBBhNMdMyix-nrI"
+    },
+    {
+      "idea": "Padel triple date",
+      "category": "Adventure",
+      "notes": "",
+      "completed": true,
+      "date": "2026-08-15",
+      "trip_id": "1tEg1G8ptxdl2Er9QDql7FHyb1VVGryDk"
+    },
+    {
+      "idea": "Teras winiy + church date",
+      "category": "Adventure",
+      "notes": "",
+      "completed": true,
+      "date": "2026-08-16",
+      "trip_id": "1Y2wWMFKfyUTpE33BXLSMaYWlVbGShbvy"
+    },
+    {
+      "idea": "Curug Sentul",
+      "category": "Adventure",
+      "notes": "",
+      "completed": false,
+      "date": "2026-07-18",
+      "trip_id": ""
+    },
+    {
+      "idea": "Fantai Indah Kafyuk",
+      "category": "General",
+      "notes": "",
+      "completed": false,
+      "date": "",
+      "trip_id": ""
+    },
+    {
+      "idea": "safari",
+      "category": "General",
+      "notes": "",
+      "completed": false,
+      "date": "",
+      "trip_id": ""
+    },
+    {
+      "idea": "gokart",
+      "category": "General",
+      "notes": "",
+      "completed": false,
+      "date": "",
+      "trip_id": ""
+    },
+    {
+      "idea": "bogor",
+      "category": "General",
+      "notes": "",
+      "completed": false,
+      "date": "",
+      "trip_id": ""
+    }
+  ]
+};
