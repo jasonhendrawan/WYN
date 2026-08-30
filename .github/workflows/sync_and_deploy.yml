@@ -1,8 +1,10 @@
 name: Auto Sync Google Drive & Deploy
 
 on:
+  repository_dispatch:
+    types: [drive_upload, gdrive_sync]
   schedule:
-    # Runs every 6 hours automatically (00:00, 06:00, 12:00, 18:00 UTC)
+    # Backup periodic sync (every 6 hours)
     - cron: '0 */6 * * *'
   workflow_dispatch: # Allows 1-click manual trigger from GitHub UI / Mobile
   push:
