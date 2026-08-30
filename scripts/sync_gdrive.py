@@ -155,8 +155,8 @@ for folder in subfolders:
     # Look for cover video or image
     cover_candidate = None
     for m in media_files:
-        mname_lower = m['name'].lower()
-        if mname_lower.startswith(('cover.', 'cover_', 'cover ')):
+        mname_lower = m['name'].lower().strip()
+        if mname_lower == 'cover' or mname_lower.startswith(('cover.', 'cover_', 'cover ', 'thumb')) or 'cover' in mname_lower:
             cover_candidate = m
             break
             
