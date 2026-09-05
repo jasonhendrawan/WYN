@@ -5,7 +5,7 @@
 
 document.addEventListener('DOMContentLoaded', () => {
   const data = window.WYN_DATA || { past_dates: [], bucket_list: [], favorites: [] };
-  const trips = data.past_dates || [];
+  const trips = (data.past_dates || []).filter(t => !t.title.toLowerCase().includes('pap sayang aku'));
   
   // Date Helpers for Chronological Sorting & Date Picker
   function parseDateToTimestamp(dateStr) {

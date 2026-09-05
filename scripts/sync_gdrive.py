@@ -120,8 +120,10 @@ for folder in subfolders:
     fid = folder['id']
     fname = folder['name']
     
-    # Skip non-trip utility folders like 'timeline'
-    if fname.lower().strip() in ['timeline', 'json', 'data', 'backup']:
+    # Skip non-trip utility folders or excluded photo albums like 'pap sayang aku'
+    fname_clean = fname.lower().strip()
+    if fname_clean in ['timeline', 'json', 'data', 'backup'] or 'pap sayang aku' in fname_clean:
+        print(f"\nSkipping excluded folder: '{fname}' (ID: {fid})")
         continue
         
     print(f"\nProcessing Folder: '{fname}' (ID: {fid})")
