@@ -41,6 +41,12 @@
           <strong class="days-counter-number" id="daysCount">16</strong> Days Together
         </span>
       </div>
+
+      <!-- Single Button to go to the I'm sorry page -->
+      <a href="wynne.html" class="hero-winnie-link">
+        <i data-lucide="heart" style="width: 14px; height: 14px; color: #ec4899; fill: #ec4899;"></i>
+        <span>I'm sorry, please press this.</span>
+      </a>
     </header>
 
     <!-- Stats Bar (4 Tabs) -->
@@ -215,6 +221,10 @@
           <button id="lightboxRotateBtn" class="lightbox-tool-btn" title="Rotate 90°">
             <i data-lucide="rotate-cw" style="width: 15px; height: 15px;"></i>
           </button>
+          <button id="lightboxSetCoverBtn" class="lightbox-set-cover-btn" title="Set as Date Cover">
+            <i data-lucide="sparkles" style="width: 14px; height: 14px;"></i>
+            <span>Set Cover</span>
+          </button>
         </div>
         <button id="closeLightboxModal" class="modal-close-btn" aria-label="Close">
           <i data-lucide="x" style="width: 20px; height: 20px;"></i>
@@ -262,6 +272,9 @@
       </div>
     </div>
   </div>
+
+  <!-- Floating Toast Notification -->
+  <div id="toastNotification" class="toast-notification"></div>
 
   <!-- Embedded Data & Client Application -->
   <script src="data.js"></script>

@@ -67,11 +67,15 @@ document.addEventListener('DOMContentLoaded', () => {
     trips.sort((a, b) => parseDateToTimestamp(a.date) - parseDateToTimestamp(b.date));
   }
 
-  // Apply saved date overrides & uniform '6 Aug 2026' date formatting
+  // Apply saved date & cover overrides & uniform '6 Aug 2026' date formatting
   const savedDateOverrides = JSON.parse(localStorage.getItem('trip_date_overrides') || '{}');
+  const savedCoverOverrides = JSON.parse(localStorage.getItem('trip_cover_overrides') || '{}');
   trips.forEach(trip => {
-    if (savedDateOverrides[trip.title]) {
-      trip.date = savedDateOverrides[trip.title];
+    if (savedDateOverrides[trip.title] || savedDateOverrides[trip.id]) {
+      trip.date = savedDateOverrides[trip.title] || savedDateOverrides[trip.id];
+    }
+    if (savedCoverOverrides[trip.title] || savedCoverOverrides[trip.id]) {
+      trip.image_path = savedCoverOverrides[trip.title] || savedCoverOverrides[trip.id];
     }
     trip.date = formatDisplayDate(trip.date);
   });
@@ -1268,6 +1272,58 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   }
 
+  // Toast Notification Helper
+  let toastTimer = null;
+  function showToast(message, iconName = 'sparkles') {
+    const toast = document.getElementById('toastNotification');
+    if (!toast) return;
+    toast.innerHTML = `<i data-lucide="${iconName}" style="width: 16px; height: 16px; color: #ec4899;"></i> <span>${message}</span>`;
+    toast.classList.add('show');
+    if (window.lucide) window.lucide.createIcons();
+    if (toastTimer) clearTimeout(toastTimer);
+    toastTimer = setTimeout(() => {
+      toast.classList.remove('show');
+    }, 2400);
+  }
+
+  // Check if a media item is the active cover for a trip
+  function isTripCover(trip, url, thumb) {
+    if (!trip || !trip.image_path) return false;
+    const currentCover = resolveUrl(trip.image_path);
+    const cleanU = resolveUrl(url);
+    const cleanT = resolveUrl(thumb || url);
+    const currentId = extractGDriveId(currentCover);
+    const uId = extractGDriveId(cleanU) || extractGDriveId(cleanT);
+    if (currentId && uId && currentId === uId) return true;
+    return currentCover === cleanU || currentCover === cleanT;
+  }
+
+  // Set the cover photo / video for a trip
+  function setTripCover(trip, targetPath) {
+    if (!trip || !targetPath) return;
+    const cleanPath = resolveUrl(targetPath);
+    trip.image_path = cleanPath;
+
+    // Persist cover override to localStorage
+    const coverOverrides = JSON.parse(localStorage.getItem('trip_cover_overrides') || '{}');
+    coverOverrides[trip.title] = cleanPath;
+    if (trip.id) coverOverrides[trip.id] = cleanPath;
+    localStorage.setItem('trip_cover_overrides', JSON.stringify(coverOverrides));
+
+    // Instantly refresh timeline cards
+    renderTimeline();
+
+    // Re-render gallery modal items if open
+    if (galleryModal && galleryModal.classList.contains('open') && currentEditingTrip === trip) {
+      openGalleryModal(trip);
+    }
+
+    // Update lightbox button if open
+    updateLightboxCoverBtnState();
+
+    showToast(`Cover updated for "${trip.title}"! ✨`, 'check');
+  }
+
   function openGalleryModal(trip) {
     if (!galleryModal) return;
     currentEditingTrip = trip;
@@ -1290,9 +1346,10 @@ document.addEventListener('DOMContentLoaded', () => {
       const cleanThumb = resolveUrl(thumb);
       const dateTaken = typeof img === 'object' ? (img.date_taken || '') : '';
       const isFav = favorites.includes(url) || favorites.includes(cleanUrl);
+      const isCover = isTripCover(trip, url, thumb);
 
       const item = document.createElement('div');
-      item.className = 'gallery-grid-item';
+      item.className = `gallery-grid-item ${isCover ? 'is-cover' : ''}`;
 
       item.innerHTML = `
         <img src="${cleanThumb}" alt="Photo" loading="lazy" onerror="this.src='${getFullHDUrl(url)}'" />
@@ -1303,17 +1360,36 @@ document.addEventListener('DOMContentLoaded', () => {
             </div>
           </div>
         ` : ''}
-        <button class="heart-fav-btn ${isFav ? 'active' : ''}">
+        ${isCover ? `
+          <div class="cover-badge" title="Current Cover Photo">
+            <i data-lucide="sparkles" style="width: 11px; height: 11px;"></i>
+            <span>Cover</span>
+          </div>
+        ` : `
+          <button class="set-cover-btn" title="Set as Cover Photo for this date">
+            <i data-lucide="image" style="width: 12px; height: 12px;"></i>
+            <span>Set Cover</span>
+          </button>
+        `}
+        <button class="heart-fav-btn ${isFav ? 'active' : ''}" title="Favorite this memory">
           <i data-lucide="heart" style="width: 13px; height: 13px; fill: ${isFav ? '#ec4899' : 'transparent'}; color: ${isFav ? '#ec4899' : '#fff'};"></i>
         </button>
         ${dateTaken ? `<div class="exif-date-badge"><i data-lucide="calendar" style="width: 10px; height: 10px;"></i> ${formatExifDateDisplay(dateTaken)}</div>` : ''}
       `;
 
       item.addEventListener('click', (e) => {
-        if (!e.target.closest('.heart-fav-btn')) {
-          openLightbox(url, isVideo ? 'video' : 'image');
+        if (!e.target.closest('.heart-fav-btn') && !e.target.closest('.set-cover-btn')) {
+          openLightbox(url, isVideo ? 'video' : 'image', thumb);
         }
       });
+
+      const setCoverBtn = item.querySelector('.set-cover-btn');
+      if (setCoverBtn) {
+        setCoverBtn.addEventListener('click', (e) => {
+          e.stopPropagation();
+          setTripCover(trip, isVideo ? url : (thumb || url));
+        });
+      }
 
       const heartBtn = item.querySelector('.heart-fav-btn');
       heartBtn.addEventListener('click', (e) => {
@@ -1513,9 +1589,41 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   }
 
-  function openLightbox(url, type) {
+  const lightboxSetCoverBtn = document.getElementById('lightboxSetCoverBtn');
+  let currentLightboxData = { url: '', type: '', thumb: '' };
+
+  function updateLightboxCoverBtnState(activeUrl) {
+    if (!lightboxSetCoverBtn) return;
+    if (!currentEditingTrip) {
+      lightboxSetCoverBtn.style.display = 'none';
+      return;
+    }
+    lightboxSetCoverBtn.style.display = 'inline-flex';
+    const targetUrl = activeUrl || currentLightboxData.url;
+    const isCover = isTripCover(currentEditingTrip, targetUrl, currentLightboxData.thumb);
+    if (isCover) {
+      lightboxSetCoverBtn.classList.add('is-active');
+      lightboxSetCoverBtn.innerHTML = `<i data-lucide="sparkles" style="width: 14px; height: 14px;"></i> <span>Cover Photo</span>`;
+    } else {
+      lightboxSetCoverBtn.classList.remove('is-active');
+      lightboxSetCoverBtn.innerHTML = `<i data-lucide="image" style="width: 14px; height: 14px;"></i> <span>Set Cover</span>`;
+    }
+    if (window.lucide) window.lucide.createIcons();
+  }
+
+  if (lightboxSetCoverBtn) {
+    lightboxSetCoverBtn.addEventListener('click', (e) => {
+      e.stopPropagation();
+      if (!currentEditingTrip || !currentLightboxData.url) return;
+      const target = (currentLightboxData.type === 'video') ? currentLightboxData.url : (currentLightboxData.thumb || currentLightboxData.url);
+      setTripCover(currentEditingTrip, target);
+    });
+  }
+
+  function openLightbox(url, type, thumb) {
     if (!lightboxModal) return;
     resetZoom();
+    currentLightboxData = { url, type, thumb: thumb || url };
     const cleanUrl = resolveUrl(url);
     const gdriveId = extractGDriveId(url);
 
@@ -1543,6 +1651,7 @@ document.addEventListener('DOMContentLoaded', () => {
       `;
     }
 
+    updateLightboxCoverBtnState();
     lightboxModal.classList.add('open');
     if (window.lucide) window.lucide.createIcons();
   }
