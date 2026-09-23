@@ -574,14 +574,13 @@ body {
   width: 100%;
 }
 
-/* Horizontal Alternating Timeline with Drag & Snap */
+/* Horizontal Alternating Timeline with Drag & Smooth Mouse Wheel */
 .timeline-scroll-container {
   overflow-x: auto;
   width: 100%;
   padding: 1.5rem 0 1.75rem 0;
-  scroll-behavior: smooth;
   -webkit-overflow-scrolling: touch;
-  scroll-snap-type: x mandatory;
+  scroll-snap-type: none;
   scrollbar-width: none !important;
   -ms-overflow-style: none !important;
   cursor: grab;
@@ -596,8 +595,6 @@ body {
 
 .timeline-scroll-container.is-dragging {
   cursor: grabbing;
-  scroll-snap-type: none; /* Smooth drag without snap locking while actively moving */
-  scroll-behavior: auto;
 }
 
 .timeline-row {
@@ -614,14 +611,14 @@ body {
   flex-direction: column;
   align-items: center;
   flex-shrink: 0;
-  scroll-snap-align: center;
-  scroll-snap-stop: always;
 }
 
 @media (max-width: 640px) {
   .timeline-scroll-container {
     padding: 1rem 0 1.5rem 0;
     scroll-padding: 0 calc(50vw - 42.5vw);
+    scroll-snap-type: x mandatory;
+    scroll-behavior: smooth;
   }
   
   .timeline-row {

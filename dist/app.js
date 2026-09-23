@@ -215,13 +215,30 @@ document.addEventListener('DOMContentLoaded', () => {
       scrollContainer.scrollLeft = scrollStartLeft - walk;
     });
 
-    // Mouse wheel horizontal scroll
-    scrollContainer.addEventListener('wheel', (e) => {
-      if (e.deltaY !== 0) {
+    // Buttery-smooth mouse wheel & trackpad horizontal scroll
+    const handleTimelineWheel = (e) => {
+      // Don't intercept if any modal or fullscreen lightbox is open
+      if (document.querySelector('.custom-modal-backdrop.active, .lightbox-backdrop.active')) return;
+
+      const delta = Math.abs(e.deltaY) >= Math.abs(e.deltaX) ? e.deltaY : e.deltaX;
+      if (delta !== 0) {
         e.preventDefault();
-        scrollContainer.scrollLeft += e.deltaY * 0.85;
+        // Natural scroll speed factor
+        scrollContainer.scrollLeft += delta * 1.35;
       }
-    }, { passive: false });
+    };
+
+    scrollContainer.addEventListener('wheel', handleTimelineWheel, { passive: false });
+
+    const timelineViewSection = document.getElementById('timelineView');
+    if (timelineViewSection) {
+      timelineViewSection.addEventListener('wheel', (e) => {
+        // If wheel happens over the timeline section outside container
+        if (e.currentTarget === timelineViewSection || e.target.closest('#timelineView')) {
+          handleTimelineWheel(e);
+        }
+      }, { passive: false });
+    }
   }
 
   function renderTimeline() {
