@@ -1,0 +1,1163 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <title>For Wynne ❤️</title>
+  
+  <!-- Favicon Heart Icon -->
+  <link rel="icon" type="image/png" href="favicon.png">
+  <link rel="shortcut icon" href="favicon.ico">
+  <link rel="apple-touch-icon" href="apple-touch-icon.png">
+  
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@600;700&family=Outfit:wght@300;400;600;700;800&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  
+  <!-- Lucide Icons -->
+  <script src="https://unpkg.com/lucide@latest"></script>
+
+  <style>
+    :root {
+      --bg-main: linear-gradient(180deg, #090514 0%, #150a28 50%, #07030e 100%);
+      --accent: #ec4899;
+      --accent-hover: #f43f5e;
+      --accent-glow: rgba(236, 72, 153, 0.4);
+      --purple-accent: #a855f7;
+      --text-main: #ffffff;
+      --text-soft: #f1f5f9;
+      --text-muted: #fda4af;
+      --glass-bg: rgba(24, 15, 46, 0.65);
+      --glass-border: rgba(244, 114, 182, 0.25);
+      --card-shadow: 0 10px 40px rgba(0, 0, 0, 0.5), 0 0 30px rgba(236, 72, 153, 0.15);
+      --font-heading: 'Outfit', sans-serif;
+      --font-body: 'Inter', sans-serif;
+      --font-hand: 'Caveat', cursive;
+    }
+
+    [data-theme="light"] {
+      --bg-main: linear-gradient(180deg, #fff5f8 0%, #fae8ff 50%, #ffffff 100%);
+      --text-main: #2a1128;
+      --text-soft: #4a1d46;
+      --text-muted: #be185d;
+      --glass-bg: rgba(255, 255, 255, 0.85);
+      --glass-border: rgba(236, 72, 153, 0.3);
+      --card-shadow: 0 10px 40px rgba(190, 24, 93, 0.12), 0 0 25px rgba(236, 72, 153, 0.2);
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      -webkit-tap-highlight-color: transparent;
+    }
+
+    body {
+      min-height: 100vh;
+      background: var(--bg-main);
+      color: var(--text-main);
+      font-family: var(--font-body);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      overflow-x: hidden;
+      position: relative;
+      padding: 1.5rem 1rem;
+    }
+
+    /* Floating Ambient Hearts */
+    .ambient-hearts {
+      position: fixed;
+      inset: 0;
+      pointer-events: none;
+      z-index: 0;
+      overflow: hidden;
+    }
+
+    .heart-particle {
+      position: absolute;
+      bottom: -40px;
+      font-size: 1.5rem;
+      animation: floatUp linear infinite;
+      opacity: 0.6;
+      filter: drop-shadow(0 0 8px rgba(244, 114, 182, 0.5));
+    }
+
+    @keyframes floatUp {
+      0% {
+        transform: translateY(0) rotate(0deg) scale(0.8);
+        opacity: 0;
+      }
+      20% {
+        opacity: 0.7;
+      }
+      80% {
+        opacity: 0.7;
+      }
+      100% {
+        transform: translateY(-110vh) rotate(360deg) scale(1.2);
+        opacity: 0;
+      }
+    }
+
+    /* Navigation Bar at Top */
+    .top-nav {
+      position: fixed;
+      top: 1rem;
+      left: 1rem;
+      right: 1rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      z-index: 100;
+    }
+
+    .back-link {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.5rem;
+      color: var(--text-muted);
+      text-decoration: none;
+      font-weight: 600;
+      font-size: 0.9rem;
+      background: var(--glass-bg);
+      backdrop-filter: blur(12px);
+      -webkit-backdrop-filter: blur(12px);
+      padding: 0.5rem 1rem;
+      border-radius: 999px;
+      border: 1px solid var(--glass-border);
+      transition: all 0.2s ease;
+      box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    }
+
+    .back-link:hover {
+      transform: translateX(-3px);
+      color: #fff;
+      border-color: var(--accent);
+    }
+
+    .theme-toggle-mini {
+      background: var(--glass-bg);
+      border: 1px solid var(--glass-border);
+      color: var(--text-main);
+      width: 38px;
+      height: 38px;
+      border-radius: 999px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      cursor: pointer;
+      backdrop-filter: blur(12px);
+      -webkit-backdrop-filter: blur(12px);
+      transition: transform 0.2s;
+    }
+
+    .theme-toggle-mini:hover {
+      transform: scale(1.05);
+    }
+
+    /* Main Container Card */
+    .apology-card {
+      position: relative;
+      z-index: 10;
+      background: var(--glass-bg);
+      backdrop-filter: blur(20px);
+      -webkit-backdrop-filter: blur(20px);
+      border: 1px solid var(--glass-border);
+      border-radius: 28px;
+      padding: 2.5rem 2rem;
+      max-width: 580px;
+      width: 100%;
+      text-align: center;
+      box-shadow: var(--card-shadow);
+      animation: fadeIn 0.8s cubic-bezier(0.16, 1, 0.3, 1);
+      margin-top: 1.5rem;
+    }
+
+    @keyframes fadeIn {
+      from {
+        opacity: 0;
+        transform: translateY(20px) scale(0.96);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0) scale(1);
+      }
+    }
+
+    /* Decorative badge */
+    .love-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.5rem;
+      padding: 0.45rem 1.2rem;
+      background: rgba(244, 114, 182, 0.15);
+      border: 1px solid rgba(244, 114, 182, 0.35);
+      border-radius: 999px;
+      font-size: 0.85rem;
+      font-weight: 700;
+      color: #f472b6;
+      margin-bottom: 1.5rem;
+      box-shadow: 0 4px 15px rgba(236, 72, 153, 0.15);
+    }
+
+    .pulsing-heart {
+      display: inline-block;
+      animation: heartbeat 1.5s ease-in-out infinite;
+    }
+
+    @keyframes heartbeat {
+      0%, 100% { transform: scale(1); }
+      14% { transform: scale(1.25); }
+      28% { transform: scale(1); }
+      42% { transform: scale(1.2); }
+      70% { transform: scale(1); }
+    }
+
+    /* Apology Text */
+    .apology-heading {
+      font-family: var(--font-heading);
+      font-size: clamp(1.6rem, 5vw, 2.4rem);
+      font-weight: 800;
+      line-height: 1.25;
+      margin-bottom: 1.25rem;
+      background: linear-gradient(135deg, #ffffff 0%, #fbcfe8 50%, #f472b6 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      filter: drop-shadow(0 2px 8px rgba(244, 114, 182, 0.3));
+    }
+
+    [data-theme="light"] .apology-heading {
+      background: linear-gradient(135deg, #831843 0%, #db2777 50%, #9333ea 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+
+    .apology-paragraph {
+      font-size: clamp(1.05rem, 3.5vw, 1.25rem);
+      font-weight: 400;
+      line-height: 1.6;
+      color: var(--text-soft);
+      margin-bottom: 2rem;
+    }
+
+    .highlight-name {
+      font-family: var(--font-hand);
+      font-size: clamp(1.8rem, 6vw, 2.3rem);
+      font-weight: 700;
+      color: #ec4899;
+      text-shadow: 0 0 16px rgba(236, 72, 153, 0.5);
+      letter-spacing: 1px;
+    }
+
+    .divider {
+      height: 1px;
+      background: linear-gradient(90deg, transparent, var(--glass-border), transparent);
+      margin: 1.5rem 0;
+      width: 100%;
+    }
+
+    /* Question Section */
+    .question-title {
+      font-family: var(--font-heading);
+      font-size: clamp(1.25rem, 4vw, 1.65rem);
+      font-weight: 700;
+      color: #fff;
+      margin-bottom: 1.75rem;
+      letter-spacing: -0.01em;
+    }
+
+    [data-theme="light"] .question-title {
+      color: #3b0764;
+    }
+
+    /* Playground container for the buttons */
+    .button-arena {
+      position: relative;
+      width: 100%;
+      min-height: 240px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 1.25rem;
+      margin: 0.5rem auto 1rem;
+      user-select: none;
+      -webkit-user-select: none;
+      overflow: hidden;
+      border-radius: 18px;
+    }
+
+    /* YES Button */
+    .btn-yes {
+      background: linear-gradient(135deg, #ec4899 0%, #db2777 50%, #be185d 100%);
+      color: #ffffff;
+      font-family: var(--font-heading);
+      font-size: 1.15rem;
+      font-weight: 700;
+      padding: 0.95rem 2rem;
+      border-radius: 999px;
+      border: none;
+      cursor: pointer;
+      box-shadow: 0 6px 20px rgba(236, 72, 153, 0.5), 0 0 15px rgba(236, 72, 153, 0.3);
+      transition: all 0.25s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+      display: inline-flex;
+      align-items: center;
+      gap: 0.6rem;
+      z-index: 50;
+      position: relative;
+    }
+
+    .btn-yes:hover {
+      transform: scale(1.08);
+      box-shadow: 0 8px 25px rgba(236, 72, 153, 0.7), 0 0 25px rgba(236, 72, 153, 0.5);
+    }
+
+    .btn-yes:active {
+      transform: scale(0.97);
+    }
+
+    /* RUNAWAY NO Button */
+    .btn-no {
+      background: rgba(255, 255, 255, 0.08);
+      color: #cbd5e1;
+      font-family: var(--font-heading);
+      font-size: 1.05rem;
+      font-weight: 600;
+      padding: 0.95rem 1.8rem;
+      border-radius: 999px;
+      border: 1px solid rgba(255, 255, 255, 0.2);
+      cursor: pointer;
+      transition: all 0.15s cubic-bezier(0.2, 0.8, 0.2, 1);
+      display: inline-flex;
+      align-items: center;
+      gap: 0.4rem;
+      z-index: 30;
+      white-space: nowrap;
+      touch-action: none;
+      -webkit-touch-callout: none;
+    }
+
+    [data-theme="light"] .btn-no {
+      background: rgba(0, 0, 0, 0.05);
+      color: #64748b;
+      border-color: rgba(0, 0, 0, 0.15);
+    }
+
+    .btn-no.moving {
+      position: absolute;
+      transition: top 0.22s cubic-bezier(0.175, 0.885, 0.32, 1.275), left 0.22s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+      box-shadow: 0 8px 22px rgba(0, 0, 0, 0.35);
+      z-index: 30;
+    }
+
+    /* Accepted State View */
+    #acceptedSection {
+      display: none;
+      animation: popIn 0.6s cubic-bezier(0.175, 0.885, 0.32, 1.275) forwards;
+    }
+
+    @keyframes popIn {
+      0% {
+        opacity: 0;
+        transform: scale(0.85);
+      }
+      100% {
+        opacity: 1;
+        transform: scale(1);
+      }
+    }
+
+    .celebration-icon {
+      font-size: 3.5rem;
+      margin-bottom: 0.8rem;
+      display: inline-block;
+      animation: bounceCelebration 1s ease infinite alternate;
+    }
+
+    @keyframes bounceCelebration {
+      from { transform: translateY(0); }
+      to { transform: translateY(-10px); }
+    }
+
+    .accepted-heading {
+      font-family: var(--font-heading);
+      font-size: clamp(1.8rem, 5vw, 2.2rem);
+      font-weight: 800;
+      color: #f472b6;
+      margin-bottom: 0.5rem;
+      text-shadow: 0 0 20px rgba(244, 114, 182, 0.4);
+    }
+
+    .accepted-subtext {
+      font-size: 1.1rem;
+      color: var(--text-soft);
+      margin-bottom: 1.75rem;
+      line-height: 1.5;
+    }
+
+    /* Google Maps Location Box */
+    .location-card {
+      background: linear-gradient(135deg, rgba(236, 72, 153, 0.15) 0%, rgba(168, 85, 247, 0.15) 100%);
+      border: 1.5px solid rgba(244, 114, 182, 0.4);
+      border-radius: 20px;
+      padding: 1.5rem;
+      margin: 1.5rem 0;
+      box-shadow: 0 8px 30px rgba(236, 72, 153, 0.2);
+      transition: all 0.3s ease;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 0.75rem;
+    }
+
+    .location-card:hover {
+      border-color: #ec4899;
+      box-shadow: 0 10px 35px rgba(236, 72, 153, 0.35);
+      transform: translateY(-2px);
+    }
+
+    .location-label {
+      font-size: 0.85rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 1.5px;
+      color: #fbcfe8;
+    }
+
+    [data-theme="light"] .location-label {
+      color: #db2777;
+    }
+
+    .location-name {
+      font-family: var(--font-heading);
+      font-size: clamp(1.4rem, 4.5vw, 1.85rem);
+      font-weight: 800;
+      color: #ffffff;
+      text-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+    }
+
+    [data-theme="light"] .location-name {
+      color: #1e1b4b;
+    }
+
+    .btn-maps {
+      background: linear-gradient(135deg, #10b981 0%, #059669 100%);
+      color: #ffffff;
+      text-decoration: none;
+      font-family: var(--font-heading);
+      font-size: 1.05rem;
+      font-weight: 700;
+      padding: 0.85rem 1.8rem;
+      border-radius: 999px;
+      display: inline-flex;
+      align-items: center;
+      gap: 0.6rem;
+      box-shadow: 0 6px 20px rgba(16, 185, 129, 0.4);
+      transition: all 0.25s ease;
+      margin-top: 0.5rem;
+    }
+
+    .btn-maps:hover {
+      transform: scale(1.05);
+      box-shadow: 0 8px 25px rgba(16, 185, 129, 0.6);
+    }
+
+    .home-link-btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.5rem;
+      margin-top: 1.25rem;
+      color: var(--text-muted);
+      text-decoration: none;
+      font-size: 0.95rem;
+      font-weight: 600;
+      transition: color 0.2s;
+    }
+
+    .home-link-btn:hover {
+      color: #ffffff;
+    }
+
+    /* Confetti Canvas */
+    #confettiCanvas {
+      position: fixed;
+      inset: 0;
+      width: 100%;
+      height: 100%;
+      pointer-events: none;
+      z-index: 9999;
+    }
+
+    /* Responsive adjustments */
+    @media (max-width: 480px) {
+      .apology-card {
+        padding: 2rem 1.25rem;
+      }
+      .btn-yes {
+        font-size: 1.05rem;
+        padding: 0.85rem 1.5rem;
+      }
+      .btn-no {
+        font-size: 0.95rem;
+        padding: 0.85rem 1.35rem;
+      }
+    }
+
+    /* PIN Lock Card Styles */
+    .pin-card {
+      position: relative;
+      z-index: 20;
+      background: var(--glass-bg);
+      backdrop-filter: blur(20px);
+      -webkit-backdrop-filter: blur(20px);
+      border: 1px solid var(--glass-border);
+      border-radius: 28px;
+      padding: 2.5rem 2rem 2rem;
+      max-width: 360px;
+      width: 100%;
+      text-align: center;
+      box-shadow: var(--card-shadow);
+      animation: fadeIn 0.6s cubic-bezier(0.16, 1, 0.3, 1);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-top: 1.5rem;
+    }
+
+    .pin-lock-icon {
+      width: 58px;
+      height: 58px;
+      border-radius: 999px;
+      background: rgba(236, 72, 153, 0.15);
+      border: 1px solid rgba(244, 114, 182, 0.35);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-bottom: 1.25rem;
+      box-shadow: 0 4px 15px rgba(236, 72, 153, 0.2);
+    }
+
+    .pin-title {
+      font-family: var(--font-heading);
+      font-size: 1.5rem;
+      font-weight: 800;
+      color: #ffffff;
+      margin-bottom: 0.35rem;
+    }
+
+    [data-theme="light"] .pin-title {
+      color: #2a1128;
+    }
+
+    .pin-subtitle {
+      font-size: 0.88rem;
+      color: var(--text-soft);
+      margin-bottom: 1.5rem;
+    }
+
+    .pin-dots-container {
+      display: flex;
+      gap: 1.1rem;
+      justify-content: center;
+      margin-bottom: 1.75rem;
+    }
+
+    .pin-dot {
+      width: 16px;
+      height: 16px;
+      border-radius: 50%;
+      border: 2px solid rgba(244, 114, 182, 0.5);
+      background: transparent;
+      transition: all 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    }
+
+    .pin-dot.filled {
+      background: #ec4899;
+      border-color: #ec4899;
+      box-shadow: 0 0 12px rgba(236, 72, 153, 0.8);
+      transform: scale(1.15);
+    }
+
+    .keypad-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 0.85rem;
+      width: 100%;
+      max-width: 250px;
+      margin-bottom: 0.75rem;
+    }
+
+    .key-btn {
+      width: 62px;
+      height: 62px;
+      border-radius: 50%;
+      background: rgba(255, 255, 255, 0.08);
+      border: 1px solid rgba(255, 255, 255, 0.16);
+      color: #ffffff;
+      font-family: var(--font-heading);
+      font-size: 1.35rem;
+      font-weight: 600;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      transition: all 0.12s ease;
+      margin: 0 auto;
+      user-select: none;
+      -webkit-user-select: none;
+    }
+
+    [data-theme="light"] .key-btn {
+      background: rgba(0, 0, 0, 0.05);
+      border-color: rgba(0, 0, 0, 0.12);
+      color: #2a1128;
+    }
+
+    .key-btn:active {
+      transform: scale(0.92);
+      background: rgba(236, 72, 153, 0.3);
+      border-color: #ec4899;
+    }
+
+    .key-btn.key-action {
+      font-size: 0.95rem;
+      color: var(--text-soft);
+      background: transparent;
+      border-color: transparent;
+    }
+
+    .pin-error-msg {
+      font-size: 0.85rem;
+      color: #f43f5e;
+      font-weight: 600;
+      min-height: 1.25rem;
+      opacity: 0;
+      transition: opacity 0.2s ease;
+    }
+
+    .pin-error-msg.visible {
+      opacity: 1;
+    }
+
+    .shake-animation {
+      animation: shake 0.4s cubic-bezier(0.36, 0.07, 0.19, 0.97) both;
+    }
+
+    @keyframes shake {
+      10%, 90% { transform: translateX(-4px); }
+      20%, 80% { transform: translateX(6px); }
+      30%, 50%, 70% { transform: translateX(-6px); }
+      40%, 60% { transform: translateX(6px); }
+    }
+  </style>
+</head>
+<body>
+  <!-- Canvas for Confetti -->
+  <canvas id="confettiCanvas"></canvas>
+
+  <!-- Ambient Floating Hearts Background -->
+  <div class="ambient-hearts" id="ambientHearts"></div>
+
+  <!-- Top Navigation -->
+  <header class="top-nav">
+    <a href="index.html" class="back-link">
+      <i data-lucide="arrow-left" style="width: 16px; height: 16px;"></i>
+      <span>Our Adventure Book</span>
+    </a>
+    <button id="themeToggle" class="theme-toggle-mini" aria-label="Toggle Theme">
+      <i data-lucide="sun" id="themeIcon" style="width: 18px; height: 18px;"></i>
+    </button>
+  </header>
+
+  <!-- PIN Lock Card (Password: 0208) -->
+  <div class="pin-card" id="pinCard">
+    <div class="pin-lock-icon" id="pinLockIcon">
+      <i data-lucide="lock" style="width: 28px; height: 28px; color: #ec4899;"></i>
+    </div>
+
+    <!-- 4 PIN Indicator Dots -->
+    <div class="pin-dots-container" id="pinDots">
+      <div class="pin-dot"></div>
+      <div class="pin-dot"></div>
+      <div class="pin-dot"></div>
+      <div class="pin-dot"></div>
+    </div>
+
+    <!-- On-Screen Keypad -->
+    <div class="keypad-grid">
+      <button type="button" class="key-btn" data-val="1">1</button>
+      <button type="button" class="key-btn" data-val="2">2</button>
+      <button type="button" class="key-btn" data-val="3">3</button>
+      <button type="button" class="key-btn" data-val="4">4</button>
+      <button type="button" class="key-btn" data-val="5">5</button>
+      <button type="button" class="key-btn" data-val="6">6</button>
+      <button type="button" class="key-btn" data-val="7">7</button>
+      <button type="button" class="key-btn" data-val="8">8</button>
+      <button type="button" class="key-btn" data-val="9">9</button>
+      <button type="button" class="key-btn key-action" id="keyClear">C</button>
+      <button type="button" class="key-btn" data-val="0">0</button>
+      <button type="button" class="key-btn key-action" id="keyDelete">
+        <i data-lucide="delete" style="width: 20px; height: 20px;"></i>
+      </button>
+    </div>
+
+    <div class="pin-error-msg" id="pinError"></div>
+  </div>
+
+  <!-- Main Apology Card (Revealed upon entering 0208) -->
+  <main class="apology-card" id="apologyCard" style="display: none;">
+    <!-- Heartfelt Text -->
+    <h1 class="apology-heading">I'm so sorry,</h1>
+    
+    <p class="apology-paragraph">
+      I love you, you're my world, you're my one and only,<br>
+      you are my <span class="highlight-name">Wynne</span>.
+    </p>
+
+    <div class="divider"></div>
+
+    <!-- Active Question Section -->
+    <div id="questionSection">
+      <h2 class="question-title">
+        Do you forgive me and do you still love me?
+      </h2>
+
+      <div class="button-arena" id="arena">
+        <!-- YES Button -->
+        <button id="btnYes" class="btn-yes">
+          <i data-lucide="heart" style="width: 20px; height: 20px; fill: white;"></i>
+          <span>Yes, of course! ❤️</span>
+        </button>
+
+        <!-- NO Button (Runaway on Hover / Touch) -->
+        <button id="btnNo" class="btn-no">
+          <span>No</span>
+        </button>
+      </div>
+    </div>
+
+    <!-- Accepted Section (Revealed after Yes) -->
+    <div id="acceptedSection">
+      <div style="display: flex; flex-direction: column; align-items: center; justify-content: center; margin: 1.5rem 0;">
+        <!-- Original Button redirecting to map -->
+        <a 
+          href="https://www.google.com/maps?q=-6.293732,106.911620" 
+          target="_blank" 
+          rel="noopener noreferrer" 
+          class="btn-maps"
+          id="mapsLinkBtn"
+        >
+          <i data-lucide="navigation" style="width: 18px; height: 18px;"></i>
+          <span>Open in Google Maps 🗺️</span>
+        </a>
+      </div>
+
+      <a href="index.html" class="home-link-btn">
+        <i data-lucide="sparkles" style="width: 16px; height: 16px; color: #ec4899;"></i>
+        <span>Return to Our Memories</span>
+      </a>
+    </div>
+  </main>
+
+  <script>
+    // Initialize Lucide Icons
+    lucide.createIcons();
+
+    // Theme Management
+    const themeToggle = document.getElementById('themeToggle');
+    const themeIcon = document.getElementById('themeIcon');
+    const htmlEl = document.documentElement;
+
+    const savedTheme = localStorage.getItem('theme') || 'dark';
+    htmlEl.setAttribute('data-theme', savedTheme);
+    updateThemeIcon(savedTheme);
+
+    function updateThemeIcon(theme) {
+      if (themeIcon) {
+        themeIcon.setAttribute('data-lucide', theme === 'dark' ? 'sun' : 'moon');
+        lucide.createIcons();
+      }
+    }
+
+    if (themeToggle) {
+      themeToggle.addEventListener('click', () => {
+        const currentTheme = htmlEl.getAttribute('data-theme') || 'dark';
+        const newTheme = currentTheme === 'dark' ? 'light' : 'dark';
+        htmlEl.setAttribute('data-theme', newTheme);
+        localStorage.setItem('theme', newTheme);
+        updateThemeIcon(newTheme);
+      });
+    }
+
+    // Ambient Floating Hearts Generator
+    const ambientHeartsContainer = document.getElementById('ambientHearts');
+    const heartSymbols = ['❤️', '💖', '💕', '💗', '💓', '✨'];
+    
+    function createAmbientHeart() {
+      if (!ambientHeartsContainer) return;
+      const heart = document.createElement('div');
+      heart.className = 'heart-particle';
+      heart.textContent = heartSymbols[Math.floor(Math.random() * heartSymbols.length)];
+      heart.style.left = Math.random() * 100 + 'vw';
+      heart.style.animationDuration = (Math.random() * 5 + 6) + 's';
+      heart.style.fontSize = (Math.random() * 1.2 + 0.9) + 'rem';
+      ambientHeartsContainer.appendChild(heart);
+      
+      setTimeout(() => {
+        heart.remove();
+      }, 11000);
+    }
+
+    for (let i = 0; i < 12; i++) {
+      setTimeout(createAmbientHeart, i * 400);
+    }
+    setInterval(createAmbientHeart, 1200);
+
+    // ==========================================
+    // PIN LOCK LOGIC (PIN: 0208)
+    // ==========================================
+    const CORRECT_PIN = "0208";
+    let enteredPin = "";
+
+    const pinCard = document.getElementById('pinCard');
+    const apologyCard = document.getElementById('apologyCard');
+    const pinDots = document.querySelectorAll('.pin-dot');
+    const pinError = document.getElementById('pinError');
+    const pinLockIcon = document.getElementById('pinLockIcon');
+
+    function updatePinDisplay() {
+      pinDots.forEach((dot, index) => {
+        if (index < enteredPin.length) {
+          dot.classList.add('filled');
+        } else {
+          dot.classList.remove('filled');
+        }
+      });
+    }
+
+    function checkPin() {
+      if (enteredPin.length === 4) {
+        if (enteredPin === CORRECT_PIN) {
+          // Success!
+          if (pinError) pinError.classList.remove('visible');
+          if (pinLockIcon) {
+            pinLockIcon.innerHTML = '<i data-lucide="unlock" style="width: 28px; height: 28px; color: #10b981;"></i>';
+            lucide.createIcons();
+          }
+          setTimeout(() => {
+            if (pinCard) pinCard.style.display = 'none';
+            if (apologyCard) apologyCard.style.display = 'block';
+            lucide.createIcons();
+          }, 350);
+        } else {
+          // Incorrect PIN
+          if (pinError) pinError.classList.add('visible');
+          const dotsContainer = document.getElementById('pinDots');
+          if (dotsContainer) {
+            dotsContainer.classList.add('shake-animation');
+            setTimeout(() => {
+              dotsContainer.classList.remove('shake-animation');
+            }, 450);
+          }
+          setTimeout(() => {
+            enteredPin = "";
+            updatePinDisplay();
+          }, 600);
+        }
+      }
+    }
+
+    // Keypad number buttons
+    document.querySelectorAll('.key-btn[data-val]').forEach(btn => {
+      btn.addEventListener('click', () => {
+        if (enteredPin.length < 4) {
+          enteredPin += btn.getAttribute('data-val');
+          updatePinDisplay();
+          if (pinError) pinError.classList.remove('visible');
+          if (enteredPin.length === 4) {
+            setTimeout(checkPin, 120);
+          }
+        }
+      });
+    });
+
+    const keyClear = document.getElementById('keyClear');
+    if (keyClear) {
+      keyClear.addEventListener('click', () => {
+        enteredPin = "";
+        updatePinDisplay();
+        if (pinError) pinError.classList.remove('visible');
+      });
+    }
+
+    const keyDelete = document.getElementById('keyDelete');
+    if (keyDelete) {
+      keyDelete.addEventListener('click', () => {
+        if (enteredPin.length > 0) {
+          enteredPin = enteredPin.slice(0, -1);
+          updatePinDisplay();
+          if (pinError) pinError.classList.remove('visible');
+        }
+      });
+    }
+
+    // Keyboard support
+    document.addEventListener('keydown', (e) => {
+      if (pinCard && pinCard.style.display !== 'none') {
+        if (/^[0-9]$/.test(e.key)) {
+          if (enteredPin.length < 4) {
+            enteredPin += e.key;
+            updatePinDisplay();
+            if (pinError) pinError.classList.remove('visible');
+            if (enteredPin.length === 4) {
+              setTimeout(checkPin, 120);
+            }
+          }
+        } else if (e.key === 'Backspace') {
+          if (enteredPin.length > 0) {
+            enteredPin = enteredPin.slice(0, -1);
+            updatePinDisplay();
+            if (pinError) pinError.classList.remove('visible');
+          }
+        } else if (e.key === 'Escape') {
+          enteredPin = "";
+          updatePinDisplay();
+          if (pinError) pinError.classList.remove('visible');
+        }
+      }
+    });
+
+    // ==========================================
+    // RUNAWAY "NO" BUTTON & "YES" REDIRECT LOGIC
+    // ==========================================
+    const arena = document.getElementById('arena');
+    const btnNo = document.getElementById('btnNo');
+    const btnYes = document.getElementById('btnYes');
+    const questionSection = document.getElementById('questionSection');
+    const acceptedSection = document.getElementById('acceptedSection');
+    let isAccepted = false;
+
+    function showYesPage() {
+      if (isAccepted) return; // Unable to be pressed multiple times
+      isAccepted = true;
+
+      // Hide runaway No button & question section
+      if (btnNo) btnNo.style.display = 'none';
+      if (questionSection) questionSection.style.display = 'none';
+      if (acceptedSection) acceptedSection.style.display = 'block';
+
+      lucide.createIcons();
+      launchConfetti();
+    }
+
+    // Check if a candidate (x, y, w, h) overlaps or is dangerously close to the Yes button
+    function isOverlappingYes(x, y, w, h) {
+      if (!btnYes) return false;
+      const arenaRect = arena.getBoundingClientRect();
+      const yesRect = btnYes.getBoundingClientRect();
+
+      const yesLeft = yesRect.left - arenaRect.left;
+      const yesTop = yesRect.top - arenaRect.top;
+      const yesRight = yesLeft + yesRect.width;
+      const yesBottom = yesTop + yesRect.height;
+
+      // Generous buffer of 40px around Yes button on all sides
+      const buffer = 40;
+      const safeLeft = yesLeft - buffer;
+      const safeTop = yesTop - buffer;
+      const safeRight = yesRight + buffer;
+      const safeBottom = yesBottom + buffer;
+
+      const noLeft = x;
+      const noTop = y;
+      const noRight = x + w;
+      const noBottom = y + h;
+
+      // True if bounding boxes intersect
+      return !(noRight < safeLeft || noLeft > safeRight || noBottom < safeTop || noTop > safeBottom);
+    }
+
+    // Move No button strictly inside the container frame without overlapping Yes
+    function moveNoButton() {
+      if (!btnNo || isAccepted || !arena) return;
+      
+      if (!btnNo.classList.contains('moving')) {
+        btnNo.classList.add('moving');
+      }
+
+      // Safe boundaries strictly within the arena frame
+      const arenaRect = arena.getBoundingClientRect();
+      const btnRect = btnNo.getBoundingClientRect();
+
+      const btnWidth = btnRect.width || 110;
+      const btnHeight = btnRect.height || 45;
+
+      const padding = 12;
+      const maxX = Math.max(padding, arenaRect.width - btnWidth - padding);
+      const maxY = Math.max(padding, arenaRect.height - btnHeight - padding);
+
+      let randomX = padding;
+      let randomY = padding;
+      let foundSafeSpot = false;
+
+      // Search up to 60 candidate positions that do NOT hover above or touch Yes button
+      for (let attempt = 0; attempt < 60; attempt++) {
+        const candidateX = padding + Math.random() * (maxX - padding);
+        const candidateY = padding + Math.random() * (maxY - padding);
+
+        if (!isOverlappingYes(candidateX, candidateY, btnWidth, btnHeight)) {
+          randomX = candidateX;
+          randomY = candidateY;
+          foundSafeSpot = true;
+          break;
+        }
+      }
+
+      // Failsafe: if random attempts fail, pick an explicit non-overlapping safe corner
+      if (!foundSafeSpot && btnYes) {
+        const yesRect = btnYes.getBoundingClientRect();
+        const yesRelTop = yesRect.top - arenaRect.top;
+        randomY = yesRelTop > arenaRect.height / 2 ? padding : maxY;
+        randomX = Math.random() > 0.5 ? padding : maxX;
+      }
+
+      btnNo.style.left = `${Math.round(randomX)}px`;
+      btnNo.style.top = `${Math.round(randomY)}px`;
+    }
+
+    // 1. Desktop: Hover & Proximity evasion
+    btnNo.addEventListener('mouseenter', moveNoButton);
+    btnNo.addEventListener('mouseover', moveNoButton);
+
+    document.addEventListener('mousemove', (e) => {
+      if (!btnNo || isAccepted) return;
+      const rect = btnNo.getBoundingClientRect();
+      const btnCenterX = rect.left + rect.width / 2;
+      const btnCenterY = rect.top + rect.height / 2;
+      const distance = Math.hypot(e.clientX - btnCenterX, e.clientY - btnCenterY);
+
+      if (distance < 65) {
+        moveNoButton();
+      }
+    });
+
+    // 2. Mobile: Touch & Pointer evasion
+    btnNo.addEventListener('touchstart', (e) => {
+      e.preventDefault();
+      e.stopPropagation();
+      moveNoButton();
+    }, { passive: false });
+
+    btnNo.addEventListener('pointerdown', (e) => {
+      e.preventDefault();
+      e.stopPropagation();
+      moveNoButton();
+    });
+
+    // 3. When No button is pressed, it redirects to the Yes page!
+    btnNo.addEventListener('click', (e) => {
+      e.preventDefault();
+      e.stopPropagation();
+      showYesPage();
+    });
+
+    // 4. When Yes button is pressed, it redirects to the Yes page!
+    btnYes.addEventListener('click', showYesPage);
+
+    // ==========================================
+    // LIGHTWEIGHT CELEBRATORY CONFETTI ENGINE
+    // ==========================================
+    function launchConfetti() {
+      const canvas = document.getElementById('confettiCanvas');
+      if (!canvas) return;
+      const ctx = canvas.getContext('2d');
+      canvas.width = window.innerWidth;
+      canvas.height = window.innerHeight;
+
+      const particles = [];
+      const colors = ['#ec4899', '#f43f5e', '#a855f7', '#fb7185', '#f472b6', '#38bdf8', '#fbbf24', '#ffffff'];
+
+      for (let i = 0; i < 150; i++) {
+        particles.push({
+          x: canvas.width / 2,
+          y: canvas.height / 2,
+          vx: (Math.random() - 0.5) * 18,
+          vy: (Math.random() - 0.7) * 20,
+          size: Math.random() * 10 + 6,
+          color: colors[Math.floor(Math.random() * colors.length)],
+          rotation: Math.random() * 360,
+          rotationSpeed: (Math.random() - 0.5) * 15,
+          opacity: 1,
+          isHeart: Math.random() > 0.4
+        });
+      }
+
+      let animationFrame;
+      function animate() {
+        ctx.clearRect(0, 0, canvas.width, canvas.height);
+        let activeParticles = 0;
+
+        particles.forEach((p) => {
+          if (p.opacity <= 0) return;
+          activeParticles++;
+
+          p.x += p.vx;
+          p.y += p.vy;
+          p.vy += 0.4; // gravity
+          p.vx *= 0.98; // drag
+          p.rotation += p.rotationSpeed;
+          p.opacity -= 0.007;
+
+          ctx.save();
+          ctx.translate(p.x, p.y);
+          ctx.rotate((p.rotation * Math.PI) / 180);
+          ctx.globalAlpha = Math.max(0, p.opacity);
+
+          if (p.isHeart) {
+            ctx.fillStyle = p.color;
+            ctx.font = `${p.size * 1.5}px sans-serif`;
+            ctx.fillText('❤️', -p.size, p.size / 2);
+          } else {
+            ctx.fillStyle = p.color;
+            ctx.fillRect(-p.size / 2, -p.size / 2, p.size, p.size);
+          }
+
+          ctx.restore();
+        });
+
+        if (activeParticles > 0) {
+          animationFrame = requestAnimationFrame(animate);
+        } else {
+          ctx.clearRect(0, 0, canvas.width, canvas.height);
+          cancelAnimationFrame(animationFrame);
+        }
+      }
+
+      animate();
+
+      // Launch secondary burst after 500ms
+      setTimeout(() => {
+        for (let i = 0; i < 80; i++) {
+          particles.push({
+            x: Math.random() * canvas.width,
+            y: 0,
+            vx: (Math.random() - 0.5) * 8,
+            vy: Math.random() * 5 + 4,
+            size: Math.random() * 8 + 5,
+            color: colors[Math.floor(Math.random() * colors.length)],
+            rotation: Math.random() * 360,
+            rotationSpeed: (Math.random() - 0.5) * 12,
+            opacity: 1,
+            isHeart: Math.random() > 0.5
+          });
+        }
+      }, 500);
+    }
+  </script>
+</body>
+</html>

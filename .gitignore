@@ -17,10 +17,11 @@ gdrive_credentials.json
 # Large media & caches
 assets/Timeline.json
 assets/gdrive_cache/
-*.mp4
 *.MOV
 *.mov
 *.zip
+*.mp4
+!dist/gdrive_cache/*.mp4
 
 # wrangler files
 .wrangler

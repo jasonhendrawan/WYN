@@ -241,7 +241,7 @@ document.addEventListener('DOMContentLoaded', () => {
         <div class="glass-trip-card" data-trip-id="${trip.id}">
           <div class="trip-card-cover">
             ${isVideo ?
-              `<video src="${resolveUrl(trip.image_path)}" autoplay loop muted playsinline></video>` :
+              `<video src="${resolveUrl(trip.image_path)}" autoplay loop muted playsinline webkit-playsinline preload="auto" style="width:100%; height:100%; object-fit:cover;"></video>` :
               `<img src="${mediaCoverHD}" alt="${trip.title}" loading="lazy" onerror="this.src='${resolveUrl(trip.image_path)}'" />`
             }
             <div class="trip-media-count-badge">
