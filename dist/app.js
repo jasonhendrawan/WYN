@@ -182,14 +182,89 @@ document.addEventListener('DOMContentLoaded', () => {
   }
   renderCountdown();
 
-  // 4. Render Horizontal Alternating Timeline
+  // 4. Render Horizontal Alternating Timeline with Fluid 1-Card Stepping
   const timelineRow = document.getElementById('timelineRow');
-  // Drag to slide physics & click handling
   const scrollContainer = document.querySelector('.timeline-scroll-container');
   let isDown = false;
   let startX = 0;
   let scrollStartLeft = 0;
   let dragMoved = false;
+  let isWheelScrolling = false;
+  let wheelTimeout = null;
+
+  const getCardColumns = () => timelineRow ? Array.from(timelineRow.querySelectorAll('.timeline-column')) : [];
+
+  const getCurrentCardIndex = () => {
+    if (!scrollContainer) return 0;
+    const cols = getCardColumns();
+    if (!cols.length) return 0;
+    const containerCenter = scrollContainer.scrollLeft + scrollContainer.clientWidth / 2;
+    let closestIdx = 0;
+    let minDistance = Infinity;
+    cols.forEach((col, idx) => {
+      const colCenter = col.offsetLeft + col.clientWidth / 2;
+      const dist = Math.abs(containerCenter - colCenter);
+      if (dist < minDistance) {
+        minDistance = dist;
+        closestIdx = idx;
+      }
+    });
+    return closestIdx;
+  };
+
+  const scrollToCard = (index, behavior = 'smooth') => {
+    if (!scrollContainer) return;
+    const cols = getCardColumns();
+    if (!cols.length) return;
+    const clampedIndex = Math.max(0, Math.min(index, cols.length - 1));
+    const targetCol = cols[clampedIndex];
+    if (!targetCol) return;
+    const targetLeft = targetCol.offsetLeft - (scrollContainer.clientWidth - targetCol.clientWidth) / 2;
+    scrollContainer.scrollTo({
+      left: Math.max(0, targetLeft),
+      behavior: behavior
+    });
+  };
+
+  const updateActiveCardVisuals = () => {
+    if (!scrollContainer) return;
+    const cols = getCardColumns();
+    if (!cols.length) return;
+    const containerCenter = scrollContainer.scrollLeft + scrollContainer.clientWidth / 2;
+
+    cols.forEach((col) => {
+      const card = col.querySelector('.glass-trip-card');
+      const dot = col.querySelector('.timeline-center-dot');
+      const guide = col.querySelector('.vertical-guide');
+      const colCenter = col.offsetLeft + col.clientWidth / 2;
+      const dist = Math.abs(containerCenter - colCenter);
+
+      // Active card threshold
+      const isActive = dist < (col.clientWidth * 0.45);
+
+      if (card) {
+        if (isActive) {
+          card.classList.add('is-active-card');
+        } else {
+          card.classList.remove('is-active-card');
+        }
+      }
+      if (dot) {
+        if (isActive) {
+          dot.classList.add('active-dot');
+        } else {
+          dot.classList.remove('active-dot');
+        }
+      }
+      if (guide) {
+        if (isActive) {
+          guide.classList.add('active-guide');
+        } else {
+          guide.classList.remove('active-guide');
+        }
+      }
+    });
+  };
 
   if (scrollContainer) {
     scrollContainer.addEventListener('mousedown', (e) => {
@@ -204,28 +279,42 @@ document.addEventListener('DOMContentLoaded', () => {
       if (!isDown) return;
       isDown = false;
       scrollContainer.classList.remove('is-dragging');
+      // Snap smoothly to nearest card after drag release
+      if (dragMoved) {
+        const nearestIdx = getCurrentCardIndex();
+        scrollToCard(nearestIdx, 'smooth');
+      }
     });
 
     scrollContainer.addEventListener('mousemove', (e) => {
       if (!isDown) return;
       e.preventDefault();
       const x = e.pageX - scrollContainer.offsetLeft;
-      const walk = (x - startX) * 1.5; // Drag sensitivity
+      const walk = (x - startX) * 1.5;
       if (Math.abs(walk) > 6) dragMoved = true;
       scrollContainer.scrollLeft = scrollStartLeft - walk;
     });
 
-    // Buttery-smooth mouse wheel & trackpad horizontal scroll
+    // Fluid 1-Card at-a-time Wheel Stepping
     const handleTimelineWheel = (e) => {
-      // Don't intercept if any modal or fullscreen lightbox is open
       if (document.querySelector('.custom-modal-backdrop.active, .lightbox-backdrop.active')) return;
 
       const delta = Math.abs(e.deltaY) >= Math.abs(e.deltaX) ? e.deltaY : e.deltaX;
-      if (delta !== 0) {
-        e.preventDefault();
-        // Natural scroll speed factor
-        scrollContainer.scrollLeft += delta * 1.35;
-      }
+      if (Math.abs(delta) < 8) return;
+
+      e.preventDefault();
+
+      if (isWheelScrolling) return;
+
+      isWheelScrolling = true;
+      const currentIdx = getCurrentCardIndex();
+      const nextIdx = delta > 0 ? currentIdx + 1 : currentIdx - 1;
+      scrollToCard(nextIdx, 'smooth');
+
+      clearTimeout(wheelTimeout);
+      wheelTimeout = setTimeout(() => {
+        isWheelScrolling = false;
+      }, 320); // Snappy, responsive transition throttle
     };
 
     scrollContainer.addEventListener('wheel', handleTimelineWheel, { passive: false });
@@ -233,12 +322,40 @@ document.addEventListener('DOMContentLoaded', () => {
     const timelineViewSection = document.getElementById('timelineView');
     if (timelineViewSection) {
       timelineViewSection.addEventListener('wheel', (e) => {
-        // If wheel happens over the timeline section outside container
         if (e.currentTarget === timelineViewSection || e.target.closest('#timelineView')) {
           handleTimelineWheel(e);
         }
       }, { passive: false });
     }
+
+    // Passive scroll visual observer
+    let ticking = false;
+    scrollContainer.addEventListener('scroll', () => {
+      if (!ticking) {
+        window.requestAnimationFrame(() => {
+          updateActiveCardVisuals();
+          ticking = false;
+        });
+        ticking = true;
+      }
+    }, { passive: true });
+
+    // Keyboard Arrow navigation for Timeline
+    window.addEventListener('keydown', (e) => {
+      const activeTimelineView = document.querySelector('#timelineView.active');
+      if (!activeTimelineView) return;
+      if (document.querySelector('.custom-modal-backdrop.active, .lightbox-backdrop.active')) return;
+
+      if (e.key === 'ArrowRight') {
+        e.preventDefault();
+        const currentIdx = getCurrentCardIndex();
+        scrollToCard(currentIdx + 1, 'smooth');
+      } else if (e.key === 'ArrowLeft') {
+        e.preventDefault();
+        const currentIdx = getCurrentCardIndex();
+        scrollToCard(currentIdx - 1, 'smooth');
+      }
+    });
   }
 
   function renderTimeline() {
@@ -311,6 +428,9 @@ document.addEventListener('DOMContentLoaded', () => {
 
       timelineRow.appendChild(col);
     });
+
+    // Update active card states initially
+    setTimeout(updateActiveCardVisuals, 100);
   }
   renderTimeline();
 
