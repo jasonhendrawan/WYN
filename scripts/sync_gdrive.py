@@ -244,8 +244,19 @@ for folder in subfolders:
             "coords": coords
         })
         
+    # Load manual persistent custom covers if defined
+    custom_covers = {}
+    if os.path.exists('assets/custom_covers.json'):
+        try:
+            with open('assets/custom_covers.json', 'r', encoding='utf-8') as cf:
+                custom_covers = json.load(cf)
+        except Exception:
+            pass
+
     # Choose cover image/video
-    if cover_candidate:
+    if fid in custom_covers or fname.strip() in custom_covers:
+        cover_image_path = custom_covers.get(fid) or custom_covers.get(fname.strip())
+    elif cover_candidate:
         ext = os.path.splitext(cover_candidate['name'])[1].lower() or ('.mp4' if cover_candidate.get('mimeType', '').startswith('video/') else '.jpg')
         if cover_candidate.get('mimeType', '').startswith('video/'):
             cover_image_path = f"gdrive_cache/{cover_candidate['id']}{ext}"
