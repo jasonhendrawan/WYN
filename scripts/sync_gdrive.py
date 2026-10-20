@@ -3,7 +3,9 @@ import io
 import json
 import ssl
 import time
+import re
 import urllib.request
+from collections import Counter
 from datetime import datetime
 from PIL import Image, ExifTags, ImageOps
 
@@ -103,6 +105,50 @@ def get_osrm_route(coords_list):
         print(f"  Warning: OSRM route fetch failed ({e}). Using straight lines.")
         return coords_list
 
+def extract_datetime_from_filename(name):
+    # WhatsApp image/video: IMG-20260920-WA0002.jpg or VID-20260921-WA0291.mp4
+    m = re.search(r'(?:IMG|VID)[-_](\d{4})(\d{2})(\d{2})[-_]WA(\d+)', name, re.IGNORECASE)
+    if m:
+        y, mo, d, num = m.group(1), m.group(2), m.group(3), m.group(4)
+        if 2020 <= int(y) <= 2030 and 1 <= int(mo) <= 12 and 1 <= int(d) <= 31:
+            return f"{y}-{mo}-{d} 12:00:00", f"{y}-{mo}-{d}"
+
+    # Screenshot format: Screenshot_2026-09-13-13-30-00...
+    m = re.search(r'Screenshot_(\d{4})-(\d{2})-(\d{2})-(\d{2})-(\d{2})-(\d{2})', name, re.IGNORECASE)
+    if m:
+        y, mo, d, h, mn, s = m.group(1), m.group(2), m.group(3), m.group(4), m.group(5), m.group(6)
+        if 2020 <= int(y) <= 2030 and 1 <= int(mo) <= 12 and 1 <= int(d) <= 31:
+            return f"{y}-{mo}-{d} {h}:{mn}:{s}", f"{y}-{mo}-{d}"
+
+    # Standard camera format: IMG_20260920_142305 or VID_20260913_000558
+    m = re.search(r'(\d{4})(\d{2})(\d{2})_(\d{2})(\d{2})(\d{2})', name)
+    if m:
+        y, mo, d, h, mn, s = m.group(1), m.group(2), m.group(3), m.group(4), m.group(5), m.group(6)
+        if 2020 <= int(y) <= 2030 and 1 <= int(mo) <= 12 and 1 <= int(d) <= 31:
+            return f"{y}-{mo}-{d} {h}:{mn}:{s}", f"{y}-{mo}-{d}"
+
+    # General YYYY-MM-DD or YYYYMMDD in filename
+    m = re.search(r'(202[0-9])[-_]?([0-1][0-9])[-_]?([0-3][0-9])', name)
+    if m:
+        y, mo, d = m.group(1), m.group(2), m.group(3)
+        if 1 <= int(mo) <= 12 and 1 <= int(d) <= 31:
+            return f"{y}-{mo}-{d} 12:00:00", f"{y}-{mo}-{d}"
+
+    return None, None
+
+def determine_folder_trip_date(folder_name, detected_dates, created_dates):
+    real_dates = [d for d in detected_dates if d and d.startswith('202')]
+    if real_dates:
+        counts = Counter(real_dates)
+        # Cluster of dominant dates (at least 15% of photos or >= 2 photos)
+        top_dates = sorted([d for d, c in counts.items() if c >= max(1, len(real_dates) * 0.15)])
+        if top_dates:
+            return top_dates[0]
+        return counts.most_common(1)[0][0]
+    if created_dates:
+        return Counter(created_dates).most_common(1)[0][0]
+    return "2026-08-01"
+
 # 4. Fetch Subfolders from Google Drive
 print(f"Scanning Google Drive root folder ({ROOT_FOLDER_ID})...")
 subfolders_res = drive_service.files().list(
@@ -131,7 +177,7 @@ for folder in subfolders:
     # List media files
     media_res = drive_service.files().list(
         q=f"'{fid}' in parents and trashed = false",
-        fields='files(id, name, mimeType, size, createdTime, imageMediaMetadata)',
+        fields='files(id, name, mimeType, size, createdTime, imageMediaMetadata, videoMediaMetadata)',
         pageSize=100
     ).execute()
     
@@ -142,8 +188,13 @@ for folder in subfolders:
         
     media_files.sort(key=lambda x: x.get('createdTime', ''))
     
-    # Check if folder already fully synced and cached
-    is_cached = fid in existing_trips and len(existing_trips[fid].get('images', [])) == len(media_files)
+    # Check if folder already fully synced and cached with verified dates
+    is_cached = (
+        fid in existing_trips and
+        len(existing_trips[fid].get('images', [])) == len(media_files) and
+        existing_trips[fid].get('date') not in ('2026-09-23', '2026-08-01') and
+        not any(img.get('date_taken', '').startswith('2026-09-23') for img in existing_trips[fid].get('images', []))
+    )
     if is_cached:
         print(f"  Folder '{fname}' already up to date ({len(media_files)} items), skipping.")
         updated_trips.append(existing_trips[fid])
@@ -151,7 +202,8 @@ for folder in subfolders:
 
     images_data = []
     gps_stops = []
-    earliest_date = "2026-08-01"
+    detected_dates = []
+    created_dates = []
     cover_image_path = ""
     
     # Look for cover video or image
@@ -174,12 +226,18 @@ for folder in subfolders:
         
         target_path = os.path.join('dist/gdrive_cache', target_name)
         thumb_path = os.path.join('dist/gdrive_cache', thumb_name)
+        assets_path = os.path.join('assets/gdrive_cache', target_name)
         
         dt_str = ""
         coords = None
         
         # Download and process if not cached locally
-        if not os.path.exists(target_path):
+        is_cached_item = (
+            os.path.exists(target_path) or
+            os.path.exists(assets_path) or
+            (is_video and os.path.exists(thumb_path))
+        )
+        if not is_cached_item:
             print(f"  Downloading & processing: {mname}...")
             req = drive_service.files().get_media(fileId=mid)
             fh = io.BytesIO()
@@ -229,21 +287,53 @@ for folder in subfolders:
                         with open(os.path.join(d, target_name), 'wb') as of:
                             of.write(content)
         else:
-            # Already cached locally, read date from existing trip if available
+            # Already cached locally, read GPS & date from existing trip if available
             if fid in existing_trips:
                 existing_img = next((i for i in existing_trips[fid].get('images', []) if mid in i.get('url', '')), None)
                 if existing_img:
                     dt_str = existing_img.get('date_taken', '')
                     coords = existing_img.get('coords')
         
+        # Check filename for date (WhatsApp, Screenshot, Camera)
+        fn_dt, fn_date = extract_datetime_from_filename(mname)
+        
+        # Check Drive API metadata
+        imm = m.get('imageMediaMetadata', {})
+        vmm = m.get('videoMediaMetadata', {})
+        drive_exif = imm.get('time') or vmm.get('time')
+        
+        # Pick best timestamp:
+        # 1. EXIF from locally parsed image (dt_str)
+        # 2. EXIF from Google Drive API (drive_exif)
+        # 3. Date extracted from filename (WhatsApp, Camera, Screenshot)
+        # 4. Previously cached date_taken (if not buggy fallback like 2026-09-23)
+        # 5. Drive createdTime upload timestamp
+        if dt_str and dt_str.startswith('202') and not dt_str.startswith('2026-09-23'):
+            pass
+        elif drive_exif and drive_exif.startswith('202'):
+            drive_clean = drive_exif.replace(':', '-')[:10]
+            drive_time = drive_exif[11:19] if len(drive_exif) >= 19 else '12:00:00'
+            dt_str = f"{drive_clean} {drive_time}"
+        elif fn_dt:
+            dt_str = fn_dt
+        elif fid in existing_trips:
+            existing_img = next((i for i in existing_trips[fid].get('images', []) if mid in i.get('url', '')), None)
+            if existing_img:
+                cached_dt = existing_img.get('date_taken', '')
+                if cached_dt and not cached_dt.startswith('2026-09-23') and not cached_dt.startswith('2026-08-01'):
+                    dt_str = cached_dt
+                coords = coords or existing_img.get('coords')
+                
         if not dt_str:
-            imm = m.get('imageMediaMetadata', {})
-            dt_str = imm.get('time') or m.get('createdTime', '').replace('T', ' ')[:19]
+            dt_str = m.get('createdTime', '').replace('T', ' ')[:19]
             
-        if dt_str:
-            clean_date = dt_str.replace(':', '-').split(' ')[0]
-            if clean_date.startswith('202') and (earliest_date == "2026-08-01" or clean_date < earliest_date):
-                earliest_date = clean_date
+        clean_date = dt_str.replace(':', '-').split(' ')[0] if dt_str else ""
+        if fn_date:
+            detected_dates.append(fn_date)
+        elif clean_date.startswith('202') and clean_date != m.get('createdTime', '')[:10]:
+            detected_dates.append(clean_date)
+        if m.get('createdTime'):
+            created_dates.append(m.get('createdTime')[:10])
                 
         if coords:
             gps_stops.append((dt_str, coords))
@@ -277,13 +367,14 @@ for folder in subfolders:
     elif images_data:
         cover_image_path = images_data[0].get('thumb_url') or images_data[0].get('url')
         
-    # Preserve or calculate location & stops
+    # Preserve or calculate location, trip date & stops
+    folder_trip_date = determine_folder_trip_date(fname, detected_dates, created_dates)
     if fid in existing_trips:
         trip_data = existing_trips[fid]
         trip_data['images'] = images_data
         trip_data['image_path'] = cover_image_path
-        if not trip_data.get('date'):
-            trip_data['date'] = earliest_date
+        if not trip_data.get('date') or trip_data.get('date') in ('2026-09-23', '2026-08-01') or (fid == '1522oxkiVsC3GDtxYL9JO7LVeSoldAXWR'):
+            trip_data['date'] = folder_trip_date
     else:
         # Construct brand new trip
         center_loc = [-6.2088, 106.8456] # Default Jakarta
@@ -313,7 +404,7 @@ for folder in subfolders:
         
         trip_data = {
             "id": fid,
-            "date": earliest_date,
+            "date": folder_trip_date,
             "title": fname.strip(),
             "description": f"Memories captured from {fname.strip()}! ✨",
             "image_path": cover_image_path,

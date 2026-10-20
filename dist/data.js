@@ -1,5 +1,5 @@
 window.WYN_DATA = {
-  "last_sync": "2026-10-20 22:34:51",
+  "last_sync": "2026-10-20 23:06:14",
   "past_dates": [
     {
       "id": "1rZ0wRjoBRD5HeY6KTOvSe6nQiHxUVLce",
@@ -19839,7 +19839,7 @@ window.WYN_DATA = {
     },
     {
       "id": "1gapvjzX4N6m5zn0JW5AWtw2j8KqjeKeE",
-      "date": "2026-09-12",
+      "date": "12 Sep 2026",
       "title": "Safari Date",
       "description": "Memories captured from Safari Date! \u2728",
       "image_path": "gdrive_cache/13iCStmNY6rGIENn1ICAjZ21nvQEP1QUH_thumb.jpg",
@@ -19848,7 +19848,7 @@ window.WYN_DATA = {
           "url": "gdrive_cache/1TXE12gths6-pSmVaVmpQ7v6dSMEsrqSx.mp4",
           "thumb_url": "gdrive_cache/1TXE12gths6-pSmVaVmpQ7v6dSMEsrqSx_thumb.jpg",
           "type": "video",
-          "date_taken": "2026-09-23 16:00:44",
+          "date_taken": "2026-09-13 00:05:58",
           "coords": null
         },
         {
@@ -19862,371 +19862,371 @@ window.WYN_DATA = {
           "url": "gdrive_cache/1cYB5kfgYE1jt4dXRV1Tod245sM5L7RRR.mp4",
           "thumb_url": "gdrive_cache/1cYB5kfgYE1jt4dXRV1Tod245sM5L7RRR_thumb.jpg",
           "type": "video",
-          "date_taken": "2026-09-23 16:00:44",
+          "date_taken": "2026-09-13 12:00:00",
           "coords": null
         },
         {
           "url": "gdrive_cache/1toMK1i-YrtpkJp-MRcV487eXsd8Z1qmC.mp4",
           "thumb_url": "gdrive_cache/1toMK1i-YrtpkJp-MRcV487eXsd8Z1qmC_thumb.jpg",
           "type": "video",
-          "date_taken": "2026-09-23 16:00:45",
+          "date_taken": "2026-09-13 12:00:00",
           "coords": null
         },
         {
           "url": "gdrive_cache/1jd-FCM6Fwl-9EBEvvJ7O6Nw9uYUpG_Z9.mp4",
           "thumb_url": "gdrive_cache/1jd-FCM6Fwl-9EBEvvJ7O6Nw9uYUpG_Z9_thumb.jpg",
           "type": "video",
-          "date_taken": "2026-09-23 16:00:45",
+          "date_taken": "2026-09-13 12:00:00",
           "coords": null
         },
         {
           "url": "gdrive_cache/1f6gYlCY-AHut2YZZQUETQK5bxeewbViF.mp4",
           "thumb_url": "gdrive_cache/1f6gYlCY-AHut2YZZQUETQK5bxeewbViF_thumb.jpg",
           "type": "video",
-          "date_taken": "2026-09-23 16:00:45",
+          "date_taken": "2026-09-13 12:00:00",
           "coords": null
         },
         {
           "url": "gdrive_cache/14iT_Aw5Je_xk78tCwqpM1Zne710oVkKV.mp4",
           "thumb_url": "gdrive_cache/14iT_Aw5Je_xk78tCwqpM1Zne710oVkKV_thumb.jpg",
           "type": "video",
-          "date_taken": "2026-09-23 16:00:45",
+          "date_taken": "2026-09-13 12:00:00",
           "coords": null
         },
         {
           "url": "gdrive_cache/16SSbsHJUozg83yUVu_5nn2Cr-cpK6rWw.mp4",
           "thumb_url": "gdrive_cache/16SSbsHJUozg83yUVu_5nn2Cr-cpK6rWw_thumb.jpg",
           "type": "video",
-          "date_taken": "2026-09-23 16:00:46",
+          "date_taken": "2026-09-13 12:00:00",
           "coords": null
         },
         {
           "url": "gdrive_cache/1Qs54VWcbUhz0D0NSlH4vpaXJdrNG6cW4.mp4",
           "thumb_url": "gdrive_cache/1Qs54VWcbUhz0D0NSlH4vpaXJdrNG6cW4_thumb.jpg",
           "type": "video",
-          "date_taken": "2026-09-23 16:00:46",
+          "date_taken": "2026-09-13 12:00:00",
           "coords": null
         },
         {
           "url": "gdrive_cache/14VXcazYmfwHtR9T6sewLc8OjTjPUngMS.mp4",
           "thumb_url": "gdrive_cache/14VXcazYmfwHtR9T6sewLc8OjTjPUngMS_thumb.jpg",
           "type": "video",
-          "date_taken": "2026-09-23 16:00:46",
+          "date_taken": "2026-09-13 12:00:00",
           "coords": null
         },
         {
           "url": "gdrive_cache/1lqDBSrWEHkB8TIkWNUbSIkl2gA06WjTr.mp4",
           "thumb_url": "gdrive_cache/1lqDBSrWEHkB8TIkWNUbSIkl2gA06WjTr_thumb.jpg",
           "type": "video",
-          "date_taken": "2026-09-23 16:00:46",
+          "date_taken": "2026-09-13 12:00:00",
           "coords": null
         },
         {
           "url": "gdrive_cache/1O7l370-W50k-fK2xIFrRZM9YSkIHs7Cg.mp4",
           "thumb_url": "gdrive_cache/1O7l370-W50k-fK2xIFrRZM9YSkIHs7Cg_thumb.jpg",
           "type": "video",
-          "date_taken": "2026-09-23 16:00:46",
+          "date_taken": "2026-09-13 12:00:00",
           "coords": null
         },
         {
           "url": "gdrive_cache/1QFEZ9rXfxkTQ1ggnRy4rSm5psZ5L_CxJ.jpg",
           "thumb_url": "gdrive_cache/1QFEZ9rXfxkTQ1ggnRy4rSm5psZ5L_CxJ_thumb.jpg",
           "type": "image",
-          "date_taken": "2026-09-23 16:00:46",
+          "date_taken": "2026-09-12 12:00:00",
           "coords": null
         },
         {
           "url": "gdrive_cache/1CVd31osaNwMh1wFo_OMwB1PL-LwPG4wr.jpg",
           "thumb_url": "gdrive_cache/1CVd31osaNwMh1wFo_OMwB1PL-LwPG4wr_thumb.jpg",
           "type": "image",
-          "date_taken": "2026-09-23 16:00:47",
+          "date_taken": "2026-09-12 12:00:00",
           "coords": null
         },
         {
           "url": "gdrive_cache/1DXaTQSPFcVb5R51Xeg8jFqRj4Sdaak9C.jpg",
           "thumb_url": "gdrive_cache/1DXaTQSPFcVb5R51Xeg8jFqRj4Sdaak9C_thumb.jpg",
           "type": "image",
-          "date_taken": "2026-09-23 16:00:47",
+          "date_taken": "2026-09-12 12:00:00",
           "coords": null
         },
         {
           "url": "gdrive_cache/12pVCY-lD7uTCF0WdhY4dgzP4xOAs3jtk.jpg",
           "thumb_url": "gdrive_cache/12pVCY-lD7uTCF0WdhY4dgzP4xOAs3jtk_thumb.jpg",
           "type": "image",
-          "date_taken": "2026-09-23 16:00:47",
+          "date_taken": "2026-09-12 12:00:00",
           "coords": null
         },
         {
           "url": "gdrive_cache/1qWG2A-13dyNreHMEnQ9-AkFb_D7P6tLP.jpg",
           "thumb_url": "gdrive_cache/1qWG2A-13dyNreHMEnQ9-AkFb_D7P6tLP_thumb.jpg",
           "type": "image",
-          "date_taken": "2026-09-23 16:00:47",
+          "date_taken": "2026-09-12 12:00:00",
           "coords": null
         },
         {
           "url": "gdrive_cache/1fadecRGRC9YecwCx3kOA_VS9sZ0c063i.jpg",
           "thumb_url": "gdrive_cache/1fadecRGRC9YecwCx3kOA_VS9sZ0c063i_thumb.jpg",
           "type": "image",
-          "date_taken": "2026-09-23 16:00:48",
+          "date_taken": "2026-09-12 12:00:00",
           "coords": null
         },
         {
           "url": "gdrive_cache/1qEs6xSwiC2zgrkD2k6Wul33lZrQZXQC9.jpg",
           "thumb_url": "gdrive_cache/1qEs6xSwiC2zgrkD2k6Wul33lZrQZXQC9_thumb.jpg",
           "type": "image",
-          "date_taken": "2026-09-23 16:00:48",
+          "date_taken": "2026-09-12 12:00:00",
           "coords": null
         },
         {
           "url": "gdrive_cache/1KWykN-W5wA70EFg9PkWbjnPX1gVv0zc9.jpg",
           "thumb_url": "gdrive_cache/1KWykN-W5wA70EFg9PkWbjnPX1gVv0zc9_thumb.jpg",
           "type": "image",
-          "date_taken": "2026-09-23 16:00:48",
+          "date_taken": "2026-09-12 12:00:00",
           "coords": null
         },
         {
           "url": "gdrive_cache/1WsAqf7WjCj21Z65bAhNfISxtjeRxGrDP.jpg",
           "thumb_url": "gdrive_cache/1WsAqf7WjCj21Z65bAhNfISxtjeRxGrDP_thumb.jpg",
           "type": "image",
-          "date_taken": "2026-09-23 16:00:48",
+          "date_taken": "2026-09-12 12:00:00",
           "coords": null
         },
         {
           "url": "gdrive_cache/1FIpecezgG28B7vBuEnaoNXMVZLo_vGux.jpg",
           "thumb_url": "gdrive_cache/1FIpecezgG28B7vBuEnaoNXMVZLo_vGux_thumb.jpg",
           "type": "image",
-          "date_taken": "2026-09-23 16:00:49",
+          "date_taken": "2026-09-12 12:00:00",
           "coords": null
         },
         {
           "url": "gdrive_cache/1-xZyaAlYLjYXB01tYT224LMkGnH4OdHN.jpg",
           "thumb_url": "gdrive_cache/1-xZyaAlYLjYXB01tYT224LMkGnH4OdHN_thumb.jpg",
           "type": "image",
-          "date_taken": "2026-09-23 16:00:49",
+          "date_taken": "2026-09-12 12:00:00",
           "coords": null
         },
         {
           "url": "gdrive_cache/14KgNzcMjFrO4EsnpNcmjnFd7LTfk1OMC.jpg",
           "thumb_url": "gdrive_cache/14KgNzcMjFrO4EsnpNcmjnFd7LTfk1OMC_thumb.jpg",
           "type": "image",
-          "date_taken": "2026-09-23 16:00:49",
+          "date_taken": "2026-09-12 12:00:00",
           "coords": null
         },
         {
           "url": "gdrive_cache/1SS0gS_3TaRKbdPgMs4-c_0EaP5RhTCrR.jpg",
           "thumb_url": "gdrive_cache/1SS0gS_3TaRKbdPgMs4-c_0EaP5RhTCrR_thumb.jpg",
           "type": "image",
-          "date_taken": "2026-09-23 16:00:49",
+          "date_taken": "2026-09-12 12:00:00",
           "coords": null
         },
         {
           "url": "gdrive_cache/1vet10FEQrH10q4J5tfdZnd8dBhRBNysI.jpg",
           "thumb_url": "gdrive_cache/1vet10FEQrH10q4J5tfdZnd8dBhRBNysI_thumb.jpg",
           "type": "image",
-          "date_taken": "2026-09-23 16:00:49",
+          "date_taken": "2026-09-12 12:00:00",
           "coords": null
         },
         {
           "url": "gdrive_cache/1y0qqGVWH047Eudze4y66yuzpOeGwrvit.jpg",
           "thumb_url": "gdrive_cache/1y0qqGVWH047Eudze4y66yuzpOeGwrvit_thumb.jpg",
           "type": "image",
-          "date_taken": "2026-09-23 16:00:50",
+          "date_taken": "2026-09-12 12:00:00",
           "coords": null
         },
         {
           "url": "gdrive_cache/1f6qNnor6jGiN0ORzVa405tVGnj51AyAf.jpg",
           "thumb_url": "gdrive_cache/1f6qNnor6jGiN0ORzVa405tVGnj51AyAf_thumb.jpg",
           "type": "image",
-          "date_taken": "2026-09-23 16:00:50",
+          "date_taken": "2026-09-12 12:00:00",
           "coords": null
         },
         {
           "url": "gdrive_cache/1BgSKeIm9eer2srHmdXkHPcOcOi3ZFwOx.jpg",
           "thumb_url": "gdrive_cache/1BgSKeIm9eer2srHmdXkHPcOcOi3ZFwOx_thumb.jpg",
           "type": "image",
-          "date_taken": "2026-09-23 16:00:50",
+          "date_taken": "2026-09-12 12:00:00",
           "coords": null
         },
         {
           "url": "gdrive_cache/1p_buroeHiI5YTdpuqtdPTf5n-0Erc9oy.jpg",
           "thumb_url": "gdrive_cache/1p_buroeHiI5YTdpuqtdPTf5n-0Erc9oy_thumb.jpg",
           "type": "image",
-          "date_taken": "2026-09-23 16:00:50",
+          "date_taken": "2026-09-12 12:00:00",
           "coords": null
         },
         {
           "url": "gdrive_cache/1vqFCNkv-adRQQQmOU5XxPdAWFVV_h2_5.jpg",
           "thumb_url": "gdrive_cache/1vqFCNkv-adRQQQmOU5XxPdAWFVV_h2_5_thumb.jpg",
           "type": "image",
-          "date_taken": "2026-09-23 16:00:50",
+          "date_taken": "2026-09-12 12:00:00",
           "coords": null
         },
         {
           "url": "gdrive_cache/1zl0NT_-ionSQ0uJgIZO4M78CEh0UOCus.jpg",
           "thumb_url": "gdrive_cache/1zl0NT_-ionSQ0uJgIZO4M78CEh0UOCus_thumb.jpg",
           "type": "image",
-          "date_taken": "2026-09-23 16:00:54",
+          "date_taken": "2026-09-12 12:00:00",
           "coords": null
         },
         {
           "url": "gdrive_cache/18sY0hQaYivIrP87vpoBUjngacDtp90xd.jpg",
           "thumb_url": "gdrive_cache/18sY0hQaYivIrP87vpoBUjngacDtp90xd_thumb.jpg",
           "type": "image",
-          "date_taken": "2026-09-23 16:00:54",
+          "date_taken": "2026-09-12 12:00:00",
           "coords": null
         },
         {
           "url": "gdrive_cache/19CPt_AYeXb1cri3LmWb6K2S3j_pVAhpO.jpg",
           "thumb_url": "gdrive_cache/19CPt_AYeXb1cri3LmWb6K2S3j_pVAhpO_thumb.jpg",
           "type": "image",
-          "date_taken": "2026-09-23 16:00:55",
+          "date_taken": "2026-09-12 12:00:00",
           "coords": null
         },
         {
           "url": "gdrive_cache/1ptzrvXq4i1EYGWk3DkG4ZdkqsSA4iHJv.jpg",
           "thumb_url": "gdrive_cache/1ptzrvXq4i1EYGWk3DkG4ZdkqsSA4iHJv_thumb.jpg",
           "type": "image",
-          "date_taken": "2026-09-23 16:00:55",
+          "date_taken": "2026-09-12 12:00:00",
           "coords": null
         },
         {
           "url": "gdrive_cache/13iCStmNY6rGIENn1ICAjZ21nvQEP1QUH.jpg",
           "thumb_url": "gdrive_cache/13iCStmNY6rGIENn1ICAjZ21nvQEP1QUH_thumb.jpg",
           "type": "image",
-          "date_taken": "2026-09-23 16:00:55",
+          "date_taken": "2026-09-12 12:00:00",
           "coords": null
         },
         {
           "url": "gdrive_cache/1Q5twMeLO-OFQ7AA3qhAh1vESiJmAsfUY.jpg",
           "thumb_url": "gdrive_cache/1Q5twMeLO-OFQ7AA3qhAh1vESiJmAsfUY_thumb.jpg",
           "type": "image",
-          "date_taken": "2026-09-23 16:00:56",
+          "date_taken": "2026-09-12 12:00:00",
           "coords": null
         },
         {
           "url": "gdrive_cache/1J8WqpliO25S5CabxBkWIzWabpUCfVXeV.jpg",
           "thumb_url": "gdrive_cache/1J8WqpliO25S5CabxBkWIzWabpUCfVXeV_thumb.jpg",
           "type": "image",
-          "date_taken": "2026-09-23 16:00:56",
+          "date_taken": "2026-09-12 12:00:00",
           "coords": null
         },
         {
           "url": "gdrive_cache/1SvlJAR49P6aMOA8UEJYm1z1MVR4Vtl4x.jpg",
           "thumb_url": "gdrive_cache/1SvlJAR49P6aMOA8UEJYm1z1MVR4Vtl4x_thumb.jpg",
           "type": "image",
-          "date_taken": "2026-09-23 16:00:56",
+          "date_taken": "2026-09-12 12:00:00",
           "coords": null
         },
         {
           "url": "gdrive_cache/1w_86hF-8RGMKLQy5U73p6jH0_ak6HOwd.jpg",
           "thumb_url": "gdrive_cache/1w_86hF-8RGMKLQy5U73p6jH0_ak6HOwd_thumb.jpg",
           "type": "image",
-          "date_taken": "2026-09-23 16:00:57",
+          "date_taken": "2026-09-12 12:00:00",
           "coords": null
         },
         {
           "url": "gdrive_cache/1Er4yc5dHJ_MjrSLbJvjFgZLhQWGB__mR.jpg",
           "thumb_url": "gdrive_cache/1Er4yc5dHJ_MjrSLbJvjFgZLhQWGB__mR_thumb.jpg",
           "type": "image",
-          "date_taken": "2026-09-23 16:00:57",
+          "date_taken": "2026-09-12 12:00:00",
           "coords": null
         },
         {
           "url": "gdrive_cache/1AgSAVME-C2AzSDM-Tyn0MXj37n9luNb-.jpg",
           "thumb_url": "gdrive_cache/1AgSAVME-C2AzSDM-Tyn0MXj37n9luNb-_thumb.jpg",
           "type": "image",
-          "date_taken": "2026-09-23 16:00:57",
+          "date_taken": "2026-09-12 12:00:00",
           "coords": null
         },
         {
           "url": "gdrive_cache/1w_z6oxtFAB7u5pa5Mo5JlrxclFq20PJg.jpg",
           "thumb_url": "gdrive_cache/1w_z6oxtFAB7u5pa5Mo5JlrxclFq20PJg_thumb.jpg",
           "type": "image",
-          "date_taken": "2026-09-23 16:00:57",
+          "date_taken": "2026-09-12 12:00:00",
           "coords": null
         },
         {
           "url": "gdrive_cache/1-KIICwS1Zai71-9Kk3wN-AuNlst3SAy5.jpg",
           "thumb_url": "gdrive_cache/1-KIICwS1Zai71-9Kk3wN-AuNlst3SAy5_thumb.jpg",
           "type": "image",
-          "date_taken": "2026-09-23 16:00:58",
+          "date_taken": "2026-09-12 12:00:00",
           "coords": null
         },
         {
           "url": "gdrive_cache/1MIyix-IVnR8x9EA41i96ewqi4r_8a76Q.jpg",
           "thumb_url": "gdrive_cache/1MIyix-IVnR8x9EA41i96ewqi4r_8a76Q_thumb.jpg",
           "type": "image",
-          "date_taken": "2026-09-23 16:00:58",
+          "date_taken": "2026-09-12 12:00:00",
           "coords": null
         },
         {
           "url": "gdrive_cache/1h3zjXgF3y4V_KoPD30pmYMESdkAdsBVO.jpg",
           "thumb_url": "gdrive_cache/1h3zjXgF3y4V_KoPD30pmYMESdkAdsBVO_thumb.jpg",
           "type": "image",
-          "date_taken": "2026-09-23 16:00:58",
+          "date_taken": "2026-09-12 12:00:00",
           "coords": null
         },
         {
           "url": "gdrive_cache/1fW6nUvr7-WZkMNdQxD9IZn8_941eYETN.jpg",
           "thumb_url": "gdrive_cache/1fW6nUvr7-WZkMNdQxD9IZn8_941eYETN_thumb.jpg",
           "type": "image",
-          "date_taken": "2026-09-23 16:00:59",
+          "date_taken": "2026-09-12 12:00:00",
           "coords": null
         },
         {
           "url": "gdrive_cache/1g9GWAisloo4DEt6bp24oVSwbLVYmoCRs.jpg",
           "thumb_url": "gdrive_cache/1g9GWAisloo4DEt6bp24oVSwbLVYmoCRs_thumb.jpg",
           "type": "image",
-          "date_taken": "2026-09-23 16:00:59",
+          "date_taken": "2026-09-12 12:00:00",
           "coords": null
         },
         {
           "url": "gdrive_cache/1ohWmn7NEQKGm8RkvvsgbAlhXvL9JiQty.jpg",
           "thumb_url": "gdrive_cache/1ohWmn7NEQKGm8RkvvsgbAlhXvL9JiQty_thumb.jpg",
           "type": "image",
-          "date_taken": "2026-09-23 16:00:59",
+          "date_taken": "2026-09-12 12:00:00",
           "coords": null
         },
         {
           "url": "gdrive_cache/12HwruMeoSffjtteiGtcSmq5XuxvE9zED.jpg",
           "thumb_url": "gdrive_cache/12HwruMeoSffjtteiGtcSmq5XuxvE9zED_thumb.jpg",
           "type": "image",
-          "date_taken": "2026-09-23 16:01:00",
+          "date_taken": "2026-09-12 12:00:00",
           "coords": null
         },
         {
           "url": "gdrive_cache/10dLkdTsWulsJUqCeKXN1wjS2G3fiwGd3.jpg",
           "thumb_url": "gdrive_cache/10dLkdTsWulsJUqCeKXN1wjS2G3fiwGd3_thumb.jpg",
           "type": "image",
-          "date_taken": "2026-09-23 16:01:00",
+          "date_taken": "2026-09-12 12:00:00",
           "coords": null
         },
         {
           "url": "gdrive_cache/1XVf5Gq7F9rb7KqeE7UjzRnJlM4w0SYSa.jpg",
           "thumb_url": "gdrive_cache/1XVf5Gq7F9rb7KqeE7UjzRnJlM4w0SYSa_thumb.jpg",
           "type": "image",
-          "date_taken": "2026-09-23 16:01:00",
+          "date_taken": "2026-09-12 12:00:00",
           "coords": null
         },
         {
           "url": "gdrive_cache/1gQm5wY4UTNlsuX4IiJNkQtWQJ_Tymuay.jpg",
           "thumb_url": "gdrive_cache/1gQm5wY4UTNlsuX4IiJNkQtWQJ_Tymuay_thumb.jpg",
           "type": "image",
-          "date_taken": "2026-09-23 16:01:01",
+          "date_taken": "2026-09-12 12:00:00",
           "coords": null
         },
         {
           "url": "gdrive_cache/1Q2wsylhsW_MhnrBGl68toXO7rhPxDOh1.jpg",
           "thumb_url": "gdrive_cache/1Q2wsylhsW_MhnrBGl68toXO7rhPxDOh1_thumb.jpg",
           "type": "image",
-          "date_taken": "2026-09-23 16:01:01",
+          "date_taken": "2026-09-12 12:00:00",
           "coords": null
         },
         {
           "url": "gdrive_cache/13PqiQQa8pz5FRZxtd9s2d1i9ynENs4HV.jpg",
           "thumb_url": "gdrive_cache/13PqiQQa8pz5FRZxtd9s2d1i9ynENs4HV_thumb.jpg",
           "type": "image",
-          "date_taken": "2026-09-23 16:01:01",
+          "date_taken": "2026-09-12 12:00:00",
           "coords": null
         },
         {
@@ -20379,7 +20379,7 @@ window.WYN_DATA = {
     },
     {
       "id": "1522oxkiVsC3GDtxYL9JO7LVeSoldAXWR",
-      "date": "2026-09-23",
+      "date": "20 Sep 2026",
       "title": "Kahitna + Dessert Festival Part 2",
       "description": "Memories captured from Kahitna + Dessert Festival Part 2! \u2728",
       "image_path": "gdrive_cache/1U7JliWSdhwpwlHuMGtKmtVfM6ld6bnES_thumb.jpg",
@@ -20388,539 +20388,539 @@ window.WYN_DATA = {
           "url": "gdrive_cache/1NBz6Jec1V-WbdfNQ8XD3gL1cbNdtu_Ql.mp4",
           "thumb_url": "gdrive_cache/1NBz6Jec1V-WbdfNQ8XD3gL1cbNdtu_Ql_thumb.jpg",
           "type": "video",
-          "date_taken": "2026-09-23 16:03:55",
+          "date_taken": "2026-09-21 12:00:00",
           "coords": null
         },
         {
           "url": "gdrive_cache/13muAyz0c-0rohynpjAMBxKODmbtZi8QM.mp4",
           "thumb_url": "gdrive_cache/13muAyz0c-0rohynpjAMBxKODmbtZi8QM_thumb.jpg",
           "type": "video",
-          "date_taken": "2026-09-23 16:03:55",
+          "date_taken": "2026-09-21 12:00:00",
           "coords": null
         },
         {
           "url": "gdrive_cache/15ldy0LTkJUwzYPLYUqWnjjZKCBRvtfuO.mp4",
           "thumb_url": "gdrive_cache/15ldy0LTkJUwzYPLYUqWnjjZKCBRvtfuO_thumb.jpg",
           "type": "video",
-          "date_taken": "2026-09-23 16:03:56",
+          "date_taken": "2026-09-21 12:00:00",
           "coords": null
         },
         {
           "url": "gdrive_cache/1AF_DktSD5M8gqTz31w8EX4GoTWiCk3xf.mp4",
           "thumb_url": "gdrive_cache/1AF_DktSD5M8gqTz31w8EX4GoTWiCk3xf_thumb.jpg",
           "type": "video",
-          "date_taken": "2026-09-23 16:03:56",
+          "date_taken": "2026-09-21 12:00:00",
           "coords": null
         },
         {
           "url": "gdrive_cache/1fhJGbUNdzGykFzaNd0u3bO-DDbuCRQbb.mp4",
           "thumb_url": "gdrive_cache/1fhJGbUNdzGykFzaNd0u3bO-DDbuCRQbb_thumb.jpg",
           "type": "video",
-          "date_taken": "2026-09-23 16:03:56",
+          "date_taken": "2026-09-21 12:00:00",
           "coords": null
         },
         {
           "url": "gdrive_cache/1R-OOMVKccDH_iPptL3BvnI17A4ixHqj4.mp4",
           "thumb_url": "gdrive_cache/1R-OOMVKccDH_iPptL3BvnI17A4ixHqj4_thumb.jpg",
           "type": "video",
-          "date_taken": "2026-09-23 16:03:56",
+          "date_taken": "2026-09-21 12:00:00",
           "coords": null
         },
         {
           "url": "gdrive_cache/1NxRs0P558GKu4HfNQN5Ix8uUQp2V1N0B.mp4",
           "thumb_url": "gdrive_cache/1NxRs0P558GKu4HfNQN5Ix8uUQp2V1N0B_thumb.jpg",
           "type": "video",
-          "date_taken": "2026-09-23 16:03:57",
+          "date_taken": "2026-09-21 12:00:00",
           "coords": null
         },
         {
           "url": "gdrive_cache/1R12S0sg3dHNHLN5zdU8C77rDc0Xfwyw8.mp4",
           "thumb_url": "gdrive_cache/1R12S0sg3dHNHLN5zdU8C77rDc0Xfwyw8_thumb.jpg",
           "type": "video",
-          "date_taken": "2026-09-23 16:03:57",
+          "date_taken": "2026-09-21 12:00:00",
           "coords": null
         },
         {
           "url": "gdrive_cache/1pN7YIBnIAiPI4pAqD5Ul9FtaDieMtDHB.mp4",
           "thumb_url": "gdrive_cache/1pN7YIBnIAiPI4pAqD5Ul9FtaDieMtDHB_thumb.jpg",
           "type": "video",
-          "date_taken": "2026-09-23 16:03:57",
+          "date_taken": "2026-09-21 12:00:00",
           "coords": null
         },
         {
           "url": "gdrive_cache/1LCgPdFeCJVhLei9BilkTPjmjfmyhH-Fz.mp4",
           "thumb_url": "gdrive_cache/1LCgPdFeCJVhLei9BilkTPjmjfmyhH-Fz_thumb.jpg",
           "type": "video",
-          "date_taken": "2026-09-23 16:03:57",
+          "date_taken": "2026-09-21 12:00:00",
           "coords": null
         },
         {
           "url": "gdrive_cache/1lp2fdCCSpb5TcnKIMjfzoIzQd6Ky2JXn.mp4",
           "thumb_url": "gdrive_cache/1lp2fdCCSpb5TcnKIMjfzoIzQd6Ky2JXn_thumb.jpg",
           "type": "video",
-          "date_taken": "2026-09-23 16:03:57",
+          "date_taken": "2026-09-21 12:00:00",
           "coords": null
         },
         {
           "url": "gdrive_cache/1Nchja6fqDLcPx33udGjYtFoypHk2aTSF.mp4",
           "thumb_url": "gdrive_cache/1Nchja6fqDLcPx33udGjYtFoypHk2aTSF_thumb.jpg",
           "type": "video",
-          "date_taken": "2026-09-23 16:03:57",
+          "date_taken": "2026-09-21 12:00:00",
           "coords": null
         },
         {
           "url": "gdrive_cache/1Su0eIMjL2T-NwYz7PirDsr7iA1Pegc4P.mp4",
           "thumb_url": "gdrive_cache/1Su0eIMjL2T-NwYz7PirDsr7iA1Pegc4P_thumb.jpg",
           "type": "video",
-          "date_taken": "2026-09-23 16:03:58",
+          "date_taken": "2026-09-21 12:00:00",
           "coords": null
         },
         {
           "url": "gdrive_cache/1VmpyFRil8c-lxtfVFDkCZvgWlZnPkWGw.mp4",
           "thumb_url": "gdrive_cache/1VmpyFRil8c-lxtfVFDkCZvgWlZnPkWGw_thumb.jpg",
           "type": "video",
-          "date_taken": "2026-09-23 16:03:58",
+          "date_taken": "2026-09-21 12:00:00",
           "coords": null
         },
         {
           "url": "gdrive_cache/1l1CqlYdqlGqXo2rVFdjHjzMOzNoBDSQJ.mp4",
           "thumb_url": "gdrive_cache/1l1CqlYdqlGqXo2rVFdjHjzMOzNoBDSQJ_thumb.jpg",
           "type": "video",
-          "date_taken": "2026-09-23 16:03:58",
+          "date_taken": "2026-09-21 12:00:00",
           "coords": null
         },
         {
           "url": "gdrive_cache/1AQAI2chz25HOoQmDhHLiA3iLqI0Sgh8C.mp4",
           "thumb_url": "gdrive_cache/1AQAI2chz25HOoQmDhHLiA3iLqI0Sgh8C_thumb.jpg",
           "type": "video",
-          "date_taken": "2026-09-23 16:03:58",
+          "date_taken": "2026-09-21 12:00:00",
           "coords": null
         },
         {
           "url": "gdrive_cache/1jXA47sN8RCa_piTPsG2EwWdhSS-eG5lT.mp4",
           "thumb_url": "gdrive_cache/1jXA47sN8RCa_piTPsG2EwWdhSS-eG5lT_thumb.jpg",
           "type": "video",
-          "date_taken": "2026-09-23 16:03:58",
+          "date_taken": "2026-09-21 12:00:00",
           "coords": null
         },
         {
           "url": "gdrive_cache/1gp-xhxqCizwfH8FzgbZfauFFDIKnRYkF.mp4",
           "thumb_url": "gdrive_cache/1gp-xhxqCizwfH8FzgbZfauFFDIKnRYkF_thumb.jpg",
           "type": "video",
-          "date_taken": "2026-09-23 16:03:58",
+          "date_taken": "2026-09-21 12:00:00",
           "coords": null
         },
         {
           "url": "gdrive_cache/1HiarsTsOmMMH6W0rBaMekDcD5pYPboBl.mp4",
           "thumb_url": "gdrive_cache/1HiarsTsOmMMH6W0rBaMekDcD5pYPboBl_thumb.jpg",
           "type": "video",
-          "date_taken": "2026-09-23 16:03:58",
+          "date_taken": "2026-09-21 12:00:00",
           "coords": null
         },
         {
           "url": "gdrive_cache/13YeDoQhrZtOtmOW2QtmuawQBKATane4I.mp4",
           "thumb_url": "gdrive_cache/13YeDoQhrZtOtmOW2QtmuawQBKATane4I_thumb.jpg",
           "type": "video",
-          "date_taken": "2026-09-23 16:03:58",
+          "date_taken": "2026-09-21 12:00:00",
           "coords": null
         },
         {
           "url": "gdrive_cache/1KcT0i30orHuixBxDbPzslvZktnTiTI2O.mp4",
           "thumb_url": "gdrive_cache/1KcT0i30orHuixBxDbPzslvZktnTiTI2O_thumb.jpg",
           "type": "video",
-          "date_taken": "2026-09-23 16:03:59",
+          "date_taken": "2026-09-21 12:00:00",
           "coords": null
         },
         {
           "url": "gdrive_cache/1TqON2fpW7--fW0_ZC3TQmsyBpvFWUrNw.mp4",
           "thumb_url": "gdrive_cache/1TqON2fpW7--fW0_ZC3TQmsyBpvFWUrNw_thumb.jpg",
           "type": "video",
-          "date_taken": "2026-09-23 16:03:59",
+          "date_taken": "2026-09-21 12:00:00",
           "coords": null
         },
         {
           "url": "gdrive_cache/1JMyveYEJG6VNqLeRdcYupJ5XV5AwlT29.mp4",
           "thumb_url": "gdrive_cache/1JMyveYEJG6VNqLeRdcYupJ5XV5AwlT29_thumb.jpg",
           "type": "video",
-          "date_taken": "2026-09-23 16:03:59",
+          "date_taken": "2026-09-21 12:00:00",
           "coords": null
         },
         {
           "url": "gdrive_cache/1zP-ti_I5WiyUgEwMoYzlQaMZtu_gSMWs.mp4",
           "thumb_url": "gdrive_cache/1zP-ti_I5WiyUgEwMoYzlQaMZtu_gSMWs_thumb.jpg",
           "type": "video",
-          "date_taken": "2026-09-23 16:03:59",
+          "date_taken": "2026-09-21 12:00:00",
           "coords": null
         },
         {
           "url": "gdrive_cache/1yLuLqoUc-xl3QS3u_w0D88urGnQT0zll.mp4",
           "thumb_url": "gdrive_cache/1yLuLqoUc-xl3QS3u_w0D88urGnQT0zll_thumb.jpg",
           "type": "video",
-          "date_taken": "2026-09-23 16:03:59",
+          "date_taken": "2026-09-21 12:00:00",
           "coords": null
         },
         {
           "url": "gdrive_cache/1qIsgxvJrIxlBQ40VHwVzcIyfP1wlGbZh.mp4",
           "thumb_url": "gdrive_cache/1qIsgxvJrIxlBQ40VHwVzcIyfP1wlGbZh_thumb.jpg",
           "type": "video",
-          "date_taken": "2026-09-23 16:03:59",
+          "date_taken": "2026-09-21 12:00:00",
           "coords": null
         },
         {
           "url": "gdrive_cache/1nBYviKuEmmwb9i4PTd-YQ6yOqwfwAvpk.mp4",
           "thumb_url": "gdrive_cache/1nBYviKuEmmwb9i4PTd-YQ6yOqwfwAvpk_thumb.jpg",
           "type": "video",
-          "date_taken": "2026-09-23 16:04:00",
+          "date_taken": "2026-09-21 12:00:00",
           "coords": null
         },
         {
           "url": "gdrive_cache/1uj5WF4uf67T_nklwOxSeOoDKBYF6a8V9.mp4",
           "thumb_url": "gdrive_cache/1uj5WF4uf67T_nklwOxSeOoDKBYF6a8V9_thumb.jpg",
           "type": "video",
-          "date_taken": "2026-09-23 16:04:00",
+          "date_taken": "2026-09-21 12:00:00",
           "coords": null
         },
         {
           "url": "gdrive_cache/1D0IhjLl7_3qaQiJL8UKnFQb-ByrEbKjJ.jpg",
           "thumb_url": "gdrive_cache/1D0IhjLl7_3qaQiJL8UKnFQb-ByrEbKjJ_thumb.jpg",
           "type": "image",
-          "date_taken": "2026-09-23 16:04:00",
+          "date_taken": "2026-09-21 12:00:00",
           "coords": null
         },
         {
           "url": "gdrive_cache/1_y8-3RvyZEC0qgRRr2Si32HYQIcwNnio.mp4",
           "thumb_url": "gdrive_cache/1_y8-3RvyZEC0qgRRr2Si32HYQIcwNnio_thumb.jpg",
           "type": "video",
-          "date_taken": "2026-09-23 16:04:00",
+          "date_taken": "2026-09-21 12:00:00",
           "coords": null
         },
         {
           "url": "gdrive_cache/1_YWPMbQfdRQpr9xy-5fJle96ue_vpuro.jpg",
           "thumb_url": "gdrive_cache/1_YWPMbQfdRQpr9xy-5fJle96ue_vpuro_thumb.jpg",
           "type": "image",
-          "date_taken": "2026-09-23 16:04:01",
+          "date_taken": "2026-09-21 12:00:00",
           "coords": null
         },
         {
           "url": "gdrive_cache/13MtTAYPEoAYUKCFDA8-OwTDjpVo3X9Bf.jpg",
           "thumb_url": "gdrive_cache/13MtTAYPEoAYUKCFDA8-OwTDjpVo3X9Bf_thumb.jpg",
           "type": "image",
-          "date_taken": "2026-09-23 16:04:01",
+          "date_taken": "2026-09-21 12:00:00",
           "coords": null
         },
         {
           "url": "gdrive_cache/1GqY4i-YgNsgAABSNond0SwqqtBlRaxjN.mp4",
           "thumb_url": "gdrive_cache/1GqY4i-YgNsgAABSNond0SwqqtBlRaxjN_thumb.jpg",
           "type": "video",
-          "date_taken": "2026-09-23 16:04:01",
+          "date_taken": "2026-09-21 12:00:00",
           "coords": null
         },
         {
           "url": "gdrive_cache/1qVdADYOhFTFB29-lEEj4n9NjXtjYtAE8.mp4",
           "thumb_url": "gdrive_cache/1qVdADYOhFTFB29-lEEj4n9NjXtjYtAE8_thumb.jpg",
           "type": "video",
-          "date_taken": "2026-09-23 16:04:01",
+          "date_taken": "2026-09-21 12:00:00",
           "coords": null
         },
         {
           "url": "gdrive_cache/1RO87J5kozb6mtBBml62OPc9W9mbthITh.mp4",
           "thumb_url": "gdrive_cache/1RO87J5kozb6mtBBml62OPc9W9mbthITh_thumb.jpg",
           "type": "video",
-          "date_taken": "2026-09-23 16:04:01",
+          "date_taken": "2026-09-21 12:00:00",
           "coords": null
         },
         {
           "url": "gdrive_cache/1H0uCkrXD9hBngOk5qIG4kPbuLDwjh0Vr.mp4",
           "thumb_url": "gdrive_cache/1H0uCkrXD9hBngOk5qIG4kPbuLDwjh0Vr_thumb.jpg",
           "type": "video",
-          "date_taken": "2026-09-23 16:04:02",
+          "date_taken": "2026-09-21 12:00:00",
           "coords": null
         },
         {
           "url": "gdrive_cache/1XDlf169XDG7fwO23lzVP7ipwU9oSixPR.mp4",
           "thumb_url": "gdrive_cache/1XDlf169XDG7fwO23lzVP7ipwU9oSixPR_thumb.jpg",
           "type": "video",
-          "date_taken": "2026-09-23 16:04:02",
+          "date_taken": "2026-09-21 12:00:00",
           "coords": null
         },
         {
           "url": "gdrive_cache/1DmX0lVi2Gk62-SkJMePuNRtG8l9xuPRq.jpg",
           "thumb_url": "gdrive_cache/1DmX0lVi2Gk62-SkJMePuNRtG8l9xuPRq_thumb.jpg",
           "type": "image",
-          "date_taken": "2026-09-23 16:04:02",
+          "date_taken": "2026-09-21 12:00:00",
           "coords": null
         },
         {
           "url": "gdrive_cache/1dTT_YiPAbRQUcPFZFzFtKdpO9SVfqvY7.jpg",
           "thumb_url": "gdrive_cache/1dTT_YiPAbRQUcPFZFzFtKdpO9SVfqvY7_thumb.jpg",
           "type": "image",
-          "date_taken": "2026-09-23 16:04:02",
+          "date_taken": "2026-09-21 12:00:00",
           "coords": null
         },
         {
           "url": "gdrive_cache/1HZg80Djm718jDkeb7mqwlwAQ_6a9f8Qm.jpg",
           "thumb_url": "gdrive_cache/1HZg80Djm718jDkeb7mqwlwAQ_6a9f8Qm_thumb.jpg",
           "type": "image",
-          "date_taken": "2026-09-23 16:04:03",
+          "date_taken": "2026-09-21 12:00:00",
           "coords": null
         },
         {
           "url": "gdrive_cache/1peHW0IV1Zf02QbY6pBMdoYekEgjXORm_.jpg",
           "thumb_url": "gdrive_cache/1peHW0IV1Zf02QbY6pBMdoYekEgjXORm__thumb.jpg",
           "type": "image",
-          "date_taken": "2026-09-23 16:04:03",
+          "date_taken": "2026-09-21 12:00:00",
           "coords": null
         },
         {
           "url": "gdrive_cache/12LNFBUXpIJdYhM980VFV6WrPcw97vsCi.mp4",
           "thumb_url": "gdrive_cache/12LNFBUXpIJdYhM980VFV6WrPcw97vsCi_thumb.jpg",
           "type": "video",
-          "date_taken": "2026-09-23 16:04:03",
+          "date_taken": "2026-09-21 12:00:00",
           "coords": null
         },
         {
           "url": "gdrive_cache/18keao0MC7VnP0j9FPWP0TxfbgCiBu0Un.jpg",
           "thumb_url": "gdrive_cache/18keao0MC7VnP0j9FPWP0TxfbgCiBu0Un_thumb.jpg",
           "type": "image",
-          "date_taken": "2026-09-23 16:04:03",
+          "date_taken": "2026-09-21 12:00:00",
           "coords": null
         },
         {
           "url": "gdrive_cache/1litPbAynaXl0SpfU2PXCxUQmSFNlx-yL.jpg",
           "thumb_url": "gdrive_cache/1litPbAynaXl0SpfU2PXCxUQmSFNlx-yL_thumb.jpg",
           "type": "image",
-          "date_taken": "2026-09-23 16:04:03",
+          "date_taken": "2026-09-21 12:00:00",
           "coords": null
         },
         {
           "url": "gdrive_cache/1xq5XNGosfcNXbpySCRosaTkp3z1OcSQg.jpg",
           "thumb_url": "gdrive_cache/1xq5XNGosfcNXbpySCRosaTkp3z1OcSQg_thumb.jpg",
           "type": "image",
-          "date_taken": "2026-09-23 16:04:03",
+          "date_taken": "2026-09-21 12:00:00",
           "coords": null
         },
         {
           "url": "gdrive_cache/1XSHdUvjOky0VemHCQsJbSMr6UasEd9m4.jpg",
           "thumb_url": "gdrive_cache/1XSHdUvjOky0VemHCQsJbSMr6UasEd9m4_thumb.jpg",
           "type": "image",
-          "date_taken": "2026-09-23 16:04:04",
+          "date_taken": "2026-09-21 12:00:00",
           "coords": null
         },
         {
           "url": "gdrive_cache/1U7JliWSdhwpwlHuMGtKmtVfM6ld6bnES.jpg",
           "thumb_url": "gdrive_cache/1U7JliWSdhwpwlHuMGtKmtVfM6ld6bnES_thumb.jpg",
           "type": "image",
-          "date_taken": "2026-09-23 16:04:04",
+          "date_taken": "2026-09-21 12:00:00",
           "coords": null
         },
         {
           "url": "gdrive_cache/1_81JRvqZnhvrRz7-ishfuZkVeSs6S1ih.jpg",
           "thumb_url": "gdrive_cache/1_81JRvqZnhvrRz7-ishfuZkVeSs6S1ih_thumb.jpg",
           "type": "image",
-          "date_taken": "2026-09-23 16:04:04",
+          "date_taken": "2026-09-21 12:00:00",
           "coords": null
         },
         {
           "url": "gdrive_cache/1v5m8D_GUBq0_XzH70GKoiZGkfXPRNCnt.jpg",
           "thumb_url": "gdrive_cache/1v5m8D_GUBq0_XzH70GKoiZGkfXPRNCnt_thumb.jpg",
           "type": "image",
-          "date_taken": "2026-09-23 16:04:04",
+          "date_taken": "2026-09-21 12:00:00",
           "coords": null
         },
         {
           "url": "gdrive_cache/1tiGs8w7Dd4zeD7tjNv5ZiLcwUtTMhHjY.jpg",
           "thumb_url": "gdrive_cache/1tiGs8w7Dd4zeD7tjNv5ZiLcwUtTMhHjY_thumb.jpg",
           "type": "image",
-          "date_taken": "2026-09-23 16:04:04",
+          "date_taken": "2026-09-21 12:00:00",
           "coords": null
         },
         {
           "url": "gdrive_cache/1gJGAPO5UbsjIK_ZzC1fZjJazUPWMrU8h.mp4",
           "thumb_url": "gdrive_cache/1gJGAPO5UbsjIK_ZzC1fZjJazUPWMrU8h_thumb.jpg",
           "type": "video",
-          "date_taken": "2026-09-23 16:04:05",
+          "date_taken": "2026-09-20 12:00:00",
           "coords": null
         },
         {
           "url": "gdrive_cache/1_F5WCRutOsqTAIZtD9dOPPBVwUnDHpuF.jpg",
           "thumb_url": "gdrive_cache/1_F5WCRutOsqTAIZtD9dOPPBVwUnDHpuF_thumb.jpg",
           "type": "image",
-          "date_taken": "2026-09-23 16:04:05",
+          "date_taken": "2026-09-20 12:00:00",
           "coords": null
         },
         {
           "url": "gdrive_cache/1b1BHNxwYQ1HgUe_NXENP_YXSanH8kCJQ.jpg",
           "thumb_url": "gdrive_cache/1b1BHNxwYQ1HgUe_NXENP_YXSanH8kCJQ_thumb.jpg",
           "type": "image",
-          "date_taken": "2026-09-23 16:04:05",
+          "date_taken": "2026-09-20 12:00:00",
           "coords": null
         },
         {
           "url": "gdrive_cache/1BgVV_rz6ft8C7AHnIupE3exYpVANxzWE.jpg",
           "thumb_url": "gdrive_cache/1BgVV_rz6ft8C7AHnIupE3exYpVANxzWE_thumb.jpg",
           "type": "image",
-          "date_taken": "2026-09-23 16:04:05",
+          "date_taken": "2026-09-20 12:00:00",
           "coords": null
         },
         {
           "url": "gdrive_cache/1hDXt5YEOQXXtI0eViB1fmYc9Upgfc3Nh.jpg",
           "thumb_url": "gdrive_cache/1hDXt5YEOQXXtI0eViB1fmYc9Upgfc3Nh_thumb.jpg",
           "type": "image",
-          "date_taken": "2026-09-23 16:04:05",
+          "date_taken": "2026-09-20 12:00:00",
           "coords": null
         },
         {
           "url": "gdrive_cache/1Mi7BaaKv8971QXNon40kkbFtLcYksSZD.jpg",
           "thumb_url": "gdrive_cache/1Mi7BaaKv8971QXNon40kkbFtLcYksSZD_thumb.jpg",
           "type": "image",
-          "date_taken": "2026-09-23 16:04:06",
+          "date_taken": "2026-09-20 12:00:00",
           "coords": null
         },
         {
           "url": "gdrive_cache/1HbAfGQZhwNwfzN6YGxwQkKnU7YSbYrYb.jpg",
           "thumb_url": "gdrive_cache/1HbAfGQZhwNwfzN6YGxwQkKnU7YSbYrYb_thumb.jpg",
           "type": "image",
-          "date_taken": "2026-09-23 16:04:06",
+          "date_taken": "2026-09-20 12:00:00",
           "coords": null
         },
         {
           "url": "gdrive_cache/1_vINw0QEqBnFjMb9zdsZ6hkA6DEMC8hh.jpg",
           "thumb_url": "gdrive_cache/1_vINw0QEqBnFjMb9zdsZ6hkA6DEMC8hh_thumb.jpg",
           "type": "image",
-          "date_taken": "2026-09-23 16:04:06",
+          "date_taken": "2026-09-20 12:00:00",
           "coords": null
         },
         {
           "url": "gdrive_cache/1xjYn1OboPxUfFyS85gCt8DjesaCdiNyq.jpg",
           "thumb_url": "gdrive_cache/1xjYn1OboPxUfFyS85gCt8DjesaCdiNyq_thumb.jpg",
           "type": "image",
-          "date_taken": "2026-09-23 16:04:06",
+          "date_taken": "2026-09-20 12:00:00",
           "coords": null
         },
         {
           "url": "gdrive_cache/1nHPHCCliZwDz7Ocdcl_d9psQsu5b7lNZ.jpg",
           "thumb_url": "gdrive_cache/1nHPHCCliZwDz7Ocdcl_d9psQsu5b7lNZ_thumb.jpg",
           "type": "image",
-          "date_taken": "2026-09-23 16:04:06",
+          "date_taken": "2026-09-20 12:00:00",
           "coords": null
         },
         {
           "url": "gdrive_cache/1GUlwovgMPv7bsCLk6cKKOaQ41oP1wM7c.jpg",
           "thumb_url": "gdrive_cache/1GUlwovgMPv7bsCLk6cKKOaQ41oP1wM7c_thumb.jpg",
           "type": "image",
-          "date_taken": "2026-09-23 16:04:07",
+          "date_taken": "2026-09-20 12:00:00",
           "coords": null
         },
         {
           "url": "gdrive_cache/1vlmSiI4dQiJwSRt_XtfaCk_-G60GJT12.jpg",
           "thumb_url": "gdrive_cache/1vlmSiI4dQiJwSRt_XtfaCk_-G60GJT12_thumb.jpg",
           "type": "image",
-          "date_taken": "2026-09-23 16:04:07",
+          "date_taken": "2026-09-20 12:00:00",
           "coords": null
         },
         {
           "url": "gdrive_cache/1nfR1VUB7V4TiC2HBjRS1bGLHpBRQAGw8.jpg",
           "thumb_url": "gdrive_cache/1nfR1VUB7V4TiC2HBjRS1bGLHpBRQAGw8_thumb.jpg",
           "type": "image",
-          "date_taken": "2026-09-23 16:04:07",
+          "date_taken": "2026-09-20 12:00:00",
           "coords": null
         },
         {
           "url": "gdrive_cache/1uqWadZzli_0zSDJtV87AlKXiB12RNMKv.jpg",
           "thumb_url": "gdrive_cache/1uqWadZzli_0zSDJtV87AlKXiB12RNMKv_thumb.jpg",
           "type": "image",
-          "date_taken": "2026-09-23 16:04:07",
+          "date_taken": "2026-09-20 12:00:00",
           "coords": null
         },
         {
           "url": "gdrive_cache/1v-QfLKilzZqMe5W9qFLLgLnZIe1FrpST.jpg",
           "thumb_url": "gdrive_cache/1v-QfLKilzZqMe5W9qFLLgLnZIe1FrpST_thumb.jpg",
           "type": "image",
-          "date_taken": "2026-09-23 16:04:07",
+          "date_taken": "2026-09-20 12:00:00",
           "coords": null
         },
         {
           "url": "gdrive_cache/1zZJa1WcnAVZvGLAauV5R9zLWX6K_rmzO.jpg",
           "thumb_url": "gdrive_cache/1zZJa1WcnAVZvGLAauV5R9zLWX6K_rmzO_thumb.jpg",
           "type": "image",
-          "date_taken": "2026-09-23 16:04:07",
+          "date_taken": "2026-09-20 12:00:00",
           "coords": null
         },
         {
           "url": "gdrive_cache/1CIxt1O9Y-ZYoM9xAPr2hdKLwVheJp-ST.jpg",
           "thumb_url": "gdrive_cache/1CIxt1O9Y-ZYoM9xAPr2hdKLwVheJp-ST_thumb.jpg",
           "type": "image",
-          "date_taken": "2026-09-23 16:04:08",
+          "date_taken": "2026-09-20 12:00:00",
           "coords": null
         },
         {
           "url": "gdrive_cache/1H3oT0IDx2OgYp99jVbLNOCSqxC7NGs1C.jpg",
           "thumb_url": "gdrive_cache/1H3oT0IDx2OgYp99jVbLNOCSqxC7NGs1C_thumb.jpg",
           "type": "image",
-          "date_taken": "2026-09-23 16:04:08",
+          "date_taken": "2026-09-20 12:00:00",
           "coords": null
         },
         {
           "url": "gdrive_cache/18g5-G15-X0dBsohbdLVHcu6yO2JsC9-e.jpg",
           "thumb_url": "gdrive_cache/18g5-G15-X0dBsohbdLVHcu6yO2JsC9-e_thumb.jpg",
           "type": "image",
-          "date_taken": "2026-09-23 16:04:08",
+          "date_taken": "2026-09-20 12:00:00",
           "coords": null
         },
         {
           "url": "gdrive_cache/1GsubqqHZP_S1ahItz6g0yWdvcVIKdcgm.jpg",
           "thumb_url": "gdrive_cache/1GsubqqHZP_S1ahItz6g0yWdvcVIKdcgm_thumb.jpg",
           "type": "image",
-          "date_taken": "2026-09-23 16:04:08",
+          "date_taken": "2026-09-20 12:00:00",
           "coords": null
         },
         {
           "url": "gdrive_cache/1e4QwjQVP9Eu6UgOHW8G0nfPoiKV0ztAr.jpg",
           "thumb_url": "gdrive_cache/1e4QwjQVP9Eu6UgOHW8G0nfPoiKV0ztAr_thumb.jpg",
           "type": "image",
-          "date_taken": "2026-09-23 16:04:08",
+          "date_taken": "2026-09-20 12:00:00",
           "coords": null
         },
         {
           "url": "gdrive_cache/1zU2QI3d_14Ok1Rnmavj_bw6b1gmgicZ4.jpg",
           "thumb_url": "gdrive_cache/1zU2QI3d_14Ok1Rnmavj_bw6b1gmgicZ4_thumb.jpg",
           "type": "image",
-          "date_taken": "2026-09-23 16:04:09",
+          "date_taken": "2026-09-20 12:00:00",
           "coords": null
         },
         {
           "url": "gdrive_cache/1a-w3VHu-Q4kHmkGsqq-PASbgWWSEfsuI.jpg",
           "thumb_url": "gdrive_cache/1a-w3VHu-Q4kHmkGsqq-PASbgWWSEfsuI_thumb.jpg",
           "type": "image",
-          "date_taken": "2026-09-23 16:04:09",
+          "date_taken": "2026-09-20 12:00:00",
           "coords": null
         },
         {
           "url": "gdrive_cache/1FUAyeiHZXBqaHDLCHNRjswQuTWksxMFM.jpg",
           "thumb_url": "gdrive_cache/1FUAyeiHZXBqaHDLCHNRjswQuTWksxMFM_thumb.jpg",
           "type": "image",
-          "date_taken": "2026-09-23 16:04:09",
+          "date_taken": "2026-09-20 12:00:00",
           "coords": null
         },
         {
           "url": "gdrive_cache/19YqPPUhb3UryZGF7GQWWK8tdmzz6Ku12.jpg",
           "thumb_url": "gdrive_cache/19YqPPUhb3UryZGF7GQWWK8tdmzz6Ku12_thumb.jpg",
           "type": "image",
-          "date_taken": "2026-09-23 16:04:09",
+          "date_taken": "2026-09-20 12:00:00",
           "coords": null
         },
         {
           "url": "gdrive_cache/1DslQ-w3j4KLpwxwcpTGhKlkO6DalZscs.jpg",
           "thumb_url": "gdrive_cache/1DslQ-w3j4KLpwxwcpTGhKlkO6DalZscs_thumb.jpg",
           "type": "image",
-          "date_taken": "2026-09-23 16:04:09",
+          "date_taken": "2026-09-19 12:00:00",
           "coords": null
         },
         {
           "url": "gdrive_cache/1xdayyEoCn3bHWXl4ZV_DI9dg9Y2NKJBf.jpg",
           "thumb_url": "gdrive_cache/1xdayyEoCn3bHWXl4ZV_DI9dg9Y2NKJBf_thumb.jpg",
           "type": "image",
-          "date_taken": "2026-09-23 16:04:09",
+          "date_taken": "2026-09-19 12:00:00",
           "coords": null
         }
       ],
@@ -20942,6 +20942,789 @@ window.WYN_DATA = {
         [
           -6.2088,
           106.8456
+        ]
+      ]
+    },
+    {
+      "id": "17qd7LGPsAqLCe7tM1cCjyJiBseB6zgR8",
+      "date": "10 Oct 2026",
+      "title": "Jumpfun",
+      "description": "Memories captured from Jumpfun! \u2728",
+      "image_path": "gdrive_cache/1HkhSNVNjIgJ2mlklJsghDTva_r53n941_thumb.jpg",
+      "images": [
+        {
+          "url": "gdrive_cache/1HkhSNVNjIgJ2mlklJsghDTva_r53n941.jpg",
+          "thumb_url": "gdrive_cache/1HkhSNVNjIgJ2mlklJsghDTva_r53n941_thumb.jpg",
+          "type": "image",
+          "date_taken": "2026-10-10 13:52:17",
+          "coords": null
+        },
+        {
+          "url": "gdrive_cache/1SZCrribmnB-WYdBLVAxFsCVp6OkQ42yy.jpg",
+          "thumb_url": "gdrive_cache/1SZCrribmnB-WYdBLVAxFsCVp6OkQ42yy_thumb.jpg",
+          "type": "image",
+          "date_taken": "2026-10-10 17:38:50",
+          "coords": null
+        },
+        {
+          "url": "gdrive_cache/1KVRw0djDqnKNeoeQgr-7nqUHaqVw-Nfd.jpg",
+          "thumb_url": "gdrive_cache/1KVRw0djDqnKNeoeQgr-7nqUHaqVw-Nfd_thumb.jpg",
+          "type": "image",
+          "date_taken": "2026-10-10 17:40:48",
+          "coords": null
+        },
+        {
+          "url": "gdrive_cache/1UhONONJuc2YwJiXbuz4l-4q49qvEhbT3.jpg",
+          "thumb_url": "gdrive_cache/1UhONONJuc2YwJiXbuz4l-4q49qvEhbT3_thumb.jpg",
+          "type": "image",
+          "date_taken": "2026-10-10 14:05:34",
+          "coords": null
+        },
+        {
+          "url": "gdrive_cache/1sfjdVOHp9FTzl6wqa8Ih3hSZyjNne8ET.jpg",
+          "thumb_url": "gdrive_cache/1sfjdVOHp9FTzl6wqa8Ih3hSZyjNne8ET_thumb.jpg",
+          "type": "image",
+          "date_taken": "2026-10-10 17:41:00",
+          "coords": null
+        },
+        {
+          "url": "gdrive_cache/1efpRO3PzuLkXTqup_WtMKiA4Cxtjpr7H.jpg",
+          "thumb_url": "gdrive_cache/1efpRO3PzuLkXTqup_WtMKiA4Cxtjpr7H_thumb.jpg",
+          "type": "image",
+          "date_taken": "2026-10-10 17:34:26",
+          "coords": null
+        },
+        {
+          "url": "gdrive_cache/1ae4zXOEIYGS_s-I3MlzjjA1DgQxA_8fw.jpg",
+          "thumb_url": "gdrive_cache/1ae4zXOEIYGS_s-I3MlzjjA1DgQxA_8fw_thumb.jpg",
+          "type": "image",
+          "date_taken": "2026-10-10 17:34:22",
+          "coords": null
+        },
+        {
+          "url": "gdrive_cache/1EFdNOtqCT7LZlfjqVY_VgMOCdZto28bS.jpg",
+          "thumb_url": "gdrive_cache/1EFdNOtqCT7LZlfjqVY_VgMOCdZto28bS_thumb.jpg",
+          "type": "image",
+          "date_taken": "2026-10-10 17:34:17",
+          "coords": null
+        },
+        {
+          "url": "gdrive_cache/18b9JO_Z5thgozqZGhWXi0SVXG8guc7te.jpg",
+          "thumb_url": "gdrive_cache/18b9JO_Z5thgozqZGhWXi0SVXG8guc7te_thumb.jpg",
+          "type": "image",
+          "date_taken": "2026-10-10 14:36:00",
+          "coords": null
+        },
+        {
+          "url": "gdrive_cache/1ePatBECLKaFET9y_xzIljaDogc9vklYc.jpg",
+          "thumb_url": "gdrive_cache/1ePatBECLKaFET9y_xzIljaDogc9vklYc_thumb.jpg",
+          "type": "image",
+          "date_taken": "2026-10-10 16:01:54",
+          "coords": null
+        },
+        {
+          "url": "gdrive_cache/1UkMwZsnbAQdshdaMRPFiWNOnaSwwugdm.mov",
+          "thumb_url": "gdrive_cache/1UkMwZsnbAQdshdaMRPFiWNOnaSwwugdm_thumb.jpg",
+          "type": "video",
+          "date_taken": "2026-10-20 15:48:00",
+          "coords": null
+        },
+        {
+          "url": "gdrive_cache/14hC5Uzq3CC8Im8Y4cYzPITHDvQY1ERfg.jpg",
+          "thumb_url": "gdrive_cache/14hC5Uzq3CC8Im8Y4cYzPITHDvQY1ERfg_thumb.jpg",
+          "type": "image",
+          "date_taken": "2026-10-10 17:06:41",
+          "coords": null
+        },
+        {
+          "url": "gdrive_cache/12KoXYNcFz4hPwREe_57fKo54CTKLts8l.jpg",
+          "thumb_url": "gdrive_cache/12KoXYNcFz4hPwREe_57fKo54CTKLts8l_thumb.jpg",
+          "type": "image",
+          "date_taken": "2026-10-10 17:06:36",
+          "coords": null
+        },
+        {
+          "url": "gdrive_cache/1D4bt-ghzgIXeJh0JDUzW0U_y5JSHcl0S.mov",
+          "thumb_url": "gdrive_cache/1D4bt-ghzgIXeJh0JDUzW0U_y5JSHcl0S_thumb.jpg",
+          "type": "video",
+          "date_taken": "2026-10-20 15:49:54",
+          "coords": null
+        },
+        {
+          "url": "gdrive_cache/1IzQqyoes3yNFsrnuT18QhSQbYyHP-VrV.mov",
+          "thumb_url": "gdrive_cache/1IzQqyoes3yNFsrnuT18QhSQbYyHP-VrV_thumb.jpg",
+          "type": "video",
+          "date_taken": "2026-10-20 15:51:48",
+          "coords": null
+        },
+        {
+          "url": "gdrive_cache/1pUI0BmUXmNQRGVuenFL9KGfADY6nwIqF.jpg",
+          "thumb_url": "gdrive_cache/1pUI0BmUXmNQRGVuenFL9KGfADY6nwIqF_thumb.jpg",
+          "type": "image",
+          "date_taken": "2026-10-10 17:44:56",
+          "coords": null
+        },
+        {
+          "url": "gdrive_cache/12pFoncJMsbGQQGv0ik5E6FV9x8u8EbO3.mov",
+          "thumb_url": "gdrive_cache/12pFoncJMsbGQQGv0ik5E6FV9x8u8EbO3_thumb.jpg",
+          "type": "video",
+          "date_taken": "2026-10-20 15:53:47",
+          "coords": null
+        },
+        {
+          "url": "gdrive_cache/1AwzLOOAvdOWf8_BRq0_TA5S36Ln8m1S1.mov",
+          "thumb_url": "gdrive_cache/1AwzLOOAvdOWf8_BRq0_TA5S36Ln8m1S1_thumb.jpg",
+          "type": "video",
+          "date_taken": "2026-10-20 15:54:56",
+          "coords": null
+        },
+        {
+          "url": "gdrive_cache/1qzdmJZ3krR00lDK-5TkS9ooAamfIB8r8.mov",
+          "thumb_url": "gdrive_cache/1qzdmJZ3krR00lDK-5TkS9ooAamfIB8r8_thumb.jpg",
+          "type": "video",
+          "date_taken": "2026-10-20 15:56:14",
+          "coords": null
+        },
+        {
+          "url": "gdrive_cache/1uOjSIAWB5_NYRpDHZXNOYMtZcGwy_B4P.mov",
+          "thumb_url": "gdrive_cache/1uOjSIAWB5_NYRpDHZXNOYMtZcGwy_B4P_thumb.jpg",
+          "type": "video",
+          "date_taken": "2026-10-20 15:59:45",
+          "coords": null
+        },
+        {
+          "url": "gdrive_cache/1YWLgM564DX-PkA1aGiI7rhWfNY5wVFtm.jpg",
+          "thumb_url": "gdrive_cache/1YWLgM564DX-PkA1aGiI7rhWfNY5wVFtm_thumb.jpg",
+          "type": "image",
+          "date_taken": "2026:10:10 16:59:00",
+          "coords": [
+            -6.147622,
+            106.896278
+          ]
+        },
+        {
+          "url": "gdrive_cache/1xAEYThBGrT1uT6nkkggR9NXrMwIGJ5nz.jpg",
+          "thumb_url": "gdrive_cache/1xAEYThBGrT1uT6nkkggR9NXrMwIGJ5nz_thumb.jpg",
+          "type": "image",
+          "date_taken": "2026:10:10 16:59:17",
+          "coords": [
+            -6.147614,
+            106.896264
+          ]
+        },
+        {
+          "url": "gdrive_cache/1M-AH45PSDXjMIv-zHCvgKocJjR8Fn0ND.jpg",
+          "thumb_url": "gdrive_cache/1M-AH45PSDXjMIv-zHCvgKocJjR8Fn0ND_thumb.jpg",
+          "type": "image",
+          "date_taken": "2026:10:10 16:59:19",
+          "coords": [
+            -6.147614,
+            106.896264
+          ]
+        },
+        {
+          "url": "gdrive_cache/1jIiNt7MGFZn7ntLayF9GVMW-iuH09EJw.jpg",
+          "thumb_url": "gdrive_cache/1jIiNt7MGFZn7ntLayF9GVMW-iuH09EJw_thumb.jpg",
+          "type": "image",
+          "date_taken": "2026:10:10 16:02:00",
+          "coords": [
+            -6.149839,
+            106.886086
+          ]
+        },
+        {
+          "url": "gdrive_cache/1DfBpLsLaLdNUV2sdqhDX_YoVTSjNpzHn.mov",
+          "thumb_url": "gdrive_cache/1DfBpLsLaLdNUV2sdqhDX_YoVTSjNpzHn_thumb.jpg",
+          "type": "video",
+          "date_taken": "2026-10-20 16:00:16",
+          "coords": null
+        },
+        {
+          "url": "gdrive_cache/1mP4evkw-gqWllVPk-4krLdYGJ3JcujF8.mov",
+          "thumb_url": "gdrive_cache/1mP4evkw-gqWllVPk-4krLdYGJ3JcujF8_thumb.jpg",
+          "type": "video",
+          "date_taken": "2026-10-20 16:00:49",
+          "coords": null
+        }
+      ],
+      "location": [
+        -6.149839,
+        106.886086
+      ],
+      "timeline_stops": [
+        {
+          "name": "Stop #1",
+          "time": "16:02",
+          "coords": [
+            -6.149839,
+            106.886086
+          ]
+        },
+        {
+          "name": "Stop #2",
+          "time": "16:59",
+          "coords": [
+            -6.147622,
+            106.896278
+          ]
+        },
+        {
+          "name": "Stop #3",
+          "time": "16:59",
+          "coords": [
+            -6.147614,
+            106.896264
+          ]
+        },
+        {
+          "name": "Stop #4",
+          "time": "16:59",
+          "coords": [
+            -6.147614,
+            106.896264
+          ]
+        }
+      ],
+      "timeline_path": [
+        [
+          -6.149812,
+          106.886093
+        ],
+        [
+          -6.149786,
+          106.885991
+        ],
+        [
+          -6.149698,
+          106.885652
+        ],
+        [
+          -6.149671,
+          106.88563
+        ],
+        [
+          -6.149648,
+          106.885625
+        ],
+        [
+          -6.149622,
+          106.885629
+        ],
+        [
+          -6.149602,
+          106.885647
+        ],
+        [
+          -6.149591,
+          106.885678
+        ],
+        [
+          -6.14967,
+          106.886
+        ],
+        [
+          -6.149776,
+          106.886538
+        ],
+        [
+          -6.149852,
+          106.886837
+        ],
+        [
+          -6.150046,
+          106.887405
+        ],
+        [
+          -6.15008,
+          106.887511
+        ],
+        [
+          -6.150107,
+          106.887594
+        ],
+        [
+          -6.150112,
+          106.887606
+        ],
+        [
+          -6.15017,
+          106.887753
+        ],
+        [
+          -6.15033,
+          106.888157
+        ],
+        [
+          -6.150351,
+          106.888195
+        ],
+        [
+          -6.150368,
+          106.88832
+        ],
+        [
+          -6.150369,
+          106.888392
+        ],
+        [
+          -6.150362,
+          106.888478
+        ],
+        [
+          -6.150341,
+          106.888531
+        ],
+        [
+          -6.150295,
+          106.888568
+        ],
+        [
+          -6.150162,
+          106.888625
+        ],
+        [
+          -6.149539,
+          106.888896
+        ],
+        [
+          -6.148982,
+          106.889138
+        ],
+        [
+          -6.148867,
+          106.889185
+        ],
+        [
+          -6.148749,
+          106.889239
+        ],
+        [
+          -6.148585,
+          106.889314
+        ],
+        [
+          -6.148497,
+          106.889347
+        ],
+        [
+          -6.148342,
+          106.88939
+        ],
+        [
+          -6.148185,
+          106.889459
+        ],
+        [
+          -6.148095,
+          106.889499
+        ],
+        [
+          -6.147941,
+          106.889557
+        ],
+        [
+          -6.147831,
+          106.889587
+        ],
+        [
+          -6.147621,
+          106.889644
+        ],
+        [
+          -6.147438,
+          106.889682
+        ],
+        [
+          -6.147227,
+          106.889742
+        ],
+        [
+          -6.147046,
+          106.889789
+        ],
+        [
+          -6.146848,
+          106.889834
+        ],
+        [
+          -6.14661,
+          106.889885
+        ],
+        [
+          -6.146251,
+          106.889972
+        ],
+        [
+          -6.145978,
+          106.890034
+        ],
+        [
+          -6.145547,
+          106.890132
+        ],
+        [
+          -6.14525,
+          106.890195
+        ],
+        [
+          -6.144887,
+          106.890256
+        ],
+        [
+          -6.144742,
+          106.890274
+        ],
+        [
+          -6.144589,
+          106.89029
+        ],
+        [
+          -6.144493,
+          106.890283
+        ],
+        [
+          -6.143945,
+          106.890381
+        ],
+        [
+          -6.143127,
+          106.890476
+        ],
+        [
+          -6.143002,
+          106.890481
+        ],
+        [
+          -6.142897,
+          106.89052
+        ],
+        [
+          -6.142583,
+          106.890592
+        ],
+        [
+          -6.142552,
+          106.890601
+        ],
+        [
+          -6.142462,
+          106.890625
+        ],
+        [
+          -6.142388,
+          106.890643
+        ],
+        [
+          -6.142007,
+          106.890736
+        ],
+        [
+          -6.14196,
+          106.890764
+        ],
+        [
+          -6.141925,
+          106.890794
+        ],
+        [
+          -6.141898,
+          106.89083
+        ],
+        [
+          -6.141883,
+          106.890875
+        ],
+        [
+          -6.141877,
+          106.890922
+        ],
+        [
+          -6.141879,
+          106.89097
+        ],
+        [
+          -6.141891,
+          106.891017
+        ],
+        [
+          -6.14191,
+          106.891061
+        ],
+        [
+          -6.141938,
+          106.8911
+        ],
+        [
+          -6.141972,
+          106.891134
+        ],
+        [
+          -6.142012,
+          106.89116
+        ],
+        [
+          -6.142032,
+          106.89117
+        ],
+        [
+          -6.142055,
+          106.891179
+        ],
+        [
+          -6.142097,
+          106.891185
+        ],
+        [
+          -6.142143,
+          106.891185
+        ],
+        [
+          -6.142485,
+          106.891106
+        ],
+        [
+          -6.142604,
+          106.891078
+        ],
+        [
+          -6.142933,
+          106.890997
+        ],
+        [
+          -6.143026,
+          106.890973
+        ],
+        [
+          -6.143277,
+          106.89091
+        ],
+        [
+          -6.143348,
+          106.890914
+        ],
+        [
+          -6.143377,
+          106.890921
+        ],
+        [
+          -6.143405,
+          106.890934
+        ],
+        [
+          -6.143428,
+          106.890953
+        ],
+        [
+          -6.143446,
+          106.890976
+        ],
+        [
+          -6.143461,
+          106.891005
+        ],
+        [
+          -6.143473,
+          106.891036
+        ],
+        [
+          -6.14354,
+          106.891285
+        ],
+        [
+          -6.143546,
+          106.891302
+        ],
+        [
+          -6.143574,
+          106.891383
+        ],
+        [
+          -6.143621,
+          106.891555
+        ],
+        [
+          -6.143672,
+          106.891698
+        ],
+        [
+          -6.143731,
+          106.891837
+        ],
+        [
+          -6.143796,
+          106.891981
+        ],
+        [
+          -6.143864,
+          106.892122
+        ],
+        [
+          -6.144224,
+          106.892818
+        ],
+        [
+          -6.144266,
+          106.892896
+        ],
+        [
+          -6.144789,
+          106.893864
+        ],
+        [
+          -6.144817,
+          106.893917
+        ],
+        [
+          -6.145093,
+          106.894429
+        ],
+        [
+          -6.145193,
+          106.894613
+        ],
+        [
+          -6.145275,
+          106.894766
+        ],
+        [
+          -6.145338,
+          106.894883
+        ],
+        [
+          -6.145442,
+          106.895075
+        ],
+        [
+          -6.145663,
+          106.895485
+        ],
+        [
+          -6.146352,
+          106.896761
+        ],
+        [
+          -6.146404,
+          106.896857
+        ],
+        [
+          -6.14697,
+          106.897906
+        ],
+        [
+          -6.147002,
+          106.897888
+        ],
+        [
+          -6.147083,
+          106.897843
+        ],
+        [
+          -6.147123,
+          106.897821
+        ],
+        [
+          -6.147063,
+          106.897709
+        ],
+        [
+          -6.147026,
+          106.897639
+        ],
+        [
+          -6.14689,
+          106.89739
+        ],
+        [
+          -6.146866,
+          106.897348
+        ],
+        [
+          -6.146756,
+          106.897144
+        ],
+        [
+          -6.146693,
+          106.897027
+        ],
+        [
+          -6.146578,
+          106.896801
+        ],
+        [
+          -6.146524,
+          106.896699
+        ],
+        [
+          -6.146419,
+          106.896502
+        ],
+        [
+          -6.146331,
+          106.89634
+        ],
+        [
+          -6.14638,
+          106.896307
+        ],
+        [
+          -6.146749,
+          106.896063
+        ],
+        [
+          -6.14679,
+          106.896039
+        ],
+        [
+          -6.146934,
+          106.895957
+        ],
+        [
+          -6.147382,
+          106.895697
+        ],
+        [
+          -6.147411,
+          106.895705
+        ],
+        [
+          -6.147441,
+          106.895706
+        ],
+        [
+          -6.147485,
+          106.895694
+        ],
+        [
+          -6.147698,
+          106.895602
+        ],
+        [
+          -6.147943,
+          106.896029
+        ],
+        [
+          -6.148065,
+          106.896245
+        ],
+        [
+          -6.147933,
+          106.896325
+        ],
+        [
+          -6.14791,
+          106.896318
+        ],
+        [
+          -6.147831,
+          106.896167
+        ],
+        [
+          -6.147823,
+          106.896153
+        ],
+        [
+          -6.147823,
+          106.896153
         ]
       ]
     },
@@ -21032,6 +21815,123 @@ window.WYN_DATA = {
           "type": "video",
           "date_taken": "2026-10-20 15:29:16",
           "coords": null
+        },
+        {
+          "url": "gdrive_cache/1FODuaC6g3LGcguAJ4UM_22L-_MhE-q2R.mov",
+          "thumb_url": "gdrive_cache/1FODuaC6g3LGcguAJ4UM_22L-_MhE-q2R_thumb.jpg",
+          "type": "video",
+          "date_taken": "2026-10-20 15:35:31",
+          "coords": null
+        },
+        {
+          "url": "gdrive_cache/1rvFFJDb101o8R86nx-Xne8LRBvcYc8iV.jpg",
+          "thumb_url": "gdrive_cache/1rvFFJDb101o8R86nx-Xne8LRBvcYc8iV_thumb.jpg",
+          "type": "image",
+          "date_taken": "2026:10:17 14:40:53",
+          "coords": [
+            -6.0628,
+            106.690064
+          ]
+        },
+        {
+          "url": "gdrive_cache/1NyJMQxLbss6y27Rf5RjzkQGxZHjHlbgB.jpg",
+          "thumb_url": "gdrive_cache/1NyJMQxLbss6y27Rf5RjzkQGxZHjHlbgB_thumb.jpg",
+          "type": "image",
+          "date_taken": "2026:10:17 14:35:16",
+          "coords": [
+            -6.062831,
+            106.690103
+          ]
+        },
+        {
+          "url": "gdrive_cache/1qmipJwwBjNcyLovh89C4SYQ7NWmSDUpv.jpg",
+          "thumb_url": "gdrive_cache/1qmipJwwBjNcyLovh89C4SYQ7NWmSDUpv_thumb.jpg",
+          "type": "image",
+          "date_taken": "2026:10:17 14:27:36",
+          "coords": [
+            -6.062933,
+            106.690217
+          ]
+        },
+        {
+          "url": "gdrive_cache/1xDvreNQBI0y-daW4ehUvNMn7vnHFO-9M.jpg",
+          "thumb_url": "gdrive_cache/1xDvreNQBI0y-daW4ehUvNMn7vnHFO-9M_thumb.jpg",
+          "type": "image",
+          "date_taken": "2026:10:17 14:12:36",
+          "coords": [
+            -6.063267,
+            106.689972
+          ]
+        },
+        {
+          "url": "gdrive_cache/1o6VE2at0LbHoCtYIw562exwmRdlcjHMP.jpg",
+          "thumb_url": "gdrive_cache/1o6VE2at0LbHoCtYIw562exwmRdlcjHMP_thumb.jpg",
+          "type": "image",
+          "date_taken": "2026:10:17 14:12:19",
+          "coords": [
+            -6.063228,
+            106.689942
+          ]
+        },
+        {
+          "url": "gdrive_cache/1MNrs-FD1elqoVEx0by0heJ2D0hmLx26_.jpg",
+          "thumb_url": "gdrive_cache/1MNrs-FD1elqoVEx0by0heJ2D0hmLx26__thumb.jpg",
+          "type": "image",
+          "date_taken": "2026:10:17 14:12:10",
+          "coords": [
+            -6.063147,
+            106.68985
+          ]
+        },
+        {
+          "url": "gdrive_cache/13ZoBNY35eKvSLWbvgy1BZs4W0_9ThWSW.jpg",
+          "thumb_url": "gdrive_cache/13ZoBNY35eKvSLWbvgy1BZs4W0_9ThWSW_thumb.jpg",
+          "type": "image",
+          "date_taken": "2026:10:17 14:12:35",
+          "coords": [
+            -6.063267,
+            106.689964
+          ]
+        },
+        {
+          "url": "gdrive_cache/12umQs4mj3-IyFC5n79wSEwWiZJYBmH0O.jpg",
+          "thumb_url": "gdrive_cache/12umQs4mj3-IyFC5n79wSEwWiZJYBmH0O_thumb.jpg",
+          "type": "image",
+          "date_taken": "2026:10:17 14:58:23",
+          "coords": [
+            -6.063236,
+            106.689986
+          ]
+        },
+        {
+          "url": "gdrive_cache/1buolf32s_81Gs9sLUXS-Y71hbwVnznSz.jpg",
+          "thumb_url": "gdrive_cache/1buolf32s_81Gs9sLUXS-Y71hbwVnznSz_thumb.jpg",
+          "type": "image",
+          "date_taken": "2026:10:17 14:30:10",
+          "coords": [
+            -6.062931,
+            106.690139
+          ]
+        },
+        {
+          "url": "gdrive_cache/1AlCteUfw13SqWI3iu4EzXAmAGYg_fIun.jpg",
+          "thumb_url": "gdrive_cache/1AlCteUfw13SqWI3iu4EzXAmAGYg_fIun_thumb.jpg",
+          "type": "image",
+          "date_taken": "2026:10:17 14:30:12",
+          "coords": [
+            -6.062886,
+            106.690086
+          ]
+        },
+        {
+          "url": "gdrive_cache/1Kwfi46DBtVzthgYNB9HZubOAf8LeOuOL.jpg",
+          "thumb_url": "gdrive_cache/1Kwfi46DBtVzthgYNB9HZubOAf8LeOuOL_thumb.jpg",
+          "type": "image",
+          "date_taken": "2026:10:17 14:30:15",
+          "coords": [
+            -6.062864,
+            106.690094
+          ]
         }
       ],
       "location": [
