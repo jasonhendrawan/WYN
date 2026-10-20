@@ -177,7 +177,7 @@ for folder in subfolders:
     # List media files
     media_res = drive_service.files().list(
         q=f"'{fid}' in parents and trashed = false",
-        fields='files(id, name, mimeType, size, createdTime, imageMediaMetadata, videoMediaMetadata)',
+        fields='files(id, name, mimeType, size, createdTime, md5Checksum, imageMediaMetadata, videoMediaMetadata)',
         pageSize=100
     ).execute()
     
@@ -187,6 +187,33 @@ for folder in subfolders:
         continue
         
     media_files.sort(key=lambda x: x.get('createdTime', ''))
+    
+    # Deduplicate media files by md5Checksum or (name + size)
+    seen_media = set()
+    unique_media = []
+    duplicate_ids = []
+    for m in media_files:
+        md5 = m.get('md5Checksum')
+        key = md5 if md5 else (m.get('name'), m.get('size'))
+        if key in seen_media:
+            print(f"  Detected duplicate file '{m.get('name')}' (ID: {m['id']}), excluding from website.")
+            duplicate_ids.append(m['id'])
+            continue
+        seen_media.add(key)
+        unique_media.append(m)
+    media_files = unique_media
+
+    # Clean up local cache for any duplicate files
+    for dup_id in duplicate_ids:
+        for ext in ['.jpg', '.mp4', '.mov', '_thumb.jpg']:
+            for cache_dir in ['dist/gdrive_cache', 'assets/gdrive_cache']:
+                dp = os.path.join(cache_dir, f"{dup_id}{ext}")
+                if os.path.exists(dp):
+                    try:
+                        os.remove(dp)
+                        print(f"  Cleaned up local cached duplicate: {dp}")
+                    except Exception:
+                        pass
     
     # Check if folder already fully synced and cached with verified dates
     is_cached = (
@@ -417,40 +444,53 @@ for folder in subfolders:
     updated_trips.append(trip_data)
 
 # Apply live cloud overrides from Neon Edge DB so static data.js is always up-to-date
-try:
-    neon_url = "https://ep-withered-feather-b3n0w2vd.c-4.ap-southeast-1.aws.neon.tech/sql"
-    neon_conn = "postgresql://neondb_owner:npg_a4uAMZfocK0I@ep-withered-feather-b3n0w2vd.c-4.ap-southeast-1.aws.neon.tech/neondb?sslmode=require"
-    req_sql = urllib.request.Request(
-        neon_url,
-        data=json.dumps({
-            "query": "SELECT key, value FROM app_settings WHERE key IN ('cover_overrides', 'date_overrides', 'favorites', 'bucket_list');",
-            "params": []
-        }).encode("utf-8"),
-        headers={"Content-Type": "application/json", "Neon-Connection-String": neon_conn}
-    )
-    with urllib.request.urlopen(req_sql, timeout=8) as resp:
-        res_json = json.loads(resp.read().decode("utf-8"))
-        cloud_settings = {}
-        for r in res_json.get("rows", []):
-            try:
-                cloud_settings[r["key"]] = json.loads(r["value"])
-            except Exception:
-                pass
-        c_covers = cloud_settings.get("cover_overrides") or {}
-        c_dates = cloud_settings.get("date_overrides") or {}
-        for t in updated_trips:
-            tid = t.get("id", "")
-            ttitle = t.get("title", "")
-            if tid in c_covers or ttitle in c_covers:
-                t["image_path"] = c_covers.get(tid) or c_covers.get(ttitle)
-            if tid in c_dates or ttitle in c_dates:
-                t["date"] = c_dates.get(tid) or c_dates.get(ttitle)
-        if isinstance(cloud_settings.get("favorites"), list):
-            wyn_data["favorites"] = cloud_settings["favorites"]
-        if isinstance(cloud_settings.get("bucket_list"), list):
-            wyn_data["bucket_list"] = cloud_settings["bucket_list"]
-except Exception as e:
-    print(f"  Note: Cloud settings fetch skipped ({e})")
+neon_conn = os.environ.get("NEON_DATABASE_URL") or os.environ.get("DATABASE_URL")
+if not neon_conn and os.path.exists(".env"):
+    try:
+        with open(".env", "r", encoding="utf-8") as ef:
+            for line in ef:
+                line = line.strip()
+                if line.startswith("NEON_DATABASE_URL=") or line.startswith("DATABASE_URL="):
+                    neon_conn = line.split("=", 1)[1].strip('"\' ')
+    except Exception:
+        pass
+
+if neon_conn:
+    try:
+        host_match = re.search(r'@([^:\/]+)', neon_conn)
+        neon_host = host_match.group(1) if host_match else "ep-withered-feather-b3n0w2vd.c-4.ap-southeast-1.aws.neon.tech"
+        neon_url = os.environ.get("NEON_HTTP_URL", f"https://{neon_host}/sql")
+        req_sql = urllib.request.Request(
+            neon_url,
+            data=json.dumps({
+                "query": "SELECT key, value FROM app_settings WHERE key IN ('cover_overrides', 'date_overrides', 'favorites', 'bucket_list');",
+                "params": []
+            }).encode("utf-8"),
+            headers={"Content-Type": "application/json", "Neon-Connection-String": neon_conn}
+        )
+        with urllib.request.urlopen(req_sql, timeout=8) as resp:
+            res_json = json.loads(resp.read().decode("utf-8"))
+            cloud_settings = {}
+            for r in res_json.get("rows", []):
+                try:
+                    cloud_settings[r["key"]] = json.loads(r["value"])
+                except Exception:
+                    pass
+            c_covers = cloud_settings.get("cover_overrides") or {}
+            c_dates = cloud_settings.get("date_overrides") or {}
+            for t in updated_trips:
+                tid = t.get("id", "")
+                ttitle = t.get("title", "")
+                if tid in c_covers or ttitle in c_covers:
+                    t["image_path"] = c_covers.get(tid) or c_covers.get(ttitle)
+                if tid in c_dates or ttitle in c_dates:
+                    t["date"] = c_dates.get(tid) or c_dates.get(ttitle)
+            if isinstance(cloud_settings.get("favorites"), list):
+                wyn_data["favorites"] = cloud_settings["favorites"]
+            if isinstance(cloud_settings.get("bucket_list"), list):
+                wyn_data["bucket_list"] = cloud_settings["bucket_list"]
+    except Exception as e:
+        print(f"  Note: Cloud settings fetch skipped ({e})")
 
 # Sort all trips chronologically (supports both YYYY-MM-DD and '2 Aug 2026')
 def _parse_sort_date(d_str):

@@ -1,6 +1,3 @@
-const DEFAULT_NEON_URL = "https://ep-withered-feather-b3n0w2vd.c-4.ap-southeast-1.aws.neon.tech/sql";
-const DEFAULT_CONN_STR = "postgresql://neondb_owner:npg_a4uAMZfocK0I@ep-withered-feather-b3n0w2vd.c-4.ap-southeast-1.aws.neon.tech/neondb?sslmode=require";
-
 const CORS_HEADERS = {
   "Content-Type": "application/json",
   "Cache-Control": "no-store, no-cache, must-revalidate, max-age=0",
@@ -10,8 +7,17 @@ const CORS_HEADERS = {
 };
 
 async function runSql(env, query, params = []) {
-  const neonUrl = (env && env.NEON_HTTP_URL) || DEFAULT_NEON_URL;
-  const connStr = (env && env.DATABASE_URL) || DEFAULT_CONN_STR;
+  const connStr = env && (env.DATABASE_URL || env.NEON_DATABASE_URL);
+  if (!connStr) {
+    throw new Error("DATABASE_URL secret is not configured in Cloudflare Pages environment.");
+  }
+
+  let neonUrl = env && env.NEON_HTTP_URL;
+  if (!neonUrl) {
+    const hostMatch = connStr.match(/@([^:\/]+)/);
+    const host = hostMatch ? hostMatch[1] : "ep-withered-feather-b3n0w2vd.c-4.ap-southeast-1.aws.neon.tech";
+    neonUrl = `https://${host}/sql`;
+  }
 
   const resp = await fetch(neonUrl, {
     method: "POST",

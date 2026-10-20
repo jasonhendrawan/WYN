@@ -97,9 +97,6 @@ document.addEventListener('DOMContentLoaded', () => {
   let theme = localStorage.getItem('wyn_theme') || 'dark';
 
   // --- LIVE CLOUD SYNC ENGINE (Cloudflare Pages Functions + Neon Edge DB) ---
-  const NEON_FALLBACK_URL = "https://ep-withered-feather-b3n0w2vd.c-4.ap-southeast-1.aws.neon.tech/sql";
-  const NEON_FALLBACK_CONN = "postgresql://neondb_owner:npg_a4uAMZfocK0I@ep-withered-feather-b3n0w2vd.c-4.ap-southeast-1.aws.neon.tech/neondb?sslmode=require";
-
   async function pushToCloud(updates) {
     try {
       const resp = await fetch('/api/state', {
@@ -108,37 +105,6 @@ document.addEventListener('DOMContentLoaded', () => {
         body: JSON.stringify(updates)
       });
       if (resp.ok) return await resp.json();
-    } catch (_) {
-      // Fallback to direct Neon HTTP SQL if /api/state is not mounted
-    }
-
-    try {
-      for (const [key, val] of Object.entries(updates)) {
-        let finalVal = val;
-        if ((key === 'cover_overrides' || key === 'date_overrides') && typeof val === 'object') {
-          const curRes = await fetch(NEON_FALLBACK_URL, {
-            method: 'POST',
-            headers: { 'Content-Type': 'application/json', 'Neon-Connection-String': NEON_FALLBACK_CONN },
-            body: JSON.stringify({ query: "SELECT value FROM app_settings WHERE key = $1;", params: [key] })
-          });
-          if (curRes.ok) {
-            const curData = await curRes.json();
-            if (curData.rows && curData.rows[0]) {
-              try {
-                finalVal = { ...JSON.parse(curData.rows[0].value), ...val };
-              } catch (_) {}
-            }
-          }
-        }
-        await fetch(NEON_FALLBACK_URL, {
-          method: 'POST',
-          headers: { 'Content-Type': 'application/json', 'Neon-Connection-String': NEON_FALLBACK_CONN },
-          body: JSON.stringify({
-            query: "INSERT INTO app_settings (key, value) VALUES ($1, $2) ON CONFLICT (key) DO UPDATE SET value = EXCLUDED.value;",
-            params: [key, JSON.stringify(finalVal)]
-          })
-        });
-      }
     } catch (err) {
       console.warn('Cloud sync push warning:', err);
     }
@@ -161,23 +127,7 @@ document.addEventListener('DOMContentLoaded', () => {
         if (json && json.ok) return json;
       }
     } catch (_) {}
-
-    // Direct Neon HTTP fallback
-    const res = await fetch(NEON_FALLBACK_URL, {
-      method: 'POST',
-      headers: { 'Content-Type': 'application/json', 'Neon-Connection-String': NEON_FALLBACK_CONN },
-      body: JSON.stringify({
-        query: "SELECT key, value FROM app_settings WHERE key IN ('cover_overrides', 'date_overrides', 'favorites', 'bucket_list');",
-        params: []
-      })
-    });
-    if (!res.ok) return null;
-    const raw = await res.json();
-    const state = { cover_overrides: {}, date_overrides: {}, favorites: null, bucket_list: null };
-    for (const row of (raw.rows || [])) {
-      try { state[row.key] = JSON.parse(row.value); } catch (_) {}
-    }
-    return state;
+    return null;
   }
 
   async function syncFromCloud() {

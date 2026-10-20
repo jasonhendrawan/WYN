@@ -10,7 +10,7 @@ logger = logging.getLogger("WYN_DB")
 DB_URL = getattr(
     rxconfig.config,
     "db_url",
-    "postgresql://neondb_owner:npg_a4uAMZfocK0I@ep-withered-feather-b3n0w2vd.c-4.ap-southeast-1.aws.neon.tech/neondb?sslmode=require"
+    os.environ.get("DATABASE_URL") or os.environ.get("NEON_DATABASE_URL", "")
 )
 
 def get_connection():
