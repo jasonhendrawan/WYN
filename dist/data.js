@@ -1,6 +1,421 @@
 window.WYN_DATA = {
-  "last_sync": "2026-09-23 23:15:53",
+  "last_sync": "2026-10-20 22:29:18",
   "past_dates": [
+    {
+      "id": "1bSVYM6rBxkVIU1U55-lvK_1v_ms_hAqI",
+      "date": "2 Aug 2026",
+      "title": "Day 1",
+      "description": "",
+      "image_path": "gdrive_cache/1LnIpM4eqfoaK7PrtUVCLVXDt54Po-U0B_thumb.jpg",
+      "images": [
+        {
+          "url": "gdrive_cache/1LQl0fgnFa6uEcj_vzgFO2XhA1lglxkX-.mp4",
+          "thumb_url": "gdrive_cache/1LQl0fgnFa6uEcj_vzgFO2XhA1lglxkX-_thumb.jpg",
+          "type": "video",
+          "date_taken": "2026-08-04 15:10:30"
+        },
+        {
+          "url": "gdrive_cache/1xAS9VcrmTbLsUfyTZ0KNFMeAjoe9tOFj.jpg",
+          "thumb_url": "gdrive_cache/1xAS9VcrmTbLsUfyTZ0KNFMeAjoe9tOFj_thumb.jpg",
+          "type": "image",
+          "date_taken": "2026-08-04 15:10:30"
+        },
+        {
+          "url": "gdrive_cache/1NudPZH8O2Q1M098bd-5GqfxLSGl9KinJ.jpg",
+          "thumb_url": "gdrive_cache/1NudPZH8O2Q1M098bd-5GqfxLSGl9KinJ_thumb.jpg",
+          "type": "image",
+          "date_taken": "2026-08-04 15:10:30"
+        },
+        {
+          "url": "gdrive_cache/1AzfJIuzf-7onFLQkaWedrKtHihJ4ncMA.jpg",
+          "thumb_url": "gdrive_cache/1AzfJIuzf-7onFLQkaWedrKtHihJ4ncMA_thumb.jpg",
+          "type": "image",
+          "date_taken": "2026-08-04 15:10:30"
+        },
+        {
+          "url": "gdrive_cache/16F24dm73W8gPGOHVjkuINcRa1GKQXGEI.jpg",
+          "thumb_url": "gdrive_cache/16F24dm73W8gPGOHVjkuINcRa1GKQXGEI_thumb.jpg",
+          "type": "image",
+          "date_taken": "2026-08-04 15:10:31"
+        },
+        {
+          "url": "gdrive_cache/1vq1c5qOCylNMFV_-YdMaJZ0gNBevdkzs.jpg",
+          "thumb_url": "gdrive_cache/1vq1c5qOCylNMFV_-YdMaJZ0gNBevdkzs_thumb.jpg",
+          "type": "image",
+          "date_taken": "2026-08-04 15:10:31"
+        },
+        {
+          "url": "gdrive_cache/1-A3NeFugVNUP8dwRqrRuxQjh69jACcZF.jpg",
+          "thumb_url": "gdrive_cache/1-A3NeFugVNUP8dwRqrRuxQjh69jACcZF_thumb.jpg",
+          "type": "image",
+          "date_taken": "2026-08-04 15:10:31"
+        },
+        {
+          "url": "gdrive_cache/1EDf-sdN0cPI73fjcH7MGVlJts7YbAcRL.jpg",
+          "thumb_url": "gdrive_cache/1EDf-sdN0cPI73fjcH7MGVlJts7YbAcRL_thumb.jpg",
+          "type": "image",
+          "date_taken": "2026-08-04 15:10:31"
+        },
+        {
+          "url": "gdrive_cache/1xd2OxaPzBS_ctHRA-UOOCwds1LCHcETw.jpg",
+          "thumb_url": "gdrive_cache/1xd2OxaPzBS_ctHRA-UOOCwds1LCHcETw_thumb.jpg",
+          "type": "image",
+          "date_taken": "2026-08-04 15:10:31"
+        },
+        {
+          "url": "gdrive_cache/15dXS4HNJaZxGDBVtxBIrQGDtxGbkxvUM.jpg",
+          "thumb_url": "gdrive_cache/15dXS4HNJaZxGDBVtxBIrQGDtxGbkxvUM_thumb.jpg",
+          "type": "image",
+          "date_taken": "2026-08-04 15:10:31"
+        },
+        {
+          "url": "gdrive_cache/1ZJsdj_eUV3dH-uWvefnz78sH2Lt4OebA.jpg",
+          "thumb_url": "gdrive_cache/1ZJsdj_eUV3dH-uWvefnz78sH2Lt4OebA_thumb.jpg",
+          "type": "image",
+          "date_taken": "2026-08-04 15:10:31"
+        },
+        {
+          "url": "gdrive_cache/1DqQaoF9gHxXuSl9iIvFtyW0dgmCOPEzf.jpg",
+          "thumb_url": "gdrive_cache/1DqQaoF9gHxXuSl9iIvFtyW0dgmCOPEzf_thumb.jpg",
+          "type": "image",
+          "date_taken": "2026-08-04 15:10:31"
+        },
+        {
+          "url": "gdrive_cache/15fB_TTJEWMpenvErW7LJhiS8LZ6grs5q.jpg",
+          "thumb_url": "gdrive_cache/15fB_TTJEWMpenvErW7LJhiS8LZ6grs5q_thumb.jpg",
+          "type": "image",
+          "date_taken": "2026-08-04 15:10:31"
+        },
+        {
+          "url": "gdrive_cache/1Ow-FtPAThH35LhuTa-zCVJ3IkvVXN4ey.jpg",
+          "thumb_url": "gdrive_cache/1Ow-FtPAThH35LhuTa-zCVJ3IkvVXN4ey_thumb.jpg",
+          "type": "image",
+          "date_taken": "2026-08-04 15:10:31"
+        },
+        {
+          "url": "gdrive_cache/1zoIZr-RKEj6YbfXOOa40HhQ2JK2sxSHC.jpg",
+          "thumb_url": "gdrive_cache/1zoIZr-RKEj6YbfXOOa40HhQ2JK2sxSHC_thumb.jpg",
+          "type": "image",
+          "date_taken": "2026-08-04 15:10:31"
+        },
+        {
+          "url": "gdrive_cache/1RC9bsY_z2LQQH4znr13YCdV8-0mkVHu6.jpg",
+          "thumb_url": "gdrive_cache/1RC9bsY_z2LQQH4znr13YCdV8-0mkVHu6_thumb.jpg",
+          "type": "image",
+          "date_taken": "2026-08-04 15:10:31"
+        },
+        {
+          "url": "gdrive_cache/1Yq2g8mndxbd2KX5TOBJpkj7SVm3DhXKN.jpg",
+          "thumb_url": "gdrive_cache/1Yq2g8mndxbd2KX5TOBJpkj7SVm3DhXKN_thumb.jpg",
+          "type": "image",
+          "date_taken": "2026-08-04 15:10:32"
+        },
+        {
+          "url": "gdrive_cache/1EhwBbo7OZ67AkBEN-80fSpA2REDbXXCr.jpg",
+          "thumb_url": "gdrive_cache/1EhwBbo7OZ67AkBEN-80fSpA2REDbXXCr_thumb.jpg",
+          "type": "image",
+          "date_taken": "2026-08-04 15:10:32"
+        },
+        {
+          "url": "gdrive_cache/1eii_Oyk-EIeCaY6Q1_LUe8F_JbWTbwaS.jpg",
+          "thumb_url": "gdrive_cache/1eii_Oyk-EIeCaY6Q1_LUe8F_JbWTbwaS_thumb.jpg",
+          "type": "image",
+          "date_taken": "2026-08-04 15:10:32"
+        },
+        {
+          "url": "gdrive_cache/1a9iEgpE0x8Evq39bhQ7dHlqDfURhuT0o.jpg",
+          "thumb_url": "gdrive_cache/1a9iEgpE0x8Evq39bhQ7dHlqDfURhuT0o_thumb.jpg",
+          "type": "image",
+          "date_taken": "2026-08-04 15:10:32"
+        },
+        {
+          "url": "gdrive_cache/1aInRLfmWGzKot33oc6pTZZeWR1hcl6K7.jpg",
+          "thumb_url": "gdrive_cache/1aInRLfmWGzKot33oc6pTZZeWR1hcl6K7_thumb.jpg",
+          "type": "image",
+          "date_taken": "2026-08-04 15:10:32"
+        },
+        {
+          "url": "gdrive_cache/1O7qZ9j0x9dOElSEm2VHKffLeUgSrGG2o.jpg",
+          "thumb_url": "gdrive_cache/1O7qZ9j0x9dOElSEm2VHKffLeUgSrGG2o_thumb.jpg",
+          "type": "image",
+          "date_taken": "2026-08-04 15:10:32"
+        },
+        {
+          "url": "gdrive_cache/1lmXjxHQDXudCsCUieaS8_pbo93kdH36X.jpg",
+          "thumb_url": "gdrive_cache/1lmXjxHQDXudCsCUieaS8_pbo93kdH36X_thumb.jpg",
+          "type": "image",
+          "date_taken": "2026-08-04 15:10:32"
+        },
+        {
+          "url": "gdrive_cache/1ih1z-4we8CIdjJCWx7SygQucjrOFxvYV.mp4",
+          "thumb_url": "gdrive_cache/1ih1z-4we8CIdjJCWx7SygQucjrOFxvYV_thumb.jpg",
+          "type": "video",
+          "date_taken": "2026-08-04 15:10:32"
+        },
+        {
+          "url": "gdrive_cache/1LnIpM4eqfoaK7PrtUVCLVXDt54Po-U0B.jpg",
+          "thumb_url": "gdrive_cache/1LnIpM4eqfoaK7PrtUVCLVXDt54Po-U0B_thumb.jpg",
+          "type": "image",
+          "date_taken": "2026-08-04 15:35:48"
+        }
+      ],
+      "location": [
+        -6.0827,
+        106.7118
+      ],
+      "timeline_stops": [
+        {
+          "coords": [
+            -6.30445,
+            106.847905
+          ],
+          "time": "09:05 - 12:00",
+          "type": "WORK",
+          "name": "Jagakarsa Area"
+        },
+        {
+          "coords": [
+            -6.293608,
+            106.855597
+          ],
+          "time": "12:08 - 12:24",
+          "type": "UNKNOWN",
+          "name": "Kramat Jati"
+        },
+        {
+          "coords": [
+            -6.30445,
+            106.847905
+          ],
+          "time": "12:33 - 18:59",
+          "type": "WORK",
+          "name": "Jagakarsa"
+        },
+        {
+          "coords": [
+            -6.056362,
+            106.679337
+          ],
+          "time": "19:54 - 08:17",
+          "type": "HOME",
+          "name": "Home / Kosambi"
+        }
+      ],
+      "timeline_path": [
+        [
+          -6.052018,
+          106.661
+        ],
+        [
+          -6.056624,
+          106.679761
+        ],
+        [
+          -6.049693,
+          106.69585
+        ],
+        [
+          -6.048569,
+          106.698449
+        ],
+        [
+          -6.081156,
+          106.720516
+        ],
+        [
+          -6.087682,
+          106.731669
+        ],
+        [
+          -6.084237,
+          106.735184
+        ],
+        [
+          -6.090819,
+          106.744784
+        ],
+        [
+          -6.116608,
+          106.734674
+        ],
+        [
+          -6.125042,
+          106.730153
+        ],
+        [
+          -6.192396,
+          106.732073
+        ],
+        [
+          -6.243507,
+          106.759064
+        ],
+        [
+          -6.247231,
+          106.760188
+        ],
+        [
+          -6.252935,
+          106.76433
+        ],
+        [
+          -6.275166,
+          106.767995
+        ],
+        [
+          -6.289034,
+          106.778751
+        ],
+        [
+          -6.294912,
+          106.825016
+        ],
+        [
+          -6.304409,
+          106.850501
+        ],
+        [
+          -6.304458,
+          106.848162
+        ],
+        [
+          -6.304645,
+          106.847914
+        ],
+        [
+          -6.303364,
+          106.840769
+        ],
+        [
+          -6.304077,
+          106.850179
+        ],
+        [
+          -6.30166,
+          106.85623
+        ],
+        [
+          -6.294133,
+          106.855822
+        ],
+        [
+          -6.294419,
+          106.855873
+        ],
+        [
+          -6.301786,
+          106.856296
+        ],
+        [
+          -6.304507,
+          106.849305
+        ],
+        [
+          -6.304638,
+          106.84818
+        ],
+        [
+          -6.304655,
+          106.848391
+        ],
+        [
+          -6.304525,
+          106.847876
+        ],
+        [
+          -6.302316,
+          106.837162
+        ],
+        [
+          -6.294057,
+          106.822664
+        ],
+        [
+          -6.291857,
+          106.784589
+        ],
+        [
+          -6.290283,
+          106.780142
+        ],
+        [
+          -6.276393,
+          106.768225
+        ],
+        [
+          -6.262271,
+          106.767207
+        ],
+        [
+          -6.228806,
+          106.751857
+        ],
+        [
+          -6.188853,
+          106.731029
+        ],
+        [
+          -6.122453,
+          106.731002
+        ],
+        [
+          -6.104946,
+          106.740425
+        ],
+        [
+          -6.096649,
+          106.741516
+        ],
+        [
+          -6.093932,
+          106.743184
+        ],
+        [
+          -6.090432,
+          106.742972
+        ],
+        [
+          -6.086044,
+          106.737172
+        ],
+        [
+          -6.087313,
+          106.73241
+        ],
+        [
+          -6.08487,
+          106.724677
+        ],
+        [
+          -6.069524,
+          106.711471
+        ],
+        [
+          -6.068211,
+          106.706308
+        ],
+        [
+          -6.067736,
+          106.696428
+        ],
+        [
+          -6.059295,
+          106.681457
+        ],
+        [
+          -6.056473,
+          106.680931
+        ],
+        [
+          -6.056731,
+          106.679918
+        ],
+        [
+          -6.056337,
+          106.679326
+        ]
+      ]
+    },
     {
       "id": "1rZ0wRjoBRD5HeY6KTOvSe6nQiHxUVLce",
       "date": "2026-05-30",
@@ -3504,421 +3919,6 @@ window.WYN_DATA = {
       ]
     },
     {
-      "id": "1bSVYM6rBxkVIU1U55-lvK_1v_ms_hAqI",
-      "date": "2026-08-04",
-      "title": "Day 1",
-      "description": "",
-      "image_path": "gdrive_cache/1LnIpM4eqfoaK7PrtUVCLVXDt54Po-U0B_thumb.jpg",
-      "images": [
-        {
-          "url": "gdrive_cache/1LQl0fgnFa6uEcj_vzgFO2XhA1lglxkX-.mp4",
-          "thumb_url": "gdrive_cache/1LQl0fgnFa6uEcj_vzgFO2XhA1lglxkX-_thumb.jpg",
-          "type": "video",
-          "date_taken": "2026-08-04 15:10:30"
-        },
-        {
-          "url": "gdrive_cache/1xAS9VcrmTbLsUfyTZ0KNFMeAjoe9tOFj.jpg",
-          "thumb_url": "gdrive_cache/1xAS9VcrmTbLsUfyTZ0KNFMeAjoe9tOFj_thumb.jpg",
-          "type": "image",
-          "date_taken": "2026-08-04 15:10:30"
-        },
-        {
-          "url": "gdrive_cache/1NudPZH8O2Q1M098bd-5GqfxLSGl9KinJ.jpg",
-          "thumb_url": "gdrive_cache/1NudPZH8O2Q1M098bd-5GqfxLSGl9KinJ_thumb.jpg",
-          "type": "image",
-          "date_taken": "2026-08-04 15:10:30"
-        },
-        {
-          "url": "gdrive_cache/1AzfJIuzf-7onFLQkaWedrKtHihJ4ncMA.jpg",
-          "thumb_url": "gdrive_cache/1AzfJIuzf-7onFLQkaWedrKtHihJ4ncMA_thumb.jpg",
-          "type": "image",
-          "date_taken": "2026-08-04 15:10:30"
-        },
-        {
-          "url": "gdrive_cache/16F24dm73W8gPGOHVjkuINcRa1GKQXGEI.jpg",
-          "thumb_url": "gdrive_cache/16F24dm73W8gPGOHVjkuINcRa1GKQXGEI_thumb.jpg",
-          "type": "image",
-          "date_taken": "2026-08-04 15:10:31"
-        },
-        {
-          "url": "gdrive_cache/1vq1c5qOCylNMFV_-YdMaJZ0gNBevdkzs.jpg",
-          "thumb_url": "gdrive_cache/1vq1c5qOCylNMFV_-YdMaJZ0gNBevdkzs_thumb.jpg",
-          "type": "image",
-          "date_taken": "2026-08-04 15:10:31"
-        },
-        {
-          "url": "gdrive_cache/1-A3NeFugVNUP8dwRqrRuxQjh69jACcZF.jpg",
-          "thumb_url": "gdrive_cache/1-A3NeFugVNUP8dwRqrRuxQjh69jACcZF_thumb.jpg",
-          "type": "image",
-          "date_taken": "2026-08-04 15:10:31"
-        },
-        {
-          "url": "gdrive_cache/1EDf-sdN0cPI73fjcH7MGVlJts7YbAcRL.jpg",
-          "thumb_url": "gdrive_cache/1EDf-sdN0cPI73fjcH7MGVlJts7YbAcRL_thumb.jpg",
-          "type": "image",
-          "date_taken": "2026-08-04 15:10:31"
-        },
-        {
-          "url": "gdrive_cache/1xd2OxaPzBS_ctHRA-UOOCwds1LCHcETw.jpg",
-          "thumb_url": "gdrive_cache/1xd2OxaPzBS_ctHRA-UOOCwds1LCHcETw_thumb.jpg",
-          "type": "image",
-          "date_taken": "2026-08-04 15:10:31"
-        },
-        {
-          "url": "gdrive_cache/15dXS4HNJaZxGDBVtxBIrQGDtxGbkxvUM.jpg",
-          "thumb_url": "gdrive_cache/15dXS4HNJaZxGDBVtxBIrQGDtxGbkxvUM_thumb.jpg",
-          "type": "image",
-          "date_taken": "2026-08-04 15:10:31"
-        },
-        {
-          "url": "gdrive_cache/1ZJsdj_eUV3dH-uWvefnz78sH2Lt4OebA.jpg",
-          "thumb_url": "gdrive_cache/1ZJsdj_eUV3dH-uWvefnz78sH2Lt4OebA_thumb.jpg",
-          "type": "image",
-          "date_taken": "2026-08-04 15:10:31"
-        },
-        {
-          "url": "gdrive_cache/1DqQaoF9gHxXuSl9iIvFtyW0dgmCOPEzf.jpg",
-          "thumb_url": "gdrive_cache/1DqQaoF9gHxXuSl9iIvFtyW0dgmCOPEzf_thumb.jpg",
-          "type": "image",
-          "date_taken": "2026-08-04 15:10:31"
-        },
-        {
-          "url": "gdrive_cache/15fB_TTJEWMpenvErW7LJhiS8LZ6grs5q.jpg",
-          "thumb_url": "gdrive_cache/15fB_TTJEWMpenvErW7LJhiS8LZ6grs5q_thumb.jpg",
-          "type": "image",
-          "date_taken": "2026-08-04 15:10:31"
-        },
-        {
-          "url": "gdrive_cache/1Ow-FtPAThH35LhuTa-zCVJ3IkvVXN4ey.jpg",
-          "thumb_url": "gdrive_cache/1Ow-FtPAThH35LhuTa-zCVJ3IkvVXN4ey_thumb.jpg",
-          "type": "image",
-          "date_taken": "2026-08-04 15:10:31"
-        },
-        {
-          "url": "gdrive_cache/1zoIZr-RKEj6YbfXOOa40HhQ2JK2sxSHC.jpg",
-          "thumb_url": "gdrive_cache/1zoIZr-RKEj6YbfXOOa40HhQ2JK2sxSHC_thumb.jpg",
-          "type": "image",
-          "date_taken": "2026-08-04 15:10:31"
-        },
-        {
-          "url": "gdrive_cache/1RC9bsY_z2LQQH4znr13YCdV8-0mkVHu6.jpg",
-          "thumb_url": "gdrive_cache/1RC9bsY_z2LQQH4znr13YCdV8-0mkVHu6_thumb.jpg",
-          "type": "image",
-          "date_taken": "2026-08-04 15:10:31"
-        },
-        {
-          "url": "gdrive_cache/1Yq2g8mndxbd2KX5TOBJpkj7SVm3DhXKN.jpg",
-          "thumb_url": "gdrive_cache/1Yq2g8mndxbd2KX5TOBJpkj7SVm3DhXKN_thumb.jpg",
-          "type": "image",
-          "date_taken": "2026-08-04 15:10:32"
-        },
-        {
-          "url": "gdrive_cache/1EhwBbo7OZ67AkBEN-80fSpA2REDbXXCr.jpg",
-          "thumb_url": "gdrive_cache/1EhwBbo7OZ67AkBEN-80fSpA2REDbXXCr_thumb.jpg",
-          "type": "image",
-          "date_taken": "2026-08-04 15:10:32"
-        },
-        {
-          "url": "gdrive_cache/1eii_Oyk-EIeCaY6Q1_LUe8F_JbWTbwaS.jpg",
-          "thumb_url": "gdrive_cache/1eii_Oyk-EIeCaY6Q1_LUe8F_JbWTbwaS_thumb.jpg",
-          "type": "image",
-          "date_taken": "2026-08-04 15:10:32"
-        },
-        {
-          "url": "gdrive_cache/1a9iEgpE0x8Evq39bhQ7dHlqDfURhuT0o.jpg",
-          "thumb_url": "gdrive_cache/1a9iEgpE0x8Evq39bhQ7dHlqDfURhuT0o_thumb.jpg",
-          "type": "image",
-          "date_taken": "2026-08-04 15:10:32"
-        },
-        {
-          "url": "gdrive_cache/1aInRLfmWGzKot33oc6pTZZeWR1hcl6K7.jpg",
-          "thumb_url": "gdrive_cache/1aInRLfmWGzKot33oc6pTZZeWR1hcl6K7_thumb.jpg",
-          "type": "image",
-          "date_taken": "2026-08-04 15:10:32"
-        },
-        {
-          "url": "gdrive_cache/1O7qZ9j0x9dOElSEm2VHKffLeUgSrGG2o.jpg",
-          "thumb_url": "gdrive_cache/1O7qZ9j0x9dOElSEm2VHKffLeUgSrGG2o_thumb.jpg",
-          "type": "image",
-          "date_taken": "2026-08-04 15:10:32"
-        },
-        {
-          "url": "gdrive_cache/1lmXjxHQDXudCsCUieaS8_pbo93kdH36X.jpg",
-          "thumb_url": "gdrive_cache/1lmXjxHQDXudCsCUieaS8_pbo93kdH36X_thumb.jpg",
-          "type": "image",
-          "date_taken": "2026-08-04 15:10:32"
-        },
-        {
-          "url": "gdrive_cache/1ih1z-4we8CIdjJCWx7SygQucjrOFxvYV.mp4",
-          "thumb_url": "gdrive_cache/1ih1z-4we8CIdjJCWx7SygQucjrOFxvYV_thumb.jpg",
-          "type": "video",
-          "date_taken": "2026-08-04 15:10:32"
-        },
-        {
-          "url": "gdrive_cache/1LnIpM4eqfoaK7PrtUVCLVXDt54Po-U0B.jpg",
-          "thumb_url": "gdrive_cache/1LnIpM4eqfoaK7PrtUVCLVXDt54Po-U0B_thumb.jpg",
-          "type": "image",
-          "date_taken": "2026-08-04 15:35:48"
-        }
-      ],
-      "location": [
-        -6.0827,
-        106.7118
-      ],
-      "timeline_stops": [
-        {
-          "coords": [
-            -6.30445,
-            106.847905
-          ],
-          "time": "09:05 - 12:00",
-          "type": "WORK",
-          "name": "Jagakarsa Area"
-        },
-        {
-          "coords": [
-            -6.293608,
-            106.855597
-          ],
-          "time": "12:08 - 12:24",
-          "type": "UNKNOWN",
-          "name": "Kramat Jati"
-        },
-        {
-          "coords": [
-            -6.30445,
-            106.847905
-          ],
-          "time": "12:33 - 18:59",
-          "type": "WORK",
-          "name": "Jagakarsa"
-        },
-        {
-          "coords": [
-            -6.056362,
-            106.679337
-          ],
-          "time": "19:54 - 08:17",
-          "type": "HOME",
-          "name": "Home / Kosambi"
-        }
-      ],
-      "timeline_path": [
-        [
-          -6.052018,
-          106.661
-        ],
-        [
-          -6.056624,
-          106.679761
-        ],
-        [
-          -6.049693,
-          106.69585
-        ],
-        [
-          -6.048569,
-          106.698449
-        ],
-        [
-          -6.081156,
-          106.720516
-        ],
-        [
-          -6.087682,
-          106.731669
-        ],
-        [
-          -6.084237,
-          106.735184
-        ],
-        [
-          -6.090819,
-          106.744784
-        ],
-        [
-          -6.116608,
-          106.734674
-        ],
-        [
-          -6.125042,
-          106.730153
-        ],
-        [
-          -6.192396,
-          106.732073
-        ],
-        [
-          -6.243507,
-          106.759064
-        ],
-        [
-          -6.247231,
-          106.760188
-        ],
-        [
-          -6.252935,
-          106.76433
-        ],
-        [
-          -6.275166,
-          106.767995
-        ],
-        [
-          -6.289034,
-          106.778751
-        ],
-        [
-          -6.294912,
-          106.825016
-        ],
-        [
-          -6.304409,
-          106.850501
-        ],
-        [
-          -6.304458,
-          106.848162
-        ],
-        [
-          -6.304645,
-          106.847914
-        ],
-        [
-          -6.303364,
-          106.840769
-        ],
-        [
-          -6.304077,
-          106.850179
-        ],
-        [
-          -6.30166,
-          106.85623
-        ],
-        [
-          -6.294133,
-          106.855822
-        ],
-        [
-          -6.294419,
-          106.855873
-        ],
-        [
-          -6.301786,
-          106.856296
-        ],
-        [
-          -6.304507,
-          106.849305
-        ],
-        [
-          -6.304638,
-          106.84818
-        ],
-        [
-          -6.304655,
-          106.848391
-        ],
-        [
-          -6.304525,
-          106.847876
-        ],
-        [
-          -6.302316,
-          106.837162
-        ],
-        [
-          -6.294057,
-          106.822664
-        ],
-        [
-          -6.291857,
-          106.784589
-        ],
-        [
-          -6.290283,
-          106.780142
-        ],
-        [
-          -6.276393,
-          106.768225
-        ],
-        [
-          -6.262271,
-          106.767207
-        ],
-        [
-          -6.228806,
-          106.751857
-        ],
-        [
-          -6.188853,
-          106.731029
-        ],
-        [
-          -6.122453,
-          106.731002
-        ],
-        [
-          -6.104946,
-          106.740425
-        ],
-        [
-          -6.096649,
-          106.741516
-        ],
-        [
-          -6.093932,
-          106.743184
-        ],
-        [
-          -6.090432,
-          106.742972
-        ],
-        [
-          -6.086044,
-          106.737172
-        ],
-        [
-          -6.087313,
-          106.73241
-        ],
-        [
-          -6.08487,
-          106.724677
-        ],
-        [
-          -6.069524,
-          106.711471
-        ],
-        [
-          -6.068211,
-          106.706308
-        ],
-        [
-          -6.067736,
-          106.696428
-        ],
-        [
-          -6.059295,
-          106.681457
-        ],
-        [
-          -6.056473,
-          106.680931
-        ],
-        [
-          -6.056731,
-          106.679918
-        ],
-        [
-          -6.056337,
-          106.679326
-        ]
-      ]
-    },
-    {
       "id": "1-IG5z8J03oGWenHxg9kqsh6dYAjbG1CI",
       "date": "2026-08-08",
       "title": "BEKASI DATEEE",
@@ -4937,528 +4937,6 @@ window.WYN_DATA = {
         [
           -6.056352,
           106.679307
-        ]
-      ]
-    },
-    {
-      "id": "1W8R8nsQO5oUFDAwk8VBBhNMdMyix-nrI",
-      "date": "2026-08-09",
-      "title": "Spider-Man BND",
-      "description": "",
-      "image_path": "gdrive_cache/18oNHhzvSGZYIMzk_rlpj3i1ow8Q_nWdz_thumb.jpg",
-      "images": [
-        {
-          "url": "gdrive_cache/1_8Arl6rZp9hKP-rrfDRfNx47JnzZeSf6.mp4",
-          "thumb_url": "gdrive_cache/1_8Arl6rZp9hKP-rrfDRfNx47JnzZeSf6_thumb.jpg",
-          "type": "video",
-          "date_taken": "2026-08-09 15:05:48"
-        },
-        {
-          "url": "gdrive_cache/1iUNjtaGk7apCs3e0ZmQNkuzWKvd4yVbF.jpg",
-          "thumb_url": "gdrive_cache/1iUNjtaGk7apCs3e0ZmQNkuzWKvd4yVbF_thumb.jpg",
-          "type": "image",
-          "date_taken": "2026-08-09 15:05:49"
-        },
-        {
-          "url": "gdrive_cache/1HWuw2dUfUydVvX--AP1V_U2ZfRAZxScp.jpg",
-          "thumb_url": "gdrive_cache/1HWuw2dUfUydVvX--AP1V_U2ZfRAZxScp_thumb.jpg",
-          "type": "image",
-          "date_taken": "2026-08-09 15:05:50"
-        },
-        {
-          "url": "gdrive_cache/1Xc9d4OqVZzAZn7Hagp2NjENP4PWKLZwM.jpg",
-          "thumb_url": "gdrive_cache/1Xc9d4OqVZzAZn7Hagp2NjENP4PWKLZwM_thumb.jpg",
-          "type": "image",
-          "date_taken": "2026-08-09 15:05:50"
-        },
-        {
-          "url": "gdrive_cache/1qC6fVmGy1yw019_J112Dzo-4_qV0x1hi.jpg",
-          "thumb_url": "gdrive_cache/1qC6fVmGy1yw019_J112Dzo-4_qV0x1hi_thumb.jpg",
-          "type": "image",
-          "date_taken": "2026-08-09 15:05:54"
-        },
-        {
-          "url": "gdrive_cache/18oNHhzvSGZYIMzk_rlpj3i1ow8Q_nWdz.jpg",
-          "thumb_url": "gdrive_cache/18oNHhzvSGZYIMzk_rlpj3i1ow8Q_nWdz_thumb.jpg",
-          "type": "image",
-          "date_taken": "2026-08-09 15:05:55"
-        },
-        {
-          "url": "gdrive_cache/1ykh3EFDIG6QZWYdKPtOYrtay5rTWieL2.jpg",
-          "thumb_url": "gdrive_cache/1ykh3EFDIG6QZWYdKPtOYrtay5rTWieL2_thumb.jpg",
-          "type": "image",
-          "date_taken": "2026-08-09 15:05:55"
-        },
-        {
-          "url": "gdrive_cache/1zRRgr65qVtEiG4svcZ01Cr-Em5tHQgsU.jpg",
-          "thumb_url": "gdrive_cache/1zRRgr65qVtEiG4svcZ01Cr-Em5tHQgsU_thumb.jpg",
-          "type": "image",
-          "date_taken": "2026-08-09 15:05:56"
-        },
-        {
-          "url": "gdrive_cache/1eBuxlkSkRtlwvnFiawRaIG297yS3nWDP.jpg",
-          "thumb_url": "gdrive_cache/1eBuxlkSkRtlwvnFiawRaIG297yS3nWDP_thumb.jpg",
-          "type": "image",
-          "date_taken": "2026-08-09 15:05:58"
-        },
-        {
-          "url": "gdrive_cache/1drs1Y3E737xD_929aYUTbN9ZCxrrxlBu.jpg",
-          "thumb_url": "gdrive_cache/1drs1Y3E737xD_929aYUTbN9ZCxrrxlBu_thumb.jpg",
-          "type": "image",
-          "date_taken": "2026-08-09 15:06:13"
-        },
-        {
-          "url": "gdrive_cache/1_eyamWBNjCeFi6yFEwqWod-jGqGOiN1A.jpg",
-          "thumb_url": "gdrive_cache/1_eyamWBNjCeFi6yFEwqWod-jGqGOiN1A_thumb.jpg",
-          "type": "image",
-          "date_taken": "2026-08-09 15:06:13"
-        },
-        {
-          "url": "gdrive_cache/1FhZjQYIPyUITWlYANqYPjluoTpGHyOBe.jpg",
-          "thumb_url": "gdrive_cache/1FhZjQYIPyUITWlYANqYPjluoTpGHyOBe_thumb.jpg",
-          "type": "image",
-          "date_taken": "2026-08-09 15:06:14"
-        },
-        {
-          "url": "gdrive_cache/1VSt9xIDaQwpRTBfNzjNHiC0Qht_hVQpM.jpg",
-          "thumb_url": "gdrive_cache/1VSt9xIDaQwpRTBfNzjNHiC0Qht_hVQpM_thumb.jpg",
-          "type": "image",
-          "date_taken": "2026-08-09 15:06:15"
-        },
-        {
-          "url": "gdrive_cache/1uW1VnKWoXmCyA1x9gGZqJ7CmZ62e46Gk.jpg",
-          "thumb_url": "gdrive_cache/1uW1VnKWoXmCyA1x9gGZqJ7CmZ62e46Gk_thumb.jpg",
-          "type": "image",
-          "date_taken": "2026-08-09 15:06:16"
-        },
-        {
-          "url": "gdrive_cache/1JAmFz7Usc1m1jp_HcdOIZZkRycRNsMEH.jpg",
-          "thumb_url": "gdrive_cache/1JAmFz7Usc1m1jp_HcdOIZZkRycRNsMEH_thumb.jpg",
-          "type": "image",
-          "date_taken": "2026-08-09 15:06:16"
-        }
-      ],
-      "location": [
-        -6.3045,
-        106.8407
-      ],
-      "timeline_stops": [
-        {
-          "coords": [
-            -6.056362,
-            106.679337
-          ],
-          "time": "00:00 - 11:52",
-          "type": "HOME",
-          "name": "Home / Kosambi"
-        },
-        {
-          "coords": [
-            -6.214653,
-            106.807499
-          ],
-          "time": "12:50 - 14:28",
-          "type": "UNKNOWN",
-          "name": "Senayan City Mall (XXI)"
-        },
-        {
-          "coords": [
-            -6.227195,
-            106.797012
-          ],
-          "time": "14:45 - 16:20",
-          "type": "UNKNOWN",
-          "name": "Senayan Park (SPARK Mall)"
-        },
-        {
-          "coords": [
-            -6.227509,
-            106.797465
-          ],
-          "time": "14:47 - 16:20",
-          "type": "UNKNOWN",
-          "name": "SPARK Skywalk Observation Deck"
-        },
-        {
-          "coords": [
-            -6.225382,
-            106.799076
-          ],
-          "time": "16:22 - 18:17",
-          "type": "UNKNOWN",
-          "name": "GBK Senayan Complex"
-        },
-        {
-          "coords": [
-            -6.225328,
-            106.800061
-          ],
-          "time": "16:28 - 16:41",
-          "type": "UNKNOWN",
-          "name": "Stadion Utama Gelora Bung Karno"
-        },
-        {
-          "coords": [
-            -6.224563,
-            106.798995
-          ],
-          "time": "16:43 - 16:54",
-          "type": "UNKNOWN",
-          "name": "Senayan Park Promenade"
-        },
-        {
-          "coords": [
-            -6.225328,
-            106.800061
-          ],
-          "time": "18:10 - 18:17",
-          "type": "UNKNOWN",
-          "name": "SPARK Lake & Fountain"
-        },
-        {
-          "coords": [
-            -6.227195,
-            106.797012
-          ],
-          "time": "18:22 - 18:38",
-          "type": "UNKNOWN",
-          "name": "Cin\u00e9polis Senayan Park"
-        },
-        {
-          "coords": [
-            -6.227509,
-            106.797465
-          ],
-          "time": "18:22 - 18:31",
-          "type": "UNKNOWN",
-          "name": "Senayan Area"
-        },
-        {
-          "coords": [
-            -6.056362,
-            106.679337
-          ],
-          "time": "19:43 - 08:12",
-          "type": "HOME",
-          "name": "Home / Kosambi"
-        }
-      ],
-      "timeline_path": [
-        [
-          -6.056397,
-          106.680227
-        ],
-        [
-          -6.057618,
-          106.68576
-        ],
-        [
-          -6.052756,
-          106.68962
-        ],
-        [
-          -6.049653,
-          106.695562
-        ],
-        [
-          -6.049637,
-          106.700681
-        ],
-        [
-          -6.055473,
-          106.707479
-        ],
-        [
-          -6.065078,
-          106.709772
-        ],
-        [
-          -6.084862,
-          106.724879
-        ],
-        [
-          -6.087296,
-          106.730929
-        ],
-        [
-          -6.084902,
-          106.734766
-        ],
-        [
-          -6.090394,
-          106.743388
-        ],
-        [
-          -6.092445,
-          106.744426
-        ],
-        [
-          -6.096193,
-          106.742098
-        ],
-        [
-          -6.11664,
-          106.73541
-        ],
-        [
-          -6.119923,
-          106.739515
-        ],
-        [
-          -6.124048,
-          106.776439
-        ],
-        [
-          -6.133809,
-          106.785282
-        ],
-        [
-          -6.149583,
-          106.792374
-        ],
-        [
-          -6.158895,
-          106.792047
-        ],
-        [
-          -6.16786,
-          106.788276
-        ],
-        [
-          -6.181266,
-          106.796802
-        ],
-        [
-          -6.198871,
-          106.798618
-        ],
-        [
-          -6.203506,
-          106.800937
-        ],
-        [
-          -6.203434,
-          106.797619
-        ],
-        [
-          -6.20564,
-          106.795597
-        ],
-        [
-          -6.203107,
-          106.797796
-        ],
-        [
-          -6.201851,
-          106.799401
-        ],
-        [
-          -6.211791,
-          106.806912
-        ],
-        [
-          -6.213365,
-          106.803383
-        ],
-        [
-          -6.215441,
-          106.802711
-        ],
-        [
-          -6.21565,
-          106.805862
-        ],
-        [
-          -6.215552,
-          106.806941
-        ],
-        [
-          -6.215429,
-          106.8072
-        ],
-        [
-          -6.216874,
-          106.806029
-        ],
-        [
-          -6.217993,
-          106.805258
-        ],
-        [
-          -6.215977,
-          106.805194
-        ],
-        [
-          -6.215001,
-          106.802612
-        ],
-        [
-          -6.214879,
-          106.798118
-        ],
-        [
-          -6.228099,
-          106.798212
-        ],
-        [
-          -6.228521,
-          106.796097
-        ],
-        [
-          -6.22725,
-          106.797743
-        ],
-        [
-          -6.226859,
-          106.797892
-        ],
-        [
-          -6.226328,
-          106.798772
-        ],
-        [
-          -6.224504,
-          106.798901
-        ],
-        [
-          -6.225677,
-          106.79951
-        ],
-        [
-          -6.226845,
-          106.798248
-        ],
-        [
-          -6.228103,
-          106.796372
-        ],
-        [
-          -6.216101,
-          106.798146
-        ],
-        [
-          -6.212751,
-          106.805201
-        ],
-        [
-          -6.210546,
-          106.805554
-        ],
-        [
-          -6.19893,
-          106.798282
-        ],
-        [
-          -6.189503,
-          106.79704
-        ],
-        [
-          -6.177936,
-          106.794978
-        ],
-        [
-          -6.172537,
-          106.789378
-        ],
-        [
-          -6.165637,
-          106.78881
-        ],
-        [
-          -6.152141,
-          106.793581
-        ],
-        [
-          -6.1328,
-          106.784724
-        ],
-        [
-          -6.123373,
-          106.772894
-        ],
-        [
-          -6.124474,
-          106.752669
-        ],
-        [
-          -6.115252,
-          106.751599
-        ],
-        [
-          -6.112949,
-          106.750376
-        ],
-        [
-          -6.112614,
-          106.743614
-        ],
-        [
-          -6.109925,
-          106.739082
-        ],
-        [
-          -6.115291,
-          106.735675
-        ],
-        [
-          -6.091749,
-          106.744017
-        ],
-        [
-          -6.086489,
-          106.737721
-        ],
-        [
-          -6.085494,
-          106.734386
-        ],
-        [
-          -6.087758,
-          106.731354
-        ],
-        [
-          -6.083662,
-          106.722714
-        ],
-        [
-          -6.067674,
-          106.709767
-        ],
-        [
-          -6.068205,
-          106.698151
-        ],
-        [
-          -6.067103,
-          106.694825
-        ],
-        [
-          -6.061647,
-          106.688287
-        ],
-        [
-          -6.061056,
-          106.683559
-        ],
-        [
-          -6.058876,
-          106.680945
-        ],
-        [
-          -6.055923,
-          106.680982
-        ],
-        [
-          -6.056719,
-          106.680028
-        ],
-        [
-          -6.056302,
-          106.679324
-        ],
-        [
-          -6.056414,
-          106.679359
         ]
       ]
     },
@@ -12477,7 +11955,7 @@ window.WYN_DATA = {
       "date": "2026-09-05",
       "title": "Orches Date",
       "description": "Memories captured from Orches Date! \u2728",
-      "image_path": "gdrive_cache/192HsKgWiaWcFGizfxPTt4iLRCeKAJCyR_thumb.jpg",
+      "image_path": "gdrive_cache/1Ap_UiLOVm_IlGsw0qo4CmVOBF2lbUrf3_thumb.jpg",
       "images": [
         {
           "url": "gdrive_cache/192HsKgWiaWcFGizfxPTt4iLRCeKAJCyR.jpg",
@@ -19842,7 +19320,7 @@ window.WYN_DATA = {
       "date": "2026-09-12",
       "title": "Safari Date",
       "description": "Memories captured from Safari Date! \u2728",
-      "image_path": "gdrive_cache/1TXE12gths6-pSmVaVmpQ7v6dSMEsrqSx_thumb.jpg",
+      "image_path": "gdrive_cache/13iCStmNY6rGIENn1ICAjZ21nvQEP1QUH_thumb.jpg",
       "images": [
         {
           "url": "gdrive_cache/1TXE12gths6-pSmVaVmpQ7v6dSMEsrqSx.mp4",
@@ -20382,7 +19860,7 @@ window.WYN_DATA = {
       "date": "2026-09-23",
       "title": "Kahitna + Dessert Festival Part 2",
       "description": "Memories captured from Kahitna + Dessert Festival Part 2! \u2728",
-      "image_path": "gdrive_cache/1NBz6Jec1V-WbdfNQ8XD3gL1cbNdtu_Ql.mp4",
+      "image_path": "gdrive_cache/1U7JliWSdhwpwlHuMGtKmtVfM6ld6bnES_thumb.jpg",
       "images": [
         {
           "url": "gdrive_cache/1NBz6Jec1V-WbdfNQ8XD3gL1cbNdtu_Ql.mp4",
@@ -20944,6 +20422,1795 @@ window.WYN_DATA = {
           106.8456
         ]
       ]
+    },
+    {
+      "id": "1r_J9a-LfeMw2QiO5BEN9SelC8DTemsAt",
+      "date": "2026-10-17",
+      "title": "Daun'S date",
+      "description": "Memories captured from Daun'S date! \u2728",
+      "image_path": "gdrive_cache/1c9nD180hX_2ZIOZYyzmEDd3_HNmT7vwR_thumb.jpg",
+      "images": [
+        {
+          "url": "gdrive_cache/1c9nD180hX_2ZIOZYyzmEDd3_HNmT7vwR.mov",
+          "thumb_url": "gdrive_cache/1c9nD180hX_2ZIOZYyzmEDd3_HNmT7vwR_thumb.jpg",
+          "type": "video",
+          "date_taken": "2026-10-20 15:15:45",
+          "coords": null
+        },
+        {
+          "url": "gdrive_cache/1UfQ4jaDQIP-Ge-3spJsJ4bGqAZrjWGDi.jpg",
+          "thumb_url": "gdrive_cache/1UfQ4jaDQIP-Ge-3spJsJ4bGqAZrjWGDi_thumb.jpg",
+          "type": "image",
+          "date_taken": "2026:10:17 16:21:39",
+          "coords": [
+            -6.088933,
+            106.739861
+          ]
+        },
+        {
+          "url": "gdrive_cache/1av0EQ95jIpPZi_liEEHRH3UxHVWmYR87.jpg",
+          "thumb_url": "gdrive_cache/1av0EQ95jIpPZi_liEEHRH3UxHVWmYR87_thumb.jpg",
+          "type": "image",
+          "date_taken": "2026:10:17 16:21:39",
+          "coords": [
+            -6.088933,
+            106.739861
+          ]
+        },
+        {
+          "url": "gdrive_cache/1HENKpnvN14W76UHLZ_Gdh3ZLcqWxB_1k.jpg",
+          "thumb_url": "gdrive_cache/1HENKpnvN14W76UHLZ_Gdh3ZLcqWxB_1k_thumb.jpg",
+          "type": "image",
+          "date_taken": "2026:10:17 16:21:36",
+          "coords": [
+            -6.088944,
+            106.739869
+          ]
+        },
+        {
+          "url": "gdrive_cache/1-NL3obBjXw4vubN8SkfU49OyyLPNJis3.jpg",
+          "thumb_url": "gdrive_cache/1-NL3obBjXw4vubN8SkfU49OyyLPNJis3_thumb.jpg",
+          "type": "image",
+          "date_taken": "2026:10:17 16:21:36",
+          "coords": [
+            -6.088944,
+            106.739869
+          ]
+        },
+        {
+          "url": "gdrive_cache/15fSYfRFJBXIADzWeZGsCmCHX_S8VDLEN.jpg",
+          "thumb_url": "gdrive_cache/15fSYfRFJBXIADzWeZGsCmCHX_S8VDLEN_thumb.jpg",
+          "type": "image",
+          "date_taken": "2026:10:17 14:31:23",
+          "coords": [
+            -6.062839,
+            106.690078
+          ]
+        },
+        {
+          "url": "gdrive_cache/1ydWV3xksRX_uH7lYl0tP89koXcNWQC6E.jpg",
+          "thumb_url": "gdrive_cache/1ydWV3xksRX_uH7lYl0tP89koXcNWQC6E_thumb.jpg",
+          "type": "image",
+          "date_taken": "2026:10:17 14:31:23",
+          "coords": [
+            -6.062839,
+            106.690078
+          ]
+        },
+        {
+          "url": "gdrive_cache/1z-RvbZ996nW8E68NCf62_2i0CmK9S53j.mov",
+          "thumb_url": "gdrive_cache/1z-RvbZ996nW8E68NCf62_2i0CmK9S53j_thumb.jpg",
+          "type": "video",
+          "date_taken": "2026-10-20 15:22:05",
+          "coords": null
+        }
+      ],
+      "location": [
+        -6.062839,
+        106.690078
+      ],
+      "timeline_stops": [
+        {
+          "name": "Stop #1",
+          "time": "14:31",
+          "coords": [
+            -6.062839,
+            106.690078
+          ]
+        },
+        {
+          "name": "Stop #2",
+          "time": "14:31",
+          "coords": [
+            -6.062839,
+            106.690078
+          ]
+        },
+        {
+          "name": "Stop #3",
+          "time": "16:21",
+          "coords": [
+            -6.088944,
+            106.739869
+          ]
+        },
+        {
+          "name": "Stop #4",
+          "time": "16:21",
+          "coords": [
+            -6.088944,
+            106.739869
+          ]
+        },
+        {
+          "name": "Stop #5",
+          "time": "16:21",
+          "coords": [
+            -6.088933,
+            106.739861
+          ]
+        },
+        {
+          "name": "Stop #6",
+          "time": "16:21",
+          "coords": [
+            -6.088933,
+            106.739861
+          ]
+        }
+      ],
+      "timeline_path": [
+        [
+          -6.062589,
+          106.690344
+        ],
+        [
+          -6.062589,
+          106.690344
+        ],
+        [
+          -6.063502,
+          106.691211
+        ],
+        [
+          -6.064306,
+          106.692226
+        ],
+        [
+          -6.063718,
+          106.692676
+        ],
+        [
+          -6.063318,
+          106.693011
+        ],
+        [
+          -6.063126,
+          106.69325
+        ],
+        [
+          -6.062792,
+          106.693647
+        ],
+        [
+          -6.062451,
+          106.693989
+        ],
+        [
+          -6.062381,
+          106.694061
+        ],
+        [
+          -6.06219,
+          106.694257
+        ],
+        [
+          -6.061884,
+          106.694721
+        ],
+        [
+          -6.061376,
+          106.69444
+        ],
+        [
+          -6.060452,
+          106.694077
+        ],
+        [
+          -6.06009,
+          106.693978
+        ],
+        [
+          -6.059795,
+          106.693782
+        ],
+        [
+          -6.059555,
+          106.693731
+        ],
+        [
+          -6.059228,
+          106.69369
+        ],
+        [
+          -6.059169,
+          106.693685
+        ],
+        [
+          -6.059062,
+          106.693674
+        ],
+        [
+          -6.058869,
+          106.693661
+        ],
+        [
+          -6.058776,
+          106.693665
+        ],
+        [
+          -6.058724,
+          106.693681
+        ],
+        [
+          -6.058695,
+          106.693731
+        ],
+        [
+          -6.058689,
+          106.693983
+        ],
+        [
+          -6.05871,
+          106.69402
+        ],
+        [
+          -6.058759,
+          106.694036
+        ],
+        [
+          -6.058984,
+          106.694047
+        ],
+        [
+          -6.05913,
+          106.694053
+        ],
+        [
+          -6.059491,
+          106.694096
+        ],
+        [
+          -6.059708,
+          106.694134
+        ],
+        [
+          -6.060077,
+          106.694135
+        ],
+        [
+          -6.060412,
+          106.69422
+        ],
+        [
+          -6.061317,
+          106.694606
+        ],
+        [
+          -6.061955,
+          106.694951
+        ],
+        [
+          -6.062659,
+          106.695567
+        ],
+        [
+          -6.063144,
+          106.696115
+        ],
+        [
+          -6.063553,
+          106.696729
+        ],
+        [
+          -6.063975,
+          106.697495
+        ],
+        [
+          -6.06421,
+          106.697931
+        ],
+        [
+          -6.0643,
+          106.698124
+        ],
+        [
+          -6.064396,
+          106.698075
+        ],
+        [
+          -6.065135,
+          106.697742
+        ],
+        [
+          -6.065742,
+          106.697468
+        ],
+        [
+          -6.065912,
+          106.697381
+        ],
+        [
+          -6.066356,
+          106.697145
+        ],
+        [
+          -6.066747,
+          106.696903
+        ],
+        [
+          -6.066917,
+          106.696785
+        ],
+        [
+          -6.067094,
+          106.696744
+        ],
+        [
+          -6.06717,
+          106.696727
+        ],
+        [
+          -6.067219,
+          106.696715
+        ],
+        [
+          -6.067267,
+          106.696708
+        ],
+        [
+          -6.067314,
+          106.696706
+        ],
+        [
+          -6.067363,
+          106.696709
+        ],
+        [
+          -6.067411,
+          106.696719
+        ],
+        [
+          -6.067459,
+          106.696738
+        ],
+        [
+          -6.067501,
+          106.696769
+        ],
+        [
+          -6.067541,
+          106.696806
+        ],
+        [
+          -6.067582,
+          106.696852
+        ],
+        [
+          -6.067623,
+          106.696903
+        ],
+        [
+          -6.067706,
+          106.697013
+        ],
+        [
+          -6.067801,
+          106.697323
+        ],
+        [
+          -6.067888,
+          106.697638
+        ],
+        [
+          -6.067974,
+          106.697995
+        ],
+        [
+          -6.068073,
+          106.698427
+        ],
+        [
+          -6.068157,
+          106.698828
+        ],
+        [
+          -6.068216,
+          106.699137
+        ],
+        [
+          -6.068291,
+          106.699573
+        ],
+        [
+          -6.068346,
+          106.699957
+        ],
+        [
+          -6.068381,
+          106.700219
+        ],
+        [
+          -6.068409,
+          106.700475
+        ],
+        [
+          -6.068453,
+          106.700936
+        ],
+        [
+          -6.068465,
+          106.701095
+        ],
+        [
+          -6.068485,
+          106.701431
+        ],
+        [
+          -6.0685,
+          106.701859
+        ],
+        [
+          -6.068507,
+          106.702243
+        ],
+        [
+          -6.068506,
+          106.702518
+        ],
+        [
+          -6.0685,
+          106.702785
+        ],
+        [
+          -6.068489,
+          106.703065
+        ],
+        [
+          -6.068473,
+          106.703341
+        ],
+        [
+          -6.068451,
+          106.703606
+        ],
+        [
+          -6.068419,
+          106.703907
+        ],
+        [
+          -6.06838,
+          106.704232
+        ],
+        [
+          -6.068324,
+          106.704655
+        ],
+        [
+          -6.0683,
+          106.704813
+        ],
+        [
+          -6.068248,
+          106.705163
+        ],
+        [
+          -6.068152,
+          106.705688
+        ],
+        [
+          -6.068081,
+          106.706027
+        ],
+        [
+          -6.068012,
+          106.706334
+        ],
+        [
+          -6.067919,
+          106.706708
+        ],
+        [
+          -6.067849,
+          106.706961
+        ],
+        [
+          -6.067785,
+          106.707175
+        ],
+        [
+          -6.067694,
+          106.707467
+        ],
+        [
+          -6.067211,
+          106.708958
+        ],
+        [
+          -6.067146,
+          106.709142
+        ],
+        [
+          -6.067085,
+          106.709292
+        ],
+        [
+          -6.067027,
+          106.709414
+        ],
+        [
+          -6.066951,
+          106.709556
+        ],
+        [
+          -6.066896,
+          106.709589
+        ],
+        [
+          -6.066847,
+          106.70963
+        ],
+        [
+          -6.066803,
+          106.709678
+        ],
+        [
+          -6.066767,
+          106.709731
+        ],
+        [
+          -6.066738,
+          106.709789
+        ],
+        [
+          -6.066717,
+          106.70985
+        ],
+        [
+          -6.066705,
+          106.709913
+        ],
+        [
+          -6.066702,
+          106.709978
+        ],
+        [
+          -6.066708,
+          106.710042
+        ],
+        [
+          -6.066723,
+          106.710105
+        ],
+        [
+          -6.066747,
+          106.710165
+        ],
+        [
+          -6.066778,
+          106.710222
+        ],
+        [
+          -6.066817,
+          106.710273
+        ],
+        [
+          -6.066863,
+          106.710318
+        ],
+        [
+          -6.066914,
+          106.710357
+        ],
+        [
+          -6.066971,
+          106.710388
+        ],
+        [
+          -6.067031,
+          106.710411
+        ],
+        [
+          -6.067094,
+          106.710425
+        ],
+        [
+          -6.067158,
+          106.71043
+        ],
+        [
+          -6.067209,
+          106.710428
+        ],
+        [
+          -6.06726,
+          106.71042
+        ],
+        [
+          -6.067384,
+          106.710456
+        ],
+        [
+          -6.067484,
+          106.710492
+        ],
+        [
+          -6.067595,
+          106.710542
+        ],
+        [
+          -6.067919,
+          106.71071
+        ],
+        [
+          -6.068273,
+          106.710901
+        ],
+        [
+          -6.068472,
+          106.71102
+        ],
+        [
+          -6.068625,
+          106.711123
+        ],
+        [
+          -6.068845,
+          106.711295
+        ],
+        [
+          -6.069015,
+          106.711445
+        ],
+        [
+          -6.069156,
+          106.711584
+        ],
+        [
+          -6.0693,
+          106.711743
+        ],
+        [
+          -6.069429,
+          106.711897
+        ],
+        [
+          -6.069723,
+          106.712355
+        ],
+        [
+          -6.069879,
+          106.71255
+        ],
+        [
+          -6.070066,
+          106.712784
+        ],
+        [
+          -6.07043,
+          106.71317
+        ],
+        [
+          -6.070939,
+          106.713567
+        ],
+        [
+          -6.071152,
+          106.713713
+        ],
+        [
+          -6.0714,
+          106.713883
+        ],
+        [
+          -6.072051,
+          106.714253
+        ],
+        [
+          -6.07213,
+          106.714294
+        ],
+        [
+          -6.072556,
+          106.714517
+        ],
+        [
+          -6.072839,
+          106.714665
+        ],
+        [
+          -6.072913,
+          106.714705
+        ],
+        [
+          -6.072921,
+          106.714709
+        ],
+        [
+          -6.072956,
+          106.714727
+        ],
+        [
+          -6.073161,
+          106.714836
+        ],
+        [
+          -6.074219,
+          106.715396
+        ],
+        [
+          -6.074571,
+          106.715594
+        ],
+        [
+          -6.074825,
+          106.715736
+        ],
+        [
+          -6.075484,
+          106.716136
+        ],
+        [
+          -6.076149,
+          106.716595
+        ],
+        [
+          -6.078065,
+          106.717911
+        ],
+        [
+          -6.078367,
+          106.718119
+        ],
+        [
+          -6.078755,
+          106.71838
+        ],
+        [
+          -6.079236,
+          106.718705
+        ],
+        [
+          -6.079573,
+          106.718973
+        ],
+        [
+          -6.079825,
+          106.719216
+        ],
+        [
+          -6.080023,
+          106.719422
+        ],
+        [
+          -6.080435,
+          106.719855
+        ],
+        [
+          -6.080542,
+          106.719966
+        ],
+        [
+          -6.080707,
+          106.720143
+        ],
+        [
+          -6.080843,
+          106.72028
+        ],
+        [
+          -6.081083,
+          106.720522
+        ],
+        [
+          -6.08115,
+          106.72059
+        ],
+        [
+          -6.081424,
+          106.720881
+        ],
+        [
+          -6.081737,
+          106.721195
+        ],
+        [
+          -6.081824,
+          106.721288
+        ],
+        [
+          -6.082181,
+          106.721626
+        ],
+        [
+          -6.082746,
+          106.722072
+        ],
+        [
+          -6.083356,
+          106.72256
+        ],
+        [
+          -6.083485,
+          106.722683
+        ],
+        [
+          -6.083671,
+          106.722866
+        ],
+        [
+          -6.083866,
+          106.723086
+        ],
+        [
+          -6.084079,
+          106.723357
+        ],
+        [
+          -6.084228,
+          106.723581
+        ],
+        [
+          -6.084382,
+          106.723836
+        ],
+        [
+          -6.084518,
+          106.724117
+        ],
+        [
+          -6.084646,
+          106.724436
+        ],
+        [
+          -6.085689,
+          106.727268
+        ],
+        [
+          -6.086305,
+          106.728971
+        ],
+        [
+          -6.086421,
+          106.72926
+        ],
+        [
+          -6.086431,
+          106.729287
+        ],
+        [
+          -6.086498,
+          106.729476
+        ],
+        [
+          -6.086549,
+          106.729616
+        ],
+        [
+          -6.086579,
+          106.729702
+        ],
+        [
+          -6.086741,
+          106.730057
+        ],
+        [
+          -6.086923,
+          106.730402
+        ],
+        [
+          -6.087075,
+          106.730657
+        ],
+        [
+          -6.08725,
+          106.730945
+        ],
+        [
+          -6.087471,
+          106.731251
+        ],
+        [
+          -6.087623,
+          106.731421
+        ],
+        [
+          -6.087683,
+          106.731537
+        ],
+        [
+          -6.087701,
+          106.731628
+        ],
+        [
+          -6.087671,
+          106.731727
+        ],
+        [
+          -6.087654,
+          106.731779
+        ],
+        [
+          -6.086523,
+          106.732993
+        ],
+        [
+          -6.086375,
+          106.733148
+        ],
+        [
+          -6.085314,
+          106.734317
+        ],
+        [
+          -6.084692,
+          106.734948
+        ],
+        [
+          -6.084575,
+          106.735057
+        ],
+        [
+          -6.0845,
+          106.735106
+        ],
+        [
+          -6.08442,
+          106.735134
+        ],
+        [
+          -6.08426,
+          106.735165
+        ],
+        [
+          -6.084218,
+          106.735173
+        ],
+        [
+          -6.084176,
+          106.735187
+        ],
+        [
+          -6.084134,
+          106.735208
+        ],
+        [
+          -6.084098,
+          106.735231
+        ],
+        [
+          -6.084064,
+          106.73526
+        ],
+        [
+          -6.084028,
+          106.735301
+        ],
+        [
+          -6.084008,
+          106.735331
+        ],
+        [
+          -6.083991,
+          106.735364
+        ],
+        [
+          -6.083977,
+          106.735397
+        ],
+        [
+          -6.083971,
+          106.735418
+        ],
+        [
+          -6.083962,
+          106.735464
+        ],
+        [
+          -6.083959,
+          106.735513
+        ],
+        [
+          -6.083965,
+          106.735572
+        ],
+        [
+          -6.083975,
+          106.735614
+        ],
+        [
+          -6.083991,
+          106.735656
+        ],
+        [
+          -6.084008,
+          106.735688
+        ],
+        [
+          -6.084028,
+          106.735718
+        ],
+        [
+          -6.084057,
+          106.735751
+        ],
+        [
+          -6.084083,
+          106.735776
+        ],
+        [
+          -6.084113,
+          106.735798
+        ],
+        [
+          -6.084159,
+          106.735824
+        ],
+        [
+          -6.084189,
+          106.735836
+        ],
+        [
+          -6.08422,
+          106.735845
+        ],
+        [
+          -6.084251,
+          106.735852
+        ],
+        [
+          -6.084284,
+          106.735855
+        ],
+        [
+          -6.084313,
+          106.735856
+        ],
+        [
+          -6.084343,
+          106.735854
+        ],
+        [
+          -6.084368,
+          106.73585
+        ],
+        [
+          -6.084397,
+          106.735843
+        ],
+        [
+          -6.08443,
+          106.735832
+        ],
+        [
+          -6.084586,
+          106.735914
+        ],
+        [
+          -6.084671,
+          106.735974
+        ],
+        [
+          -6.084762,
+          106.736058
+        ],
+        [
+          -6.085024,
+          106.736333
+        ],
+        [
+          -6.086453,
+          106.737902
+        ],
+        [
+          -6.086474,
+          106.738208
+        ],
+        [
+          -6.086813,
+          106.738575
+        ],
+        [
+          -6.087232,
+          106.739065
+        ],
+        [
+          -6.087673,
+          106.739597
+        ],
+        [
+          -6.087784,
+          106.739702
+        ],
+        [
+          -6.087885,
+          106.739707
+        ],
+        [
+          -6.088248,
+          106.739473
+        ],
+        [
+          -6.08862,
+          106.739315
+        ],
+        [
+          -6.089228,
+          106.739081
+        ],
+        [
+          -6.089297,
+          106.739055
+        ],
+        [
+          -6.089845,
+          106.738898
+        ],
+        [
+          -6.091492,
+          106.738363
+        ],
+        [
+          -6.092848,
+          106.737755
+        ],
+        [
+          -6.093658,
+          106.737331
+        ],
+        [
+          -6.094138,
+          106.737055
+        ],
+        [
+          -6.094204,
+          106.736992
+        ],
+        [
+          -6.094238,
+          106.736922
+        ],
+        [
+          -6.094275,
+          106.736699
+        ],
+        [
+          -6.094274,
+          106.73663
+        ],
+        [
+          -6.094298,
+          106.736161
+        ],
+        [
+          -6.094273,
+          106.736061
+        ],
+        [
+          -6.094342,
+          106.736072
+        ],
+        [
+          -6.094379,
+          106.736007
+        ],
+        [
+          -6.09448,
+          106.735893
+        ],
+        [
+          -6.094814,
+          106.735572
+        ],
+        [
+          -6.095014,
+          106.735832
+        ],
+        [
+          -6.095136,
+          106.735958
+        ],
+        [
+          -6.095198,
+          106.736198
+        ],
+        [
+          -6.095196,
+          106.736507
+        ],
+        [
+          -6.095132,
+          106.736756
+        ],
+        [
+          -6.094892,
+          106.737167
+        ],
+        [
+          -6.09478,
+          106.73727
+        ],
+        [
+          -6.094614,
+          106.737419
+        ],
+        [
+          -6.093979,
+          106.737751
+        ],
+        [
+          -6.093173,
+          106.738179
+        ],
+        [
+          -6.092902,
+          106.738307
+        ],
+        [
+          -6.092419,
+          106.738521
+        ],
+        [
+          -6.091576,
+          106.738864
+        ],
+        [
+          -6.09111,
+          106.739025
+        ],
+        [
+          -6.089348,
+          106.739567
+        ],
+        [
+          -6.088895,
+          106.739741
+        ],
+        [
+          -6.088895,
+          106.739741
+        ],
+        [
+          -6.088888,
+          106.739744
+        ],
+        [
+          -6.088888,
+          106.739744
+        ]
+      ]
+    },
+    {
+      "id": "1W8R8nsQO5oUFDAwk8VBBhNMdMyix-nrI",
+      "date": "6 Aug 2026",
+      "title": "Spider-Man BND",
+      "description": "",
+      "image_path": "gdrive_cache/18oNHhzvSGZYIMzk_rlpj3i1ow8Q_nWdz_thumb.jpg",
+      "images": [
+        {
+          "url": "gdrive_cache/1_8Arl6rZp9hKP-rrfDRfNx47JnzZeSf6.mp4",
+          "thumb_url": "gdrive_cache/1_8Arl6rZp9hKP-rrfDRfNx47JnzZeSf6_thumb.jpg",
+          "type": "video",
+          "date_taken": "2026-08-09 15:05:48"
+        },
+        {
+          "url": "gdrive_cache/1iUNjtaGk7apCs3e0ZmQNkuzWKvd4yVbF.jpg",
+          "thumb_url": "gdrive_cache/1iUNjtaGk7apCs3e0ZmQNkuzWKvd4yVbF_thumb.jpg",
+          "type": "image",
+          "date_taken": "2026-08-09 15:05:49"
+        },
+        {
+          "url": "gdrive_cache/1HWuw2dUfUydVvX--AP1V_U2ZfRAZxScp.jpg",
+          "thumb_url": "gdrive_cache/1HWuw2dUfUydVvX--AP1V_U2ZfRAZxScp_thumb.jpg",
+          "type": "image",
+          "date_taken": "2026-08-09 15:05:50"
+        },
+        {
+          "url": "gdrive_cache/1Xc9d4OqVZzAZn7Hagp2NjENP4PWKLZwM.jpg",
+          "thumb_url": "gdrive_cache/1Xc9d4OqVZzAZn7Hagp2NjENP4PWKLZwM_thumb.jpg",
+          "type": "image",
+          "date_taken": "2026-08-09 15:05:50"
+        },
+        {
+          "url": "gdrive_cache/1qC6fVmGy1yw019_J112Dzo-4_qV0x1hi.jpg",
+          "thumb_url": "gdrive_cache/1qC6fVmGy1yw019_J112Dzo-4_qV0x1hi_thumb.jpg",
+          "type": "image",
+          "date_taken": "2026-08-09 15:05:54"
+        },
+        {
+          "url": "gdrive_cache/18oNHhzvSGZYIMzk_rlpj3i1ow8Q_nWdz.jpg",
+          "thumb_url": "gdrive_cache/18oNHhzvSGZYIMzk_rlpj3i1ow8Q_nWdz_thumb.jpg",
+          "type": "image",
+          "date_taken": "2026-08-09 15:05:55"
+        },
+        {
+          "url": "gdrive_cache/1ykh3EFDIG6QZWYdKPtOYrtay5rTWieL2.jpg",
+          "thumb_url": "gdrive_cache/1ykh3EFDIG6QZWYdKPtOYrtay5rTWieL2_thumb.jpg",
+          "type": "image",
+          "date_taken": "2026-08-09 15:05:55"
+        },
+        {
+          "url": "gdrive_cache/1zRRgr65qVtEiG4svcZ01Cr-Em5tHQgsU.jpg",
+          "thumb_url": "gdrive_cache/1zRRgr65qVtEiG4svcZ01Cr-Em5tHQgsU_thumb.jpg",
+          "type": "image",
+          "date_taken": "2026-08-09 15:05:56"
+        },
+        {
+          "url": "gdrive_cache/1eBuxlkSkRtlwvnFiawRaIG297yS3nWDP.jpg",
+          "thumb_url": "gdrive_cache/1eBuxlkSkRtlwvnFiawRaIG297yS3nWDP_thumb.jpg",
+          "type": "image",
+          "date_taken": "2026-08-09 15:05:58"
+        },
+        {
+          "url": "gdrive_cache/1drs1Y3E737xD_929aYUTbN9ZCxrrxlBu.jpg",
+          "thumb_url": "gdrive_cache/1drs1Y3E737xD_929aYUTbN9ZCxrrxlBu_thumb.jpg",
+          "type": "image",
+          "date_taken": "2026-08-09 15:06:13"
+        },
+        {
+          "url": "gdrive_cache/1_eyamWBNjCeFi6yFEwqWod-jGqGOiN1A.jpg",
+          "thumb_url": "gdrive_cache/1_eyamWBNjCeFi6yFEwqWod-jGqGOiN1A_thumb.jpg",
+          "type": "image",
+          "date_taken": "2026-08-09 15:06:13"
+        },
+        {
+          "url": "gdrive_cache/1FhZjQYIPyUITWlYANqYPjluoTpGHyOBe.jpg",
+          "thumb_url": "gdrive_cache/1FhZjQYIPyUITWlYANqYPjluoTpGHyOBe_thumb.jpg",
+          "type": "image",
+          "date_taken": "2026-08-09 15:06:14"
+        },
+        {
+          "url": "gdrive_cache/1VSt9xIDaQwpRTBfNzjNHiC0Qht_hVQpM.jpg",
+          "thumb_url": "gdrive_cache/1VSt9xIDaQwpRTBfNzjNHiC0Qht_hVQpM_thumb.jpg",
+          "type": "image",
+          "date_taken": "2026-08-09 15:06:15"
+        },
+        {
+          "url": "gdrive_cache/1uW1VnKWoXmCyA1x9gGZqJ7CmZ62e46Gk.jpg",
+          "thumb_url": "gdrive_cache/1uW1VnKWoXmCyA1x9gGZqJ7CmZ62e46Gk_thumb.jpg",
+          "type": "image",
+          "date_taken": "2026-08-09 15:06:16"
+        },
+        {
+          "url": "gdrive_cache/1JAmFz7Usc1m1jp_HcdOIZZkRycRNsMEH.jpg",
+          "thumb_url": "gdrive_cache/1JAmFz7Usc1m1jp_HcdOIZZkRycRNsMEH_thumb.jpg",
+          "type": "image",
+          "date_taken": "2026-08-09 15:06:16"
+        }
+      ],
+      "location": [
+        -6.3045,
+        106.8407
+      ],
+      "timeline_stops": [
+        {
+          "coords": [
+            -6.056362,
+            106.679337
+          ],
+          "time": "00:00 - 11:52",
+          "type": "HOME",
+          "name": "Home / Kosambi"
+        },
+        {
+          "coords": [
+            -6.214653,
+            106.807499
+          ],
+          "time": "12:50 - 14:28",
+          "type": "UNKNOWN",
+          "name": "Senayan City Mall (XXI)"
+        },
+        {
+          "coords": [
+            -6.227195,
+            106.797012
+          ],
+          "time": "14:45 - 16:20",
+          "type": "UNKNOWN",
+          "name": "Senayan Park (SPARK Mall)"
+        },
+        {
+          "coords": [
+            -6.227509,
+            106.797465
+          ],
+          "time": "14:47 - 16:20",
+          "type": "UNKNOWN",
+          "name": "SPARK Skywalk Observation Deck"
+        },
+        {
+          "coords": [
+            -6.225382,
+            106.799076
+          ],
+          "time": "16:22 - 18:17",
+          "type": "UNKNOWN",
+          "name": "GBK Senayan Complex"
+        },
+        {
+          "coords": [
+            -6.225328,
+            106.800061
+          ],
+          "time": "16:28 - 16:41",
+          "type": "UNKNOWN",
+          "name": "Stadion Utama Gelora Bung Karno"
+        },
+        {
+          "coords": [
+            -6.224563,
+            106.798995
+          ],
+          "time": "16:43 - 16:54",
+          "type": "UNKNOWN",
+          "name": "Senayan Park Promenade"
+        },
+        {
+          "coords": [
+            -6.225328,
+            106.800061
+          ],
+          "time": "18:10 - 18:17",
+          "type": "UNKNOWN",
+          "name": "SPARK Lake & Fountain"
+        },
+        {
+          "coords": [
+            -6.227195,
+            106.797012
+          ],
+          "time": "18:22 - 18:38",
+          "type": "UNKNOWN",
+          "name": "Cin\u00e9polis Senayan Park"
+        },
+        {
+          "coords": [
+            -6.227509,
+            106.797465
+          ],
+          "time": "18:22 - 18:31",
+          "type": "UNKNOWN",
+          "name": "Senayan Area"
+        },
+        {
+          "coords": [
+            -6.056362,
+            106.679337
+          ],
+          "time": "19:43 - 08:12",
+          "type": "HOME",
+          "name": "Home / Kosambi"
+        }
+      ],
+      "timeline_path": [
+        [
+          -6.056397,
+          106.680227
+        ],
+        [
+          -6.057618,
+          106.68576
+        ],
+        [
+          -6.052756,
+          106.68962
+        ],
+        [
+          -6.049653,
+          106.695562
+        ],
+        [
+          -6.049637,
+          106.700681
+        ],
+        [
+          -6.055473,
+          106.707479
+        ],
+        [
+          -6.065078,
+          106.709772
+        ],
+        [
+          -6.084862,
+          106.724879
+        ],
+        [
+          -6.087296,
+          106.730929
+        ],
+        [
+          -6.084902,
+          106.734766
+        ],
+        [
+          -6.090394,
+          106.743388
+        ],
+        [
+          -6.092445,
+          106.744426
+        ],
+        [
+          -6.096193,
+          106.742098
+        ],
+        [
+          -6.11664,
+          106.73541
+        ],
+        [
+          -6.119923,
+          106.739515
+        ],
+        [
+          -6.124048,
+          106.776439
+        ],
+        [
+          -6.133809,
+          106.785282
+        ],
+        [
+          -6.149583,
+          106.792374
+        ],
+        [
+          -6.158895,
+          106.792047
+        ],
+        [
+          -6.16786,
+          106.788276
+        ],
+        [
+          -6.181266,
+          106.796802
+        ],
+        [
+          -6.198871,
+          106.798618
+        ],
+        [
+          -6.203506,
+          106.800937
+        ],
+        [
+          -6.203434,
+          106.797619
+        ],
+        [
+          -6.20564,
+          106.795597
+        ],
+        [
+          -6.203107,
+          106.797796
+        ],
+        [
+          -6.201851,
+          106.799401
+        ],
+        [
+          -6.211791,
+          106.806912
+        ],
+        [
+          -6.213365,
+          106.803383
+        ],
+        [
+          -6.215441,
+          106.802711
+        ],
+        [
+          -6.21565,
+          106.805862
+        ],
+        [
+          -6.215552,
+          106.806941
+        ],
+        [
+          -6.215429,
+          106.8072
+        ],
+        [
+          -6.216874,
+          106.806029
+        ],
+        [
+          -6.217993,
+          106.805258
+        ],
+        [
+          -6.215977,
+          106.805194
+        ],
+        [
+          -6.215001,
+          106.802612
+        ],
+        [
+          -6.214879,
+          106.798118
+        ],
+        [
+          -6.228099,
+          106.798212
+        ],
+        [
+          -6.228521,
+          106.796097
+        ],
+        [
+          -6.22725,
+          106.797743
+        ],
+        [
+          -6.226859,
+          106.797892
+        ],
+        [
+          -6.226328,
+          106.798772
+        ],
+        [
+          -6.224504,
+          106.798901
+        ],
+        [
+          -6.225677,
+          106.79951
+        ],
+        [
+          -6.226845,
+          106.798248
+        ],
+        [
+          -6.228103,
+          106.796372
+        ],
+        [
+          -6.216101,
+          106.798146
+        ],
+        [
+          -6.212751,
+          106.805201
+        ],
+        [
+          -6.210546,
+          106.805554
+        ],
+        [
+          -6.19893,
+          106.798282
+        ],
+        [
+          -6.189503,
+          106.79704
+        ],
+        [
+          -6.177936,
+          106.794978
+        ],
+        [
+          -6.172537,
+          106.789378
+        ],
+        [
+          -6.165637,
+          106.78881
+        ],
+        [
+          -6.152141,
+          106.793581
+        ],
+        [
+          -6.1328,
+          106.784724
+        ],
+        [
+          -6.123373,
+          106.772894
+        ],
+        [
+          -6.124474,
+          106.752669
+        ],
+        [
+          -6.115252,
+          106.751599
+        ],
+        [
+          -6.112949,
+          106.750376
+        ],
+        [
+          -6.112614,
+          106.743614
+        ],
+        [
+          -6.109925,
+          106.739082
+        ],
+        [
+          -6.115291,
+          106.735675
+        ],
+        [
+          -6.091749,
+          106.744017
+        ],
+        [
+          -6.086489,
+          106.737721
+        ],
+        [
+          -6.085494,
+          106.734386
+        ],
+        [
+          -6.087758,
+          106.731354
+        ],
+        [
+          -6.083662,
+          106.722714
+        ],
+        [
+          -6.067674,
+          106.709767
+        ],
+        [
+          -6.068205,
+          106.698151
+        ],
+        [
+          -6.067103,
+          106.694825
+        ],
+        [
+          -6.061647,
+          106.688287
+        ],
+        [
+          -6.061056,
+          106.683559
+        ],
+        [
+          -6.058876,
+          106.680945
+        ],
+        [
+          -6.055923,
+          106.680982
+        ],
+        [
+          -6.056719,
+          106.680028
+        ],
+        [
+          -6.056302,
+          106.679324
+        ],
+        [
+          -6.056414,
+          106.679359
+        ]
+      ]
     }
   ],
   "bucket_list": [
@@ -21028,22 +22295,6 @@ window.WYN_DATA = {
       "trip_id": "1Y2wWMFKfyUTpE33BXLSMaYWlVbGShbvy"
     },
     {
-      "idea": "Curug Sentul",
-      "category": "Adventure",
-      "notes": "",
-      "completed": false,
-      "date": "2026-07-18",
-      "trip_id": ""
-    },
-    {
-      "idea": "Fantai Indah Kafyuk",
-      "category": "General",
-      "notes": "",
-      "completed": false,
-      "date": "",
-      "trip_id": ""
-    },
-    {
       "idea": "safari",
       "category": "General",
       "notes": "",
@@ -21067,5 +22318,30 @@ window.WYN_DATA = {
       "date": "",
       "trip_id": ""
     }
+  ],
+  "favorites": [
+    "gdrive_cache/1zvVRXndbhyyJU5OtrkacHA0gK9jlr0uY.jpg",
+    "gdrive_cache/1rL-ffI_eQZoSCptLZxJIWOt8VK7EB8Ly.jpg",
+    "gdrive_cache/1gCaOZDul0-Uf5omVfTO1tIYE1B_QozPS.jpg",
+    "gdrive_cache/1zuzTWT2w6yD_Gl_ddwZaSZKPnqsd8rmk.jpg",
+    "gdrive_cache/1nJeY_V6XBJGG7TcwIiRGEDASy7pPRegi.jpg",
+    "gdrive_cache/1xc6BU-zVZzINGLXD4MA_jiVwbISMvz4y.png",
+    "gdrive_cache/17iRlnixaSfEIwOZRkgPjiX_KeyBRz5mg.jpg",
+    "gdrive_cache/1zfuqvtxkCRIvZralW43F9xyH_oXc-uFb.jpg",
+    "gdrive_cache/1gZvui0pbsfjMuzbyARH7ypYCZM5awEVs.jpg",
+    "gdrive_cache/1vq1c5qOCylNMFV_-YdMaJZ0gNBevdkzs.jpg",
+    "gdrive_cache/1AzfJIuzf-7onFLQkaWedrKtHihJ4ncMA.jpg",
+    "gdrive_cache/1EDf-sdN0cPI73fjcH7MGVlJts7YbAcRL.jpg",
+    "gdrive_cache/1DqQaoF9gHxXuSl9iIvFtyW0dgmCOPEzf.jpg",
+    "gdrive_cache/1LnIpM4eqfoaK7PrtUVCLVXDt54Po-U0B.jpg",
+    "gdrive_cache/1MJd3HZ1E0cqUutidic9hmgLX6G_R4XMK.jpg",
+    "gdrive_cache/18oNHhzvSGZYIMzk_rlpj3i1ow8Q_nWdz.jpg",
+    "gdrive_cache/1HWuw2dUfUydVvX--AP1V_U2ZfRAZxScp.jpg",
+    "gdrive_cache/1zb5xqqVNIrWShiJYGBBk45xuygF9zv5m.jpg",
+    "gdrive_cache/1Wn1fDUSjTbNTqdx78zd-EM_8A6yOr88m.jpg",
+    "gdrive_cache/1v8uin5-6rdgnHgSmomJD7GFSzABDqCYP.jpg",
+    "gdrive_cache/1JRKFO8iDjJGO4xnKZWOmsI0Eyc_qgeZZ.jpg",
+    "gdrive_cache/1yoXXUOr9fL4FNBvqzDNovrmzpZWH0eP0.mp4",
+    "gdrive_cache/1aw-rjNfNEdWnDTUsuu2WWnnZ3vM1nlu0.jpg"
   ]
 };
