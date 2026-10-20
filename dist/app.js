@@ -67,23 +67,200 @@ document.addEventListener('DOMContentLoaded', () => {
     trips.sort((a, b) => parseDateToTimestamp(a.date) - parseDateToTimestamp(b.date));
   }
 
-  // Apply saved date & cover overrides & uniform '6 Aug 2026' date formatting
+  function applyOverridesToTrips(dateOverrides, coverOverrides) {
+    let changed = false;
+    trips.forEach(trip => {
+      const newDateRaw = (dateOverrides && (dateOverrides[trip.id] || dateOverrides[trip.title])) || trip.date;
+      const formattedDate = formatDisplayDate(newDateRaw);
+      if (trip.date !== formattedDate) {
+        trip.date = formattedDate;
+        changed = true;
+      }
+      const newCover = coverOverrides && (coverOverrides[trip.id] || coverOverrides[trip.title]);
+      if (newCover && trip.image_path !== newCover) {
+        trip.image_path = newCover;
+        changed = true;
+      }
+    });
+    if (changed) sortTripsChronologically();
+    return changed;
+  }
+
+  // Apply initial cached overrides & uniform '6 Aug 2026' date formatting
   const savedDateOverrides = JSON.parse(localStorage.getItem('trip_date_overrides') || '{}');
   const savedCoverOverrides = JSON.parse(localStorage.getItem('trip_cover_overrides') || '{}');
-  trips.forEach(trip => {
-    if (savedDateOverrides[trip.title] || savedDateOverrides[trip.id]) {
-      trip.date = savedDateOverrides[trip.title] || savedDateOverrides[trip.id];
-    }
-    if (savedCoverOverrides[trip.title] || savedCoverOverrides[trip.id]) {
-      trip.image_path = savedCoverOverrides[trip.title] || savedCoverOverrides[trip.id];
-    }
-    trip.date = formatDisplayDate(trip.date);
-  });
+  applyOverridesToTrips(savedDateOverrides, savedCoverOverrides);
   sortTripsChronologically();
 
   let bucketList = JSON.parse(localStorage.getItem('wyn_bucket_list')) || (data.bucket_list || []);
   let favorites = JSON.parse(localStorage.getItem('wyn_favorites')) || (data.favorites || []);
   let theme = localStorage.getItem('wyn_theme') || 'dark';
+
+  // --- LIVE CLOUD SYNC ENGINE (Cloudflare Pages Functions + Neon Edge DB) ---
+  const NEON_FALLBACK_URL = "https://ep-withered-feather-b3n0w2vd.c-4.ap-southeast-1.aws.neon.tech/sql";
+  const NEON_FALLBACK_CONN = "postgresql://neondb_owner:npg_a4uAMZfocK0I@ep-withered-feather-b3n0w2vd.c-4.ap-southeast-1.aws.neon.tech/neondb?sslmode=require";
+
+  async function pushToCloud(updates) {
+    try {
+      const resp = await fetch('/api/state', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(updates)
+      });
+      if (resp.ok) return await resp.json();
+    } catch (_) {
+      // Fallback to direct Neon HTTP SQL if /api/state is not mounted
+    }
+
+    try {
+      for (const [key, val] of Object.entries(updates)) {
+        let finalVal = val;
+        if ((key === 'cover_overrides' || key === 'date_overrides') && typeof val === 'object') {
+          const curRes = await fetch(NEON_FALLBACK_URL, {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json', 'Neon-Connection-String': NEON_FALLBACK_CONN },
+            body: JSON.stringify({ query: "SELECT value FROM app_settings WHERE key = $1;", params: [key] })
+          });
+          if (curRes.ok) {
+            const curData = await curRes.json();
+            if (curData.rows && curData.rows[0]) {
+              try {
+                finalVal = { ...JSON.parse(curData.rows[0].value), ...val };
+              } catch (_) {}
+            }
+          }
+        }
+        await fetch(NEON_FALLBACK_URL, {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json', 'Neon-Connection-String': NEON_FALLBACK_CONN },
+          body: JSON.stringify({
+            query: "INSERT INTO app_settings (key, value) VALUES ($1, $2) ON CONFLICT (key) DO UPDATE SET value = EXCLUDED.value;",
+            params: [key, JSON.stringify(finalVal)]
+          })
+        });
+      }
+    } catch (err) {
+      console.warn('Cloud sync push warning:', err);
+    }
+  }
+
+  let bucketSyncTimer = null;
+  function syncBucketListDebounced() {
+    localStorage.setItem('wyn_bucket_list', JSON.stringify(bucketList));
+    if (bucketSyncTimer) clearTimeout(bucketSyncTimer);
+    bucketSyncTimer = setTimeout(() => {
+      pushToCloud({ bucket_list: bucketList });
+    }, 350);
+  }
+
+  async function fetchCloudState() {
+    try {
+      const resp = await fetch('/api/state', { cache: 'no-store' });
+      if (resp.ok) {
+        const json = await resp.json();
+        if (json && json.ok) return json;
+      }
+    } catch (_) {}
+
+    // Direct Neon HTTP fallback
+    const res = await fetch(NEON_FALLBACK_URL, {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json', 'Neon-Connection-String': NEON_FALLBACK_CONN },
+      body: JSON.stringify({
+        query: "SELECT key, value FROM app_settings WHERE key IN ('cover_overrides', 'date_overrides', 'favorites', 'bucket_list');",
+        params: []
+      })
+    });
+    if (!res.ok) return null;
+    const raw = await res.json();
+    const state = { cover_overrides: {}, date_overrides: {}, favorites: null, bucket_list: null };
+    for (const row of (raw.rows || [])) {
+      try { state[row.key] = JSON.parse(row.value); } catch (_) {}
+    }
+    return state;
+  }
+
+  async function syncFromCloud() {
+    try {
+      const remote = await fetchCloudState();
+      if (!remote) return;
+
+      const localCovers = JSON.parse(localStorage.getItem('trip_cover_overrides') || '{}');
+      const localDates = JSON.parse(localStorage.getItem('trip_date_overrides') || '{}');
+      const remoteCovers = remote.cover_overrides || {};
+      const remoteDates = remote.date_overrides || {};
+
+      // Check if this device has local covers/dates not yet uploaded to the cloud
+      let unpushedCovers = {};
+      for (const [k, v] of Object.entries(localCovers)) {
+        if (!remoteCovers[k]) unpushedCovers[k] = v;
+      }
+      let unpushedDates = {};
+      for (const [k, v] of Object.entries(localDates)) {
+        if (!remoteDates[k]) unpushedDates[k] = v;
+      }
+
+      // Remote overrides take priority over local so changes on other devices win
+      const mergedCovers = { ...localCovers, ...remoteCovers };
+      const mergedDates = { ...localDates, ...remoteDates };
+
+      localStorage.setItem('trip_cover_overrides', JSON.stringify(mergedCovers));
+      localStorage.setItem('trip_date_overrides', JSON.stringify(mergedDates));
+
+      const tripsChanged = applyOverridesToTrips(mergedDates, mergedCovers);
+
+      let favsChanged = false;
+      if (Array.isArray(remote.favorites)) {
+        if (JSON.stringify(remote.favorites) !== JSON.stringify(favorites)) {
+          favorites = remote.favorites;
+          localStorage.setItem('wyn_favorites', JSON.stringify(favorites));
+          favsChanged = true;
+        }
+      } else if (favorites.length > 0) {
+        pushToCloud({ favorites });
+      }
+
+      let bucketChanged = false;
+      if (Array.isArray(remote.bucket_list)) {
+        if (JSON.stringify(remote.bucket_list) !== JSON.stringify(bucketList)) {
+          bucketList = remote.bucket_list;
+          localStorage.setItem('wyn_bucket_list', JSON.stringify(bucketList));
+          bucketChanged = true;
+        }
+      } else if (bucketList.length > 0) {
+        pushToCloud({ bucket_list: bucketList });
+      }
+
+      // Push any unpushed local cover/date overrides up to the server
+      const toPush = {};
+      if (Object.keys(unpushedCovers).length > 0) toPush.cover_overrides = mergedCovers;
+      if (Object.keys(unpushedDates).length > 0) toPush.date_overrides = mergedDates;
+      if (Object.keys(toPush).length > 0) {
+        pushToCloud(toPush);
+      }
+
+      if (tripsChanged) {
+        renderTimeline();
+        if (galleryModal && galleryModal.classList.contains('open') && currentEditingTrip) {
+          openGalleryModal(currentEditingTrip);
+        }
+        updateLightboxCoverBtnState();
+      }
+      if (tripsChanged || favsChanged) {
+        renderHighlights();
+        updateStats();
+      }
+      if (bucketChanged) {
+        updateStats();
+        renderCountdown();
+        if (!document.activeElement || !document.activeElement.classList.contains('keep-input-text')) {
+          renderKeepChecklist();
+        }
+      }
+    } catch (err) {
+      console.warn('Cloud sync fetch warning:', err);
+    }
+  }
 
   // Helper for URL resolution
   function resolveUrl(url) {
@@ -360,6 +537,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
   function renderTimeline() {
     if (!timelineRow) return;
+    const prevScroll = scrollContainer ? scrollContainer.scrollLeft : 0;
     timelineRow.innerHTML = '';
 
     trips.forEach((trip, index) => {
@@ -428,6 +606,10 @@ document.addEventListener('DOMContentLoaded', () => {
 
       timelineRow.appendChild(col);
     });
+
+    if (scrollContainer && prevScroll > 0) {
+      scrollContainer.scrollLeft = prevScroll;
+    }
 
     // Update active card states initially
     setTimeout(updateActiveCardVisuals, 100);
@@ -1233,7 +1415,7 @@ document.addEventListener('DOMContentLoaded', () => {
     // Checkbox toggle
     checkbox.addEventListener('change', () => {
       plan.completed = checkbox.checked;
-      localStorage.setItem('wyn_bucket_list', JSON.stringify(bucketList));
+      syncBucketListDebounced();
       updateStats();
       renderCountdown();
       renderKeepChecklist();
@@ -1242,7 +1424,7 @@ document.addEventListener('DOMContentLoaded', () => {
     // Realtime typing
     input.addEventListener('input', () => {
       plan.idea = input.value;
-      localStorage.setItem('wyn_bucket_list', JSON.stringify(bucketList));
+      syncBucketListDebounced();
       renderCountdown();
     });
 
@@ -1255,13 +1437,13 @@ document.addEventListener('DOMContentLoaded', () => {
         e.preventDefault();
         const newItem = { idea: '', category: 'General', date: '', notes: '', completed: false, trip_id: '' };
         bucketList.splice(globalIdx + 1, 0, newItem);
-        localStorage.setItem('wyn_bucket_list', JSON.stringify(bucketList));
+        syncBucketListDebounced();
         updateStats();
         renderKeepChecklist(currentIdx + 1);
       } else if (e.key === 'Backspace' && input.value === '') {
         e.preventDefault();
         bucketList.splice(globalIdx, 1);
-        localStorage.setItem('wyn_bucket_list', JSON.stringify(bucketList));
+        syncBucketListDebounced();
         updateStats();
         renderCountdown();
         renderKeepChecklist(Math.max(0, currentIdx - 1));
@@ -1278,7 +1460,7 @@ document.addEventListener('DOMContentLoaded', () => {
     deleteBtn.addEventListener('click', (e) => {
       e.stopPropagation();
       bucketList.splice(globalIdx, 1);
-      localStorage.setItem('wyn_bucket_list', JSON.stringify(bucketList));
+      syncBucketListDebounced();
       updateStats();
       renderCountdown();
       renderKeepChecklist();
@@ -1294,7 +1476,7 @@ document.addEventListener('DOMContentLoaded', () => {
         const val = keepAddInput.value.trim();
         if (val) {
           bucketList.push({ idea: val, category: 'General', date: '', notes: '', completed: false, trip_id: '' });
-          localStorage.setItem('wyn_bucket_list', JSON.stringify(bucketList));
+          syncBucketListDebounced();
           keepAddInput.value = '';
           updateStats();
           renderCountdown();
@@ -1383,10 +1565,12 @@ document.addEventListener('DOMContentLoaded', () => {
         currentEditingTrip.date = displayDate;
         galleryModalDate.textContent = displayDate;
 
-        // Persist date overrides to localStorage
+        // Persist date overrides to localStorage & live cloud server
         const dateOverrides = JSON.parse(localStorage.getItem('trip_date_overrides') || '{}');
         dateOverrides[currentEditingTrip.title] = displayDate;
+        if (currentEditingTrip.id) dateOverrides[currentEditingTrip.id] = displayDate;
         localStorage.setItem('trip_date_overrides', JSON.stringify(dateOverrides));
+        pushToCloud({ date_overrides: dateOverrides });
 
         // Re-sort chronologically and rearrange timeline cards
         sortTripsChronologically();
@@ -1441,11 +1625,12 @@ document.addEventListener('DOMContentLoaded', () => {
     const cleanPath = resolveUrl(targetPath);
     trip.image_path = cleanPath;
 
-    // Persist cover override to localStorage
+    // Persist cover override to localStorage & live cloud server
     const coverOverrides = JSON.parse(localStorage.getItem('trip_cover_overrides') || '{}');
     coverOverrides[trip.title] = cleanPath;
     if (trip.id) coverOverrides[trip.id] = cleanPath;
     localStorage.setItem('trip_cover_overrides', JSON.stringify(coverOverrides));
+    pushToCloud({ cover_overrides: coverOverrides });
 
     // Instantly refresh timeline cards
     renderTimeline();
@@ -1458,7 +1643,7 @@ document.addEventListener('DOMContentLoaded', () => {
     // Update lightbox button if open
     updateLightboxCoverBtnState();
 
-    showToast(`Cover updated for "${trip.title}"! ✨`, 'check');
+    showToast(`Cover synced for "${trip.title}" across all devices! ✨`, 'check');
   }
 
   function openGalleryModal(trip) {
@@ -1884,9 +2069,9 @@ document.addEventListener('DOMContentLoaded', () => {
         bucketList.push(newItem);
       }
 
-      localStorage.setItem('wyn_bucket_list', JSON.stringify(bucketList));
+      syncBucketListDebounced();
       planModal.classList.remove('open');
-      renderPlansChecklist();
+      renderKeepChecklist();
       updateStats();
       renderCountdown();
     });
@@ -1896,9 +2081,9 @@ document.addEventListener('DOMContentLoaded', () => {
     deletePlanBtn.addEventListener('click', () => {
       if (editingOriginalIdea) {
         bucketList = bucketList.filter(b => b.idea !== editingOriginalIdea);
-        localStorage.setItem('wyn_bucket_list', JSON.stringify(bucketList));
+        syncBucketListDebounced();
         planModal.classList.remove('open');
-        renderPlansChecklist();
+        renderKeepChecklist();
         updateStats();
         renderCountdown();
       }
@@ -1914,6 +2099,7 @@ document.addEventListener('DOMContentLoaded', () => {
       favorites.push(cleanU);
     }
     localStorage.setItem('wyn_favorites', JSON.stringify(favorites));
+    pushToCloud({ favorites });
   }
 
   // 13. Theme Switcher
@@ -1934,6 +2120,15 @@ document.addEventListener('DOMContentLoaded', () => {
     icon.setAttribute('data-lucide', t === 'dark' ? 'sun' : 'moon');
     if (window.lucide) window.lucide.createIcons();
   }
+
+  // 14. Start Live Cloud Synchronization
+  syncFromCloud();
+  document.addEventListener('visibilitychange', () => {
+    if (document.visibilityState === 'visible') syncFromCloud();
+  });
+  setInterval(() => {
+    if (document.visibilityState === 'visible') syncFromCloud();
+  }, 10000);
 
   if (window.lucide) window.lucide.createIcons();
 });

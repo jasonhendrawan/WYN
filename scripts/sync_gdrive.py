@@ -313,6 +313,42 @@ for folder in subfolders:
         
     updated_trips.append(trip_data)
 
+# Apply live cloud overrides from Neon Edge DB so static data.js is always up-to-date
+try:
+    neon_url = "https://ep-withered-feather-b3n0w2vd.c-4.ap-southeast-1.aws.neon.tech/sql"
+    neon_conn = "postgresql://neondb_owner:npg_a4uAMZfocK0I@ep-withered-feather-b3n0w2vd.c-4.ap-southeast-1.aws.neon.tech/neondb?sslmode=require"
+    req_sql = urllib.request.Request(
+        neon_url,
+        data=json.dumps({
+            "query": "SELECT key, value FROM app_settings WHERE key IN ('cover_overrides', 'date_overrides', 'favorites', 'bucket_list');",
+            "params": []
+        }).encode("utf-8"),
+        headers={"Content-Type": "application/json", "Neon-Connection-String": neon_conn}
+    )
+    with urllib.request.urlopen(req_sql, timeout=8) as resp:
+        res_json = json.loads(resp.read().decode("utf-8"))
+        cloud_settings = {}
+        for r in res_json.get("rows", []):
+            try:
+                cloud_settings[r["key"]] = json.loads(r["value"])
+            except Exception:
+                pass
+        c_covers = cloud_settings.get("cover_overrides") or {}
+        c_dates = cloud_settings.get("date_overrides") or {}
+        for t in updated_trips:
+            tid = t.get("id", "")
+            ttitle = t.get("title", "")
+            if tid in c_covers or ttitle in c_covers:
+                t["image_path"] = c_covers.get(tid) or c_covers.get(ttitle)
+            if tid in c_dates or ttitle in c_dates:
+                t["date"] = c_dates.get(tid) or c_dates.get(ttitle)
+        if isinstance(cloud_settings.get("favorites"), list):
+            wyn_data["favorites"] = cloud_settings["favorites"]
+        if isinstance(cloud_settings.get("bucket_list"), list):
+            wyn_data["bucket_list"] = cloud_settings["bucket_list"]
+except Exception as e:
+    print(f"  Note: Cloud settings fetch skipped ({e})")
+
 # Sort all trips chronologically
 updated_trips.sort(key=lambda x: x.get('date', ''))
 wyn_data['past_dates'] = updated_trips
