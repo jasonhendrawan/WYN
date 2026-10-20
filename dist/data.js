@@ -1,421 +1,6 @@
 window.WYN_DATA = {
-  "last_sync": "2026-10-20 22:29:18",
+  "last_sync": "2026-10-20 22:34:51",
   "past_dates": [
-    {
-      "id": "1bSVYM6rBxkVIU1U55-lvK_1v_ms_hAqI",
-      "date": "2 Aug 2026",
-      "title": "Day 1",
-      "description": "",
-      "image_path": "gdrive_cache/1LnIpM4eqfoaK7PrtUVCLVXDt54Po-U0B_thumb.jpg",
-      "images": [
-        {
-          "url": "gdrive_cache/1LQl0fgnFa6uEcj_vzgFO2XhA1lglxkX-.mp4",
-          "thumb_url": "gdrive_cache/1LQl0fgnFa6uEcj_vzgFO2XhA1lglxkX-_thumb.jpg",
-          "type": "video",
-          "date_taken": "2026-08-04 15:10:30"
-        },
-        {
-          "url": "gdrive_cache/1xAS9VcrmTbLsUfyTZ0KNFMeAjoe9tOFj.jpg",
-          "thumb_url": "gdrive_cache/1xAS9VcrmTbLsUfyTZ0KNFMeAjoe9tOFj_thumb.jpg",
-          "type": "image",
-          "date_taken": "2026-08-04 15:10:30"
-        },
-        {
-          "url": "gdrive_cache/1NudPZH8O2Q1M098bd-5GqfxLSGl9KinJ.jpg",
-          "thumb_url": "gdrive_cache/1NudPZH8O2Q1M098bd-5GqfxLSGl9KinJ_thumb.jpg",
-          "type": "image",
-          "date_taken": "2026-08-04 15:10:30"
-        },
-        {
-          "url": "gdrive_cache/1AzfJIuzf-7onFLQkaWedrKtHihJ4ncMA.jpg",
-          "thumb_url": "gdrive_cache/1AzfJIuzf-7onFLQkaWedrKtHihJ4ncMA_thumb.jpg",
-          "type": "image",
-          "date_taken": "2026-08-04 15:10:30"
-        },
-        {
-          "url": "gdrive_cache/16F24dm73W8gPGOHVjkuINcRa1GKQXGEI.jpg",
-          "thumb_url": "gdrive_cache/16F24dm73W8gPGOHVjkuINcRa1GKQXGEI_thumb.jpg",
-          "type": "image",
-          "date_taken": "2026-08-04 15:10:31"
-        },
-        {
-          "url": "gdrive_cache/1vq1c5qOCylNMFV_-YdMaJZ0gNBevdkzs.jpg",
-          "thumb_url": "gdrive_cache/1vq1c5qOCylNMFV_-YdMaJZ0gNBevdkzs_thumb.jpg",
-          "type": "image",
-          "date_taken": "2026-08-04 15:10:31"
-        },
-        {
-          "url": "gdrive_cache/1-A3NeFugVNUP8dwRqrRuxQjh69jACcZF.jpg",
-          "thumb_url": "gdrive_cache/1-A3NeFugVNUP8dwRqrRuxQjh69jACcZF_thumb.jpg",
-          "type": "image",
-          "date_taken": "2026-08-04 15:10:31"
-        },
-        {
-          "url": "gdrive_cache/1EDf-sdN0cPI73fjcH7MGVlJts7YbAcRL.jpg",
-          "thumb_url": "gdrive_cache/1EDf-sdN0cPI73fjcH7MGVlJts7YbAcRL_thumb.jpg",
-          "type": "image",
-          "date_taken": "2026-08-04 15:10:31"
-        },
-        {
-          "url": "gdrive_cache/1xd2OxaPzBS_ctHRA-UOOCwds1LCHcETw.jpg",
-          "thumb_url": "gdrive_cache/1xd2OxaPzBS_ctHRA-UOOCwds1LCHcETw_thumb.jpg",
-          "type": "image",
-          "date_taken": "2026-08-04 15:10:31"
-        },
-        {
-          "url": "gdrive_cache/15dXS4HNJaZxGDBVtxBIrQGDtxGbkxvUM.jpg",
-          "thumb_url": "gdrive_cache/15dXS4HNJaZxGDBVtxBIrQGDtxGbkxvUM_thumb.jpg",
-          "type": "image",
-          "date_taken": "2026-08-04 15:10:31"
-        },
-        {
-          "url": "gdrive_cache/1ZJsdj_eUV3dH-uWvefnz78sH2Lt4OebA.jpg",
-          "thumb_url": "gdrive_cache/1ZJsdj_eUV3dH-uWvefnz78sH2Lt4OebA_thumb.jpg",
-          "type": "image",
-          "date_taken": "2026-08-04 15:10:31"
-        },
-        {
-          "url": "gdrive_cache/1DqQaoF9gHxXuSl9iIvFtyW0dgmCOPEzf.jpg",
-          "thumb_url": "gdrive_cache/1DqQaoF9gHxXuSl9iIvFtyW0dgmCOPEzf_thumb.jpg",
-          "type": "image",
-          "date_taken": "2026-08-04 15:10:31"
-        },
-        {
-          "url": "gdrive_cache/15fB_TTJEWMpenvErW7LJhiS8LZ6grs5q.jpg",
-          "thumb_url": "gdrive_cache/15fB_TTJEWMpenvErW7LJhiS8LZ6grs5q_thumb.jpg",
-          "type": "image",
-          "date_taken": "2026-08-04 15:10:31"
-        },
-        {
-          "url": "gdrive_cache/1Ow-FtPAThH35LhuTa-zCVJ3IkvVXN4ey.jpg",
-          "thumb_url": "gdrive_cache/1Ow-FtPAThH35LhuTa-zCVJ3IkvVXN4ey_thumb.jpg",
-          "type": "image",
-          "date_taken": "2026-08-04 15:10:31"
-        },
-        {
-          "url": "gdrive_cache/1zoIZr-RKEj6YbfXOOa40HhQ2JK2sxSHC.jpg",
-          "thumb_url": "gdrive_cache/1zoIZr-RKEj6YbfXOOa40HhQ2JK2sxSHC_thumb.jpg",
-          "type": "image",
-          "date_taken": "2026-08-04 15:10:31"
-        },
-        {
-          "url": "gdrive_cache/1RC9bsY_z2LQQH4znr13YCdV8-0mkVHu6.jpg",
-          "thumb_url": "gdrive_cache/1RC9bsY_z2LQQH4znr13YCdV8-0mkVHu6_thumb.jpg",
-          "type": "image",
-          "date_taken": "2026-08-04 15:10:31"
-        },
-        {
-          "url": "gdrive_cache/1Yq2g8mndxbd2KX5TOBJpkj7SVm3DhXKN.jpg",
-          "thumb_url": "gdrive_cache/1Yq2g8mndxbd2KX5TOBJpkj7SVm3DhXKN_thumb.jpg",
-          "type": "image",
-          "date_taken": "2026-08-04 15:10:32"
-        },
-        {
-          "url": "gdrive_cache/1EhwBbo7OZ67AkBEN-80fSpA2REDbXXCr.jpg",
-          "thumb_url": "gdrive_cache/1EhwBbo7OZ67AkBEN-80fSpA2REDbXXCr_thumb.jpg",
-          "type": "image",
-          "date_taken": "2026-08-04 15:10:32"
-        },
-        {
-          "url": "gdrive_cache/1eii_Oyk-EIeCaY6Q1_LUe8F_JbWTbwaS.jpg",
-          "thumb_url": "gdrive_cache/1eii_Oyk-EIeCaY6Q1_LUe8F_JbWTbwaS_thumb.jpg",
-          "type": "image",
-          "date_taken": "2026-08-04 15:10:32"
-        },
-        {
-          "url": "gdrive_cache/1a9iEgpE0x8Evq39bhQ7dHlqDfURhuT0o.jpg",
-          "thumb_url": "gdrive_cache/1a9iEgpE0x8Evq39bhQ7dHlqDfURhuT0o_thumb.jpg",
-          "type": "image",
-          "date_taken": "2026-08-04 15:10:32"
-        },
-        {
-          "url": "gdrive_cache/1aInRLfmWGzKot33oc6pTZZeWR1hcl6K7.jpg",
-          "thumb_url": "gdrive_cache/1aInRLfmWGzKot33oc6pTZZeWR1hcl6K7_thumb.jpg",
-          "type": "image",
-          "date_taken": "2026-08-04 15:10:32"
-        },
-        {
-          "url": "gdrive_cache/1O7qZ9j0x9dOElSEm2VHKffLeUgSrGG2o.jpg",
-          "thumb_url": "gdrive_cache/1O7qZ9j0x9dOElSEm2VHKffLeUgSrGG2o_thumb.jpg",
-          "type": "image",
-          "date_taken": "2026-08-04 15:10:32"
-        },
-        {
-          "url": "gdrive_cache/1lmXjxHQDXudCsCUieaS8_pbo93kdH36X.jpg",
-          "thumb_url": "gdrive_cache/1lmXjxHQDXudCsCUieaS8_pbo93kdH36X_thumb.jpg",
-          "type": "image",
-          "date_taken": "2026-08-04 15:10:32"
-        },
-        {
-          "url": "gdrive_cache/1ih1z-4we8CIdjJCWx7SygQucjrOFxvYV.mp4",
-          "thumb_url": "gdrive_cache/1ih1z-4we8CIdjJCWx7SygQucjrOFxvYV_thumb.jpg",
-          "type": "video",
-          "date_taken": "2026-08-04 15:10:32"
-        },
-        {
-          "url": "gdrive_cache/1LnIpM4eqfoaK7PrtUVCLVXDt54Po-U0B.jpg",
-          "thumb_url": "gdrive_cache/1LnIpM4eqfoaK7PrtUVCLVXDt54Po-U0B_thumb.jpg",
-          "type": "image",
-          "date_taken": "2026-08-04 15:35:48"
-        }
-      ],
-      "location": [
-        -6.0827,
-        106.7118
-      ],
-      "timeline_stops": [
-        {
-          "coords": [
-            -6.30445,
-            106.847905
-          ],
-          "time": "09:05 - 12:00",
-          "type": "WORK",
-          "name": "Jagakarsa Area"
-        },
-        {
-          "coords": [
-            -6.293608,
-            106.855597
-          ],
-          "time": "12:08 - 12:24",
-          "type": "UNKNOWN",
-          "name": "Kramat Jati"
-        },
-        {
-          "coords": [
-            -6.30445,
-            106.847905
-          ],
-          "time": "12:33 - 18:59",
-          "type": "WORK",
-          "name": "Jagakarsa"
-        },
-        {
-          "coords": [
-            -6.056362,
-            106.679337
-          ],
-          "time": "19:54 - 08:17",
-          "type": "HOME",
-          "name": "Home / Kosambi"
-        }
-      ],
-      "timeline_path": [
-        [
-          -6.052018,
-          106.661
-        ],
-        [
-          -6.056624,
-          106.679761
-        ],
-        [
-          -6.049693,
-          106.69585
-        ],
-        [
-          -6.048569,
-          106.698449
-        ],
-        [
-          -6.081156,
-          106.720516
-        ],
-        [
-          -6.087682,
-          106.731669
-        ],
-        [
-          -6.084237,
-          106.735184
-        ],
-        [
-          -6.090819,
-          106.744784
-        ],
-        [
-          -6.116608,
-          106.734674
-        ],
-        [
-          -6.125042,
-          106.730153
-        ],
-        [
-          -6.192396,
-          106.732073
-        ],
-        [
-          -6.243507,
-          106.759064
-        ],
-        [
-          -6.247231,
-          106.760188
-        ],
-        [
-          -6.252935,
-          106.76433
-        ],
-        [
-          -6.275166,
-          106.767995
-        ],
-        [
-          -6.289034,
-          106.778751
-        ],
-        [
-          -6.294912,
-          106.825016
-        ],
-        [
-          -6.304409,
-          106.850501
-        ],
-        [
-          -6.304458,
-          106.848162
-        ],
-        [
-          -6.304645,
-          106.847914
-        ],
-        [
-          -6.303364,
-          106.840769
-        ],
-        [
-          -6.304077,
-          106.850179
-        ],
-        [
-          -6.30166,
-          106.85623
-        ],
-        [
-          -6.294133,
-          106.855822
-        ],
-        [
-          -6.294419,
-          106.855873
-        ],
-        [
-          -6.301786,
-          106.856296
-        ],
-        [
-          -6.304507,
-          106.849305
-        ],
-        [
-          -6.304638,
-          106.84818
-        ],
-        [
-          -6.304655,
-          106.848391
-        ],
-        [
-          -6.304525,
-          106.847876
-        ],
-        [
-          -6.302316,
-          106.837162
-        ],
-        [
-          -6.294057,
-          106.822664
-        ],
-        [
-          -6.291857,
-          106.784589
-        ],
-        [
-          -6.290283,
-          106.780142
-        ],
-        [
-          -6.276393,
-          106.768225
-        ],
-        [
-          -6.262271,
-          106.767207
-        ],
-        [
-          -6.228806,
-          106.751857
-        ],
-        [
-          -6.188853,
-          106.731029
-        ],
-        [
-          -6.122453,
-          106.731002
-        ],
-        [
-          -6.104946,
-          106.740425
-        ],
-        [
-          -6.096649,
-          106.741516
-        ],
-        [
-          -6.093932,
-          106.743184
-        ],
-        [
-          -6.090432,
-          106.742972
-        ],
-        [
-          -6.086044,
-          106.737172
-        ],
-        [
-          -6.087313,
-          106.73241
-        ],
-        [
-          -6.08487,
-          106.724677
-        ],
-        [
-          -6.069524,
-          106.711471
-        ],
-        [
-          -6.068211,
-          106.706308
-        ],
-        [
-          -6.067736,
-          106.696428
-        ],
-        [
-          -6.059295,
-          106.681457
-        ],
-        [
-          -6.056473,
-          106.680931
-        ],
-        [
-          -6.056731,
-          106.679918
-        ],
-        [
-          -6.056337,
-          106.679326
-        ]
-      ]
-    },
     {
       "id": "1rZ0wRjoBRD5HeY6KTOvSe6nQiHxUVLce",
       "date": "2026-05-30",
@@ -3915,6 +3500,943 @@ window.WYN_DATA = {
         [
           -6.056345,
           106.679325
+        ]
+      ]
+    },
+    {
+      "id": "1bSVYM6rBxkVIU1U55-lvK_1v_ms_hAqI",
+      "date": "2 Aug 2026",
+      "title": "Day 1",
+      "description": "",
+      "image_path": "gdrive_cache/1LnIpM4eqfoaK7PrtUVCLVXDt54Po-U0B_thumb.jpg",
+      "images": [
+        {
+          "url": "gdrive_cache/1LQl0fgnFa6uEcj_vzgFO2XhA1lglxkX-.mp4",
+          "thumb_url": "gdrive_cache/1LQl0fgnFa6uEcj_vzgFO2XhA1lglxkX-_thumb.jpg",
+          "type": "video",
+          "date_taken": "2026-08-04 15:10:30"
+        },
+        {
+          "url": "gdrive_cache/1xAS9VcrmTbLsUfyTZ0KNFMeAjoe9tOFj.jpg",
+          "thumb_url": "gdrive_cache/1xAS9VcrmTbLsUfyTZ0KNFMeAjoe9tOFj_thumb.jpg",
+          "type": "image",
+          "date_taken": "2026-08-04 15:10:30"
+        },
+        {
+          "url": "gdrive_cache/1NudPZH8O2Q1M098bd-5GqfxLSGl9KinJ.jpg",
+          "thumb_url": "gdrive_cache/1NudPZH8O2Q1M098bd-5GqfxLSGl9KinJ_thumb.jpg",
+          "type": "image",
+          "date_taken": "2026-08-04 15:10:30"
+        },
+        {
+          "url": "gdrive_cache/1AzfJIuzf-7onFLQkaWedrKtHihJ4ncMA.jpg",
+          "thumb_url": "gdrive_cache/1AzfJIuzf-7onFLQkaWedrKtHihJ4ncMA_thumb.jpg",
+          "type": "image",
+          "date_taken": "2026-08-04 15:10:30"
+        },
+        {
+          "url": "gdrive_cache/16F24dm73W8gPGOHVjkuINcRa1GKQXGEI.jpg",
+          "thumb_url": "gdrive_cache/16F24dm73W8gPGOHVjkuINcRa1GKQXGEI_thumb.jpg",
+          "type": "image",
+          "date_taken": "2026-08-04 15:10:31"
+        },
+        {
+          "url": "gdrive_cache/1vq1c5qOCylNMFV_-YdMaJZ0gNBevdkzs.jpg",
+          "thumb_url": "gdrive_cache/1vq1c5qOCylNMFV_-YdMaJZ0gNBevdkzs_thumb.jpg",
+          "type": "image",
+          "date_taken": "2026-08-04 15:10:31"
+        },
+        {
+          "url": "gdrive_cache/1-A3NeFugVNUP8dwRqrRuxQjh69jACcZF.jpg",
+          "thumb_url": "gdrive_cache/1-A3NeFugVNUP8dwRqrRuxQjh69jACcZF_thumb.jpg",
+          "type": "image",
+          "date_taken": "2026-08-04 15:10:31"
+        },
+        {
+          "url": "gdrive_cache/1EDf-sdN0cPI73fjcH7MGVlJts7YbAcRL.jpg",
+          "thumb_url": "gdrive_cache/1EDf-sdN0cPI73fjcH7MGVlJts7YbAcRL_thumb.jpg",
+          "type": "image",
+          "date_taken": "2026-08-04 15:10:31"
+        },
+        {
+          "url": "gdrive_cache/1xd2OxaPzBS_ctHRA-UOOCwds1LCHcETw.jpg",
+          "thumb_url": "gdrive_cache/1xd2OxaPzBS_ctHRA-UOOCwds1LCHcETw_thumb.jpg",
+          "type": "image",
+          "date_taken": "2026-08-04 15:10:31"
+        },
+        {
+          "url": "gdrive_cache/15dXS4HNJaZxGDBVtxBIrQGDtxGbkxvUM.jpg",
+          "thumb_url": "gdrive_cache/15dXS4HNJaZxGDBVtxBIrQGDtxGbkxvUM_thumb.jpg",
+          "type": "image",
+          "date_taken": "2026-08-04 15:10:31"
+        },
+        {
+          "url": "gdrive_cache/1ZJsdj_eUV3dH-uWvefnz78sH2Lt4OebA.jpg",
+          "thumb_url": "gdrive_cache/1ZJsdj_eUV3dH-uWvefnz78sH2Lt4OebA_thumb.jpg",
+          "type": "image",
+          "date_taken": "2026-08-04 15:10:31"
+        },
+        {
+          "url": "gdrive_cache/1DqQaoF9gHxXuSl9iIvFtyW0dgmCOPEzf.jpg",
+          "thumb_url": "gdrive_cache/1DqQaoF9gHxXuSl9iIvFtyW0dgmCOPEzf_thumb.jpg",
+          "type": "image",
+          "date_taken": "2026-08-04 15:10:31"
+        },
+        {
+          "url": "gdrive_cache/15fB_TTJEWMpenvErW7LJhiS8LZ6grs5q.jpg",
+          "thumb_url": "gdrive_cache/15fB_TTJEWMpenvErW7LJhiS8LZ6grs5q_thumb.jpg",
+          "type": "image",
+          "date_taken": "2026-08-04 15:10:31"
+        },
+        {
+          "url": "gdrive_cache/1Ow-FtPAThH35LhuTa-zCVJ3IkvVXN4ey.jpg",
+          "thumb_url": "gdrive_cache/1Ow-FtPAThH35LhuTa-zCVJ3IkvVXN4ey_thumb.jpg",
+          "type": "image",
+          "date_taken": "2026-08-04 15:10:31"
+        },
+        {
+          "url": "gdrive_cache/1zoIZr-RKEj6YbfXOOa40HhQ2JK2sxSHC.jpg",
+          "thumb_url": "gdrive_cache/1zoIZr-RKEj6YbfXOOa40HhQ2JK2sxSHC_thumb.jpg",
+          "type": "image",
+          "date_taken": "2026-08-04 15:10:31"
+        },
+        {
+          "url": "gdrive_cache/1RC9bsY_z2LQQH4znr13YCdV8-0mkVHu6.jpg",
+          "thumb_url": "gdrive_cache/1RC9bsY_z2LQQH4znr13YCdV8-0mkVHu6_thumb.jpg",
+          "type": "image",
+          "date_taken": "2026-08-04 15:10:31"
+        },
+        {
+          "url": "gdrive_cache/1Yq2g8mndxbd2KX5TOBJpkj7SVm3DhXKN.jpg",
+          "thumb_url": "gdrive_cache/1Yq2g8mndxbd2KX5TOBJpkj7SVm3DhXKN_thumb.jpg",
+          "type": "image",
+          "date_taken": "2026-08-04 15:10:32"
+        },
+        {
+          "url": "gdrive_cache/1EhwBbo7OZ67AkBEN-80fSpA2REDbXXCr.jpg",
+          "thumb_url": "gdrive_cache/1EhwBbo7OZ67AkBEN-80fSpA2REDbXXCr_thumb.jpg",
+          "type": "image",
+          "date_taken": "2026-08-04 15:10:32"
+        },
+        {
+          "url": "gdrive_cache/1eii_Oyk-EIeCaY6Q1_LUe8F_JbWTbwaS.jpg",
+          "thumb_url": "gdrive_cache/1eii_Oyk-EIeCaY6Q1_LUe8F_JbWTbwaS_thumb.jpg",
+          "type": "image",
+          "date_taken": "2026-08-04 15:10:32"
+        },
+        {
+          "url": "gdrive_cache/1a9iEgpE0x8Evq39bhQ7dHlqDfURhuT0o.jpg",
+          "thumb_url": "gdrive_cache/1a9iEgpE0x8Evq39bhQ7dHlqDfURhuT0o_thumb.jpg",
+          "type": "image",
+          "date_taken": "2026-08-04 15:10:32"
+        },
+        {
+          "url": "gdrive_cache/1aInRLfmWGzKot33oc6pTZZeWR1hcl6K7.jpg",
+          "thumb_url": "gdrive_cache/1aInRLfmWGzKot33oc6pTZZeWR1hcl6K7_thumb.jpg",
+          "type": "image",
+          "date_taken": "2026-08-04 15:10:32"
+        },
+        {
+          "url": "gdrive_cache/1O7qZ9j0x9dOElSEm2VHKffLeUgSrGG2o.jpg",
+          "thumb_url": "gdrive_cache/1O7qZ9j0x9dOElSEm2VHKffLeUgSrGG2o_thumb.jpg",
+          "type": "image",
+          "date_taken": "2026-08-04 15:10:32"
+        },
+        {
+          "url": "gdrive_cache/1lmXjxHQDXudCsCUieaS8_pbo93kdH36X.jpg",
+          "thumb_url": "gdrive_cache/1lmXjxHQDXudCsCUieaS8_pbo93kdH36X_thumb.jpg",
+          "type": "image",
+          "date_taken": "2026-08-04 15:10:32"
+        },
+        {
+          "url": "gdrive_cache/1ih1z-4we8CIdjJCWx7SygQucjrOFxvYV.mp4",
+          "thumb_url": "gdrive_cache/1ih1z-4we8CIdjJCWx7SygQucjrOFxvYV_thumb.jpg",
+          "type": "video",
+          "date_taken": "2026-08-04 15:10:32"
+        },
+        {
+          "url": "gdrive_cache/1LnIpM4eqfoaK7PrtUVCLVXDt54Po-U0B.jpg",
+          "thumb_url": "gdrive_cache/1LnIpM4eqfoaK7PrtUVCLVXDt54Po-U0B_thumb.jpg",
+          "type": "image",
+          "date_taken": "2026-08-04 15:35:48"
+        }
+      ],
+      "location": [
+        -6.0827,
+        106.7118
+      ],
+      "timeline_stops": [
+        {
+          "coords": [
+            -6.30445,
+            106.847905
+          ],
+          "time": "09:05 - 12:00",
+          "type": "WORK",
+          "name": "Jagakarsa Area"
+        },
+        {
+          "coords": [
+            -6.293608,
+            106.855597
+          ],
+          "time": "12:08 - 12:24",
+          "type": "UNKNOWN",
+          "name": "Kramat Jati"
+        },
+        {
+          "coords": [
+            -6.30445,
+            106.847905
+          ],
+          "time": "12:33 - 18:59",
+          "type": "WORK",
+          "name": "Jagakarsa"
+        },
+        {
+          "coords": [
+            -6.056362,
+            106.679337
+          ],
+          "time": "19:54 - 08:17",
+          "type": "HOME",
+          "name": "Home / Kosambi"
+        }
+      ],
+      "timeline_path": [
+        [
+          -6.052018,
+          106.661
+        ],
+        [
+          -6.056624,
+          106.679761
+        ],
+        [
+          -6.049693,
+          106.69585
+        ],
+        [
+          -6.048569,
+          106.698449
+        ],
+        [
+          -6.081156,
+          106.720516
+        ],
+        [
+          -6.087682,
+          106.731669
+        ],
+        [
+          -6.084237,
+          106.735184
+        ],
+        [
+          -6.090819,
+          106.744784
+        ],
+        [
+          -6.116608,
+          106.734674
+        ],
+        [
+          -6.125042,
+          106.730153
+        ],
+        [
+          -6.192396,
+          106.732073
+        ],
+        [
+          -6.243507,
+          106.759064
+        ],
+        [
+          -6.247231,
+          106.760188
+        ],
+        [
+          -6.252935,
+          106.76433
+        ],
+        [
+          -6.275166,
+          106.767995
+        ],
+        [
+          -6.289034,
+          106.778751
+        ],
+        [
+          -6.294912,
+          106.825016
+        ],
+        [
+          -6.304409,
+          106.850501
+        ],
+        [
+          -6.304458,
+          106.848162
+        ],
+        [
+          -6.304645,
+          106.847914
+        ],
+        [
+          -6.303364,
+          106.840769
+        ],
+        [
+          -6.304077,
+          106.850179
+        ],
+        [
+          -6.30166,
+          106.85623
+        ],
+        [
+          -6.294133,
+          106.855822
+        ],
+        [
+          -6.294419,
+          106.855873
+        ],
+        [
+          -6.301786,
+          106.856296
+        ],
+        [
+          -6.304507,
+          106.849305
+        ],
+        [
+          -6.304638,
+          106.84818
+        ],
+        [
+          -6.304655,
+          106.848391
+        ],
+        [
+          -6.304525,
+          106.847876
+        ],
+        [
+          -6.302316,
+          106.837162
+        ],
+        [
+          -6.294057,
+          106.822664
+        ],
+        [
+          -6.291857,
+          106.784589
+        ],
+        [
+          -6.290283,
+          106.780142
+        ],
+        [
+          -6.276393,
+          106.768225
+        ],
+        [
+          -6.262271,
+          106.767207
+        ],
+        [
+          -6.228806,
+          106.751857
+        ],
+        [
+          -6.188853,
+          106.731029
+        ],
+        [
+          -6.122453,
+          106.731002
+        ],
+        [
+          -6.104946,
+          106.740425
+        ],
+        [
+          -6.096649,
+          106.741516
+        ],
+        [
+          -6.093932,
+          106.743184
+        ],
+        [
+          -6.090432,
+          106.742972
+        ],
+        [
+          -6.086044,
+          106.737172
+        ],
+        [
+          -6.087313,
+          106.73241
+        ],
+        [
+          -6.08487,
+          106.724677
+        ],
+        [
+          -6.069524,
+          106.711471
+        ],
+        [
+          -6.068211,
+          106.706308
+        ],
+        [
+          -6.067736,
+          106.696428
+        ],
+        [
+          -6.059295,
+          106.681457
+        ],
+        [
+          -6.056473,
+          106.680931
+        ],
+        [
+          -6.056731,
+          106.679918
+        ],
+        [
+          -6.056337,
+          106.679326
+        ]
+      ]
+    },
+    {
+      "id": "1W8R8nsQO5oUFDAwk8VBBhNMdMyix-nrI",
+      "date": "6 Aug 2026",
+      "title": "Spider-Man BND",
+      "description": "",
+      "image_path": "gdrive_cache/18oNHhzvSGZYIMzk_rlpj3i1ow8Q_nWdz_thumb.jpg",
+      "images": [
+        {
+          "url": "gdrive_cache/1_8Arl6rZp9hKP-rrfDRfNx47JnzZeSf6.mp4",
+          "thumb_url": "gdrive_cache/1_8Arl6rZp9hKP-rrfDRfNx47JnzZeSf6_thumb.jpg",
+          "type": "video",
+          "date_taken": "2026-08-09 15:05:48"
+        },
+        {
+          "url": "gdrive_cache/1iUNjtaGk7apCs3e0ZmQNkuzWKvd4yVbF.jpg",
+          "thumb_url": "gdrive_cache/1iUNjtaGk7apCs3e0ZmQNkuzWKvd4yVbF_thumb.jpg",
+          "type": "image",
+          "date_taken": "2026-08-09 15:05:49"
+        },
+        {
+          "url": "gdrive_cache/1HWuw2dUfUydVvX--AP1V_U2ZfRAZxScp.jpg",
+          "thumb_url": "gdrive_cache/1HWuw2dUfUydVvX--AP1V_U2ZfRAZxScp_thumb.jpg",
+          "type": "image",
+          "date_taken": "2026-08-09 15:05:50"
+        },
+        {
+          "url": "gdrive_cache/1Xc9d4OqVZzAZn7Hagp2NjENP4PWKLZwM.jpg",
+          "thumb_url": "gdrive_cache/1Xc9d4OqVZzAZn7Hagp2NjENP4PWKLZwM_thumb.jpg",
+          "type": "image",
+          "date_taken": "2026-08-09 15:05:50"
+        },
+        {
+          "url": "gdrive_cache/1qC6fVmGy1yw019_J112Dzo-4_qV0x1hi.jpg",
+          "thumb_url": "gdrive_cache/1qC6fVmGy1yw019_J112Dzo-4_qV0x1hi_thumb.jpg",
+          "type": "image",
+          "date_taken": "2026-08-09 15:05:54"
+        },
+        {
+          "url": "gdrive_cache/18oNHhzvSGZYIMzk_rlpj3i1ow8Q_nWdz.jpg",
+          "thumb_url": "gdrive_cache/18oNHhzvSGZYIMzk_rlpj3i1ow8Q_nWdz_thumb.jpg",
+          "type": "image",
+          "date_taken": "2026-08-09 15:05:55"
+        },
+        {
+          "url": "gdrive_cache/1ykh3EFDIG6QZWYdKPtOYrtay5rTWieL2.jpg",
+          "thumb_url": "gdrive_cache/1ykh3EFDIG6QZWYdKPtOYrtay5rTWieL2_thumb.jpg",
+          "type": "image",
+          "date_taken": "2026-08-09 15:05:55"
+        },
+        {
+          "url": "gdrive_cache/1zRRgr65qVtEiG4svcZ01Cr-Em5tHQgsU.jpg",
+          "thumb_url": "gdrive_cache/1zRRgr65qVtEiG4svcZ01Cr-Em5tHQgsU_thumb.jpg",
+          "type": "image",
+          "date_taken": "2026-08-09 15:05:56"
+        },
+        {
+          "url": "gdrive_cache/1eBuxlkSkRtlwvnFiawRaIG297yS3nWDP.jpg",
+          "thumb_url": "gdrive_cache/1eBuxlkSkRtlwvnFiawRaIG297yS3nWDP_thumb.jpg",
+          "type": "image",
+          "date_taken": "2026-08-09 15:05:58"
+        },
+        {
+          "url": "gdrive_cache/1drs1Y3E737xD_929aYUTbN9ZCxrrxlBu.jpg",
+          "thumb_url": "gdrive_cache/1drs1Y3E737xD_929aYUTbN9ZCxrrxlBu_thumb.jpg",
+          "type": "image",
+          "date_taken": "2026-08-09 15:06:13"
+        },
+        {
+          "url": "gdrive_cache/1_eyamWBNjCeFi6yFEwqWod-jGqGOiN1A.jpg",
+          "thumb_url": "gdrive_cache/1_eyamWBNjCeFi6yFEwqWod-jGqGOiN1A_thumb.jpg",
+          "type": "image",
+          "date_taken": "2026-08-09 15:06:13"
+        },
+        {
+          "url": "gdrive_cache/1FhZjQYIPyUITWlYANqYPjluoTpGHyOBe.jpg",
+          "thumb_url": "gdrive_cache/1FhZjQYIPyUITWlYANqYPjluoTpGHyOBe_thumb.jpg",
+          "type": "image",
+          "date_taken": "2026-08-09 15:06:14"
+        },
+        {
+          "url": "gdrive_cache/1VSt9xIDaQwpRTBfNzjNHiC0Qht_hVQpM.jpg",
+          "thumb_url": "gdrive_cache/1VSt9xIDaQwpRTBfNzjNHiC0Qht_hVQpM_thumb.jpg",
+          "type": "image",
+          "date_taken": "2026-08-09 15:06:15"
+        },
+        {
+          "url": "gdrive_cache/1uW1VnKWoXmCyA1x9gGZqJ7CmZ62e46Gk.jpg",
+          "thumb_url": "gdrive_cache/1uW1VnKWoXmCyA1x9gGZqJ7CmZ62e46Gk_thumb.jpg",
+          "type": "image",
+          "date_taken": "2026-08-09 15:06:16"
+        },
+        {
+          "url": "gdrive_cache/1JAmFz7Usc1m1jp_HcdOIZZkRycRNsMEH.jpg",
+          "thumb_url": "gdrive_cache/1JAmFz7Usc1m1jp_HcdOIZZkRycRNsMEH_thumb.jpg",
+          "type": "image",
+          "date_taken": "2026-08-09 15:06:16"
+        }
+      ],
+      "location": [
+        -6.3045,
+        106.8407
+      ],
+      "timeline_stops": [
+        {
+          "coords": [
+            -6.056362,
+            106.679337
+          ],
+          "time": "00:00 - 11:52",
+          "type": "HOME",
+          "name": "Home / Kosambi"
+        },
+        {
+          "coords": [
+            -6.214653,
+            106.807499
+          ],
+          "time": "12:50 - 14:28",
+          "type": "UNKNOWN",
+          "name": "Senayan City Mall (XXI)"
+        },
+        {
+          "coords": [
+            -6.227195,
+            106.797012
+          ],
+          "time": "14:45 - 16:20",
+          "type": "UNKNOWN",
+          "name": "Senayan Park (SPARK Mall)"
+        },
+        {
+          "coords": [
+            -6.227509,
+            106.797465
+          ],
+          "time": "14:47 - 16:20",
+          "type": "UNKNOWN",
+          "name": "SPARK Skywalk Observation Deck"
+        },
+        {
+          "coords": [
+            -6.225382,
+            106.799076
+          ],
+          "time": "16:22 - 18:17",
+          "type": "UNKNOWN",
+          "name": "GBK Senayan Complex"
+        },
+        {
+          "coords": [
+            -6.225328,
+            106.800061
+          ],
+          "time": "16:28 - 16:41",
+          "type": "UNKNOWN",
+          "name": "Stadion Utama Gelora Bung Karno"
+        },
+        {
+          "coords": [
+            -6.224563,
+            106.798995
+          ],
+          "time": "16:43 - 16:54",
+          "type": "UNKNOWN",
+          "name": "Senayan Park Promenade"
+        },
+        {
+          "coords": [
+            -6.225328,
+            106.800061
+          ],
+          "time": "18:10 - 18:17",
+          "type": "UNKNOWN",
+          "name": "SPARK Lake & Fountain"
+        },
+        {
+          "coords": [
+            -6.227195,
+            106.797012
+          ],
+          "time": "18:22 - 18:38",
+          "type": "UNKNOWN",
+          "name": "Cin\u00e9polis Senayan Park"
+        },
+        {
+          "coords": [
+            -6.227509,
+            106.797465
+          ],
+          "time": "18:22 - 18:31",
+          "type": "UNKNOWN",
+          "name": "Senayan Area"
+        },
+        {
+          "coords": [
+            -6.056362,
+            106.679337
+          ],
+          "time": "19:43 - 08:12",
+          "type": "HOME",
+          "name": "Home / Kosambi"
+        }
+      ],
+      "timeline_path": [
+        [
+          -6.056397,
+          106.680227
+        ],
+        [
+          -6.057618,
+          106.68576
+        ],
+        [
+          -6.052756,
+          106.68962
+        ],
+        [
+          -6.049653,
+          106.695562
+        ],
+        [
+          -6.049637,
+          106.700681
+        ],
+        [
+          -6.055473,
+          106.707479
+        ],
+        [
+          -6.065078,
+          106.709772
+        ],
+        [
+          -6.084862,
+          106.724879
+        ],
+        [
+          -6.087296,
+          106.730929
+        ],
+        [
+          -6.084902,
+          106.734766
+        ],
+        [
+          -6.090394,
+          106.743388
+        ],
+        [
+          -6.092445,
+          106.744426
+        ],
+        [
+          -6.096193,
+          106.742098
+        ],
+        [
+          -6.11664,
+          106.73541
+        ],
+        [
+          -6.119923,
+          106.739515
+        ],
+        [
+          -6.124048,
+          106.776439
+        ],
+        [
+          -6.133809,
+          106.785282
+        ],
+        [
+          -6.149583,
+          106.792374
+        ],
+        [
+          -6.158895,
+          106.792047
+        ],
+        [
+          -6.16786,
+          106.788276
+        ],
+        [
+          -6.181266,
+          106.796802
+        ],
+        [
+          -6.198871,
+          106.798618
+        ],
+        [
+          -6.203506,
+          106.800937
+        ],
+        [
+          -6.203434,
+          106.797619
+        ],
+        [
+          -6.20564,
+          106.795597
+        ],
+        [
+          -6.203107,
+          106.797796
+        ],
+        [
+          -6.201851,
+          106.799401
+        ],
+        [
+          -6.211791,
+          106.806912
+        ],
+        [
+          -6.213365,
+          106.803383
+        ],
+        [
+          -6.215441,
+          106.802711
+        ],
+        [
+          -6.21565,
+          106.805862
+        ],
+        [
+          -6.215552,
+          106.806941
+        ],
+        [
+          -6.215429,
+          106.8072
+        ],
+        [
+          -6.216874,
+          106.806029
+        ],
+        [
+          -6.217993,
+          106.805258
+        ],
+        [
+          -6.215977,
+          106.805194
+        ],
+        [
+          -6.215001,
+          106.802612
+        ],
+        [
+          -6.214879,
+          106.798118
+        ],
+        [
+          -6.228099,
+          106.798212
+        ],
+        [
+          -6.228521,
+          106.796097
+        ],
+        [
+          -6.22725,
+          106.797743
+        ],
+        [
+          -6.226859,
+          106.797892
+        ],
+        [
+          -6.226328,
+          106.798772
+        ],
+        [
+          -6.224504,
+          106.798901
+        ],
+        [
+          -6.225677,
+          106.79951
+        ],
+        [
+          -6.226845,
+          106.798248
+        ],
+        [
+          -6.228103,
+          106.796372
+        ],
+        [
+          -6.216101,
+          106.798146
+        ],
+        [
+          -6.212751,
+          106.805201
+        ],
+        [
+          -6.210546,
+          106.805554
+        ],
+        [
+          -6.19893,
+          106.798282
+        ],
+        [
+          -6.189503,
+          106.79704
+        ],
+        [
+          -6.177936,
+          106.794978
+        ],
+        [
+          -6.172537,
+          106.789378
+        ],
+        [
+          -6.165637,
+          106.78881
+        ],
+        [
+          -6.152141,
+          106.793581
+        ],
+        [
+          -6.1328,
+          106.784724
+        ],
+        [
+          -6.123373,
+          106.772894
+        ],
+        [
+          -6.124474,
+          106.752669
+        ],
+        [
+          -6.115252,
+          106.751599
+        ],
+        [
+          -6.112949,
+          106.750376
+        ],
+        [
+          -6.112614,
+          106.743614
+        ],
+        [
+          -6.109925,
+          106.739082
+        ],
+        [
+          -6.115291,
+          106.735675
+        ],
+        [
+          -6.091749,
+          106.744017
+        ],
+        [
+          -6.086489,
+          106.737721
+        ],
+        [
+          -6.085494,
+          106.734386
+        ],
+        [
+          -6.087758,
+          106.731354
+        ],
+        [
+          -6.083662,
+          106.722714
+        ],
+        [
+          -6.067674,
+          106.709767
+        ],
+        [
+          -6.068205,
+          106.698151
+        ],
+        [
+          -6.067103,
+          106.694825
+        ],
+        [
+          -6.061647,
+          106.688287
+        ],
+        [
+          -6.061056,
+          106.683559
+        ],
+        [
+          -6.058876,
+          106.680945
+        ],
+        [
+          -6.055923,
+          106.680982
+        ],
+        [
+          -6.056719,
+          106.680028
+        ],
+        [
+          -6.056302,
+          106.679324
+        ],
+        [
+          -6.056414,
+          106.679359
         ]
       ]
     },
@@ -20428,7 +20950,7 @@ window.WYN_DATA = {
       "date": "2026-10-17",
       "title": "Daun'S date",
       "description": "Memories captured from Daun'S date! \u2728",
-      "image_path": "gdrive_cache/1c9nD180hX_2ZIOZYyzmEDd3_HNmT7vwR_thumb.jpg",
+      "image_path": "gdrive_cache/15fSYfRFJBXIADzWeZGsCmCHX_S8VDLEN_thumb.jpg",
       "images": [
         {
           "url": "gdrive_cache/1c9nD180hX_2ZIOZYyzmEDd3_HNmT7vwR.mov",
@@ -20502,6 +21024,13 @@ window.WYN_DATA = {
           "thumb_url": "gdrive_cache/1z-RvbZ996nW8E68NCf62_2i0CmK9S53j_thumb.jpg",
           "type": "video",
           "date_taken": "2026-10-20 15:22:05",
+          "coords": null
+        },
+        {
+          "url": "gdrive_cache/1qLdAcfqu5dU8b_IHGLlHfKPxhHziI1PV.mov",
+          "thumb_url": "gdrive_cache/1qLdAcfqu5dU8b_IHGLlHfKPxhHziI1PV_thumb.jpg",
+          "type": "video",
+          "date_taken": "2026-10-20 15:29:16",
           "coords": null
         }
       ],
@@ -21687,528 +22216,6 @@ window.WYN_DATA = {
         [
           -6.088888,
           106.739744
-        ]
-      ]
-    },
-    {
-      "id": "1W8R8nsQO5oUFDAwk8VBBhNMdMyix-nrI",
-      "date": "6 Aug 2026",
-      "title": "Spider-Man BND",
-      "description": "",
-      "image_path": "gdrive_cache/18oNHhzvSGZYIMzk_rlpj3i1ow8Q_nWdz_thumb.jpg",
-      "images": [
-        {
-          "url": "gdrive_cache/1_8Arl6rZp9hKP-rrfDRfNx47JnzZeSf6.mp4",
-          "thumb_url": "gdrive_cache/1_8Arl6rZp9hKP-rrfDRfNx47JnzZeSf6_thumb.jpg",
-          "type": "video",
-          "date_taken": "2026-08-09 15:05:48"
-        },
-        {
-          "url": "gdrive_cache/1iUNjtaGk7apCs3e0ZmQNkuzWKvd4yVbF.jpg",
-          "thumb_url": "gdrive_cache/1iUNjtaGk7apCs3e0ZmQNkuzWKvd4yVbF_thumb.jpg",
-          "type": "image",
-          "date_taken": "2026-08-09 15:05:49"
-        },
-        {
-          "url": "gdrive_cache/1HWuw2dUfUydVvX--AP1V_U2ZfRAZxScp.jpg",
-          "thumb_url": "gdrive_cache/1HWuw2dUfUydVvX--AP1V_U2ZfRAZxScp_thumb.jpg",
-          "type": "image",
-          "date_taken": "2026-08-09 15:05:50"
-        },
-        {
-          "url": "gdrive_cache/1Xc9d4OqVZzAZn7Hagp2NjENP4PWKLZwM.jpg",
-          "thumb_url": "gdrive_cache/1Xc9d4OqVZzAZn7Hagp2NjENP4PWKLZwM_thumb.jpg",
-          "type": "image",
-          "date_taken": "2026-08-09 15:05:50"
-        },
-        {
-          "url": "gdrive_cache/1qC6fVmGy1yw019_J112Dzo-4_qV0x1hi.jpg",
-          "thumb_url": "gdrive_cache/1qC6fVmGy1yw019_J112Dzo-4_qV0x1hi_thumb.jpg",
-          "type": "image",
-          "date_taken": "2026-08-09 15:05:54"
-        },
-        {
-          "url": "gdrive_cache/18oNHhzvSGZYIMzk_rlpj3i1ow8Q_nWdz.jpg",
-          "thumb_url": "gdrive_cache/18oNHhzvSGZYIMzk_rlpj3i1ow8Q_nWdz_thumb.jpg",
-          "type": "image",
-          "date_taken": "2026-08-09 15:05:55"
-        },
-        {
-          "url": "gdrive_cache/1ykh3EFDIG6QZWYdKPtOYrtay5rTWieL2.jpg",
-          "thumb_url": "gdrive_cache/1ykh3EFDIG6QZWYdKPtOYrtay5rTWieL2_thumb.jpg",
-          "type": "image",
-          "date_taken": "2026-08-09 15:05:55"
-        },
-        {
-          "url": "gdrive_cache/1zRRgr65qVtEiG4svcZ01Cr-Em5tHQgsU.jpg",
-          "thumb_url": "gdrive_cache/1zRRgr65qVtEiG4svcZ01Cr-Em5tHQgsU_thumb.jpg",
-          "type": "image",
-          "date_taken": "2026-08-09 15:05:56"
-        },
-        {
-          "url": "gdrive_cache/1eBuxlkSkRtlwvnFiawRaIG297yS3nWDP.jpg",
-          "thumb_url": "gdrive_cache/1eBuxlkSkRtlwvnFiawRaIG297yS3nWDP_thumb.jpg",
-          "type": "image",
-          "date_taken": "2026-08-09 15:05:58"
-        },
-        {
-          "url": "gdrive_cache/1drs1Y3E737xD_929aYUTbN9ZCxrrxlBu.jpg",
-          "thumb_url": "gdrive_cache/1drs1Y3E737xD_929aYUTbN9ZCxrrxlBu_thumb.jpg",
-          "type": "image",
-          "date_taken": "2026-08-09 15:06:13"
-        },
-        {
-          "url": "gdrive_cache/1_eyamWBNjCeFi6yFEwqWod-jGqGOiN1A.jpg",
-          "thumb_url": "gdrive_cache/1_eyamWBNjCeFi6yFEwqWod-jGqGOiN1A_thumb.jpg",
-          "type": "image",
-          "date_taken": "2026-08-09 15:06:13"
-        },
-        {
-          "url": "gdrive_cache/1FhZjQYIPyUITWlYANqYPjluoTpGHyOBe.jpg",
-          "thumb_url": "gdrive_cache/1FhZjQYIPyUITWlYANqYPjluoTpGHyOBe_thumb.jpg",
-          "type": "image",
-          "date_taken": "2026-08-09 15:06:14"
-        },
-        {
-          "url": "gdrive_cache/1VSt9xIDaQwpRTBfNzjNHiC0Qht_hVQpM.jpg",
-          "thumb_url": "gdrive_cache/1VSt9xIDaQwpRTBfNzjNHiC0Qht_hVQpM_thumb.jpg",
-          "type": "image",
-          "date_taken": "2026-08-09 15:06:15"
-        },
-        {
-          "url": "gdrive_cache/1uW1VnKWoXmCyA1x9gGZqJ7CmZ62e46Gk.jpg",
-          "thumb_url": "gdrive_cache/1uW1VnKWoXmCyA1x9gGZqJ7CmZ62e46Gk_thumb.jpg",
-          "type": "image",
-          "date_taken": "2026-08-09 15:06:16"
-        },
-        {
-          "url": "gdrive_cache/1JAmFz7Usc1m1jp_HcdOIZZkRycRNsMEH.jpg",
-          "thumb_url": "gdrive_cache/1JAmFz7Usc1m1jp_HcdOIZZkRycRNsMEH_thumb.jpg",
-          "type": "image",
-          "date_taken": "2026-08-09 15:06:16"
-        }
-      ],
-      "location": [
-        -6.3045,
-        106.8407
-      ],
-      "timeline_stops": [
-        {
-          "coords": [
-            -6.056362,
-            106.679337
-          ],
-          "time": "00:00 - 11:52",
-          "type": "HOME",
-          "name": "Home / Kosambi"
-        },
-        {
-          "coords": [
-            -6.214653,
-            106.807499
-          ],
-          "time": "12:50 - 14:28",
-          "type": "UNKNOWN",
-          "name": "Senayan City Mall (XXI)"
-        },
-        {
-          "coords": [
-            -6.227195,
-            106.797012
-          ],
-          "time": "14:45 - 16:20",
-          "type": "UNKNOWN",
-          "name": "Senayan Park (SPARK Mall)"
-        },
-        {
-          "coords": [
-            -6.227509,
-            106.797465
-          ],
-          "time": "14:47 - 16:20",
-          "type": "UNKNOWN",
-          "name": "SPARK Skywalk Observation Deck"
-        },
-        {
-          "coords": [
-            -6.225382,
-            106.799076
-          ],
-          "time": "16:22 - 18:17",
-          "type": "UNKNOWN",
-          "name": "GBK Senayan Complex"
-        },
-        {
-          "coords": [
-            -6.225328,
-            106.800061
-          ],
-          "time": "16:28 - 16:41",
-          "type": "UNKNOWN",
-          "name": "Stadion Utama Gelora Bung Karno"
-        },
-        {
-          "coords": [
-            -6.224563,
-            106.798995
-          ],
-          "time": "16:43 - 16:54",
-          "type": "UNKNOWN",
-          "name": "Senayan Park Promenade"
-        },
-        {
-          "coords": [
-            -6.225328,
-            106.800061
-          ],
-          "time": "18:10 - 18:17",
-          "type": "UNKNOWN",
-          "name": "SPARK Lake & Fountain"
-        },
-        {
-          "coords": [
-            -6.227195,
-            106.797012
-          ],
-          "time": "18:22 - 18:38",
-          "type": "UNKNOWN",
-          "name": "Cin\u00e9polis Senayan Park"
-        },
-        {
-          "coords": [
-            -6.227509,
-            106.797465
-          ],
-          "time": "18:22 - 18:31",
-          "type": "UNKNOWN",
-          "name": "Senayan Area"
-        },
-        {
-          "coords": [
-            -6.056362,
-            106.679337
-          ],
-          "time": "19:43 - 08:12",
-          "type": "HOME",
-          "name": "Home / Kosambi"
-        }
-      ],
-      "timeline_path": [
-        [
-          -6.056397,
-          106.680227
-        ],
-        [
-          -6.057618,
-          106.68576
-        ],
-        [
-          -6.052756,
-          106.68962
-        ],
-        [
-          -6.049653,
-          106.695562
-        ],
-        [
-          -6.049637,
-          106.700681
-        ],
-        [
-          -6.055473,
-          106.707479
-        ],
-        [
-          -6.065078,
-          106.709772
-        ],
-        [
-          -6.084862,
-          106.724879
-        ],
-        [
-          -6.087296,
-          106.730929
-        ],
-        [
-          -6.084902,
-          106.734766
-        ],
-        [
-          -6.090394,
-          106.743388
-        ],
-        [
-          -6.092445,
-          106.744426
-        ],
-        [
-          -6.096193,
-          106.742098
-        ],
-        [
-          -6.11664,
-          106.73541
-        ],
-        [
-          -6.119923,
-          106.739515
-        ],
-        [
-          -6.124048,
-          106.776439
-        ],
-        [
-          -6.133809,
-          106.785282
-        ],
-        [
-          -6.149583,
-          106.792374
-        ],
-        [
-          -6.158895,
-          106.792047
-        ],
-        [
-          -6.16786,
-          106.788276
-        ],
-        [
-          -6.181266,
-          106.796802
-        ],
-        [
-          -6.198871,
-          106.798618
-        ],
-        [
-          -6.203506,
-          106.800937
-        ],
-        [
-          -6.203434,
-          106.797619
-        ],
-        [
-          -6.20564,
-          106.795597
-        ],
-        [
-          -6.203107,
-          106.797796
-        ],
-        [
-          -6.201851,
-          106.799401
-        ],
-        [
-          -6.211791,
-          106.806912
-        ],
-        [
-          -6.213365,
-          106.803383
-        ],
-        [
-          -6.215441,
-          106.802711
-        ],
-        [
-          -6.21565,
-          106.805862
-        ],
-        [
-          -6.215552,
-          106.806941
-        ],
-        [
-          -6.215429,
-          106.8072
-        ],
-        [
-          -6.216874,
-          106.806029
-        ],
-        [
-          -6.217993,
-          106.805258
-        ],
-        [
-          -6.215977,
-          106.805194
-        ],
-        [
-          -6.215001,
-          106.802612
-        ],
-        [
-          -6.214879,
-          106.798118
-        ],
-        [
-          -6.228099,
-          106.798212
-        ],
-        [
-          -6.228521,
-          106.796097
-        ],
-        [
-          -6.22725,
-          106.797743
-        ],
-        [
-          -6.226859,
-          106.797892
-        ],
-        [
-          -6.226328,
-          106.798772
-        ],
-        [
-          -6.224504,
-          106.798901
-        ],
-        [
-          -6.225677,
-          106.79951
-        ],
-        [
-          -6.226845,
-          106.798248
-        ],
-        [
-          -6.228103,
-          106.796372
-        ],
-        [
-          -6.216101,
-          106.798146
-        ],
-        [
-          -6.212751,
-          106.805201
-        ],
-        [
-          -6.210546,
-          106.805554
-        ],
-        [
-          -6.19893,
-          106.798282
-        ],
-        [
-          -6.189503,
-          106.79704
-        ],
-        [
-          -6.177936,
-          106.794978
-        ],
-        [
-          -6.172537,
-          106.789378
-        ],
-        [
-          -6.165637,
-          106.78881
-        ],
-        [
-          -6.152141,
-          106.793581
-        ],
-        [
-          -6.1328,
-          106.784724
-        ],
-        [
-          -6.123373,
-          106.772894
-        ],
-        [
-          -6.124474,
-          106.752669
-        ],
-        [
-          -6.115252,
-          106.751599
-        ],
-        [
-          -6.112949,
-          106.750376
-        ],
-        [
-          -6.112614,
-          106.743614
-        ],
-        [
-          -6.109925,
-          106.739082
-        ],
-        [
-          -6.115291,
-          106.735675
-        ],
-        [
-          -6.091749,
-          106.744017
-        ],
-        [
-          -6.086489,
-          106.737721
-        ],
-        [
-          -6.085494,
-          106.734386
-        ],
-        [
-          -6.087758,
-          106.731354
-        ],
-        [
-          -6.083662,
-          106.722714
-        ],
-        [
-          -6.067674,
-          106.709767
-        ],
-        [
-          -6.068205,
-          106.698151
-        ],
-        [
-          -6.067103,
-          106.694825
-        ],
-        [
-          -6.061647,
-          106.688287
-        ],
-        [
-          -6.061056,
-          106.683559
-        ],
-        [
-          -6.058876,
-          106.680945
-        ],
-        [
-          -6.055923,
-          106.680982
-        ],
-        [
-          -6.056719,
-          106.680028
-        ],
-        [
-          -6.056302,
-          106.679324
-        ],
-        [
-          -6.056414,
-          106.679359
         ]
       ]
     }

@@ -361,8 +361,18 @@ try:
 except Exception as e:
     print(f"  Note: Cloud settings fetch skipped ({e})")
 
-# Sort all trips chronologically
-updated_trips.sort(key=lambda x: x.get('date', ''))
+# Sort all trips chronologically (supports both YYYY-MM-DD and '2 Aug 2026')
+def _parse_sort_date(d_str):
+    if not d_str:
+        return "0000-00-00"
+    for fmt in ("%Y-%m-%d", "%d %b %Y", "%d %B %Y"):
+        try:
+            return datetime.strptime(d_str.strip(), fmt).strftime("%Y-%m-%d")
+        except Exception:
+            pass
+    return d_str
+
+updated_trips.sort(key=lambda x: _parse_sort_date(x.get('date', '')))
 wyn_data['past_dates'] = updated_trips
 wyn_data['last_sync'] = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
 
