@@ -574,15 +574,14 @@ body {
   width: 100%;
 }
 
-/* Horizontal Alternating Timeline with Fluid 1-Card Stepping & Focus Animation */
+/* Horizontal Alternating Timeline with Fluid Stepping & Clean Alignment */
 .timeline-scroll-container {
   overflow-x: auto;
   width: 100%;
-  padding: 1.5rem 0 1.75rem 0;
+  padding: 2rem 0 2.25rem 0;
   -webkit-overflow-scrolling: touch;
   scroll-behavior: smooth;
-  scroll-snap-type: x mandatory;
-  scroll-padding: 0 calc(50vw - 180px);
+  scroll-snap-type: x proximity;
   scrollbar-width: none !important;
   -ms-overflow-style: none !important;
   cursor: grab;
@@ -606,7 +605,7 @@ body {
   align-items: center;
   min-width: max-content;
   margin: 0 auto;
-  padding: 0 calc(50vw - 180px);
+  padding: 0 2rem;
 }
 
 .timeline-column {
@@ -617,12 +616,11 @@ body {
   align-items: center;
   flex-shrink: 0;
   scroll-snap-align: center;
-  scroll-snap-stop: always;
 }
 
 @media (max-width: 640px) {
   .timeline-scroll-container {
-    padding: 1rem 0 1.5rem 0;
+    padding: 1.25rem 0 1.75rem 0;
     scroll-padding: 0 calc(50vw - 42.5vw);
     scroll-snap-type: x mandatory;
     scroll-behavior: smooth;
@@ -648,36 +646,37 @@ body {
 .vertical-guide {
   width: 2px;
   height: 24px;
-  opacity: 0.35;
+  opacity: 0.85;
   box-shadow: 0 0 10px var(--accent), 0 0 20px rgba(168, 85, 247, 0.4);
-  transition: opacity 0.4s ease, height 0.4s cubic-bezier(0.22, 1, 0.36, 1), box-shadow 0.4s ease;
+  transition: opacity 0.35s ease, box-shadow 0.35s ease;
 }
 
 .vertical-guide.top {
-  background: linear-gradient(to bottom, var(--accent), rgba(168, 85, 247, 0.15));
+  background: linear-gradient(to bottom, var(--accent), rgba(168, 85, 247, 0.25));
 }
 
 .vertical-guide.bottom {
-  background: linear-gradient(to top, var(--accent), rgba(168, 85, 247, 0.15));
+  background: linear-gradient(to top, var(--accent), rgba(168, 85, 247, 0.25));
 }
 
 .vertical-guide.active-guide {
   opacity: 1;
-  height: 28px;
-  box-shadow: 0 0 15px var(--accent), 0 0 25px rgba(236, 72, 153, 0.8);
+  height: 24px;
+  box-shadow: 0 0 14px var(--accent), 0 0 24px rgba(236, 72, 153, 0.85);
 }
 
 .timeline-axis-row {
   display: flex;
   align-items: center;
   width: 100%;
+  height: 14px;
 }
 
 .timeline-line-segment {
   height: 2px;
   flex: 1;
   background-color: var(--accent);
-  opacity: 0.6;
+  opacity: 1;
 }
 
 .timeline-center-dot {
@@ -688,17 +687,17 @@ body {
   box-shadow: var(--shadow-glow);
   border: 2px solid #ffffff;
   flex-shrink: 0;
-  transition: transform 0.4s cubic-bezier(0.22, 1, 0.36, 1), background-color 0.4s ease, box-shadow 0.4s ease;
+  transition: transform 0.35s cubic-bezier(0.22, 1, 0.36, 1), background-color 0.35s ease, box-shadow 0.35s ease;
 }
 
 .timeline-center-dot.active-dot {
-  transform: scale(1.6);
+  transform: scale(1.35);
   background-color: #ec4899;
-  box-shadow: 0 0 16px #ec4899, 0 0 30px rgba(236, 72, 153, 0.7);
+  box-shadow: 0 0 14px #ec4899, 0 0 26px rgba(236, 72, 153, 0.7);
   border-color: #ffffff;
 }
 
-/* Glass Card with Smooth Focal Elevation & Entry Animation */
+/* Glass Card */
 .glass-trip-card {
   background-color: var(--glass-bg);
   backdrop-filter: blur(16px);
@@ -713,27 +712,19 @@ body {
   cursor: pointer;
   display: flex;
   flex-direction: column;
-  opacity: 0.75;
-  transform: scale(0.93);
-  filter: saturate(0.85);
-  transition: transform 0.45s cubic-bezier(0.22, 1, 0.36, 1),
-              opacity 0.45s ease,
-              filter 0.45s ease,
-              border-color 0.45s ease,
-              box-shadow 0.45s cubic-bezier(0.22, 1, 0.36, 1);
+  transition: transform 0.35s cubic-bezier(0.22, 1, 0.36, 1),
+              border-color 0.35s ease,
+              box-shadow 0.35s cubic-bezier(0.22, 1, 0.36, 1);
 }
 
 .glass-trip-card:hover,
 .glass-trip-card.is-active-card {
-  opacity: 1;
-  transform: scale(1.04);
-  filter: saturate(1.1);
-  border-color: var(--accent);
-  box-shadow: var(--card-shadow), 0 0 35px var(--accent-glow);
+  border-color: var(--border-hover);
+  box-shadow: var(--card-shadow), var(--shadow-glow);
 }
 
-.glass-trip-card.is-active-card:hover {
-  transform: scale(1.07) translateY(-4px);
+.glass-trip-card:hover {
+  transform: translateY(-4px);
 }
 
 .trip-card-cover {

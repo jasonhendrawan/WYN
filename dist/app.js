@@ -460,6 +460,7 @@ document.addEventListener('DOMContentLoaded', () => {
       if (dragMoved) {
         const nearestIdx = getCurrentCardIndex();
         scrollToCard(nearestIdx, 'smooth');
+        setTimeout(() => { dragMoved = false; }, 50);
       }
     });
 
@@ -474,7 +475,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // Fluid 1-Card at-a-time Wheel Stepping
     const handleTimelineWheel = (e) => {
-      if (document.querySelector('.custom-modal-backdrop.active, .lightbox-backdrop.active')) return;
+      if (document.querySelector('.custom-modal-backdrop.open, .lightbox-modal-backdrop.open')) return;
 
       const delta = Math.abs(e.deltaY) >= Math.abs(e.deltaX) ? e.deltaY : e.deltaX;
       if (Math.abs(delta) < 8) return;
@@ -521,7 +522,7 @@ document.addEventListener('DOMContentLoaded', () => {
     window.addEventListener('keydown', (e) => {
       const activeTimelineView = document.querySelector('#timelineView.active');
       if (!activeTimelineView) return;
-      if (document.querySelector('.custom-modal-backdrop.active, .lightbox-backdrop.active')) return;
+      if (document.querySelector('.custom-modal-backdrop.open, .lightbox-modal-backdrop.open')) return;
 
       if (e.key === 'ArrowRight') {
         e.preventDefault();
@@ -545,7 +546,9 @@ document.addEventListener('DOMContentLoaded', () => {
       const col = document.createElement('div');
       col.className = 'timeline-column';
 
-      const isVideo = trip.image_path && trip.image_path.toLowerCase().endsWith('.mp4');
+      const isVideo = trip.image_path && (trip.image_path.toLowerCase().endsWith('.mp4') || trip.image_path.toLowerCase().endsWith('.mov'));
+      const coverGdriveId = extractGDriveId(trip.image_path);
+      const coverPoster = coverGdriveId ? `gdrive_cache/${coverGdriveId}_thumb.jpg` : '';
       const mediaCoverHD = getCoverHDUrl(trip.image_path);
       const mediaCount = trip.images ? trip.images.length : 0;
 
@@ -553,8 +556,8 @@ document.addEventListener('DOMContentLoaded', () => {
         <div class="glass-trip-card" data-trip-id="${trip.id}">
           <div class="trip-card-cover">
             ${isVideo ?
-              `<video src="${resolveUrl(trip.image_path)}" autoplay loop muted playsinline webkit-playsinline preload="auto" style="width:100%; height:100%; object-fit:cover;"></video>` :
-              `<img src="${mediaCoverHD}" alt="${trip.title}" loading="lazy" onerror="this.src='${resolveUrl(trip.image_path)}'" />`
+              `<video src="${resolveUrl(trip.image_path)}" ${coverPoster ? `poster="${coverPoster}"` : ''} autoplay loop muted playsinline webkit-playsinline preload="auto" style="width:100%; height:100%; object-fit:cover;"></video>` :
+              `<img src="${mediaCoverHD}" alt="${trip.title}" loading="lazy" onerror="if(this.src!=='${coverPoster}'&&'${coverPoster}')this.src='${coverPoster}';" />`
             }
             <div class="trip-media-count-badge">
               <i data-lucide="image" style="width: 12px; height: 12px;"></i>
@@ -1663,9 +1666,14 @@ document.addEventListener('DOMContentLoaded', () => {
     images.forEach(img => {
       const url = typeof img === 'string' ? img : img.url;
       const thumb = typeof img === 'object' && img.thumb_url ? img.thumb_url : url;
-      const isVideo = (typeof img === 'object' && img.type === 'video') || url.toLowerCase().endsWith('.mp4');
+      const isVideo = (typeof img === 'object' && img.type === 'video') || url.toLowerCase().endsWith('.mp4') || url.toLowerCase().endsWith('.mov');
       const cleanUrl = resolveUrl(url);
-      const cleanThumb = resolveUrl(thumb);
+      const gdriveId = extractGDriveId(url);
+      let cleanThumb = resolveUrl(thumb);
+      if (cleanThumb.toLowerCase().endsWith('.mp4') || cleanThumb.toLowerCase().endsWith('.mov')) {
+        if (gdriveId) cleanThumb = `gdrive_cache/${gdriveId}_thumb.jpg`;
+      }
+      const fallbackThumb = gdriveId ? `https://drive.google.com/thumbnail?id=${gdriveId}&sz=w800` : getFullHDUrl(url);
       const dateTaken = typeof img === 'object' ? (img.date_taken || '') : '';
       const isFav = favorites.includes(url) || favorites.includes(cleanUrl);
       const isCover = isTripCover(trip, url, thumb);
@@ -1674,7 +1682,7 @@ document.addEventListener('DOMContentLoaded', () => {
       item.className = `gallery-grid-item ${isCover ? 'is-cover' : ''}`;
 
       item.innerHTML = `
-        <img src="${cleanThumb}" alt="Photo" loading="lazy" onerror="this.src='${getFullHDUrl(url)}'" />
+        <img src="${cleanThumb}" alt="Photo" loading="lazy" onerror="if(this.src!=='${fallbackThumb}')this.src='${fallbackThumb}';" />
         ${isVideo ? `
           <div style="position: absolute; inset: 0; display: flex; align-items: center; justify-content: center; background: rgba(0,0,0,0.25);">
             <div style="background: rgba(15, 12, 30, 0.75); backdrop-filter: blur(6px); border-radius: 50%; width: 44px; height: 44px; display: flex; align-items: center; justify-content: center; border: 1.5px solid #fff; box-shadow: 0 4px 15px rgba(0,0,0,0.5);">
@@ -1968,8 +1976,10 @@ document.addEventListener('DOMContentLoaded', () => {
         `;
       }
     } else {
+      const cleanThumb = resolveUrl(thumb || url);
+      const hdDriveFallback = gdriveId ? `https://drive.google.com/thumbnail?id=${gdriveId}&sz=w2048` : cleanThumb;
       lightboxMediaBox.innerHTML = `
-        <img src="${cleanUrl}" alt="Media" class="lightbox-zoom-img" onerror="this.src='${cleanUrl}'" />
+        <img src="${cleanUrl}" alt="Media" class="lightbox-zoom-img" onerror="if(this.src!=='${hdDriveFallback}'){this.src='${hdDriveFallback}';}else if(this.src!=='${cleanThumb}'){this.src='${cleanThumb}';}" />
       `;
     }
 

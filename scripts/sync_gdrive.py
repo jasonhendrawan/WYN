@@ -195,6 +195,18 @@ for folder in subfolders:
                         vf.write(content)
                 with open(os.path.join('assets/gdrive_cache', target_name), 'wb') as vf:
                     vf.write(content)
+                # Also fetch JPEG thumbnail for the video from Google Drive
+                try:
+                    t_req = urllib.request.Request(
+                        f"https://drive.google.com/thumbnail?id={mid}&sz=w800",
+                        headers={'User-Agent': 'Mozilla/5.0'}
+                    )
+                    t_bytes = urllib.request.urlopen(t_req, timeout=15).read()
+                    for d in ['dist/gdrive_cache', 'assets/gdrive_cache']:
+                        with open(os.path.join(d, thumb_name), 'wb') as tf:
+                            tf.write(t_bytes)
+                except Exception as te:
+                    print(f"    Video thumbnail warning: {te}")
             else:
                 try:
                     fh.seek(0)
@@ -238,7 +250,7 @@ for folder in subfolders:
             
         images_data.append({
             "url": f"gdrive_cache/{target_name}",
-            "thumb_url": f"gdrive_cache/{thumb_name}" if not is_video else f"gdrive_cache/{target_name}",
+            "thumb_url": f"gdrive_cache/{thumb_name}" if os.path.exists(thumb_path) else f"gdrive_cache/{target_name}",
             "type": "video" if is_video else "image",
             "date_taken": dt_str or "2026-08-01 12:00:00",
             "coords": coords
