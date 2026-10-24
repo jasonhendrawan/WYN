@@ -37,9 +37,8 @@ else:
 
 drive_service = build('drive', 'v3', credentials=creds)
 
-# Ensure cache directories exist
-for d in ['dist/gdrive_cache', 'assets/gdrive_cache']:
-    os.makedirs(d, exist_ok=True)
+# Ensure cache directory exists
+os.makedirs('dist/gdrive_cache', exist_ok=True)
 
 # 2. Load existing data
 data_js_path = 'dist/data.js'
@@ -206,14 +205,13 @@ for folder in subfolders:
     # Clean up local cache for any duplicate files
     for dup_id in duplicate_ids:
         for ext in ['.jpg', '.mp4', '.mov', '_thumb.jpg']:
-            for cache_dir in ['dist/gdrive_cache', 'assets/gdrive_cache']:
-                dp = os.path.join(cache_dir, f"{dup_id}{ext}")
-                if os.path.exists(dp):
-                    try:
-                        os.remove(dp)
-                        print(f"  Cleaned up local cached duplicate: {dp}")
-                    except Exception:
-                        pass
+            dp = os.path.join('dist/gdrive_cache', f"{dup_id}{ext}")
+            if os.path.exists(dp):
+                try:
+                    os.remove(dp)
+                    print(f"  Cleaned up local cached duplicate: {dp}")
+                except Exception:
+                    pass
     
     # Check if folder already fully synced and cached with verified dates
     is_cached = (
@@ -253,7 +251,6 @@ for folder in subfolders:
         
         target_path = os.path.join('dist/gdrive_cache', target_name)
         thumb_path = os.path.join('dist/gdrive_cache', thumb_name)
-        assets_path = os.path.join('assets/gdrive_cache', target_name)
         
         dt_str = ""
         coords = None
@@ -261,7 +258,6 @@ for folder in subfolders:
         # Download and process if not cached locally
         is_cached_item = (
             os.path.exists(target_path) or
-            os.path.exists(assets_path) or
             (is_video and os.path.exists(thumb_path))
         )
         if not is_cached_item:
@@ -276,10 +272,8 @@ for folder in subfolders:
             
             if is_video:
                 if len(content) < 24 * 1024 * 1024:
-                    with open(os.path.join('dist/gdrive_cache', target_name), 'wb') as vf:
+                    with open(target_path, 'wb') as vf:
                         vf.write(content)
-                with open(os.path.join('assets/gdrive_cache', target_name), 'wb') as vf:
-                    vf.write(content)
                 # Also fetch JPEG thumbnail for the video from Google Drive
                 try:
                     t_req = urllib.request.Request(
@@ -287,9 +281,8 @@ for folder in subfolders:
                         headers={'User-Agent': 'Mozilla/5.0'}
                     )
                     t_bytes = urllib.request.urlopen(t_req, timeout=15).read()
-                    for d in ['dist/gdrive_cache', 'assets/gdrive_cache']:
-                        with open(os.path.join(d, thumb_name), 'wb') as tf:
-                            tf.write(t_bytes)
+                    with open(thumb_path, 'wb') as tf:
+                        tf.write(t_bytes)
                 except Exception as te:
                     print(f"    Video thumbnail warning: {te}")
             else:
@@ -303,16 +296,14 @@ for folder in subfolders:
                         img = img.convert("RGB")
                     img.thumbnail((2048, 2048), Image.Resampling.LANCZOS)
                     
-                    for d in ['dist/gdrive_cache', 'assets/gdrive_cache']:
-                        img.save(os.path.join(d, target_name), 'JPEG', quality=88)
-                        t_img = img.copy()
-                        t_img.thumbnail((400, 400), Image.Resampling.LANCZOS)
-                        t_img.save(os.path.join(d, thumb_name), 'JPEG', quality=82)
+                    img.save(target_path, 'JPEG', quality=88)
+                    t_img = img.copy()
+                    t_img.thumbnail((400, 400), Image.Resampling.LANCZOS)
+                    t_img.save(thumb_path, 'JPEG', quality=82)
                 except Exception as e:
                     print(f"    Image parse warning: {e}")
-                    for d in ['dist/gdrive_cache', 'assets/gdrive_cache']:
-                        with open(os.path.join(d, target_name), 'wb') as of:
-                            of.write(content)
+                    with open(target_path, 'wb') as of:
+                        of.write(content)
         else:
             # Already cached locally, read GPS & date from existing trip if available
             if fid in existing_trips:
